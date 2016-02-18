@@ -1,1 +1,1 @@
-# sturdy-eureka
+# sturdy-eureka pre-client repo
