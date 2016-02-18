@@ -10,6 +10,7 @@ import time
 import re
 from codecs import getwriter
 from lxml import etree
+from scrapy.exceptions import DropItem
 
 sout = getwriter("utf8")(stdout)
 
@@ -55,12 +56,37 @@ class FsvpsPipeline(object):
 
         return addr
 
+    def validate_otdel_name(self,name,type):
+        if type == 1:
+            return True
+        keywords = [u"Межрайонный",u"надзор",u"контрол"]
+        pattern = '|'.join(keywords)
+        if re.search(pattern,name,re.IGNORECASE):
+            return True
+        else:
+            return False
+
+
     def process_item(self, item, spider):
+
         name = self.validate_str(item['name'])
+
+        type = item['type']
+
+        if not self.validate_otdel_name(name,type):
+            raise DropItem
+
         url = item['url']
-        address = self.validate_str(item['address'])
-        address = self.validate_address(address)
-        email = self.validate_str(item['email'])
+
+
+        if type == 1:
+            address = self.validate_str(item['address'])
+            address = self.validate_address(address)
+            email = self.validate_str(item['email'])
+        else:
+            content = item["content"]
+            address = "Test adress"
+            email = "Test"
 
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company_id')

@@ -14,3 +14,5 @@ class FsvpsItem(scrapy.Item):
     phone = scrapy.Field()
     address = scrapy.Field()
     email = scrapy.Field()
+    type = scrapy.Field()
+    content = scrapy.Field()

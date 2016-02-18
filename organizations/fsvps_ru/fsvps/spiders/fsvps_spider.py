@@ -33,6 +33,7 @@ class FsvpsSpider(scrapy.Spider):
         out_item['phone'] = sel.xpath(phone_pattern).extract()
         out_item['address'] = sel.xpath(address_pattern).extract()
         out_item['email'] = sel.xpath(email_pattern).extract()
+        out_item['type'] = 1
         yield out_item
 
         links = response.xpath("//div[@class='linkholder']//a[re:test(@href,'structure.html$')]/@href")
@@ -42,11 +43,13 @@ class FsvpsSpider(scrapy.Spider):
                  yield scrapy.Request(url, callback=self.parse_page_struct)
 
     def parse_page_struct(self, response):
-        for items in response.xpath("//ol[@class='str']/li"):
+        for item in response.xpath("//ol[@class='str']/li"):
             out_item = FsvpsItem()
-            out_item['name'] = "Name1"
+            out_item['name'] = item.xpath('span/text()').extract()
             out_item['url'] = response.url
-            out_item['phone'] = "35435"
-            out_item['address'] = "address"
-            out_item['email'] = "email"
+            out_item["content"] = item.extract()
+            out_item['phone'] = ""
+            out_item['address'] = ""
+            out_item['email'] = ""
+            out_item['type'] = 2
             yield out_item
