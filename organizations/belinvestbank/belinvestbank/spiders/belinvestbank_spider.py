@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
+from urlparse import urlparse
+
 from belinvestbank.items import BelinvestbankAtmItem, BelinvestbankOfficeItem
 from belinvestbank.pipelines import BelinvestbankAtmPipeline, BelinvestbankInfoPipeline, BelinvestbankOfficePipeline
-from urlparse import urlparse
 
 __author__ = 'PekopT'
 
@@ -127,8 +128,10 @@ class BelinvestbankOfficeSpider(scrapy.Spider):
 
     def parse_atm_page(self, response):
         parsed_url = urlparse(response.url)
-        path = parsed_url.path.replace('/geo/', '')+'?'+parsed_url.query
-        region = response.xpath('//div[@class="plashka"]/ul/li/a[@href = "%s"]/text() | //div[@class="plashka"]/ul/li[@class="a"]/span/text()' % path).extract()[0].strip()
+        path = parsed_url.path.replace('/geo/', '') + '?' + parsed_url.query
+        region = response.xpath(
+            '//div[@class="plashka"]/ul/li/a[@href = "%s"]/text() | //div[@class="plashka"]/ul/li[@class="a"]/span/text()' % path).extract()[
+            0].strip()
         for item in response.xpath('//div[@class="list"]/div[@class="item"]'):
             item_name = item.xpath('div[@class="name a"]/a/span/text()').extract()[0].strip()
             office = BelinvestbankOfficeItem()
@@ -136,5 +139,19 @@ class BelinvestbankOfficeSpider(scrapy.Spider):
             office['url'] = response.url
             office['address'] = item.xpath('div[@class="addres"]/strong/text()').extract()[0].strip()
             office['phones'] = item.xpath('div[@class="item_block"]//tr/td[1]/strong/text()').extract()
+            time = dict()
+            time[u'Пн-чт: '] = u" ".join(
+                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[1]/td[3]/text()').extract()])
+            time[u'Пт: '] = u" ".join(
+                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[1]/td[3]/text()').extract()])
+            time[u'Сб: '] = u" ".join(
+                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[1]/td[3]/text()').extract()])
+            time[u'Вс: '] = u" ".join(
+                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[1]/td[3]/text()').extract()])
+            time_str = []
+            for k, v in time.iteritems():
+                time_str.append(k + v)
+
             office['region'] = region
+            office['time'] = u", ".join(time_str)
             yield office
