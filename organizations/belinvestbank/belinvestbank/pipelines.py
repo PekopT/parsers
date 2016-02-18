@@ -365,10 +365,9 @@ class BelinvestbankOfficePipeline(XmlPipeline):
         xml_url = etree.SubElement(xml_item, 'add-url')
         xml_url.text = item['url']
 
-        if 'time' in item:
-            # working-time
-            xml_country = etree.SubElement(xml_item, 'working-time', lang=u'ru')
-            xml_country.text = item['time']
+        # working-time
+        xml_country = etree.SubElement(xml_item, 'working-time', lang=u'ru')
+        xml_country.text = item['time']
 
         # <rubric-id>184106414</rubric-id>
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
