@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Define your item pipelines here
-#
-# Don't forget to add your pipeline to the ITEM_PIPELINES setting
-# See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 from sys import stdout
 import time
 
@@ -159,18 +155,21 @@ class BelinvestbankAtmPipeline(XmlPipeline):
         xml_item = etree.SubElement(self.xml, 'company')
 
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()  # TODO
+        xml_id.text = self.company_id()
 
         xml_name = etree.SubElement(xml_item, 'name')
         xml_name.text = u'Белинвестбанк, банкомат'
 
         xml_addr = etree.SubElement(xml_item, 'address', lang=u'ru')
-        try_split = re.split(u'№\d+,?', item['name'])
-        if len(try_split) > 1:
-            addr = try_split[1]
+        addr = re.sub(u'Банкомат ([№\d ,]+)?', '', item['name']).replace('  ', ' ')
+
+        if addr.find(u"Минск ") != -1 or addr.find(u"Минск,") != -1:
+            xml_addr.text = addr
         else:
-            addr = try_split[0]
-        xml_addr.text = item['region'] + u', ' + addr.strip()
+            if xml_addr.find(u'г.') != -1:
+                xml_addr.text = item['region'].replace(u'Минск и ', '') + u', ' + addr
+            else:
+                xml_addr.text = item['region'] + u', ' + addr
 
         xml_addr_add = etree.SubElement(xml_item, 'address-add', lang=u'ru')
         xml_addr_add.text = self.validate_str(item['add_address']).rstrip(',) ').lstrip(',( ')
@@ -208,7 +207,7 @@ class BelinvestbankAtmPipeline(XmlPipeline):
 
         for cur in item['curr']:
             # <enum-value name="currency_atm">atm_usd</enum-value>
-            curr = etree.SubElement(xml_item, 'enum-value', name='currency_atm')
+            curr = etree.SubElement(xml_item, 'feature-enum-multiple', name='currency_atm')
             curr.text = u'atm_' + cur
 
         if item['accept']:
@@ -231,12 +230,15 @@ class BelinvestbankInfoPipeline(XmlPipeline):
         xml_name.text = u'Белинвестбанк, инфокиоск'
 
         xml_addr = etree.SubElement(xml_item, 'address', lang=u'ru')
-        try_split = re.split(u'№\d+,?', item['name'])
-        if len(try_split) > 1:
-            addr = try_split[1]
+        addr = re.sub(u'Инфокиоск ([№\d ,]+)?', '', item['name']).replace('  ', ' ')
+
+        if addr.find(u"Минск ") != -1 or addr.find(u"Минск,") != -1:
+            xml_addr.text = addr
         else:
-            addr = try_split[0]
-        xml_addr.text = item['region'] + u', ' + addr
+            if xml_addr.find(u'г.') != -1:
+                xml_addr.text = item['region'].replace(u'Минск и ', '') + u', ' + addr
+            else:
+                xml_addr.text = item['region'] + u', ' + addr
 
         xml_addr_add = etree.SubElement(xml_item, 'address-add', lang=u'ru')
         xml_addr_add.text = self.validate_str(item['add_address']).rstrip(',')
@@ -272,14 +274,14 @@ class BelinvestbankInfoPipeline(XmlPipeline):
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
-        for cur in item['curr']:
+        # for cur in item['curr']:
             # <enum-value name="currency_atm">atm_usd</enum-value>
-            curr = etree.SubElement(xml_item, 'enum-value', name='currency_atm')
-            curr.text = u'atm_' + cur
+            # curr = etree.SubElement(xml_item, 'feature-enum-multiple', name='currency_atm')
+            # curr.text = u'atm_' + cur
 
-        if item['accept']:
-            # <known-boolean name="cash_to_card"/>
-            etree.SubElement(xml_item, 'known-boolean', name='cash_to_card')
+        # if item['accept']:
+        #     <known-boolean name="cash_to_card"/>
+            # etree.SubElement(xml_item, 'known-boolean', name='cash_to_card')
 
         self.counter += 1
 
@@ -323,10 +325,13 @@ class BelinvestbankOfficePipeline(XmlPipeline):
             addr = try_split[0].strip().rstrip(',')
             add_addr = try_split[1].strip().rstrip(',').rstrip(')')
 
-        if addr.find(u"Минск") != -1:
+        if addr.find(u"Минск ") != -1 or addr.find(u"Минск,") != -1:
             xml_addr.text = addr
         else:
-            xml_addr.text = item['region'] + u', ' + addr
+            if xml_addr.find(u'г.') != -1:
+                xml_addr.text = item['region'].replace(u'Минск и ', '') + u', ' + addr
+            else:
+                xml_addr.text = item['region'] + u', ' + addr
 
         if add_addr:
             xml_addr_add = etree.SubElement(xml_item, 'address-add', lang=u'ru')
@@ -334,6 +339,14 @@ class BelinvestbankOfficePipeline(XmlPipeline):
 
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = u'Беларусь'
+
+        xml_phone = etree.SubElement(xml_item, 'phone')
+        xml_phone_number = etree.SubElement(xml_phone, 'number')
+        xml_phone_number.text = u"+375 (17) 239-02-39"
+        xml_phone_type = etree.SubElement(xml_phone, 'type')
+        xml_phone_type.text = u'phone'
+        xml_phone_ext = etree.SubElement(xml_phone, 'ext')
+        xml_phone_info = etree.SubElement(xml_phone, 'info')
 
         for phone in self.validate_tel(item['phones']):
             xml_phone = etree.SubElement(xml_item, 'phone')
@@ -348,9 +361,14 @@ class BelinvestbankOfficePipeline(XmlPipeline):
         xml_url = etree.SubElement(xml_item, 'url')
         xml_url.text = u'http://www.belinvestbank.by'
 
-        # url
+        # add-url
         xml_url = etree.SubElement(xml_item, 'add-url')
         xml_url.text = item['url']
+
+        if 'time' in item:
+            # working-time
+            xml_country = etree.SubElement(xml_item, 'working-time', lang=u'ru')
+            xml_country.text = item['time']
 
         # <rubric-id>184106414</rubric-id>
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')

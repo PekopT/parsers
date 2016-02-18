@@ -1,308 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <companies xmlns:xi="http://www.w3.org/2001/XInclude" version="2.1">
   <company>
-    <company-id>00020</company-id>
+    <company-id>00010</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область, Инфокиоск 510, г.Могилев, ул.Ленинская, 50</address>
-    <address-add lang="ru">ГУ НБРБ по Могилевской области</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">понедельник-пятница: 08.00–17.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957445</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-  </company>
-  <company>
-    <company-id>00021</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г.Могилев, ул.Первомайская, 29а</address>
-    <address-add lang="ru">Дирекция по Могилевской области ОАО «Белинвестбанк»</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-воскресенье: 10.00-19.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957446</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
-  </company>
-  <company>
-    <company-id>00022</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г.Могилев, ул.Мовчанского, 53</address>
-    <address-add lang="ru">РКЦ Октябрьского района №4</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Ежедневно: 08.00–20.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957446</actualization-date>
-  </company>
-  <company>
-    <company-id>00023</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г.Бобруйск, пр.Пушкина, 198</address>
-    <address-add lang="ru">Центр банковских услуг №831 ОАО "Белинвестбанк"</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Круглосуточно</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957447</actualization-date>
-  </company>
-  <company>
-    <company-id>00024</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г.Бобруйск, ул.Советская, 129</address>
-    <address-add lang="ru">ОАО "Бобруйскбытуслуги"</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-суббота: 08.00-20.00, воскресенье: 08.00-18.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957448</actualization-date>
-    <known-boolean name="cash_to_card"/>
-  </company>
-  <company>
-    <company-id>00025</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г. Бобруйск, ул. Орджоникидзе, 106в </address>
-    <address-add lang="ru">ПРУП «Могилевоблгаз», филиал «Бобруйское районное производственное управление газового хозяйства»</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник–пятница: 08.00–20.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957449</actualization-date>
-    <known-boolean name="cash_to_card"/>
-  </company>
-  <company>
-    <company-id>00026</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г.Бобруйск, ул.Ульяновская, 21</address>
-    <address-add lang="ru">ОАО «Бакалея Бобруйск» магазин №2</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Круглосуточно</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957450</actualization-date>
-  </company>
-  <company>
-    <company-id>00027</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г. Бобруйск, ул. Социалистическая, 84</address>
-    <address-add lang="ru">ОАО "Славянка"</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-пятница: 08.00-20.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957450</actualization-date>
-    <known-boolean name="cash_to_card"/>
-  </company>
-  <company>
-    <company-id>00028</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г.Могилев, ул.Пионерская, 27</address>
-    <address-add lang="ru">РУП "Белтелеком", Интернет-клуб</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-пятница: 09.00-23.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957451</actualization-date>
-    <known-boolean name="cash_to_card"/>
-  </company>
-  <company>
-    <company-id>00029</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г.Бобруйск, ул.Пушкина, 198</address>
-    <address-add lang="ru">ЦБУ №831</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-пятница: 09.00-19.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957452</actualization-date>
-  </company>
-  <company>
-    <company-id>000210</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г.Горки, ул.Ленина, 20</address>
-    <address-add lang="ru">Центр банковских услуг №802 ОАО "Белинвестбанк"</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-пятница: 08.30-13.00,14.00-15.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957453</actualization-date>
-    <known-boolean name="cash_to_card"/>
-  </company>
-  <company>
-    <company-id>000211</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г.Могилев, ул.Первомайская, 29а</address>
-    <address-add lang="ru">Дирекция по Могилевской области ОАО "Белинвестбанк"</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-пятница: 09.00-13.00, 14.00-19.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957454</actualization-date>
-    <known-boolean name="cash_to_card"/>
-  </company>
-  <company>
-    <company-id>000212</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г. Могилев, ул. Первомайская, 29а</address>
-    <address-add lang="ru">Дирекция по Могилевской области ОАО "Беинвестбанк"</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-воскресенье: 09.00-16.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957455</actualization-date>
-  </company>
-  <company>
-    <company-id>000213</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г. Могилев, ул. Первомайская, 61</address>
-    <address-add lang="ru">Универмаг «Центральный»</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-пятница: 10.00-14.00, 15.00-18.00, суббота: 10.00–13.00, 13.30-16.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957457</actualization-date>
-    <known-boolean name="cash_to_card"/>
-  </company>
-  <company>
-    <company-id>000214</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г.Могилев, ул.Первомайская, 28а</address>
-    <address-add lang="ru">Могилевский горисполком</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-пятница: 08.00-17.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957457</actualization-date>
-  </company>
-  <company>
-    <company-id>000215</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Могилевская область,  г. Могилев, б-р Непокоренных, 43б</address>
-    <address-add lang="ru">УРМ дирекции</address-add>
-    <country lang="ru">Беларусь</country>
-    <phone>
-      <number>+375 (17) 239-02-39</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.belinvestbank.by</url>
-    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
-    <working-time lang="ru">Понедельник-воскресенье: 09.00-19.00</working-time>
-    <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957458</actualization-date>
-    <known-boolean name="cash_to_card"/>
-  </company>
-  <company>
-    <company-id>000216</company-id>
-    <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, ул. Фомичева, 2</address>
+    <address lang="ru">Гродненская область, г. Гродно, ул. Фомичева, 2</address>
     <address-add lang="ru">ТЦ «Магнит»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -315,13 +16,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957743</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470924</actualization-date>
   </company>
   <company>
-    <company-id>000217</company-id>
+    <company-id>00011</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Лида, ул. Мицкевича, 39</address>
+    <address lang="ru">Гродненская область, г. Лида, ул. Мицкевича, 39</address>
     <address-add lang="ru">ЦБУ № 228</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -334,13 +34,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.30-17.30</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957744</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470925</actualization-date>
   </company>
   <company>
-    <company-id>000218</company-id>
+    <company-id>00012</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Лида, ул. Победы, 37 </address>
+    <address lang="ru">Гродненская область, г. Лида, ул. Победы, 37 </address>
     <address-add lang="ru">Торгово-сервисный центр</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -353,12 +52,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957744</actualization-date>
+    <actualization-date>1455755470925</actualization-date>
   </company>
   <company>
-    <company-id>000219</company-id>
+    <company-id>00013</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, ул. Тавлая, 44а</address>
+    <address lang="ru">Гродненская область, г. Гродно, ул. Тавлая, 44а</address>
     <address-add lang="ru">ПРК №10</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -371,12 +70,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957745</actualization-date>
+    <actualization-date>1455755470926</actualization-date>
   </company>
   <company>
-    <company-id>000220</company-id>
+    <company-id>00014</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, ул. Мицкевича, 3 </address>
+    <address lang="ru">Гродненская область, г. Гродно, ул. Мицкевича, 3 </address>
     <address-add lang="ru">ЦБУ №200</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -389,13 +88,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00 - 17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957745</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470927</actualization-date>
   </company>
   <company>
-    <company-id>000221</company-id>
+    <company-id>00015</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, пр. Дзержинского, 100</address>
+    <address lang="ru">Гродненская область, г. Гродно, пр. Дзержинского, 100</address>
     <address-add lang="ru">ГУКПП "Гродноводоканал"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -408,12 +106,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957746</actualization-date>
+    <actualization-date>1455755470928</actualization-date>
   </company>
   <company>
-    <company-id>000222</company-id>
+    <company-id>00016</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, ул. Белуша, 49</address>
+    <address lang="ru">Гродненская область, г. Гродно, ул. Белуша, 49</address>
     <address-add lang="ru">Здание ГАИ</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -426,13 +124,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957746</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470929</actualization-date>
   </company>
   <company>
-    <company-id>000223</company-id>
+    <company-id>00017</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, ул. Советских Пограничников, 92</address>
+    <address lang="ru">Гродненская область, г. Гродно, ул. Советских Пограничников, 92</address>
     <address-add lang="ru">УРМ дирекции ОАО «Белинвестбанк» по Гродненской области</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -445,13 +142,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.15-19.00, суббота: 09.15-15.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957747</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470930</actualization-date>
   </company>
   <company>
-    <company-id>000224</company-id>
+    <company-id>00018</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, ул. Дзержинского, 2/1 </address>
+    <address lang="ru">Гродненская область, г. Гродно, ул. Дзержинского, 2/1 </address>
     <address-add lang="ru">Гродногражданпроект</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -464,13 +160,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Понедельник-пятница: 10.00-19.00, суббота: с1 по 8 и с 26 по 1 число месяца:10.00-14.45, обед: 11.30-12.00, с 9 по 25 число месяца-10.00-14.45 без обеда</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957747</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470931</actualization-date>
   </company>
   <company>
-    <company-id>000225</company-id>
+    <company-id>00019</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, пр. Я. Купалы, 49</address>
+    <address lang="ru">Гродненская область, г. Гродно, пр. Я. Купалы, 49</address>
     <address-add lang="ru">Универсам "Брест"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -483,13 +178,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957748</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470931</actualization-date>
   </company>
   <company>
-    <company-id>000226</company-id>
+    <company-id>000110</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, ул. Дзержинского, 94</address>
+    <address lang="ru">Гродненская область, г. Гродно, ул. Дзержинского, 94</address>
     <address-add lang="ru">ЧУП "Цветлит"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -502,12 +196,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.30-17.30</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957748</actualization-date>
+    <actualization-date>1455755470932</actualization-date>
   </company>
   <company>
-    <company-id>000227</company-id>
+    <company-id>000111</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, ул.О.Соломовой, 112 </address>
+    <address lang="ru">Гродненская область, г. Гродно, ул.О.Соломовой, 112 </address>
     <address-add lang="ru">ТЦ "АЛМИ"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -520,13 +214,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">11.00-20.00, обед:15.00-16.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957749</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470934</actualization-date>
   </company>
   <company>
-    <company-id>000228</company-id>
+    <company-id>000112</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, пр. Я.Купалы , 89 </address>
+    <address lang="ru">Гродненская область, г. Гродно, пр. Я.Купалы , 89 </address>
     <address-add lang="ru">УЗ "Гродненская клиническая больница №4"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -539,13 +232,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957750</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470936</actualization-date>
   </company>
   <company>
-    <company-id>000229</company-id>
+    <company-id>000113</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, ул. Пестрака, 4 </address>
+    <address lang="ru">Гродненская область, г. Гродно, ул. Пестрака, 4 </address>
     <address-add lang="ru">Поликлиника №3 УЗ ГЦГП</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -558,13 +250,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Понедельник- пятница: 8.00-20.00, Суббота : 9.00-18.00, Воскресение: 9.00-15.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957750</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470937</actualization-date>
   </company>
   <company>
-    <company-id>000230</company-id>
+    <company-id>000114</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Гродно, ул.Советских Пограничников, 95</address>
+    <address lang="ru">Гродненская область, г. Гродно, ул.Советских Пограничников, 95</address>
     <address-add lang="ru">ГОФ "Неман"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -577,13 +268,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Ежедневно: 06.00-21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957751</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
+    <actualization-date>1455755470938</actualization-date>
   </company>
   <company>
-    <company-id>000231</company-id>
+    <company-id>000115</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Волковыск, ул. Ленина, 26</address>
+    <address lang="ru">Гродненская область, г. Волковыск, ул. Ленина, 26</address>
     <address-add lang="ru">ЦБУ №203</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -596,14 +286,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Пн.-вс.: 09:00-18:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957751</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470939</actualization-date>
   </company>
   <company>
-    <company-id>000232</company-id>
+    <company-id>000116</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г.Лида, ул.Кирова, 10</address>
+    <address lang="ru">Гродненская область, г.Лида, ул.Кирова, 10</address>
     <address-add lang="ru">УРМ ЦБУ №228</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -616,13 +304,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Понедельник-суббота: 09.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957752</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755470940</actualization-date>
   </company>
   <company>
-    <company-id>000233</company-id>
+    <company-id>000117</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гродненская область,  г. Лида, ул.Тухачевского,77б</address>
+    <address lang="ru">Гродненская область, г. Лида, ул.Тухачевского,77б</address>
     <address-add lang="ru">УРМ ЦБУ 228</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -635,12 +322,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_grodno/</add-url>
     <working-time lang="ru">Ежедневно: 9.00 – 22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231957753</actualization-date>
+    <actualization-date>1455755470941</actualization-date>
   </company>
   <company>
-    <company-id>000234</company-id>
+    <company-id>000118</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область, Инфокиоск г. Гомель, ул. Советская, 12 </address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Советская, 12 </address>
     <address-add lang="ru">КПУП "Гомельское городское ЖКХ"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -653,12 +340,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник-пятница: 8.30-13.00, 14.00-17.30</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958165</actualization-date>
+    <actualization-date>1455755471407</actualization-date>
   </company>
   <company>
-    <company-id>000235</company-id>
+    <company-id>000119</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область, Инфокиоск г. Гомель, ул. Советская, 97 </address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Советская, 97 </address>
     <address-add lang="ru">ОАО «Торговый дом «Гомельский»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -671,12 +358,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00–22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958166</actualization-date>
+    <actualization-date>1455755471408</actualization-date>
   </company>
   <company>
-    <company-id>000236</company-id>
+    <company-id>000120</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область, Инфокиоск г. Жлобин, микрорайон 2, 16 </address>
+    <address lang="ru">Гомельская область, г. Жлобин, микрорайон 2, 16 </address>
     <address-add lang="ru">Магазин №1 ОАО "Визавиторг"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -689,12 +376,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958167</actualization-date>
+    <actualization-date>1455755471409</actualization-date>
   </company>
   <company>
-    <company-id>000237</company-id>
+    <company-id>000121</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область, Инфокиоск г. Жлобин, микрорайон, 16</address>
+    <address lang="ru">Гомельская область, г. Жлобин, микрорайон, 16</address>
     <address-add lang="ru">ОАО Магазин «Металург»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -707,12 +394,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-13.00, 13.30-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958169</actualization-date>
+    <actualization-date>1455755471409</actualization-date>
   </company>
   <company>
-    <company-id>000238</company-id>
+    <company-id>000122</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область, Инфокиоск г. Мозырь, ул. Я. Коласа, 7 </address>
+    <address lang="ru">Гомельская область, г. Мозырь, ул. Я. Коласа, 7 </address>
     <address-add lang="ru">ПК ООО "Аметист" магазин № 6</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -725,12 +412,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958170</actualization-date>
+    <actualization-date>1455755471410</actualization-date>
   </company>
   <company>
-    <company-id>000239</company-id>
+    <company-id>000123</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Севастопольская, 102в </address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Севастопольская, 102в </address>
     <address-add lang="ru">УРМ</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -743,12 +430,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Пн.-пт.: 09.00-17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958171</actualization-date>
+    <actualization-date>1455755471411</actualization-date>
   </company>
   <company>
-    <company-id>000240</company-id>
+    <company-id>000124</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Советская, 48</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Советская, 48</address>
     <address-add lang="ru">ЦКО №1 г. Гомель ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -761,13 +448,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958172</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471411</actualization-date>
   </company>
   <company>
-    <company-id>000241</company-id>
+    <company-id>000125</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Новополесская, 2 </address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Новополесская, 2 </address>
     <address-add lang="ru">ЦКО №2 г. Гомель ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -780,13 +466,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-13.00, 13.45-16.45</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958174</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471412</actualization-date>
   </company>
   <company>
-    <company-id>000242</company-id>
+    <company-id>000126</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Мозырь, б-р Страконицкий, 6а</address>
+    <address lang="ru">Гомельская область, г. Мозырь, б-р Страконицкий, 6а</address>
     <address-add lang="ru">ОАО «Лилея» магазин № 3</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -799,12 +484,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00–14.00, 15.00–21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958174</actualization-date>
+    <actualization-date>1455755471413</actualization-date>
   </company>
   <company>
-    <company-id>000243</company-id>
+    <company-id>000127</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Светлогорск, ул. Мирошниченко, 25а</address>
+    <address lang="ru">Гомельская область, г. Светлогорск, ул. Мирошниченко, 25а</address>
     <address-add lang="ru">ЦБУ №304 ОАО "Белинвестбанк" г. Светлогорск.</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -817,13 +502,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958176</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471413</actualization-date>
   </company>
   <company>
-    <company-id>000244</company-id>
+    <company-id>000128</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Светлогорск, ул. Мирошниченко, 11</address>
+    <address lang="ru">Гомельская область, г. Светлогорск, ул. Мирошниченко, 11</address>
     <address-add lang="ru">Светлогорское бюро Речицкого филиала РУП «Гомельское агентство по государственной регистрации и земельному кадастру»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -836,12 +520,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Пн.-пт.:08:00-20:00, суб.:09:00-17:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958177</actualization-date>
+    <actualization-date>1455755471414</actualization-date>
   </company>
   <company>
-    <company-id>000245</company-id>
+    <company-id>000129</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Светлогорск, микрорайон Первомайский, 3 </address>
+    <address lang="ru">Гомельская область, г. Светлогорск, микрорайон Первомайский, 3 </address>
     <address-add lang="ru">Магазин «Березина»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -854,12 +538,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958178</actualization-date>
+    <actualization-date>1455755471415</actualization-date>
   </company>
   <company>
-    <company-id>000246</company-id>
+    <company-id>000130</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Жлобин, ул. Петровского, 42</address>
+    <address lang="ru">Гомельская область, г. Жлобин, ул. Петровского, 42</address>
     <address-add lang="ru">ЦБУ № 305 г. Жлобин ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -872,13 +556,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00–19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958179</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471415</actualization-date>
   </company>
   <company>
-    <company-id>000247</company-id>
+    <company-id>000131</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Жлобин, ул. Промышленная, 2</address>
+    <address lang="ru">Гомельская область, г. Жлобин, ул. Промышленная, 2</address>
     <address-add lang="ru">Магазин "На перекрестке"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -891,12 +574,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958181</actualization-date>
+    <actualization-date>1455755471416</actualization-date>
   </company>
   <company>
-    <company-id>000248</company-id>
+    <company-id>000132</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Калинковичи, ул. 50 лет Октября, 50</address>
+    <address lang="ru">Гомельская область, г. Калинковичи, ул. 50 лет Октября, 50</address>
     <address-add lang="ru">ЦБУ № 307 г. Калинковичи ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -909,12 +592,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958182</actualization-date>
+    <actualization-date>1455755471417</actualization-date>
   </company>
   <company>
-    <company-id>000249</company-id>
+    <company-id>000133</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Светлогорск, микрорайон Полесье, 7А</address>
+    <address lang="ru">Гомельская область, г. Светлогорск, микрорайон Полесье, 7А</address>
     <address-add lang="ru">магазин "Шатилинский"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -927,12 +610,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958183</actualization-date>
+    <actualization-date>1455755471417</actualization-date>
   </company>
   <company>
-    <company-id>000250</company-id>
+    <company-id>000134</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Светлогорск, ул, Азалова, 18 </address>
+    <address lang="ru">Гомельская область, г. Светлогорск, ул, Азалова, 18 </address>
     <address-add lang="ru">Магазин №1 "Колосок"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -945,12 +628,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958184</actualization-date>
+    <actualization-date>1455755471418</actualization-date>
   </company>
   <company>
-    <company-id>000251</company-id>
+    <company-id>000135</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Мозырь, ул. Крупской, 14</address>
+    <address lang="ru">Гомельская область, г. Мозырь, ул. Крупской, 14</address>
     <address-add lang="ru">ЦБУ № 306 г. Мозырь ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -963,13 +646,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958185</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471419</actualization-date>
   </company>
   <company>
-    <company-id>000252</company-id>
+    <company-id>000136</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Книжная, 11</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Книжная, 11</address>
     <address-add lang="ru">УРМ Дирекции по Гомельской области, ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -982,13 +664,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник–пятница: 09.00-13.15, 14.00-19.00, суббота: 9.00-13.15, 14.00–16.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958186</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471420</actualization-date>
   </company>
   <company>
-    <company-id>000253</company-id>
+    <company-id>000137</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Республиканская, 5  </address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Республиканская, 5 </address>
     <address-add lang="ru">ОАО НТК «Алеся»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1001,12 +682,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958187</actualization-date>
+    <actualization-date>1455755471421</actualization-date>
   </company>
   <company>
-    <company-id>000254</company-id>
+    <company-id>000138</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, пр. Октября, 50</address>
+    <address lang="ru">Гомельская область, г. Гомель, пр. Октября, 50</address>
     <address-add lang="ru">УРМ Дирекции по Гомельской области</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1019,13 +700,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Пн.-Пт.: 9:00 - 17:30; Сб. 9:00 - 16:00.</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958188</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471422</actualization-date>
   </company>
   <company>
-    <company-id>000255</company-id>
+    <company-id>000139</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Советская, 6</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Советская, 6</address>
     <address-add lang="ru">ОАО «Старый универмаг»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1038,13 +718,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник- суббота: 08.00–20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958189</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471422</actualization-date>
   </company>
   <company>
-    <company-id>000256</company-id>
+    <company-id>000140</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Советская, 126</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Советская, 126</address>
     <address-add lang="ru">УРМ</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1057,13 +736,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник- пятница: 09.00-18.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958191</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471423</actualization-date>
   </company>
   <company>
-    <company-id>000257</company-id>
+    <company-id>000141</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Советская, 106 </address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Советская, 106 </address>
     <address-add lang="ru">ОАО «Гомельский областной техноторговый центр «Гарант»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1076,12 +754,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник–пятница: 09.00–18.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958192</actualization-date>
+    <actualization-date>1455755471424</actualization-date>
   </company>
   <company>
-    <company-id>000258</company-id>
+    <company-id>000142</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Жлобин, ул. Первомайская, 77а</address>
+    <address lang="ru">Гомельская область, г. Жлобин, ул. Первомайская, 77а</address>
     <address-add lang="ru">Магазин Центральный ОАО «Компаньон»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1094,13 +772,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.30–22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958192</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471425</actualization-date>
   </company>
   <company>
-    <company-id>000259</company-id>
+    <company-id>000143</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Мозырь, б-р Дружбы, 3/3 </address>
+    <address lang="ru">Гомельская область, г. Мозырь, б-р Дружбы, 3/3 </address>
     <address-add lang="ru">ЖЭУ-3 КЖУП Мозырский Райжихкомхоз</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1113,12 +790,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00–20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958193</actualization-date>
+    <actualization-date>1455755471426</actualization-date>
   </company>
   <company>
-    <company-id>000260</company-id>
+    <company-id>000144</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Советская, 7 </address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Советская, 7 </address>
     <address-add lang="ru">Головной филиал по Гомельской области ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1131,13 +808,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958196</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471427</actualization-date>
   </company>
   <company>
-    <company-id>000261</company-id>
+    <company-id>000145</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Калинковичи, ул. Советская, 43</address>
+    <address lang="ru">Гомельская область, г. Калинковичи, ул. Советская, 43</address>
     <address-add lang="ru">РКЦ ЦБУ №307 ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1150,13 +826,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник–пятница: 08.00–18.00, суббота: 10.00–15.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958197</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471428</actualization-date>
   </company>
   <company>
-    <company-id>000262</company-id>
+    <company-id>000146</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Мозырь, ул. Ленинская, 12</address>
+    <address lang="ru">Гомельская область, г. Мозырь, ул. Ленинская, 12</address>
     <address-add lang="ru">ПИКП «Полесьепроект»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1169,13 +844,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Пн.-чт.: 08.00-17.15; пт.: 08.00-16.00; сб., вс. - выходной.</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958198</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471429</actualization-date>
   </company>
   <company>
-    <company-id>000263</company-id>
+    <company-id>000147</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г.Калинковичи, ул.Мархалевского, 55</address>
+    <address lang="ru">Гомельская область, г.Калинковичи, ул.Мархалевского, 55</address>
     <address-add lang="ru">Mагазин №4 "Продукты"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1188,12 +862,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник–пятница: 08.00–21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958199</actualization-date>
+    <actualization-date>1455755471432</actualization-date>
   </company>
   <company>
-    <company-id>000264</company-id>
+    <company-id>000148</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Советская, 16</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Советская, 16</address>
     <address-add lang="ru">Гомельский городской исполнительный комитет</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1206,12 +880,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник–пятница: 09.00–18.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958200</actualization-date>
+    <actualization-date>1455755471434</actualization-date>
   </company>
   <company>
-    <company-id>000265</company-id>
+    <company-id>000149</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Мозырь, ул. Ветровая, 21д</address>
+    <address lang="ru">Гомельская область, г. Мозырь, ул. Ветровая, 21д</address>
     <address-add lang="ru">Мозырский  ф-л  РУП «Гомельское аагентство по государственной  регистрации и земельному  кадастру»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1224,12 +898,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник–пятница: 08.00–17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958201</actualization-date>
+    <actualization-date>1455755471435</actualization-date>
   </company>
   <company>
-    <company-id>000266</company-id>
+    <company-id>000150</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Светлогорск, микрорайон Молодёжный, 47а</address>
+    <address lang="ru">Гомельская область, г. Светлогорск, микрорайон Молодёжный, 47а</address>
     <address-add lang="ru">Магазин №9 "Стиль"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1242,12 +916,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958202</actualization-date>
+    <actualization-date>1455755471436</actualization-date>
   </company>
   <company>
-    <company-id>000267</company-id>
+    <company-id>000151</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Советская , 41</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Советская , 41</address>
     <address-add lang="ru">Фабрика «8 марта»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1260,12 +934,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Пн.-пт.: 09.00-18.00.</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958202</actualization-date>
+    <actualization-date>1455755471438</actualization-date>
   </company>
   <company>
-    <company-id>000268</company-id>
+    <company-id>000152</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Светлогорск, микрорайон Первомайский, 37</address>
+    <address lang="ru">Гомельская область, г. Светлогорск, микрорайон Первомайский, 37</address>
     <address-add lang="ru">Светлогорский хлебозавод ф-л РУПП ХП "Гомельхлебпром", магазин №9 "Колосок"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1278,12 +952,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958203</actualization-date>
+    <actualization-date>1455755471439</actualization-date>
   </company>
   <company>
-    <company-id>000269</company-id>
+    <company-id>000153</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Калинковичи, ул. Куйбышева, 28</address>
+    <address lang="ru">Гомельская область, г. Калинковичи, ул. Куйбышева, 28</address>
     <address-add lang="ru">ЦБУ №307, г. Калинковичи</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1296,13 +970,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00, суббота - воскресенье: 09.00- 15.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958204</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471440</actualization-date>
   </company>
   <company>
-    <company-id>000270</company-id>
+    <company-id>000154</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Рябиновая, 1</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Рябиновая, 1</address>
     <address-add lang="ru">Магазин №33 ОАО НТК «Алеся»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1315,12 +988,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958205</actualization-date>
+    <actualization-date>1455755471441</actualization-date>
   </company>
   <company>
-    <company-id>000271</company-id>
+    <company-id>000155</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Ильича, 47</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Ильича, 47</address>
     <address-add lang="ru">ОАО НТК "Алеся", магазин №31 "Хозтовары"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1333,12 +1006,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958207</actualization-date>
+    <actualization-date>1455755471443</actualization-date>
   </company>
   <company>
-    <company-id>000272</company-id>
+    <company-id>000156</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Мозырь, ул. Советская, 164</address>
+    <address lang="ru">Гомельская область, г. Мозырь, ул. Советская, 164</address>
     <address-add lang="ru">УЗ Мозырская ЦГП</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1351,12 +1024,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958208</actualization-date>
+    <actualization-date>1455755471459</actualization-date>
   </company>
   <company>
-    <company-id>000273</company-id>
+    <company-id>000157</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Объездная, 10</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Объездная, 10</address>
     <address-add lang="ru">ОАО "Гомельский домостроительный комбинат"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1369,12 +1042,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958209</actualization-date>
+    <actualization-date>1455755471460</actualization-date>
   </company>
   <company>
-    <company-id>000274</company-id>
+    <company-id>000158</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Светлогорск, ул. Калинина, 4</address>
+    <address lang="ru">Гомельская область, г. Светлогорск, ул. Калинина, 4</address>
     <address-add lang="ru">УЗ "Светлогорская ЦРБ"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1387,12 +1060,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник-пятница 08.00-20.00; суббота 09.00-15.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958210</actualization-date>
+    <actualization-date>1455755471461</actualization-date>
   </company>
   <company>
-    <company-id>000275</company-id>
+    <company-id>000159</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Хатаевича, 9</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Хатаевича, 9</address>
     <address-add lang="ru">Гипермаркет "Линия"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1405,12 +1078,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958210</actualization-date>
+    <actualization-date>1455755471462</actualization-date>
   </company>
   <company>
-    <company-id>000276</company-id>
+    <company-id>000160</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Жлобин, микрорайон 3 </address>
+    <address lang="ru">Гомельская область, г. Жлобин, микрорайон 3 </address>
     <address-add lang="ru">Магазин "Верас"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1423,13 +1096,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 07.00-21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958211</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471463</actualization-date>
   </company>
   <company>
-    <company-id>000277</company-id>
+    <company-id>000161</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г.Жлобин, ул.Первомайская, 222</address>
+    <address lang="ru">Гомельская область, г.Жлобин, ул.Первомайская, 222</address>
     <address-add lang="ru">Магазин № 93</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1442,13 +1114,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958213</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471464</actualization-date>
   </company>
   <company>
-    <company-id>000278</company-id>
+    <company-id>000162</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Калинковичи, ул. Свердлова,73</address>
+    <address lang="ru">Гомельская область, г. Калинковичи, ул. Свердлова,73</address>
     <address-add lang="ru">Магазин "Продукты"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1461,14 +1132,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958214</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471466</actualization-date>
   </company>
   <company>
-    <company-id>000279</company-id>
+    <company-id>000163</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г.Жлобин, ул. Ленинградская,14</address>
+    <address lang="ru">Гомельская область, г.Жлобин, ул. Ленинградская,14</address>
     <address-add lang="ru">Магазин № 88</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1481,13 +1150,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958214</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471467</actualization-date>
   </company>
   <company>
-    <company-id>000280</company-id>
+    <company-id>000164</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Жлобин, ул. Первомайская, 38 </address>
+    <address lang="ru">Гомельская область, г. Жлобин, ул. Первомайская, 38 </address>
     <address-add lang="ru">ООО "Магазин № 6"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1500,13 +1168,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958215</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471476</actualization-date>
   </company>
   <company>
-    <company-id>000281</company-id>
+    <company-id>000165</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  д.Лебедевка, ул.Первомайская, 41</address>
+    <address lang="ru">Гомельская область, д.Лебедевка, ул.Первомайская, 41</address>
     <address-add lang="ru">Магазин № 11 "Лебедевский"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1519,14 +1186,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">понедельник-воскресенье: 08.00–22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958216</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471515</actualization-date>
   </company>
   <company>
-    <company-id>000282</company-id>
+    <company-id>000166</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Светлогорск,  м-н Молодежный, 52а</address>
+    <address lang="ru">Гомельская область, г. Светлогорск, м-н Молодежный, 52а</address>
     <address-add lang="ru">Магазин "Евроопт"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1539,13 +1204,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно 09:00-22:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958219</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471521</actualization-date>
   </company>
   <company>
-    <company-id>000283</company-id>
+    <company-id>000167</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г.Гомель, ул.Полесская, 19б</address>
+    <address lang="ru">Гомельская область, г.Гомель, ул.Полесская, 19б</address>
     <address-add lang="ru">Гомельский городской филиал РУП «Гомельское агентство по государственной регистрации и зе-мельному кадастру»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1558,12 +1222,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">С 9:00 по 18:00 Дни: пн-пт</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958220</actualization-date>
+    <actualization-date>1455755471527</actualization-date>
   </company>
   <company>
-    <company-id>000284</company-id>
+    <company-id>000168</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Подгорная, 4</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Подгорная, 4</address>
     <address-add lang="ru">КУП "Хлебопродукт"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1576,12 +1240,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-18.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958221</actualization-date>
+    <actualization-date>1455755471538</actualization-date>
   </company>
   <company>
-    <company-id>000285</company-id>
+    <company-id>000169</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Гомельская область,  г. Гомель, ул. Медицинская, 2</address>
+    <address lang="ru">Гомельская область, г. Гомель, ул. Медицинская, 2</address>
     <address-add lang="ru">Учреждение «Гомельский областной клинический онкологический диспансер»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1594,12 +1258,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_gomel/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958222</actualization-date>
+    <actualization-date>1455755471553</actualization-date>
   </company>
   <company>
-    <company-id>000286</company-id>
+    <company-id>000170</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Брест, ул.Советская, 50</address>
+    <address lang="ru">Брестская область, г.Брест, ул.Советская, 50</address>
     <address-add lang="ru">Дирекция по Брестской области ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1612,13 +1276,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958452</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471675</actualization-date>
   </company>
   <company>
-    <company-id>000287</company-id>
+    <company-id>000171</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Брест, ул.Московская, 273/1</address>
+    <address lang="ru">Брестская область, г.Брест, ул.Московская, 273/1</address>
     <address-add lang="ru">УРМ ЦБУ №401 (Белгосстрах)</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1631,12 +1294,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958454</actualization-date>
+    <actualization-date>1455755471676</actualization-date>
   </company>
   <company>
-    <company-id>000288</company-id>
+    <company-id>000172</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г. Брест, ул. Мицкевича, 27</address>
+    <address lang="ru">Брестская область, г. Брест, ул. Мицкевича, 27</address>
     <address-add lang="ru">УРМ Дирекции по Брестской области ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1649,13 +1312,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958455</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471677</actualization-date>
   </company>
   <company>
-    <company-id>000289</company-id>
+    <company-id>000173</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Береза, ул.Ленина, 104-2</address>
+    <address lang="ru">Брестская область, г.Береза, ул.Ленина, 104-2</address>
     <address-add lang="ru">Центр банковских услуг №404 ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1668,14 +1330,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник-пятница: 9.00-18.45, Суббота 10.00-13.45</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958456</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471679</actualization-date>
   </company>
   <company>
-    <company-id>000290</company-id>
+    <company-id>000174</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Брест, ул.Московская, 346</address>
+    <address lang="ru">Брестская область, г.Брест, ул.Московская, 346</address>
     <address-add lang="ru">УРМ дирекции</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1688,12 +1348,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958457</actualization-date>
+    <actualization-date>1455755471681</actualization-date>
   </company>
   <company>
-    <company-id>000291</company-id>
+    <company-id>000175</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г. Кобрин, ул. Советская, 109</address>
+    <address lang="ru">Брестская область, г. Кобрин, ул. Советская, 109</address>
     <address-add lang="ru">ЦБУ №408</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1706,13 +1366,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник–пятница: 08.00 – 17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958458</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471682</actualization-date>
   </company>
   <company>
-    <company-id>000292</company-id>
+    <company-id>000176</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г. Жабинка, ул. Свободы, 6а</address>
+    <address lang="ru">Брестская область, г. Жабинка, ул. Свободы, 6а</address>
     <address-add lang="ru">ЦБУ №402 ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1725,13 +1384,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник–пятница: 09.00–17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958459</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471683</actualization-date>
   </company>
   <company>
-    <company-id>000293</company-id>
+    <company-id>000177</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Брест, пр.Машерова, 17</address>
+    <address lang="ru">Брестская область, г.Брест, пр.Машерова, 17</address>
     <address-add lang="ru">ОАО «Брестский ЦУМ»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1744,12 +1402,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник–пятница: 09.00–20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958460</actualization-date>
+    <actualization-date>1455755471684</actualization-date>
   </company>
   <company>
-    <company-id>000294</company-id>
+    <company-id>000178</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Брест, ул.Я.Купалы, 106</address>
+    <address lang="ru">Брестская область, г.Брест, ул.Я.Купалы, 106</address>
     <address-add lang="ru">РКЦ «Трест «Стройкомплект»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1762,12 +1420,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник–пятница: 09.00–20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958461</actualization-date>
+    <actualization-date>1455755471685</actualization-date>
   </company>
   <company>
-    <company-id>000295</company-id>
+    <company-id>000179</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  Пружанский  район, ДС "Ружанский"</address>
+    <address lang="ru">Брестская область, Пружанский район, ДС "Ружанский"</address>
     <address-add lang="ru">детский санаторий «Ружанский»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1780,12 +1438,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Ежедневно: 06.00–23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958462</actualization-date>
+    <actualization-date>1455755471688</actualization-date>
   </company>
   <company>
-    <company-id>000296</company-id>
+    <company-id>000180</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Пинск, ул.Первомайская,191</address>
+    <address lang="ru">Брестская область, г.Пинск, ул.Первомайская,191</address>
     <address-add lang="ru">Поликлиника №1</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1798,12 +1456,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Ежедневно: 06.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958463</actualization-date>
+    <actualization-date>1455755471690</actualization-date>
   </company>
   <company>
-    <company-id>000297</company-id>
+    <company-id>000181</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Брест, ул.Жукова</address>
+    <address lang="ru">Брестская область, г.Брест, ул.Жукова</address>
     <address-add lang="ru">В/ч 92616</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1816,12 +1474,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958464</actualization-date>
+    <actualization-date>1455755471693</actualization-date>
   </company>
   <company>
-    <company-id>000298</company-id>
+    <company-id>000182</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  Жабинковский район</address>
+    <address lang="ru">Брестская область, Жабинковский район</address>
     <address-add lang="ru">Санаторий "Буг"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1834,13 +1492,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник-воскресенье: 06.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958466</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
+    <actualization-date>1455755471694</actualization-date>
   </company>
   <company>
-    <company-id>000299</company-id>
+    <company-id>000183</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Белоозерск, ул.Ленина, 23</address>
+    <address lang="ru">Брестская область, г.Белоозерск, ул.Ленина, 23</address>
     <address-add lang="ru">УРМ ЦБУ №404</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1853,12 +1510,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Пн.-пт.: 10:00-18:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958467</actualization-date>
+    <actualization-date>1455755471697</actualization-date>
   </company>
   <company>
-    <company-id>0002100</company-id>
+    <company-id>000184</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Барановичи, ул.Димитрова, 15</address>
+    <address lang="ru">Брестская область, г.Барановичи, ул.Димитрова, 15</address>
     <address-add lang="ru">Центр банковских услуг №405 ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1871,12 +1528,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник–пятница: 09.00–17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958469</actualization-date>
+    <actualization-date>1455755471698</actualization-date>
   </company>
   <company>
-    <company-id>0002101</company-id>
+    <company-id>000185</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Брест, ул.Красногвардейская, 125</address>
+    <address lang="ru">Брестская область, г.Брест, ул.Красногвардейская, 125</address>
     <address-add lang="ru">Брестское КУПВКХ «Водоканал»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1889,13 +1546,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.30-13.00, 14.00-16.30</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958470</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471701</actualization-date>
   </company>
   <company>
-    <company-id>0002102</company-id>
+    <company-id>000186</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Пружаны, ул.Ширмы, 30</address>
+    <address lang="ru">Брестская область, г.Пружаны, ул.Ширмы, 30</address>
     <address-add lang="ru">Центр банковских услуг №407 ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1908,13 +1564,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958470</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471704</actualization-date>
   </company>
   <company>
-    <company-id>0002103</company-id>
+    <company-id>000187</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г. Брест, ул. Медицинская, 6 </address>
+    <address lang="ru">Брестская область, г. Брест, ул. Медицинская, 6 </address>
     <address-add lang="ru">Брестский областной онкологический диспансер</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1927,12 +1582,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник-пятница: 07.30 - 20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958471</actualization-date>
+    <actualization-date>1455755471706</actualization-date>
   </company>
   <company>
-    <company-id>0002104</company-id>
+    <company-id>000188</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г. Брест, ул. Белова, 2</address>
+    <address lang="ru">Брестская область, г. Брест, ул. Белова, 2</address>
     <address-add lang="ru">Брестская городская поликлиника №2</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1945,12 +1600,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Понедельник-пятница: 07.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958472</actualization-date>
+    <actualization-date>1455755471707</actualization-date>
   </company>
   <company>
-    <company-id>0002105</company-id>
+    <company-id>000189</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Брестская область,  г.Брест, ул.Советская, 50 </address>
+    <address lang="ru">Брестская область, г.Брест, ул.Советская, 50 </address>
     <address-add lang="ru">Дирекция по Брестской области ОАО «Белинвестбанк»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1963,13 +1618,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_brest/</add-url>
     <working-time lang="ru">Пн.-пт.: 08.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958473</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755471710</actualization-date>
   </company>
   <company>
-    <company-id>0002106</company-id>
+    <company-id>000190</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область, Инфокиоск г. Витебск, ул. Чкалова, 50а</address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Чкалова, 50а</address>
     <address-add lang="ru">Магазин № 142 ОАО «Веста»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -1982,12 +1636,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958914</actualization-date>
+    <actualization-date>1455755472101</actualization-date>
   </company>
   <company>
-    <company-id>0002107</company-id>
+    <company-id>000191</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область, Инфокиоск г. Полоцк, ул. Е. Полоцкой, 77б</address>
+    <address lang="ru">Витебская область, г. Полоцк, ул. Е. Полоцкой, 77б</address>
     <address-add lang="ru">УО ПГЛК</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2000,12 +1654,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958915</actualization-date>
+    <actualization-date>1455755472102</actualization-date>
   </company>
   <company>
-    <company-id>0002108</company-id>
+    <company-id>000192</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область, Инфокиоск г. Полоцк, ул.Стрелецкая, 4 </address>
+    <address lang="ru">Витебская область, г. Полоцк, ул.Стрелецкая, 4 </address>
     <address-add lang="ru">УО "Полоцкий гос. университет"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2018,13 +1672,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958915</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
+    <actualization-date>1455755472102</actualization-date>
   </company>
   <company>
-    <company-id>0002109</company-id>
+    <company-id>000193</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Ленина, 26а</address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Ленина, 26а</address>
     <address-add lang="ru">ТРЦ «Марко-Сити»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2037,13 +1690,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958916</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472103</actualization-date>
   </company>
   <company>
-    <company-id>0002110</company-id>
+    <company-id>000194</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, Привокзальная площадь</address>
+    <address lang="ru">Витебская область, г. Витебск, Привокзальная площадь</address>
     <address-add lang="ru">Здание Железнодорожного вокзала</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2056,13 +1708,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958917</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472104</actualization-date>
   </company>
   <company>
-    <company-id>0002111</company-id>
+    <company-id>000195</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. пр. Строителей, 22 </address>
+    <address lang="ru">Витебская область, г. Витебск, ул. пр. Строителей, 22 </address>
     <address-add lang="ru">Магазин № 140 ОАО «Веста»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2075,12 +1726,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-суббота: 08.00-22.00, воскресенье: 08.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958917</actualization-date>
+    <actualization-date>1455755472105</actualization-date>
   </company>
   <company>
-    <company-id>0002112</company-id>
+    <company-id>000196</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Чкалова, 34 </address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Чкалова, 34 </address>
     <address-add lang="ru">Магазин № 144 ОАО «Веста»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2093,13 +1744,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958918</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472105</actualization-date>
   </company>
   <company>
-    <company-id>0002113</company-id>
+    <company-id>000197</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Чкалова, 18 </address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Чкалова, 18 </address>
     <address-add lang="ru">Магазин № 139 ОАО «Веста»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2112,12 +1762,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-суббота: 08.00-20.00, воскресенье: 08.00-17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958919</actualization-date>
+    <actualization-date>1455755472106</actualization-date>
   </company>
   <company>
-    <company-id>0002114</company-id>
+    <company-id>000198</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, пр. Победы, 8 </address>
+    <address lang="ru">Витебская область, г. Витебск, пр. Победы, 8 </address>
     <address-add lang="ru">Магазин № 145 ОАО «Веста»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2130,13 +1780,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958919</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472107</actualization-date>
   </company>
   <company>
-    <company-id>0002115</company-id>
+    <company-id>000199</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, пр. Победы, 23д </address>
+    <address lang="ru">Витебская область, г. Витебск, пр. Победы, 23д </address>
     <address-add lang="ru">Магазин № 141 ОАО «Веста»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2149,12 +1798,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958920</actualization-date>
+    <actualization-date>1455755472107</actualization-date>
   </company>
   <company>
-    <company-id>0002116</company-id>
+    <company-id>0001100</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. П. Бровки, 5а</address>
+    <address lang="ru">Витебская область, г. Витебск, ул. П. Бровки, 5а</address>
     <address-add lang="ru">Магазин № 146 ОАО «Веста»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2167,12 +1816,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-суббота: 08.00-21.00, воскресенье: 08.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958921</actualization-date>
+    <actualization-date>1455755472108</actualization-date>
   </company>
   <company>
-    <company-id>0002117</company-id>
+    <company-id>0001101</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. пр. Строителей, 1а </address>
+    <address lang="ru">Витебская область, г. Витебск, ул. пр. Строителей, 1а </address>
     <address-add lang="ru">Магазин №150 ОАО «Веста»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2185,13 +1834,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958921</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472110</actualization-date>
   </company>
   <company>
-    <company-id>0002118</company-id>
+    <company-id>0001102</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Кирова, 7/13</address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Кирова, 7/13</address>
     <address-add lang="ru">ОАО «Белинвестбанк»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2204,13 +1852,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00, суббота: 09.00-13.00, 14.00-17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958922</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472111</actualization-date>
   </company>
   <company>
-    <company-id>0002119</company-id>
+    <company-id>0001103</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Гагарина, 119 </address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Гагарина, 119 </address>
     <address-add lang="ru">ОАО «Керамика»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2223,12 +1870,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958923</actualization-date>
+    <actualization-date>1455755472113</actualization-date>
   </company>
   <company>
-    <company-id>0002120</company-id>
+    <company-id>0001104</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Полоцк, ул. Нижне – Покровская, 37 а </address>
+    <address lang="ru">Витебская область, г. Полоцк, ул. Нижне – Покровская, 37 а </address>
     <address-add lang="ru">ЦБУ №603</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2241,13 +1888,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00, суббота: 09.00-13.00,13.30-16.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958923</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472115</actualization-date>
   </company>
   <company>
-    <company-id>0002121</company-id>
+    <company-id>0001105</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Новополоцк, ул. Молодежная, 167 </address>
+    <address lang="ru">Витебская область, г. Новополоцк, ул. Молодежная, 167 </address>
     <address-add lang="ru">ЦБУ №603</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2260,12 +1906,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00, суббота: 10.00-18.00, воскресенье: 10.00-17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958924</actualization-date>
+    <actualization-date>1455755472117</actualization-date>
   </company>
   <company>
-    <company-id>0002122</company-id>
+    <company-id>0001106</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Орша, ул. Ленина, 26а</address>
+    <address lang="ru">Витебская область, г. Орша, ул. Ленина, 26а</address>
     <address-add lang="ru">ЦБУ № 604</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2278,12 +1924,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958925</actualization-date>
+    <actualization-date>1455755472119</actualization-date>
   </company>
   <company>
-    <company-id>0002123</company-id>
+    <company-id>0001107</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Орша, Центральная площадь, 2 </address>
+    <address lang="ru">Витебская область, г. Орша, Центральная площадь, 2 </address>
     <address-add lang="ru">ЗАО "Оршанский дом торговли"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2296,13 +1942,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00, суббота: 09.00-18.00, воскресенье: 10.00-15.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958926</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472121</actualization-date>
   </company>
   <company>
-    <company-id>0002124</company-id>
+    <company-id>0001108</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г.Орша, ул.60 лет БССР, 3</address>
+    <address lang="ru">Витебская область, г.Орша, ул.60 лет БССР, 3</address>
     <address-add lang="ru">Универсам "АЛМИ"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2315,13 +1960,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958927</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472121</actualization-date>
   </company>
   <company>
-    <company-id>0002125</company-id>
+    <company-id>0001109</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Орша, ул. Флерова, 2а </address>
+    <address lang="ru">Витебская область, г. Орша, ул. Флерова, 2а </address>
     <address-add lang="ru">ЗАО «Мерком»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2334,12 +1978,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958928</actualization-date>
+    <actualization-date>1455755472122</actualization-date>
   </company>
   <company>
-    <company-id>0002126</company-id>
+    <company-id>0001110</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, пр-т Людникова, 10</address>
+    <address lang="ru">Витебская область, г. Витебск, пр-т Людникова, 10</address>
     <address-add lang="ru">ОАО «Белинвестбанк»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2352,13 +1996,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958929</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472123</actualization-date>
   </company>
   <company>
-    <company-id>0002127</company-id>
+    <company-id>0001111</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Горького, 62</address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Горького, 62</address>
     <address-add lang="ru">ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2371,13 +2014,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958931</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472124</actualization-date>
   </company>
   <company>
-    <company-id>0002128</company-id>
+    <company-id>0001112</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Воинов – Интернационалистов, 32а</address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Воинов – Интернационалистов, 32а</address>
     <address-add lang="ru">Магазин №147 ОАО "Веста"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2390,12 +2032,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00–22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958932</actualization-date>
+    <actualization-date>1455755472125</actualization-date>
   </company>
   <company>
-    <company-id>0002129</company-id>
+    <company-id>0001113</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Замковая, 19</address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Замковая, 19</address>
     <address-add lang="ru">ОАО «Витебский универмаг»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2408,12 +2050,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник–пятница: 08.00–20.00, суббота-воскресенье: 08.00– 17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958933</actualization-date>
+    <actualization-date>1455755472126</actualization-date>
   </company>
   <company>
-    <company-id>0002130</company-id>
+    <company-id>0001114</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, пр-т Фрунзе, 71 </address>
+    <address lang="ru">Витебская область, г. Витебск, пр-т Фрунзе, 71 </address>
     <address-add lang="ru">УЗ «Витебская городская клиническая больница скорой медицинской помощи»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2426,12 +2068,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00–20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958934</actualization-date>
+    <actualization-date>1455755472127</actualization-date>
   </company>
   <company>
-    <company-id>0002131</company-id>
+    <company-id>0001115</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Воинов - Интернационалистов, 23</address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Воинов - Интернационалистов, 23</address>
     <address-add lang="ru">УРМ Центр розничного бизнеса</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2444,12 +2086,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958936</actualization-date>
+    <actualization-date>1455755472127</actualization-date>
   </company>
   <company>
-    <company-id>0002132</company-id>
+    <company-id>0001116</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. П. Бровки, 33</address>
+    <address lang="ru">Витебская область, г. Витебск, ул. П. Бровки, 33</address>
     <address-add lang="ru">Учреждение здаравоохранения "Витебский областной клинический онкологический диспансер"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2462,12 +2104,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958937</actualization-date>
+    <actualization-date>1455755472128</actualization-date>
   </company>
   <company>
-    <company-id>0002133</company-id>
+    <company-id>0001117</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Ленина, 22/16 </address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Ленина, 22/16 </address>
     <address-add lang="ru">Головной филиал по Витебской области ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2480,12 +2122,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958937</actualization-date>
+    <actualization-date>1455755472130</actualization-date>
   </company>
   <company>
-    <company-id>0002134</company-id>
+    <company-id>0001118</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск ул. Кирова 6/11</address>
+    <address lang="ru">Витебская область, г. Витебск ул. Кирова 6/11</address>
     <address-add lang="ru">Отдел кредитования населения</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2498,13 +2140,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958938</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
+    <actualization-date>1455755472131</actualization-date>
   </company>
   <company>
-    <company-id>0002135</company-id>
+    <company-id>0001119</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г.Витебск, ул.Богатырева, 8а</address>
+    <address lang="ru">Витебская область, г.Витебск, ул.Богатырева, 8а</address>
     <address-add lang="ru">Универсам №6 СЗАО "Омега"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2517,12 +2158,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958939</actualization-date>
+    <actualization-date>1455755472132</actualization-date>
   </company>
   <company>
-    <company-id>0002136</company-id>
+    <company-id>0001120</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Орша, пр-т Текстильщиков, 27</address>
+    <address lang="ru">Витебская область, г. Орша, пр-т Текстильщиков, 27</address>
     <address-add lang="ru">КТУП "Алеся", магазин "Алеся"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2535,12 +2176,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958940</actualization-date>
+    <actualization-date>1455755472133</actualization-date>
   </company>
   <company>
-    <company-id>0002137</company-id>
+    <company-id>0001121</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Орша, ул. Ленина, 26а</address>
+    <address lang="ru">Витебская область, г. Орша, ул. Ленина, 26а</address>
     <address-add lang="ru">ЦБУ №604</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2553,13 +2194,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.30-19.00, суббота: 08.15-16.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958942</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472135</actualization-date>
   </company>
   <company>
-    <company-id>0002138</company-id>
+    <company-id>0001122</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск ул. Горького 62</address>
+    <address lang="ru">Витебская область, г. Витебск ул. Горького 62</address>
     <address-add lang="ru">УРМ ЦРБ</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2572,13 +2212,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">09:30 до 17:30</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958943</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
+    <actualization-date>1455755472138</actualization-date>
   </company>
   <company>
-    <company-id>0002139</company-id>
+    <company-id>0001123</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, пр-т Московский, 86</address>
+    <address lang="ru">Витебская область, г. Витебск, пр-т Московский, 86</address>
     <address-add lang="ru">Универсам "Рублевский"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2591,13 +2230,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 8.15-19.10</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958944</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472139</actualization-date>
   </company>
   <company>
-    <company-id>0002140</company-id>
+    <company-id>0001124</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Орша, ул. Советская, 2в</address>
+    <address lang="ru">Витебская область, г. Орша, ул. Советская, 2в</address>
     <address-add lang="ru">ТРЦ "Орша-Сити"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2610,12 +2248,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958945</actualization-date>
+    <actualization-date>1455755472139</actualization-date>
   </company>
   <company>
-    <company-id>0002141</company-id>
+    <company-id>0001125</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, ул. Ленина, 22/16. </address>
+    <address lang="ru">Витебская область, г. Витебск, ул. Ленина, 22/16. </address>
     <address-add lang="ru">Головной филиал по Витебской области ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2628,12 +2266,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958946</actualization-date>
+    <actualization-date>1455755472142</actualization-date>
   </company>
   <company>
-    <company-id>0002142</company-id>
+    <company-id>0001126</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, пр-т Московский, 33 </address>
+    <address lang="ru">Витебская область, г. Витебск, пр-т Московский, 33 </address>
     <address-add lang="ru">РКЦ-4,  УО "ВГУ"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2646,13 +2284,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-суббота: 09.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958946</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472144</actualization-date>
   </company>
   <company>
-    <company-id>0002143</company-id>
+    <company-id>0001127</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, пр-т. Московский, 57</address>
+    <address lang="ru">Витебская область, г. Витебск, пр-т. Московский, 57</address>
     <address-add lang="ru">ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2665,13 +2302,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958947</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472145</actualization-date>
   </company>
   <company>
-    <company-id>0002144</company-id>
+    <company-id>0001128</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Орша, ул. Могилёвская, 95а</address>
+    <address lang="ru">Витебская область, г. Орша, ул. Могилёвская, 95а</address>
     <address-add lang="ru">Магазин №18 "Гасцiнец" </address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2684,14 +2320,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958948</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472146</actualization-date>
   </company>
   <company>
-    <company-id>0002145</company-id>
+    <company-id>0001129</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г.Витебск, ул.Чкалова, 35</address>
+    <address lang="ru">Витебская область, г.Витебск, ул.Чкалова, 35</address>
     <address-add lang="ru">ТЦ ГРИН</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2704,13 +2338,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958949</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472149</actualization-date>
   </company>
   <company>
-    <company-id>0002146</company-id>
+    <company-id>0001130</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск ул. Ленина 26а</address>
+    <address lang="ru">Витебская область, г. Витебск ул. Ленина 26а</address>
     <address-add lang="ru">Бизнес-центр "Марко-Сити"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2723,13 +2356,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958951</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
+    <actualization-date>1455755472151</actualization-date>
   </company>
   <company>
-    <company-id>0002147</company-id>
+    <company-id>0001131</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Барань, ул.Набережная, 1</address>
+    <address lang="ru">Витебская область, г. Барань, ул.Набережная, 1</address>
     <address-add lang="ru">Проходная ОАО «Техника связи»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2742,14 +2374,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.15-17.30, обед 13.30-14.15</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958952</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472152</actualization-date>
   </company>
   <company>
-    <company-id>0002148</company-id>
+    <company-id>0001132</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Витебск, пр-т Московский, 60а</address>
+    <address lang="ru">Витебская область, г. Витебск, пр-т Московский, 60а</address>
     <address-add lang="ru">Магазин "Евроопт"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2762,13 +2392,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958953</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472153</actualization-date>
   </company>
   <company>
-    <company-id>0002149</company-id>
+    <company-id>0001133</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Витебская область,  г. Полоцк, ул. Октябрьская, 55</address>
+    <address lang="ru">Витебская область, г. Полоцк, ул. Октябрьская, 55</address>
     <address-add lang="ru">Полоцкий ГОСАГРОЭКОНОМ Колледж</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2781,13 +2410,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_vitebsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231958954</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755472154</actualization-date>
   </company>
   <company>
-    <company-id>0002150</company-id>
+    <company-id>0001134</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область, Инфокиоск № 575 г Молодечно, ул.Притыцкого 6</address>
+    <address lang="ru">Минская область, г Молодечно, ул.Притыцкого 6</address>
     <address-add lang="ru">Универсам "ДоброДар"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2800,13 +2428,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн.-Пт: 09.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960404</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473509</actualization-date>
   </company>
   <company>
-    <company-id>0002151</company-id>
+    <company-id>0001135</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Машерова, 29</address>
+    <address lang="ru">г. Минск, пр. Машерова, 29</address>
     <address-add lang="ru">ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2819,13 +2446,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960405</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473511</actualization-date>
   </company>
   <company>
-    <company-id>0002152</company-id>
+    <company-id>0001136</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Машерова, 29 </address>
+    <address lang="ru">г. Минск, пр. Машерова, 29 </address>
     <address-add lang="ru">Главное операционное управление ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2838,13 +2464,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-13.00, 14.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960405</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473512</actualization-date>
   </company>
   <company>
-    <company-id>0002153</company-id>
+    <company-id>0001137</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Одинцова, 69</address>
+    <address lang="ru">г. Минск, ул. Одинцова, 69</address>
     <address-add lang="ru">ЦБУ № 522 г. Минск ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2857,12 +2482,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960406</actualization-date>
+    <actualization-date>1455755473512</actualization-date>
   </company>
   <company>
-    <company-id>0002154</company-id>
+    <company-id>0001138</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Молодечно, пер. Партизанский, 1 </address>
+    <address lang="ru">Минская область, г. Молодечно, пер. Партизанский, 1 </address>
     <address-add lang="ru">ЦБУ №932  ОАО "Белинвестбанк" г. Молодечно</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2875,13 +2500,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960407</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473513</actualization-date>
   </company>
   <company>
-    <company-id>0002155</company-id>
+    <company-id>0001139</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Молодечно, ул. Притыцкого, 27 </address>
+    <address lang="ru">Минская область, г. Молодечно, ул. Притыцкого, 27 </address>
     <address-add lang="ru">ПБО №1 ЦБУ №932 ОАО "Белинвестбанк" г. Молодечно</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2894,12 +2518,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960407</actualization-date>
+    <actualization-date>1455755473514</actualization-date>
   </company>
   <company>
-    <company-id>0002156</company-id>
+    <company-id>0001140</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Молодечно, ул. В. Гостинец, 80 </address>
+    <address lang="ru">Минская область, г. Молодечно, ул. В. Гостинец, 80 </address>
     <address-add lang="ru">ПБО №2 ЦБУ №932 ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2912,12 +2536,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960408</actualization-date>
+    <actualization-date>1455755473515</actualization-date>
   </company>
   <company>
-    <company-id>0002157</company-id>
+    <company-id>0001141</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Молодечно, ул.Будавников, 14Б</address>
+    <address lang="ru">Минская область, г.Молодечно, ул.Будавников, 14Б</address>
     <address-add lang="ru">магазин "Олимп"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2930,12 +2554,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960408</actualization-date>
+    <actualization-date>1455755473516</actualization-date>
   </company>
   <company>
-    <company-id>0002158</company-id>
+    <company-id>0001142</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Молодечно, ул.Мира, 10а</address>
+    <address lang="ru">Минская область, г. Молодечно, ул.Мира, 10а</address>
     <address-add lang="ru">Магазин "Рассвет"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2948,13 +2572,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960409</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473517</actualization-date>
   </company>
   <company>
-    <company-id>0002159</company-id>
+    <company-id>0001143</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Борисов, ул. Орджоникидзе, 55</address>
+    <address lang="ru">Минская область, г. Борисов, ул. Орджоникидзе, 55</address>
     <address-add lang="ru">ЦБУ № 933 ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2967,13 +2590,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-суббота: 09.00-13.00, 14.00-17.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960409</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473518</actualization-date>
   </company>
   <company>
-    <company-id>0002160</company-id>
+    <company-id>0001144</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Борисов, ул. Гагарина, 105а</address>
+    <address lang="ru">Минская область, г. Борисов, ул. Гагарина, 105а</address>
     <address-add lang="ru">КТПУП «Веста – Борисов»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -2986,12 +2608,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник- пятница: 09.00-20.00, суббота: 09.00-19.00, воскресенье: 09.00–18.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960410</actualization-date>
+    <actualization-date>1455755473519</actualization-date>
   </company>
   <company>
-    <company-id>0002161</company-id>
+    <company-id>0001145</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Борисов, ул. Даумана, 95</address>
+    <address lang="ru">Минская область, г. Борисов, ул. Даумана, 95</address>
     <address-add lang="ru">ОАО «БАТЭ»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3004,13 +2626,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 07.00–23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960410</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473520</actualization-date>
   </company>
   <company>
-    <company-id>0002162</company-id>
+    <company-id>0001146</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Гинтовта, 30 </address>
+    <address lang="ru">г. Минск, ул. Гинтовта, 30 </address>
     <address-add lang="ru">ЦБУ № 508 г. Минск ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3023,13 +2644,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">пн-чт.: 08.30-19.00, пт.: 08.30-18.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960411</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473521</actualization-date>
   </company>
   <company>
-    <company-id>0002163</company-id>
+    <company-id>0001147</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  Минский район, 500 метров восточнее д. Богатырево </address>
+    <address lang="ru">Минская область, Минский район, 500 метров восточнее д. Богатырево </address>
     <address-add lang="ru">Здание ПТО «Белкультторг»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3042,12 +2662,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960412</actualization-date>
+    <actualization-date>1455755473522</actualization-date>
   </company>
   <company>
-    <company-id>0002164</company-id>
+    <company-id>0001148</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Папанина, 7 </address>
+    <address lang="ru">г. Минск, ул. Папанина, 7 </address>
     <address-add lang="ru">РУП "Минское областное агентство по государственной регистрации и земельному кадастру"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3060,13 +2680,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-20.00, суббота: 09.40-17.30</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960413</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473522</actualization-date>
   </company>
   <company>
-    <company-id>0002165</company-id>
+    <company-id>0001149</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Кальварийская, 7 </address>
+    <address lang="ru">г. Минск, ул. Кальварийская, 7 </address>
     <address-add lang="ru">Расчетный центр Национального банка Республики Беларусь</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3079,12 +2698,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-18.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960413</actualization-date>
+    <actualization-date>1455755473523</actualization-date>
   </company>
   <company>
-    <company-id>0002166</company-id>
+    <company-id>0001150</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Солтыса, 189</address>
+    <address lang="ru">г. Минск, ул. Солтыса, 189</address>
     <address-add lang="ru">Магазин № 16 ОАО "Постторг"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3097,13 +2716,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960414</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473524</actualization-date>
   </company>
   <company>
-    <company-id>0002167</company-id>
+    <company-id>0001151</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Пушкина, 81</address>
+    <address lang="ru">г. Минск, пр. Пушкина, 81</address>
     <address-add lang="ru">ЦБУ №536 г.Минска</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3116,13 +2734,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960415</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473525</actualization-date>
   </company>
   <company>
-    <company-id>0002168</company-id>
+    <company-id>0001152</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Партизанский, 6а</address>
+    <address lang="ru">г. Минск, пр. Партизанский, 6а</address>
     <address-add lang="ru">Отделение № 535 г. Минск ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3135,13 +2752,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960416</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473525</actualization-date>
   </company>
   <company>
-    <company-id>0002169</company-id>
+    <company-id>0001153</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Минск, пер.Войсковый, 15</address>
+    <address lang="ru">г.Минск, пер.Войсковый, 15</address>
     <address-add lang="ru">РУП "Минское городское агентство по государственной регистрации и земельному кадастру"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3154,13 +2770,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 08.00-20.00, суббота: 08.00-16.20</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960417</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473526</actualization-date>
   </company>
   <company>
-    <company-id>0002170</company-id>
+    <company-id>0001154</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Коржа, 11а</address>
+    <address lang="ru">г. Минск, ул. Коржа, 11а</address>
     <address-add lang="ru">ЦБУ № 538 г. Минск ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3173,13 +2788,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-суббота: 08.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960418</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473527</actualization-date>
   </company>
   <company>
-    <company-id>0002171</company-id>
+    <company-id>0001155</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Серова, 22 </address>
+    <address lang="ru">г. Минск, ул. Серова, 22 </address>
     <address-add lang="ru">Завод "Стройфарфор"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3192,12 +2806,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960419</actualization-date>
+    <actualization-date>1455755473528</actualization-date>
   </company>
   <company>
-    <company-id>0002172</company-id>
+    <company-id>0001156</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Филатова, 12 </address>
+    <address lang="ru">г. Минск, ул. Филатова, 12 </address>
     <address-add lang="ru">ЦБУ №521 г. Минск ОАО «Белинвестбанк» опер.зал</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3210,13 +2824,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-воскресенье: 08.30-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960419</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473529</actualization-date>
   </company>
   <company>
-    <company-id>0002173</company-id>
+    <company-id>0001157</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Осиповичская, 16</address>
+    <address lang="ru">г. Минск, ул. Осиповичская, 16</address>
     <address-add lang="ru">Проходная Минского керамического завода</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3229,12 +2842,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960420</actualization-date>
+    <actualization-date>1455755473530</actualization-date>
   </company>
   <company>
-    <company-id>0002174</company-id>
+    <company-id>0001158</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Шпилевского, 57 </address>
+    <address lang="ru">г. Минск, ул. Шпилевского, 57 </address>
     <address-add lang="ru">УРМ ГОПЕРУ</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3247,13 +2860,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960421</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473532</actualization-date>
   </company>
   <company>
-    <company-id>0002175</company-id>
+    <company-id>0001159</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Маяковского, 16а</address>
+    <address lang="ru">г. Минск, ул. Маяковского, 16а</address>
     <address-add lang="ru">ЦБУ № 525 г. Минск ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3266,13 +2878,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-19.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960421</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473534</actualization-date>
   </company>
   <company>
-    <company-id>0002176</company-id>
+    <company-id>0001160</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Мельникайте, 2</address>
+    <address lang="ru">г. Минск, ул. Мельникайте, 2</address>
     <address-add lang="ru">ЦБУ № 540 г. Минск ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3285,12 +2896,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960422</actualization-date>
+    <actualization-date>1455755473535</actualization-date>
   </company>
   <company>
-    <company-id>0002177</company-id>
+    <company-id>0001161</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Заславль, ул. Советская, 100A </address>
+    <address lang="ru">Минская область, г. Заславль, ул. Советская, 100A </address>
     <address-add lang="ru">Отделение № 906 г. Заславль ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3303,12 +2914,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 9.00-19.00, суббота: 10.30-15.30</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960422</actualization-date>
+    <actualization-date>1455755473536</actualization-date>
   </company>
   <company>
-    <company-id>0002178</company-id>
+    <company-id>0001162</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Слуцк, ул. Строителей, 5а </address>
+    <address lang="ru">Минская область, г. Слуцк, ул. Строителей, 5а </address>
     <address-add lang="ru">ЦБУ №905 г. Слуцк ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3321,12 +2932,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-четверг: 08.30-13.00, 14.00 16.00, пятница: 08.30- 13.00,14.00-15.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960423</actualization-date>
+    <actualization-date>1455755473537</actualization-date>
   </company>
   <company>
-    <company-id>0002179</company-id>
+    <company-id>0001163</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Минск, ул.Бобруйская, 9 </address>
+    <address lang="ru">г.Минск, ул.Бобруйская, 9 </address>
     <address-add lang="ru">Подразделение ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3339,13 +2950,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-17.00, суббота: 09.00-15.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960423</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473538</actualization-date>
   </company>
   <company>
-    <company-id>0002180</company-id>
+    <company-id>0001164</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Октябрьская, 10 </address>
+    <address lang="ru">г. Минск, ул. Октябрьская, 10 </address>
     <address-add lang="ru">Подразделение ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3358,12 +2968,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-четверг: 09.00-17.00, пятница: 09.00-16.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960424</actualization-date>
+    <actualization-date>1455755473539</actualization-date>
   </company>
   <company>
-    <company-id>0002181</company-id>
+    <company-id>0001165</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Коллекторная, 11</address>
+    <address lang="ru">г. Минск, ул. Коллекторная, 11</address>
     <address-add lang="ru">ЦЮУ №539 г. Минск ОАО "Белинветбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3376,13 +2986,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-четверг: 08.30-17.30, пятница: 08.30-16.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960425</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473541</actualization-date>
   </company>
   <company>
-    <company-id>0002182</company-id>
+    <company-id>0001166</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Минск, ул.Румянцева, 14</address>
+    <address lang="ru">г.Минск, ул.Румянцева, 14</address>
     <address-add lang="ru">Минское городское агентство по государственно регистрации и земельному кадастру</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3395,12 +3004,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн-Пт с 09-30 до 20-00 (Сб. до 17-30)</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960425</actualization-date>
+    <actualization-date>1455755473543</actualization-date>
   </company>
   <company>
-    <company-id>0002183</company-id>
+    <company-id>0001167</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Независимости, 4</address>
+    <address lang="ru">г. Минск, пр. Независимости, 4</address>
     <address-add lang="ru">Главный корпус БГУ</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3413,12 +3022,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-суббота: 09.00-21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960426</actualization-date>
+    <actualization-date>1455755473544</actualization-date>
   </company>
   <company>
-    <company-id>0002184</company-id>
+    <company-id>0001168</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Независимости, 21 </address>
+    <address lang="ru">г. Минск, пр. Независимости, 21 </address>
     <address-add lang="ru">ОАО "ГУМ"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3431,13 +3040,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-воскресенье: 09.00-21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960426</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473545</actualization-date>
   </company>
   <company>
-    <company-id>0002185</company-id>
+    <company-id>0001169</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Минск, ул. Курчатова, 8</address>
+    <address lang="ru">г.Минск, ул. Курчатова, 8</address>
     <address-add lang="ru">Филиал БГУ "Щомыслица"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3450,13 +3058,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн. - Пт.: 07:00 - 22:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960427</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473547</actualization-date>
   </company>
   <company>
-    <company-id>0002186</company-id>
+    <company-id>0001170</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  Минсий район, ул. Боровая, 5 </address>
+    <address lang="ru">Минская область, Минсий район, ул. Боровая, 5 </address>
     <address-add lang="ru">Гипермаркет "BIGZZ"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3469,13 +3076,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-воскресенье: 09.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960428</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473549</actualization-date>
   </company>
   <company>
-    <company-id>0002187</company-id>
+    <company-id>0001171</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Плеханова, 91</address>
+    <address lang="ru">г. Минск, ул. Плеханова, 91</address>
     <address-add lang="ru">Универсам "Рублевский-10"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3488,13 +3094,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-воскресенье: 09.00-21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960428</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473551</actualization-date>
   </company>
   <company>
-    <company-id>0002188</company-id>
+    <company-id>0001172</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Чечота, 11 </address>
+    <address lang="ru">г. Минск, ул. Чечота, 11 </address>
     <address-add lang="ru">УРМ ГОПЕРУ</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3507,13 +3112,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн.-Пт.:09:00-19:00.</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960429</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473552</actualization-date>
   </company>
   <company>
-    <company-id>0002189</company-id>
+    <company-id>0001173</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Независимости, 54 </address>
+    <address lang="ru">г. Минск, пр. Независимости, 54 </address>
     <address-add lang="ru">ЦУМ-Минск</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3526,13 +3130,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960429</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473554</actualization-date>
   </company>
   <company>
-    <company-id>0002190</company-id>
+    <company-id>0001174</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Дзержинского, 126 </address>
+    <address lang="ru">г. Минск, пр. Дзержинского, 126 </address>
     <address-add lang="ru">Гипермаркет "ProStore"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3545,13 +3148,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960430</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473555</actualization-date>
   </company>
   <company>
-    <company-id>0002191</company-id>
+    <company-id>0001175</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Р. Люксембург, 80</address>
+    <address lang="ru">г. Минск, ул. Р. Люксембург, 80</address>
     <address-add lang="ru">Универсам "Рублевский - 103"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3564,13 +3166,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-21.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960430</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473556</actualization-date>
   </company>
   <company>
-    <company-id>0002192</company-id>
+    <company-id>0001176</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Кольцова, 32</address>
+    <address lang="ru">г. Минск, ул. Кольцова, 32</address>
     <address-add lang="ru">Универсам "Солнечный" Рублевский - 112</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3583,12 +3184,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960431</actualization-date>
+    <actualization-date>1455755473557</actualization-date>
   </company>
   <company>
-    <company-id>0002193</company-id>
+    <company-id>0001177</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Лобанка, 94 </address>
+    <address lang="ru">г. Минск, ул. Лобанка, 94 </address>
     <address-add lang="ru">Торговый центр "Максимус"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3601,13 +3202,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960432</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473558</actualization-date>
   </company>
   <company>
-    <company-id>0002194</company-id>
+    <company-id>0001178</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Минск, ул.Матусевича, 72</address>
+    <address lang="ru">г.Минск, ул.Матусевича, 72</address>
     <address-add lang="ru">УРМ ГОПЕРУ ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3620,13 +3220,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">9:00 - 18:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960432</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473561</actualization-date>
   </company>
   <company>
-    <company-id>0002195</company-id>
+    <company-id>0001179</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Хмельницкого, 10а </address>
+    <address lang="ru">г. Минск, ул. Хмельницкого, 10а </address>
     <address-add lang="ru">ПИРУП "Дом Прессы"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3639,12 +3238,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960433</actualization-date>
+    <actualization-date>1455755473562</actualization-date>
   </company>
   <company>
-    <company-id>0002196</company-id>
+    <company-id>0001180</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, тер. Подземные переходы</address>
+    <address lang="ru">г. Минск, тер. Подземные переходы</address>
     <address-add lang="ru">"ОТЦ "Столица"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3657,13 +3256,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960434</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473563</actualization-date>
   </company>
   <company>
-    <company-id>0002197</company-id>
+    <company-id>0001181</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Сухаревская, 5 </address>
+    <address lang="ru">г. Минск, ул. Сухаревская, 5 </address>
     <address-add lang="ru">Магазин "SL-Market"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3676,13 +3274,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 08.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960434</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473564</actualization-date>
   </company>
   <company>
-    <company-id>0002198</company-id>
+    <company-id>0001182</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  Минский район, Щомысленский сельсовет, Западный промузел ТЭЦ-4 </address>
+    <address lang="ru">Минская область, Минский район, Щомысленский сельсовет, Западный промузел ТЭЦ-4 </address>
     <address-add lang="ru">Дискаунтер «Евроопт»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3695,13 +3292,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960435</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473565</actualization-date>
   </company>
   <company>
-    <company-id>0002199</company-id>
+    <company-id>0001183</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Партизанский, 182 </address>
+    <address lang="ru">г. Минск, пр. Партизанский, 182 </address>
     <address-add lang="ru">Гипермаркет "Простор"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3714,13 +3310,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960436</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473566</actualization-date>
   </company>
   <company>
-    <company-id>0002200</company-id>
+    <company-id>0001184</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Независимости, 77</address>
+    <address lang="ru">г. Минск, пр. Независимости, 77</address>
     <address-add lang="ru">ЦБУ № 526 г. Минск ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3733,13 +3328,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 09.00-18.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960437</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473567</actualization-date>
   </company>
   <company>
-    <company-id>0002201</company-id>
+    <company-id>0001185</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Борисов, ул.Гагарина, 54 </address>
+    <address lang="ru">Минская область, г.Борисов, ул.Гагарина, 54 </address>
     <address-add lang="ru">ОАО "2566 - завод по ремонту РВ" </address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3752,14 +3346,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960437</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473568</actualization-date>
   </company>
   <company>
-    <company-id>0002202</company-id>
+    <company-id>0001186</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Борисов, ул.Гагарина, 58</address>
+    <address lang="ru">Минская область, г.Борисов, ул.Гагарина, 58</address>
     <address-add lang="ru">магазин №6 "Макси Дом"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3772,14 +3364,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960438</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473569</actualization-date>
   </company>
   <company>
-    <company-id>0002203</company-id>
+    <company-id>0001187</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Ленина, 16 </address>
+    <address lang="ru">г. Минск, ул. Ленина, 16 </address>
     <address-add lang="ru">ЦБУ г. Минск ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3792,13 +3382,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960439</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473570</actualization-date>
   </company>
   <company>
-    <company-id>0002204</company-id>
+    <company-id>0001188</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Машерова, 29</address>
+    <address lang="ru">г. Минск, ул. Машерова, 29</address>
     <address-add lang="ru">ГОПЕРУ, г. Минск ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3811,13 +3400,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн.-Пт.: 09:00 - 19:00, Сб.: 09:00 - 17:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960440</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473571</actualization-date>
   </company>
   <company>
-    <company-id>0002205</company-id>
+    <company-id>0001189</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Минск, ул.Октябрьская, 2</address>
+    <address lang="ru">г.Минск, ул.Октябрьская, 2</address>
     <address-add lang="ru">БГУ</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3830,12 +3418,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн.-  Вс.: 07:30 - 22:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960441</actualization-date>
+    <actualization-date>1455755473572</actualization-date>
   </company>
   <company>
-    <company-id>0002206</company-id>
+    <company-id>0001190</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Плеханова, 31/1 </address>
+    <address lang="ru">г. Минск, ул. Плеханова, 31/1 </address>
     <address-add lang="ru">Магазин "Дон Боско"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3848,12 +3436,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-воскресенье: 09.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960442</actualization-date>
+    <actualization-date>1455755473573</actualization-date>
   </company>
   <company>
-    <company-id>0002207</company-id>
+    <company-id>0001191</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Филатова, 12</address>
+    <address lang="ru">г. Минск, ул. Филатова, 12</address>
     <address-add lang="ru">ЦБУ № 521 г. Минск ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3866,13 +3454,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960443</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473574</actualization-date>
   </company>
   <company>
-    <company-id>0002208</company-id>
+    <company-id>0001192</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Богдановича, 153</address>
+    <address lang="ru">г. Минск, ул. Богдановича, 153</address>
     <address-add lang="ru">Минское городское агентство по государственно регистрации и земельному кадастру</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3885,13 +3472,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн.- Пт.: 09:30 - 20:00, Сб.: 09:30 - 17:30)</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960444</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473575</actualization-date>
   </company>
   <company>
-    <company-id>0002209</company-id>
+    <company-id>0001193</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр. Независимости, 20</address>
+    <address lang="ru">г. Минск, пр. Независимости, 20</address>
     <address-add lang="ru">НБРБ</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3904,13 +3490,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн. – Пт.: 8:00 - 20:00, Сб.: 08:00 - 14:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960445</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473576</actualization-date>
   </company>
   <company>
-    <company-id>0002210</company-id>
+    <company-id>0001194</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Берсона, 3</address>
+    <address lang="ru">г. Минск, ул. Берсона, 3</address>
     <address-add lang="ru">МинскПроект</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3923,13 +3508,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн. – Пт.: 8:00 - 19:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960446</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473577</actualization-date>
   </company>
   <company>
-    <company-id>0002211</company-id>
+    <company-id>0001195</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, пр.Независимости, 164</address>
+    <address lang="ru">г. Минск, пр.Независимости, 164</address>
     <address-add lang="ru">Подразделение ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3942,13 +3526,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">понедельник - воскресенье: 08.30-20.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960446</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473578</actualization-date>
   </company>
   <company>
-    <company-id>0002212</company-id>
+    <company-id>0001196</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Харьковская, 16 </address>
+    <address lang="ru">г. Минск, ул. Харьковская, 16 </address>
     <address-add lang="ru">Троллейбусный парк №4</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3961,12 +3544,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Круглосуточно</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960447</actualization-date>
+    <actualization-date>1455755473579</actualization-date>
   </company>
   <company>
-    <company-id>0002213</company-id>
+    <company-id>0001197</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Молодечно ул.В.Гостинец 120г</address>
+    <address lang="ru">Минская область, г. Молодечно ул.В.Гостинец 120г</address>
     <address-add lang="ru">Магазин "Водар хлеба"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3979,13 +3562,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 10.00-22.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960447</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473581</actualization-date>
   </company>
   <company>
-    <company-id>0002214</company-id>
+    <company-id>0001198</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Могилевская, 5</address>
+    <address lang="ru">г. Минск, ул. Могилевская, 5</address>
     <address-add lang="ru">ЦБУ г. Минск, ОАО «Белинвестбанк»</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -3998,14 +3580,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн. – Чт.: 8:30 - 19:00, Пт.: 8:30 - 18:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960448</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473582</actualization-date>
   </company>
   <company>
-    <company-id>0002215</company-id>
+    <company-id>0001199</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Минск, ул. Рокоссовского,2</address>
+    <address lang="ru">г. Минск, ул. Рокоссовского,2</address>
     <address-add lang="ru">Гипермаркет "ГИППО"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -4018,13 +3598,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Ежедневно: 09.00-23.00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960449</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473584</actualization-date>
   </company>
   <company>
-    <company-id>0002216</company-id>
+    <company-id>0001200</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Минск, ул. Романовская слобода, 5а</address>
+    <address lang="ru">г.Минск, ул. Романовская слобода, 5а</address>
     <address-add lang="ru">РУП "БелНИПИЭнергоПром"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -4037,13 +3616,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник- пятница: 08:00-18:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960449</actualization-date>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473586</actualization-date>
   </company>
   <company>
-    <company-id>0002217</company-id>
+    <company-id>0001201</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г.Борисов,  ул. Орджоникидзе, 10</address>
+    <address lang="ru">Минская область, г.Борисов, ул. Орджоникидзе, 10</address>
     <address-add lang="ru">РУП «Минское областное агентство по государственной регистрации и земельному кадастру» </address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -4056,14 +3634,12 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Пн, Ср, Пт с 08:00 по 17:00; Вт, Чт с 08:00 по 20:00; Сб с 09:00 по 15:00</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960450</actualization-date>
-    <enum-value name="currency_atm">atm_byr</enum-value>
-    <known-boolean name="cash_to_card"/>
+    <actualization-date>1455755473587</actualization-date>
   </company>
   <company>
-    <company-id>0002218</company-id>
+    <company-id>0001202</company-id>
     <name>Белинвестбанк, инфокиоск</name>
-    <address lang="ru">Минск и Минская область,  г. Заславль, ул. Советская, 118</address>
+    <address lang="ru">Минская область, г. Заславль, ул. Советская, 118</address>
     <address-add lang="ru">Отделение № 906 г. Заславль ОАО "Белинвестбанк"</address-add>
     <country lang="ru">Беларусь</country>
     <phone>
@@ -4076,6 +3652,294 @@
     <add-url>http://www.belinvestbank.by/atm/section/region_minsk/</add-url>
     <working-time lang="ru">Понедельник-пятница: 9.00-19.00, суббота: 10.30-15.30</working-time>
     <rubric-id>31320523497</rubric-id>
-    <actualization-date>1455231960451</actualization-date>
+    <actualization-date>1455755473589</actualization-date>
+  </company>
+  <company>
+    <company-id>0001203</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Могилев, ул.Ленинская, 50</address>
+    <address-add lang="ru">ГУ НБРБ по Могилевской области</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">понедельник-пятница: 08.00–17.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473728</actualization-date>
+  </company>
+  <company>
+    <company-id>0001204</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Могилев, ул.Первомайская, 29а</address>
+    <address-add lang="ru">Дирекция по Могилевской области ОАО «Белинвестбанк»</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-воскресенье: 10.00-19.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473729</actualization-date>
+  </company>
+  <company>
+    <company-id>0001205</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Могилев, ул.Мовчанского, 53</address>
+    <address-add lang="ru">РКЦ Октябрьского района №4</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Ежедневно: 08.00–20.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473730</actualization-date>
+  </company>
+  <company>
+    <company-id>0001206</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Бобруйск, пр.Пушкина, 198</address>
+    <address-add lang="ru">Центр банковских услуг №831 ОАО "Белинвестбанк"</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Круглосуточно</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473730</actualization-date>
+  </company>
+  <company>
+    <company-id>0001207</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Бобруйск, ул.Советская, 129</address>
+    <address-add lang="ru">ОАО "Бобруйскбытуслуги"</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-суббота: 08.00-20.00, воскресенье: 08.00-18.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473731</actualization-date>
+  </company>
+  <company>
+    <company-id>0001208</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г. Бобруйск, ул. Орджоникидзе, 106в </address>
+    <address-add lang="ru">ПРУП «Могилевоблгаз», филиал «Бобруйское районное производственное управление газового хозяйства»</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник–пятница: 08.00–20.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473731</actualization-date>
+  </company>
+  <company>
+    <company-id>0001209</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Бобруйск, ул.Ульяновская, 21</address>
+    <address-add lang="ru">ОАО «Бакалея Бобруйск» магазин №2</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Круглосуточно</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473732</actualization-date>
+  </company>
+  <company>
+    <company-id>0001210</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г. Бобруйск, ул. Социалистическая, 84</address>
+    <address-add lang="ru">ОАО "Славянка"</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-пятница: 08.00-20.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473733</actualization-date>
+  </company>
+  <company>
+    <company-id>0001211</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Могилев, ул.Пионерская, 27</address>
+    <address-add lang="ru">РУП "Белтелеком", Интернет-клуб</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-пятница: 09.00-23.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473733</actualization-date>
+  </company>
+  <company>
+    <company-id>0001212</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Бобруйск, ул.Пушкина, 198</address>
+    <address-add lang="ru">ЦБУ №831</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-пятница: 09.00-19.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473734</actualization-date>
+  </company>
+  <company>
+    <company-id>0001213</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Горки, ул.Ленина, 20</address>
+    <address-add lang="ru">Центр банковских услуг №802 ОАО "Белинвестбанк"</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-пятница: 08.30-13.00,14.00-15.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473735</actualization-date>
+  </company>
+  <company>
+    <company-id>0001214</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Могилев, ул.Первомайская, 29а</address>
+    <address-add lang="ru">Дирекция по Могилевской области ОАО "Белинвестбанк"</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-пятница: 09.00-13.00, 14.00-19.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473735</actualization-date>
+  </company>
+  <company>
+    <company-id>0001215</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г. Могилев, ул. Первомайская, 29а</address>
+    <address-add lang="ru">Дирекция по Могилевской области ОАО "Беинвестбанк"</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-воскресенье: 09.00-16.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473736</actualization-date>
+  </company>
+  <company>
+    <company-id>0001216</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г. Могилев, ул. Первомайская, 61</address>
+    <address-add lang="ru">Универмаг «Центральный»</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-пятница: 10.00-14.00, 15.00-18.00, суббота: 10.00–13.00, 13.30-16.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473737</actualization-date>
+  </company>
+  <company>
+    <company-id>0001217</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г.Могилев, ул.Первомайская, 28а</address>
+    <address-add lang="ru">Могилевский горисполком</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-пятница: 08.00-17.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473738</actualization-date>
+  </company>
+  <company>
+    <company-id>0001218</company-id>
+    <name>Белинвестбанк, инфокиоск</name>
+    <address lang="ru">Могилевская область, г. Могилев, б-р Непокоренных, 43б</address>
+    <address-add lang="ru">УРМ дирекции</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 239-02-39</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.belinvestbank.by</url>
+    <add-url>http://www.belinvestbank.by/atm/section/region_mogilev/</add-url>
+    <working-time lang="ru">Понедельник-воскресенье: 09.00-19.00</working-time>
+    <rubric-id>31320523497</rubric-id>
+    <actualization-date>1455755473740</actualization-date>
   </company>
 </companies>

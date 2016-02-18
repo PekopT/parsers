@@ -128,7 +128,7 @@ class BelinvestbankOfficeSpider(scrapy.Spider):
     def parse_atm_page(self, response):
         parsed_url = urlparse(response.url)
         path = parsed_url.path.replace('/geo/', '')+'?'+parsed_url.query
-        region = response.xpath('//div[@class="plashka"]/ul/li/a[@href = "%s"]/text()' % path).extract()[0].strip()
+        region = response.xpath('//div[@class="plashka"]/ul/li/a[@href = "%s"]/text() | //div[@class="plashka"]/ul/li[@class="a"]/span/text()' % path).extract()[0].strip()
         for item in response.xpath('//div[@class="list"]/div[@class="item"]'):
             item_name = item.xpath('div[@class="name a"]/a/span/text()').extract()[0].strip()
             office = BelinvestbankOfficeItem()
