@@ -141,16 +141,18 @@ class BelinvestbankOfficeSpider(scrapy.Spider):
             office['phones'] = item.xpath('div[@class="item_block"]//tr/td[1]/strong/text()').extract()
             time = dict()
             time[u'Пн-чт: '] = u" ".join(
-                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[1]/td[3]/text()').extract()])
+                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[3]/text()').extract()]).strip()
             time[u'Пт: '] = u" ".join(
-                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[1]/td[3]/text()').extract()])
+                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[4]/text()').extract()]).strip()
             time[u'Сб: '] = u" ".join(
-                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[1]/td[3]/text()').extract()])
+                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[5]/text()').extract()]).strip()
             time[u'Вс: '] = u" ".join(
-                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[1]/td[3]/text()').extract()])
+                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[6]/text()').extract()]).strip()
+
             time_str = []
             for k, v in time.iteritems():
-                time_str.append(k + v)
+                if v.find(u'Выходной') == -1:
+                    time_str.append(k + v)
 
             office['region'] = region
             office['time'] = u", ".join(time_str)

@@ -119,6 +119,133 @@ BY_TYL_CODES = [unicode(x) for x in (
     1514
 )]
 
+BY_CITIES = {
+    u"Минская область": [
+        u"Березино",
+        u"Борисов",
+        u"Вилейка",
+        u"Воложин",
+        u"Дзержинск",
+        u"Клецк",
+        u"Копыль",
+        u"Крупки",
+        u"Логойск",
+        u"Любань",
+        u"Молодечно",
+        u"Мядель",
+        u"Несвиж",
+        u"Марьина Горка",
+        u"Слуцк",
+        u"Смолевичи",
+        u"Солигорск",
+        u"Старые Дороги",
+        u"Столбцы",
+        u"Узда",
+        u"Червень",
+        u"Жодино"
+    ],
+    u"Брестская область": [
+        u"Барановичи",
+        u"Береза",
+        u"Ганцевичи",
+        u"Дрогичин",
+        u"Жабинка",
+        u"Иваново",
+        u"Ивацевичи",
+        u"Каменец",
+        u"Кобрин",
+        u"Лунинец",
+        u"Ляховичы",
+        u"Малорита",
+        u"Пинск",
+        u"Пружаны",
+        u"Столин",
+    ],
+    u"Витебская область": [
+        u"Браслав",
+        u"Бешенковичи",
+        u"Верхнедвинск",
+        u"Глубокое",
+        u"Городок",
+        u"Докшицы",
+        u"Дубровно",
+        u"Лепель",
+        u"Лиозно",
+        u"Миоры",
+        u"Орша",
+        u"Полоцк",
+        u"Поставы",
+        u"Россоны",
+        u"Сенно",
+        u"Толочин",
+        u"Ушачи",
+        u"Чашники",
+        u"Шарковщина",
+        u"Шумилино",
+    ],
+    u"Гомельская область": [
+        u"Брагин",
+        u"Буда-Кошелево",
+        u"Ветка",
+        u"Добруш",
+        u"Ельск",
+        u"Житковичи",
+        u"Жлобин",
+        u"Калинковичи",
+        u"Корма",
+        u"Лельчицы",
+        u"Лоев",
+        u"Мозырь",
+        u"Наровля",
+        u"Октябрьский",
+        u"Петриков",
+        u"Речица",
+        u"Рогачев",
+        u"Светлогорск",
+        u"Чечерск",
+        u"Хойники",
+    ],
+    u"Гродненская область": [
+        u"Бол.Берестовица",
+        u"Волковыск",
+        u"Вороново",
+        u"Дятлово",
+        u"Зельва",
+        u"Ивье",
+        u"Кореличи",
+        u"Лида",
+        u"Мосты",
+        u"Новогрудок",
+        u"Ошмяны",
+        u"Островец",
+        u"Свислочь",
+        u"Слоним",
+        u"Сморгонь",
+        u"Щучин",
+    ],
+    u"Могилевская область": [
+        u"Белыничи",
+        u"Бобруйск",
+        u"Быхов",
+        u"Горки",
+        u"Глуск",
+        u"Дрибин",
+        u"Кировск",
+        u"Климовичи",
+        u"Кличев",
+        u"Костюковичи",
+        u"Краснополье",
+        u"Кричев",
+        u"Круглое",
+        u"Мстиславль",
+        u"Осиповичи",
+        u"Славгород",
+        u"Хотимск",
+        u"Чаусы",
+        u"Чериков",
+        u"Шклов",
+    ]}
+
 
 class LifecomPipeline(object):
     counter = 0
@@ -182,6 +309,13 @@ class LifecomPipeline(object):
         sortd = sorted(days, key=lambda x: ethalon.index(x))
         return list(set([sortd[0], sortd[-1]]))
 
+    def get_region(self, city):
+        for k, v in BY_CITIES.iteritems():
+            if city in v:
+                return k
+
+        return False
+
     def process_item(self, item, spider):
 
         name = self.validate_str(item['name'])
@@ -191,6 +325,9 @@ class LifecomPipeline(object):
             raise DropItem()
 
         if name.find(u'Евросеть') >= 0:
+            raise DropItem()
+
+        if name.find(u'Клуб') >= 0:
             raise DropItem()
 
         xml_item = etree.SubElement(self.xml, 'company')
@@ -205,15 +342,18 @@ class LifecomPipeline(object):
         xml_name.text = name
 
         tsa = self.try_split_addr(address)
+        region = self.get_region(self.validate_str(item['city'])) or u""
+        if region:
+            region += u", "
         if len(tsa) > 1:
             xml_addr = etree.SubElement(xml_item, 'address', lang=u'ru')
-            xml_addr.text = u"город " + self.validate_str(item['city']) + u', ' + tsa[0]
+            xml_addr.text = region + u"город " + self.validate_str(item['city']) + u', ' + tsa[0]
 
             xml_addr_add = etree.SubElement(xml_item, 'address-add', lang=u'ru')
             xml_addr_add.text = tsa[1]
         else:
             xml_addr = etree.SubElement(xml_item, 'address', lang=u'ru')
-            xml_addr.text = u"город " + self.validate_str(item['city']) + u', ' + address
+            xml_addr.text = region + u"город " + self.validate_str(item['city']) + u', ' + address
 
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = u'Беларусь'
