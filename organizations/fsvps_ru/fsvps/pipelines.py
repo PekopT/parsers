@@ -48,6 +48,7 @@ class FsvpsPipeline(object):
                 if phone.strip():
                     phone = re.sub('\D','',phone)
                     phone = re.sub("^8", '', phone)
+                    status = False
                     for code in BY_TYL_CODES:
                         if phone.find(code) == 0:
                             phones.append(u"+7" + u" (" + code + u") " + re.sub("^%s" % code, '', phone))
