@@ -1,0 +1,4699 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<companies xmlns:xi="http://www.w3.org/2001/XInclude" version="2.1">
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Белгородской области</name>
+    <address> г.Белгород, ул.Щорса, д. </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4722751603</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email></email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/belgorod</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967174</actualization-date>
+    <coun-item>1</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Орловской и Курской областям</name>
+    <address> г. Орел, ул. Пожарная, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>486276104684712513862</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>148028</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rosnadzor@orel.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/orel</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967256</actualization-date>
+    <coun-item>2</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Костромской и Ивановской областям</name>
+    <address> г.Кострома, пр-т Мира, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4942370073</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>selhoznadzor@kmtn.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/kostroma</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967294</actualization-date>
+    <coun-item>3</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Калужской области</name>
+    <address> г.Калуга, ул. Московская, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4842591785</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rosselhosnadzor@kaluga.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/kaluga</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967329</actualization-date>
+    <coun-item>4</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Воронежской области</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4732605710</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsnadzor@comch.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/voronezh</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967340</actualization-date>
+    <coun-item>5</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора  по Рязанской и Тамбовской областям</name>
+    <address> г.Рязань, ул.Костычева, </address>
+    <country lang="ru">Россия</country>
+    <email>info@rsnadzor.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/ryazan</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967436</actualization-date>
+    <coun-item>6</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по г.Москва, Московской и Тульской областям</name>
+    <address> г.Москва, проспект Маршала Жукова, д.</address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4954116192</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4954118994</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsnmoskva@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/moscow</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967446</actualization-date>
+    <coun-item>7</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Брянской и Смоленской областям</name>
+    <address> Брянская область, Брянский район, пос. Путевка, ул. Рославльская, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4832626452</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>veter@online.debryansk.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/bryansk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967507</actualization-date>
+    <coun-item>8</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Владимирской области</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <email></email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/vladimir</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967518</actualization-date>
+    <coun-item>9</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Санкт-Петербургу и Ленинградской области</name>
+    <address> г. Санкт-Петербург, ул. Швецова, д.</address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8122522325</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>clerk@ursn.spb.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/spb</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967528</actualization-date>
+    <coun-item>10</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Вологодской области</name>
+    <address> </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88172720498</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>ursn35@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/vologda</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967555</actualization-date>
+    <coun-item>11</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Калининградской области</name>
+    <address> г. Калининград, Советский пр-т, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4012990151</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4012990150</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>RSHN_kaliningrad@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/kaliningrad</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967597</actualization-date>
+    <coun-item>12</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Республике Коми</name>
+    <address> г.Сыктывкар, м.Дырнос, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8212311955</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsnkomi@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/komi</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967623</actualization-date>
+    <coun-item>13</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Камчатскому краю и Чукотскому АО</name>
+    <address> г. Петропавловск-Камчатский, ул. Академика Королёва, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4152224248</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4152235605</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rshn_kam@rai.kamchatka.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/kamchatka</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967662</actualization-date>
+    <coun-item>14</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Республике Карелия, Архангельской области и Ненецкому автономному округу</name>
+    <address> г. Петрозаводск, ул. Мурманская, д. </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8142782432</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>ohotupravlenie@karelia.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/kareliya</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967679</actualization-date>
+    <coun-item>15</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Липецкой области</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4742797363</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4742797362</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email></email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/lipeck</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967691</actualization-date>
+    <coun-item>16</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Ярославской области</name>
+    <address> г. Ярославль, ул. Республиканская, д.</address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84852308990</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>natguard@yaroslavl.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/yaroslavl</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967700</actualization-date>
+    <coun-item>17</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Магаданской области</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4132622421</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsn@maglan.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/magadan</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967711</actualization-date>
+    <coun-item>18</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Республике Крым и городу Севастополь</name>
+    <address> г.Симферополь, ул. Оленчука, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>810383652602160</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>810383652602627</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>810380692425699</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3652602160</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>602627</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>Upr_RSHN_Crimea@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/crimea</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967723</actualization-date>
+    <coun-item>19</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора на государственной границе, транспорте и внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84722754703</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за качеством и безопасностью  зерна и продуктов его переработки</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84722541702</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84722346783</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за обеспечением качества семян</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84722340978</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84722552901</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел правовой и контрольной работы</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84722751666</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Хабаровскому краю и Еврейской автономной области</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <email></email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/habarovsk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967850</actualization-date>
+    <coun-item>20</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84842799244</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора на государственной границе и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84842799243</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел фитосанитарного надзора и качества зерна</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84942450091</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Омской области</name>
+    <address> г.Омск, ул. Училищная, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3812313144</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsn_aa.omsk@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/omsk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967920</actualization-date>
+    <coun-item>21</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного надзора в области внешнего карантина растений, качества и безопасности зерна</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84842793314</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного надзора в области внутреннего карантина растений и семянного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84842793314</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84842591790</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Забайкальскому краю и Амурской области</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3022283600</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsnchita@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/chita</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967954</actualization-date>
+    <coun-item>22</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84942370176</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего государственного ветеринарного надзора и информационного обеспечения</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84942450061</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора на государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84942450061</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Томской области</name>
+    <address> г.Томск, пр.Фрунзе, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3822446385</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3822446384</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>ruk@ursn.tomsk.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/tomsk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816967973</actualization-date>
+    <coun-item>23</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Приморскому краю и Сахалинской области</name>
+    <address> Приморский край, г. Владивосток, ул. Воропаева, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4232964718</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>primnadzor@yandex.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/primorsk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968035</actualization-date>
+    <coun-item>24</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Республике Саха (Якутия)</name>
+    <address> г. Якутск, пр.Ленина, д.</address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4112421261</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rshn14rus@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/saha</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968052</actualization-date>
+    <coun-item>25</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора за обеспечением здоровья животных и безопасностью продукции животного происхождения и лабораторного контроля и пограничного ветеринарного контроля на Государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4732605712</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничноговетеринарного контроля на государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4732267300</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за качеством зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4732544998</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора за обеспечением &#13;
+		 здоровья животных, безопасности продукции животного происхождения и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области защиты растений и агрохимии</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел делопроизводства и контрольно-аналитической работы</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора (21 человек)</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4922421052</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел фитосанитарного надзора, семенного контроля и качества зерна (20 человек)</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4922451654</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4922326114</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Кемеровской области</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3842361589</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rosnadzor@rsn42.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/kemerovo</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968253</actualization-date>
+    <coun-item>26</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на Государственной границе Российской Федерации</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8126774491</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего карантина растений, надзора в области семеноводства сельскохозяйственных растений и безопасности зерна</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8126774490</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного надзора и пограничного ветеринарного контроля на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8212218257</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора (14 человек)</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4922451624</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Новосибирской области</name>
+    <address> г.Новосибирск, ул. Немировича-Данченко, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3833040907</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsnnso@ngs.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/novosibirsk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968305</actualization-date>
+    <coun-item>27</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного и фитосанитарного надзора на государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел по надзору за качеством и безопасностью зерна и продуктов его переработки</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области внутреннего карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел лесного и пожарного контроля и надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел по надзору за безопасным обращением с пестицидами и агрохимикатами</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на Государственной границе Российской Федерации</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного надзора в области внутреннего карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного семенного надзора и качества зерна</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Орловский отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Курский отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Межрайонный отдел государственного ветеринарного и фитосанитарного надзора г. Ливны</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8126774497</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8123202706</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8123202702</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений, качества и безопасности зерна и продуктов его переработки</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8212445053</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8212215205</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Межрайонный отдел государственного ветеринарного и фитосанитарного надзора г. Льгов</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Межрайонный отдел государственного ветеринарного и фитосанитарного надзора г. Курчатов</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Межрайонный отдел государственного ветеринарного и фитосанитарного надзора г. Железногорск</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Межрайонный отдел государственного ветеринарного и фитосанитарного надзора п. Кшень</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Межрайонный отдел государственного ветеринарного и фитосанитарного надзора п. Белая</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Межрайонный отдел государственного ветеринарного и фитосанитарного надзора с. Мантурово</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4132639046</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4132627939</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного надзора на Государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4132648134</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4132629957</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>627664</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на Государственной границе РФ</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4132608442</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4132639520</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел фитосанитарного надзора, надзора в сфере качества и безопасности зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4132608437</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4132608447</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел по надзору за качеством и безопасностью зерна и продуктов его переработки</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области внутреннего карнатина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел лесного и пожарного контроля и надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного и фитосанитарного надзора на государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел по надзору за безопасным обращением с пестицидами и агрохимикатами</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора за обеспечением здоровья животных, безопасностью продукции животного происхождения и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84852303701</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84852303701</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на Государственной границы Российской Федерации</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4012957842</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Фитосанитарные контрольные посты</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел фитосанитарного и земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4012936107</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Республикам Хакасия и Тыва</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3902224676</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsnkhakasia@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/hakasiya</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968513</actualization-date>
+    <coun-item>28</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Иркутской области и Республике Бурятия</name>
+    <address> г. Иркутск, ул. Красноярская, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3952559518</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3012466357</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>selhoznadzor@irmail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/irkutsk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968524</actualization-date>
+    <coun-item>29</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по  Алтайскому краю и Республике Алтай</name>
+    <address> г. Барнаул, ул. Пролетарская, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3852242279</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rshn@intelbi.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/altai</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968533</actualization-date>
+    <coun-item>30</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4132608438</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4132648127</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений, за качеством и   безопасностью зерна, за безопасным обращением с пестицидами и агрохимикатами</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84852301444</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84852308992</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>84852308992</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного и внутреннего фитосанитарного контроля и надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного и внутреннего ветеринарного контроля и надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4012960690</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Пограничные ветеринарные контрольные пункты</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4012990185</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Красноярскому краю</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3912019301</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3912019291</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>krsn@bk.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/krasnoyarsk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968675</actualization-date>
+    <coun-item>31</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3822452165</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего Государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3822263499</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного и внутреннего ветеринарного контроля и надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного и фитосанитарного надзора по Ненецкому автономному округу</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел организации земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного и внутреннего фитосанитарного контроля и надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений, качества и безопасности зерна</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3822444219</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за качеством зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3822444636</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3822443245</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Курганской области</name>
+    <address> г. Курган, ул. Володарского, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3522432545</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsn_kurgan@orbitel.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/kurgan</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968803</actualization-date>
+    <coun-item>32</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Оренбургской области</name>
+    <address> г.Оренбург, ул.Монтажников д.</address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3532755975</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3532759932</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rosselxoz@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/orenburg</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968814</actualization-date>
+    <coun-item>33</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора за обеспечением здоровья животных, контроля за безопасностью продукции животного происхождения и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84112421383</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного пограничного ветеринарного контроля на государственной границе РФ и транспорта</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84112420415</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Челябинской области</name>
+    <address> г. Челябинск, ул. Кудрявцева, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3517736447</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>vet_nadzor@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/chelabinsk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968835</actualization-date>
+    <coun-item>34</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора &#13;
+        за обеспечением здоровья животных, безопасностью продукции и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84232964759</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84232963896</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора и аналитической работы</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84232963763</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3812443147</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3812443428</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора за обеспечением здоровья животных, безопасностью продукции животного происхождения и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3812442188</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Тюменской области, Ямало-Ненецкому и Ханты-Мансийскому АО</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83452432196</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>433533</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>ursn72@ro.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/tumen</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968867</actualization-date>
+    <coun-item>35</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Свердловской области</name>
+    <address> г.Екатеринбург, ул.Грузчиков, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3433705061</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3433781930</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>office@rsnso.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/sverdlovsk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816968935</actualization-date>
+    <coun-item>36</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел фитосанитарного надзора и контроля за качеством зерна</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84112421383</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84112420415</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел правового обеспечения, контроля за административным производством</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84232964715</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за безопасностью и качеством продукции</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84232963769</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел оперативного надзора на транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84232532603</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Дальнереченский отдел по ветеринарному и фитосанитарному надзору</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84235628392</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Юго-Восточный отдел по ветеринарному и фитосанитарному надзору</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84236692595</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантина растений, качества и безопасности зерна и семенного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3812656389</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3812370878</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3812988311</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3833465685</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного контроля на государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3833152087</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Уссурийский отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84234329023</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Хасанский отдел по ветеринарному и фитосанитарному надзору</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84233150250</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Сахалинский отдел по ветеринарному и фитосанитарному надзору</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84242735917</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3833152817</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за качеством и безопасностью зерна, продуктов его переработки и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3833040870</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3833465628</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83842361584</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>349915</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по  Пермскому краю</name>
+    <address> Пермский край, Пермский район, д. Песьянка, п/о Ванюки, ул. Строителей, д. </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3422979344</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>prruk06@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/perm</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969117</actualization-date>
+    <coun-item>37</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по  Нижегородской области и Республике Марий Эл</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8314355145</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>ursn.nn@gmail.com</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/nizhnovgorod</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969128</actualization-date>
+    <coun-item>38</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Самарской области</name>
+    <address> г. Самара, ул. Ново-Садовая, д. </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8463425300</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>info@mcx-samara.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/samara</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969139</actualization-date>
+    <coun-item>39</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Кировской области и Удмуртской Республике</name>
+    <address> г.Киров, Мелькомбинатовский проезд, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88332541427</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>info@rshn43.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/kirov</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969201</actualization-date>
+    <coun-item>40</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Чувашской Республике и Ульяновской области</name>
+    <address> г.Чебоксары, ул.Крупской, д.</address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8352528033</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsnadzor21@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/chuvashiya</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969211</actualization-date>
+    <coun-item>41</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Саратовской области</name>
+    <address> г. Саратов, территория санатория «Октябрьское ущелье»</address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8452529450</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>RSN-Saratov@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/saratov</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969229</actualization-date>
+    <coun-item>42</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3852667030</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3852668408</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>79609600805</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3852668160</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>79609520378</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного и фитосанитарного надзора по Республике Алтай</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3884424992</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>79139997643</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3852669744</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>79069613305</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3852668327</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>79635200403</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел по надзору за качеством и безопасностью зерна, крупы, комбикормов и компонентов для их производства</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3852668325</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>79635315550</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3852668434</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>79059896079</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего карантина растений и надзора за качеством зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83842361580</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего Государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83842349907</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>349909</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на Государственной границе Российской федерации</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83842756455</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе Российской федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83842361586</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Пресс-служба Управления Россельхознадзора по Алтайскому краю и Республике Алтай</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3852630933</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>79132295404</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на Государственной границе Российской Федерации и внутреннего карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по  Республике Татарстан</name>
+    <address> г. Казань, ул. Оренбурский тракт, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8435702008</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>agronadzor_rt@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/tatarstan</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969377</actualization-date>
+    <coun-item>43</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Республике Мордовия и Пензенской области</name>
+    <address> Республика Мордовия, г. Саранск, ул. Коммунистическая, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8342471838</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>buhrm@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/mordovia</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969403</actualization-date>
+    <coun-item>44</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Республике Башкортостан</name>
+    <address> г. Уфа, Лесной проезд, дом </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3472485600</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3472485429</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rosselhoznadrb@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/bashkortostan</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969413</actualization-date>
+    <coun-item>45</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Ставропольскому краю</name>
+    <address> г. Ставрополь, ул. Крупской, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8652236267</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>fsskik@mail.stv.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/stavropol</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969423</actualization-date>
+    <coun-item>46</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Чеченской Республике</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8712262146</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rshn-chr95@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/chechnya</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969434</actualization-date>
+    <coun-item>47</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83912019305</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора за обеспечением здоровья животных, безопасностью продуктов животного происхождения и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83912019307</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел по надзору за качеством и безопасностью зерна, крупы, комбикормов и компонентов для их производства и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений, сфере надзора качества и безопасности  зерна и продуктов его переработки и семенного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного и фитосанитарного надзора по Республике Тыва Управления Россельхознадзора по Республикам Хакасия и Тыва</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел по вопросам государственной службы, кадров, делопроизводства и&#13;
+организации контрольной работы</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел по надзору в области семеноводства, безопасности и качества зерна</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83912266901</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>2266902</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора по карантину растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83912266904</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83912266905</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного пограничного ветеринарного контроля на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора за обеспечением здоровья животных, за продукцией животного происхождения и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за качеством зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3452431512</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83517371483</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора на государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3532751569</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора за обеспечением здоровья животных, безопасностью продукции животного происхождения и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3532751048</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3532352808</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного надзора в области семеноводства</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3532750795</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3532750992</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора внутреннего карантина растений, качества и безопасности зерна и продуктов его переработки</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3532352779</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Кабардино-Балкарской Республике</name>
+    <address> Кабардино-Балкарская Республика, г. Нальчик, пр. Ленина, д. </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8662778141</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>RosselxozKBR@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/kabardino</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969881</actualization-date>
+    <coun-item>48</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3452430201</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3452433686</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3452221331</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел  ветеринарного надзора на Государственной границе и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3452439782</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел организационно-контрольной работы</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3452221441</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Республике Северная Осетия — Алания</name>
+    <address> Республика Северная Осетия–Алания, г. Владикавказ, ул. Армянская, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8672543894</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rsn@rsn15.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/alaniya</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969905</actualization-date>
+    <coun-item>49</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора за обеспечением здоровья животных, безопасности продукции животного происхождения и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3433781930</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3522413169</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>3522431928</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3522422030</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Карачаево-Черкесской Республике</name>
+    <address> г.Черкесск, ул. Калантаевского, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8782265587</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>nadzorkhr@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/kch</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816969997</actualization-date>
+    <coun-item>50</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83512606826</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83517714168</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за обеспечением карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83512653743</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора качеством зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83517967179</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора на Государственной границе и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3433663912</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3432723006</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за качеством зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3433705061</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3432694246</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8452413762</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел организационно-контрольной, кадровой и правовой работы</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8352528052</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел контрольно-аналитической работы, по связям с общественностью и средствами массовой информации</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8352527215</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за качеством зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3522546959</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>3522253395</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел  семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8452228554</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8452228151</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного контроля (надзора)</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8452744534</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Заместитель руководителя Управления Россельхознадзора по Чувашской Республике</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений, за качеством зерна и семенному контролю</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8352545566</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8352527038</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Заместитель руководителя Управления Россельхознадзора по Чувашской Республике</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8352527218</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного контроля и надзора на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8352539228</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Ростовской и Волгоградским областям и Республике Калмыкия</name>
+    <address> г. Ростов-на-Дону, ул. Малюгиной, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8632665159</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>ursnro_sec@donpac.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/rostov</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816970177</actualization-date>
+    <coun-item>51</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Астраханской области</name>
+    <address></address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8512266981</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>astselhoznadzor@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/astrahan</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816970194</actualization-date>
+    <coun-item>52</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора  на государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88314355172</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по  Республике Ингушетия</name>
+    <address> г. Назрань, ул. Московская, д. </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>87322251238732221142</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rosselhoznadzor.ing@yandex.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/ingushetia</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816970301</actualization-date>
+    <coun-item>53</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Республике Дагестан</name>
+    <address> А</address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8722646716</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>Rosselhoz-DAG@yandex.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/dagestan</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816970312</actualization-date>
+    <coun-item>54</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Заместитель руководителя Управления Россельхознадзора по Ульяновской области</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Заместитель руководителя Управления Россельхознадзора по Ульяновской области</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88332633573</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88332541043</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>83412541731</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88332670179</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>83412511059</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного надзора на Государственной границе РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88332670925</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>83412511235</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел семенного контроля и надзора  за качеством и безопасностью зерна и продуктов его переработки</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного и эпизоотического надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел фитосанитарного надзора и надзора в сфере семенного контроля и безопасности зерна</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88314355175</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел контроля качества семян сельскохозяйственных растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88314355141</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за безопасным обращением с пестицидами и агрохимикатами</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88314355180</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел по надзору за качеством зерна и продуктов его переработки</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88314355181</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел лесного контроля и пожарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88314355174</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88314355170</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Госветнадзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел фитосанитарного надзора, качества зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83472485469</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Новгородской области</name>
+    <address> г.Великий Новгород, ул.Нутная, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8162635280</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>rosnadzor@novgorod.net</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/novgorod</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816970568</actualization-date>
+    <coun-item>55</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Краснодарскому краю и Республике Адыгея</name>
+    <address> г. Краснодар, Лукьяненко,  д.</address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8612222031</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>8612224589</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>quarant@mail.kuban.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/krasnodar</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816970580</actualization-date>
+    <coun-item>56</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Мурманской области</name>
+    <address> г.Мурманск, ул.Траловая, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88152687304</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>murmansk@rsn51.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/murmansk</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816970593</actualization-date>
+    <coun-item>57</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Управление Россельхознадзора по Тверской и Псковской областям</name>
+    <address> г. Тверь, ул. Озерная, </address>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4822587952</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>509801</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>509802</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email>ohota69@mail.ru</email>
+    <url lang="ru">http://www.fsvps.ru/fsvps/structure/terorgs/tver</url>
+    <rubric-id>184105646</rubric-id>
+    <actualization-date>1455816970604</actualization-date>
+    <coun-item>58</coun-item>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8432789353</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8432776583</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8432775220</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного надзора на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83472485469</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантина растений и обеспечения государственного контроля за качеством и безопастностью зерна, &#13;
+        комбикормов и компонентов для их производства, а также побочных продуктов переработки зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83472329290</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>83472375274</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора по Республике Мордовия</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8342241210</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора по Пензенской области</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8412629739</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора на Государственной границе РФ и транспорте по Республике Мордовия</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8342232455</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора на Государственной границе РФ и транспорте по Пензенской области</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8412629774</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений, качества и безопасности зерна и продуктов его переработки по Республике Мордовия</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8342243290</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел фитосанитарного надзора и надзора за качеством зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8432776829</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений, качества и безопасности зерна и продуктов его переработки по Пензенской области</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88412629144</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора по Республике Мордовия</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8342243706</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора по Пензенской области</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8412629128</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области семеноводства по Республике Мордовия</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8342232459</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области семеноводства по Пензенской области</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88412629137</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88782250690</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>54</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>88662778175</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области семеноводства и государственного контроля за качеством и безопасностью зерна, комбикормов и компонентов для его производства, а также побочной продукции переработки зерна</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>54</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>88662778239</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного надзора на Государственной границе РФ</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88672750234</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>756186</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе, транспорте и ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88782260640</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного карантинного фитосанитарного контроля и надзора за использованием семенного материала, зерна и продуктов его переработки</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88782262981</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>54</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>88662778149</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>54</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>88662778156</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел фитосанитарного надзора и качества зерна, и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88672754723</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного надзора на Государственной границе и на транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88672539373</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88672537222</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел контрольно-аналитической работы, связью с общественностью и СМИ</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88672563282</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного контроля и надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88632665620</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора на государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88632692094</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного фитосанитарного надзора на государственной границе Российской Федерации</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88632237174</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел контроля и надзора в области карантина растений и семеноводства</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88632537432</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного контроля и надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88632623270</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел ветеринарного надзора за объектами аквакультуры</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88632235353</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88722620051</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88722621614</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на госгранице РФ и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88722682932</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного ветеринарного надзора за обеспечением здоровья животных, безопасностью продукции животноводства и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88722675820</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел  по надзору за безопасным обращением с пестицидами и агрохимикатами</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88722780302</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на Государственной границе РФ</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88722780296</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в сфере качества и безопасности зерна и продуктов его переработки</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>88722780515</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на Государственной границе Российской Федерации</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8612221061</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего карантина растений и надзора в сфере безопасности, качества зерна</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8612220028</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8612225911</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел по надзору за качеством и безопасностью зерна и продуктов его переработки</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8612220946</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора за проведением ветеринарно-профилактических мероприятий и организационно-методической работы</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8612221463</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8612221234</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8162636264</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>9116054965</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8612220534</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора в области карантина растений, качества зерна и семян</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8162635092</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>9116054954</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8162636166</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>9116055045</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Краснодарский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8612229570</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Адыгейский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8772524995</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Ейский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8613237113</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Новороссийский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8617613369</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Сочинский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8622964540</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Темрюкский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8614853403</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Усть-Лабинский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8613521506</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Тимашевский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8613043736</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Павловский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8619131611</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Лабинский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8616931663</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Кавказский межрайонный отдел ветеринарного и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8619321388</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел пограничного ветеринарного контроля на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8152252592</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>8152687307</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на государственной границе Российской Федерации</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8112292012</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора за обеспечением здоровья животных, за безопасностью продукции животного происхождения и лабораторного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8155391274</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Апатитский межрайонный отдел (в сфере ветеринарного контроля)</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>8155577711</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Кандалакшский межрайонный отдел (в сфере ветеринарного контроля)</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8153392965</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на Государственной границе Российской Федерации и фитосанитарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8152441842</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>8152444065</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора и информационного обеспечения</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8152687327</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Апатитский межрайонный отдел (в сфере земельного и фитосанитарного контроля)</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>4</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>8155577711</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4822509801156</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного пограничного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8112292011</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>292129240</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора на государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4822525414</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>84822509801162</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Кандалакшский межрайонный отдел (в сфере земельного и фитосанитарного контроля)</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8153392965</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел надзора за качеством зерна и семенного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4822580751</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел карантинного фитосанитарного контроля на государственной границе Российской Федерации</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8112292012</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел земельного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4822509801156</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного пограничного контроля</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>8112292011</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>292129240</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел Государственного ветеринарного надзора на Государственной границе Российской Федерации и транспорте</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4822525414</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+  <company>
+    <company_id>34324</company_id>
+    <name lang="ru">Отдел внутреннего Государственного ветеринарного надзора</name>
+    <address/>
+    <country lang="ru">Россия</country>
+    <phone>
+      <number>4822509801162</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <email/>
+  </company>
+</companies>

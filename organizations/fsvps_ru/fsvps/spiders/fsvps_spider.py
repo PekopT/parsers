@@ -31,7 +31,16 @@ class FsvpsSpider(scrapy.Spider):
         out_item['name'] = response.xpath("//td[@id='contenttd']/div/h2/text()").extract()
         out_item['url'] = response.url
         out_item['phone'] = sel.xpath(phone_pattern).extract()
+
+        if len(out_item['phone']) == 0:
+            phone_pattern_double = "//p[re:test(@class,'generic')][span[contains(text(),'%s')]]/text()" % u'Тел'
+            out_item['phone'] = sel.xpath(phone_pattern_double).extract()
+
         out_item['address'] = sel.xpath(address_pattern).extract()
+        if len(out_item['address']) == 0:
+            address_pattern_double = "//p[re:test(@class,'generic')][span[contains(text(),'%s')]]/text()" % u'Адр'
+            out_item['address'] = sel.xpath(address_pattern_double).extract()
+
         out_item['email'] = sel.xpath(email_pattern).extract()
         out_item['type'] = 1
         yield out_item
@@ -48,7 +57,7 @@ class FsvpsSpider(scrapy.Spider):
             out_item['name'] = item.xpath('span/text()').extract()
             out_item['url'] = response.url
             out_item["content"] = item.extract()
-            out_item['phone'] = ""
+            out_item['phone'] = []
             out_item['address'] = ""
             out_item['email'] = ""
             out_item['type'] = 2

@@ -38,13 +38,15 @@ class FsvpsPipeline(object):
     def validate_phones(self, value):
         phones = []
         if not value:
-            return phones
+            return []
 
-        for tels in value:
-            phns = tels.split(',')
+        for phone in value:
+            phns = phone.split(',')
             for phone in phns:
-                number = re.sub("\D", '', phone).strip()
-                phones.append(number)
+                if phone.strip():
+                    phone = re.sub('\D','',phone)
+                    phones.append(phone)
+
         return phones
 
     def validate_address(self, value):
@@ -53,7 +55,6 @@ class FsvpsPipeline(object):
             addr = try_split[1]
         else:
             addr = try_split[0]
-
         return addr
 
     def validate_otdel_name(self,name,type):
@@ -66,27 +67,57 @@ class FsvpsPipeline(object):
         else:
             return False
 
+    def split_organization(value):
+        new_value = re.sub(u"\s+", '', value)
+        address = new_value.split('г.')
+        if len(address) > 2:
+            return address
+        else:
+            return address.append(value)
+
+    def get_phone_from_content(self,value):
+        phones = []
+        items = value.split('<br>')
+        for item in items:
+            if re.search(u'тел|Тел',item,re.IGNORECASE):
+                phone = item.strip()
+                phns = re.split('; |,',phone)
+                for ph in phns:
+                    phone = re.sub('\D','',ph)
+                    phones.append(phone)
+
+        return phones
+
+    def get_address_from_content(self,value):
+        phones = []
+        items = value.split('<br>')
+        for item in items:
+            if re.search(u'тел|Тел',item,re.IGNORECASE):
+                phone = item.strip()
+                phns = re.split('; |,',phone)
+                for ph in phns:
+                    phone = re.sub('\D','',ph)
+                    phones.append(phone)
+
+        return phones
 
     def process_item(self, item, spider):
-
         name = self.validate_str(item['name'])
-
         type = item['type']
-
-        if not self.validate_otdel_name(name,type):
+        if not self.validate_otdel_name(name, type):
             raise DropItem
-
+        
         url = item['url']
-
-
         if type == 1:
             address = self.validate_str(item['address'])
             address = self.validate_address(address)
             email = self.validate_str(item['email'])
+            phones = item['phone']
         else:
             content = item["content"]
-            address = "Test adress"
-            email = "Test"
+            address = self.get_address_from_content(content)
+            phones = self.get_phone_from_content(content)
+
 
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company_id')
@@ -100,6 +131,15 @@ class FsvpsPipeline(object):
 
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = u'Россия'
+
+        for phone in self.validate_phones(phones):
+            xml_phone = etree.SubElement(xml_item, 'phone')
+            xml_phone_number = etree.SubElement(xml_phone, 'number')
+            xml_phone_number.text = phone.strip()
+            xml_phone_type = etree.SubElement(xml_phone, 'type')
+            xml_phone_type.text = u'phone'
+            xml_phone_ext = etree.SubElement(xml_phone, 'ext')
+            xml_phone_info = etree.SubElement(xml_phone, 'info')
 
         xml_email = etree.SubElement(xml_item, 'email')
         xml_email.text = email
