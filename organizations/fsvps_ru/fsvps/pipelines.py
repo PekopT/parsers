@@ -23,6 +23,11 @@ class FsvpsPipeline(object):
         self.count_item = 0
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
         self.xml = etree.Element('companies', version='2.1', nsmap=self.ns)
+        self.save_data = dict()
+
+    def company_id(self):
+        return u'0005' + unicode(self.count_item)
+
 
     def validate_str(self, value):
         if type(value) == list:
@@ -43,11 +48,15 @@ class FsvpsPipeline(object):
             return []
 
         for phone in value:
-            phns = phone.split(',')
+            if ';' in phone:
+                phns = phone.split(';')
+            else:
+                phns = phone.split(',')
+
             for phone in phns:
                 if phone.strip():
                     phone = re.sub('\D','',phone)
-                    phone = re.sub("^8", '', phone)
+                    #phone = re.sub("^8", '', phone)
                     status = False
                     for code in BY_TYL_CODES:
                         if phone.find(code) == 0:
@@ -56,8 +65,6 @@ class FsvpsPipeline(object):
                             break
                     if not status:
                         phones.append(phone)
-
-
         return phones
 
     def validate_address(self, value):
@@ -68,15 +75,12 @@ class FsvpsPipeline(object):
             addr = try_split[0]
         return addr
 
-
     def remove_postal(self,value):
-        value = re.sub(r"\d{6}",'',value)
-        value = re.sub(u"«|»|\(|\)",'',value)
-        value = re.sub(u'&#13;|&lt;|&gt;|\/li','',value)
-        value.rstrip(',) ')
-        return value
-
-
+       value = re.sub(r"\d{6}",'',value)
+       value = re.sub(u"«|»|\(|\)",'',value)
+       value = re.sub(u'&#13;|&lt;|&gt;|\/li','',value)
+       value.rstrip(',) ')
+       return value
 
     def validate_otdel_name(self,name,type):
         if type == 1:
@@ -137,7 +141,7 @@ class FsvpsPipeline(object):
         url = item['url']
         if type == 1:
             address = self.validate_str(item['address'])
-            address = self.remove_postal(self.validate_address(address))
+            address = self.remove_postal(address)
             email = self.validate_str(item['email'])
             phones = item['phone']
         else:
@@ -148,9 +152,11 @@ class FsvpsPipeline(object):
 
         organizations = self.split_organization(address)
 
+
+        self.count_item +=1
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company_id')
-        xml_id.text = "34324"
+        xml_id.text = self.company_id()
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         xml_name.text = name
@@ -187,15 +193,18 @@ class FsvpsPipeline(object):
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
-        self.count_item +=1
+       # self.count_item +=1
         xml_count = etree.SubElement(xml_item, 'count-item')
         xml_count.text = unicode(self.count_item)
+
+
+        self.data[url] = address
 
 
         if (len(organizations) > 1):
             xml_item2 = etree.SubElement(self.xml, 'company')
             xml_id2 = etree.SubElement(xml_item2, 'company_id')
-            xml_id2.text = "34324"
+            xml_id2.text = self.company_id() + u'_1'
 
             xml_name2 = etree.SubElement(xml_item2, 'name', lang=u'ru')
             xml_name2.text = name
@@ -205,7 +214,7 @@ class FsvpsPipeline(object):
             xml_url2 = etree.SubElement(xml_item2, 'url', lang=u'ru')
             xml_url2.text = url
 
-            self.count_item +=1
+
             xml_count2 = etree.SubElement(xml_item2, 'count-item')
             xml_count2.text = unicode(self.count_item)
 
