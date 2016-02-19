@@ -57,6 +57,16 @@ class FsvpsPipeline(object):
             addr = try_split[0]
         return addr
 
+
+    def remove_postal(self,value):
+        value = re.sub(r"\d{6}",'',value)
+        value = re.sub(u"«|»|\(|\)",'',value)
+        return value
+
+    def remove_quotes(self):
+        pass
+
+
     def validate_otdel_name(self,name,type):
         if type == 1:
             return True
@@ -67,39 +77,45 @@ class FsvpsPipeline(object):
         else:
             return False
 
-    def split_organization(value):
+    def split_organization(self,value):
         new_value = re.sub(u"\s+", '', value)
-        address = new_value.split('г.')
+        address = new_value.split(u'г.')
         if len(address) > 2:
+            del address[0]
             return address
         else:
+            if not value:
+                value = u''
             return address.append(value)
 
     def get_phone_from_content(self,value):
         phones = []
         items = value.split('<br>')
         for item in items:
-            if re.search(u'тел|Тел',item,re.IGNORECASE):
+            if re.search(u'тел|Тел', item, re.IGNORECASE):
                 phone = item.strip()
-                phns = re.split('; |,',phone)
+                phns = re.split('; |,', phone)
                 for ph in phns:
-                    phone = re.sub('\D','',ph)
+                    phone = re.sub('\D', '', ph)
                     phones.append(phone)
 
         return phones
 
     def get_address_from_content(self,value):
-        phones = []
+        address_coll = []
         items = value.split('<br>')
         for item in items:
-            if re.search(u'тел|Тел',item,re.IGNORECASE):
-                phone = item.strip()
-                phns = re.split('; |,',phone)
-                for ph in phns:
-                    phone = re.sub('\D','',ph)
-                    phones.append(phone)
+            item = item.strip()
+            if not re.search(u'span',item):
+                if not re.search(u'(^\(|\)$)',item):
+                    if re.search(u"(г\.|ст\.|п\.|с\.|ул\.)", item,re.IGNORECASE):
+                        address_coll.append(item)
 
-        return phones
+        if len(address_coll) > 0:
+            return address_coll[0]
+        else:
+            return u'Not address'
+
 
     def process_item(self, item, spider):
         name = self.validate_str(item['name'])
@@ -110,13 +126,20 @@ class FsvpsPipeline(object):
         url = item['url']
         if type == 1:
             address = self.validate_str(item['address'])
-            address = self.validate_address(address)
+            address = self.remove_postal(self.validate_address(address))
             email = self.validate_str(item['email'])
             phones = item['phone']
         else:
             content = item["content"]
-            address = self.get_address_from_content(content)
+            address = self.remove_postal(self.get_address_from_content(content))
             phones = self.get_phone_from_content(content)
+            email = ""
+
+        # if  len(address) > 0:
+        #     organizations = self.split_organization(address)
+        # else:
+        #     organizations = []
+        #     organizations = organizations.append('')
 
 
         xml_item = etree.SubElement(self.xml, 'company')
@@ -125,37 +148,55 @@ class FsvpsPipeline(object):
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         xml_name.text = name
-
         xml_address = etree.SubElement(xml_item, 'address')
         xml_address.text = address
 
-        xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
-        xml_country.text = u'Россия'
-
-        for phone in self.validate_phones(phones):
-            xml_phone = etree.SubElement(xml_item, 'phone')
-            xml_phone_number = etree.SubElement(xml_phone, 'number')
-            xml_phone_number.text = phone.strip()
-            xml_phone_type = etree.SubElement(xml_phone, 'type')
-            xml_phone_type.text = u'phone'
-            xml_phone_ext = etree.SubElement(xml_phone, 'ext')
-            xml_phone_info = etree.SubElement(xml_phone, 'info')
-
-        xml_email = etree.SubElement(xml_item, 'email')
-        xml_email.text = email
-
+        # xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
+        # xml_country.text = u'Россия'
+        #
+        # for phone in self.validate_phones(phones):
+        #     xml_phone = etree.SubElement(xml_item, 'phone')
+        #     xml_phone_number = etree.SubElement(xml_phone, 'number')
+        #     xml_phone_number.text = phone.strip()
+        #     xml_phone_type = etree.SubElement(xml_phone, 'type')
+        #     xml_phone_type.text = u'phone'
+        #     xml_phone_ext = etree.SubElement(xml_phone, 'ext')
+        #     xml_phone_info = etree.SubElement(xml_phone, 'info')
+        #
+        # xml_email = etree.SubElement(xml_item, 'email')
+        # xml_email.text = email
+        #
         xml_url = etree.SubElement(xml_item, 'url', lang=u'ru')
         xml_url.text = url
 
-        xml_rubric = etree.SubElement(xml_item, 'rubric-id')
-        xml_rubric.text = u"184105646"
-
-        xml_date = etree.SubElement(xml_item, 'actualization-date')
-        xml_date.text = unicode(int(round(time.time() * 1000)))
-
+        # xml_rubric = etree.SubElement(xml_item, 'rubric-id')
+        # xml_rubric.text = u"184105646"
+        #
+        # xml_date = etree.SubElement(xml_item, 'actualization-date')
+        # xml_date.text = unicode(int(round(time.time() * 1000)))
+        #
         self.count_item +=1
-        xml_count = etree.SubElement(xml_item, 'coun-item')
+        xml_count = etree.SubElement(xml_item, 'count-item')
         xml_count.text = unicode(self.count_item)
+
+
+        # if (len(organizations) > 1):
+        #     xml_item2 = etree.SubElement(self.xml, 'company')
+        #     xml_id2 = etree.SubElement(xml_item2, 'company_id')
+        #     xml_id2.text = "34324"
+        #
+        #     xml_name2 = etree.SubElement(xml_item2, 'name', lang=u'ru')
+        #     xml_name2.text = name
+        #     xml_address2 = etree.SubElement(xml_item2, 'address')
+        #     xml_address2.text = organizations[1]
+        #
+        #     xml_url2 = etree.SubElement(xml_item2, 'url', lang=u'ru')
+        #     xml_url2.text = url
+        #
+        #     self.count_item +=1
+        #     xml_count2 = etree.SubElement(xml_item2, 'count-item')
+        #     xml_count2.text = unicode(self.count_item)
+
 
 
     def close_spider(self, spider):

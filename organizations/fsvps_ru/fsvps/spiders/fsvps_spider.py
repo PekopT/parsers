@@ -21,8 +21,9 @@ class FsvpsSpider(scrapy.Spider):
 
     def parse_page(self, response):
         sel = response.xpath("//div[@class='nText']")
-        address_pattern = "//p[re:test(@class,'noin?dent')][span[contains(text(),'%s')]]/span[@class='big']/text()" \
-                          % u'Адрес'
+        address_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()" \
+                          % u'Адр|адр'
+
         phone_pattern = "//p[re:test(@class,'noin?dent')][span[contains(text(),'%s')]]/span[@class='big']/text()" \
                         % u'Тел'
         email_pattern = "//p[re:test(@class,'noin?dent')][span[contains(text(),'%s')]]/a/text()" % 'mail'
@@ -40,6 +41,11 @@ class FsvpsSpider(scrapy.Spider):
         if len(out_item['address']) == 0:
             address_pattern_double = "//p[re:test(@class,'generic')][span[contains(text(),'%s')]]/text()" % u'Адр'
             out_item['address'] = sel.xpath(address_pattern_double).extract()
+            if len(out_item['address']) == 0:
+                address_pattern3 = "//p[re:test(@class,'noin?dent')][b[re:test(text(),'%s')]]/span[@class='big']/text()" \
+                          % u'Адр|адр'
+                out_item['address'] = sel.xpath(address_pattern3).extract()
+
 
         out_item['email'] = sel.xpath(email_pattern).extract()
         out_item['type'] = 1
