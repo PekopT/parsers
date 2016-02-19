@@ -27,18 +27,24 @@ class FsvpsSpider(scrapy.Spider):
         address_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()" \
                           % u'Адр|адр'
 
-        phone_pattern = "//p[re:test(@class,'noin?dent')][span[contains(text(),'%s')]]/span[@class='big']/text()" \
-                        % u'Тел'
-        email_pattern = "//p[re:test(@class,'noin?dent')][span[contains(text(),'%s')]]/a/text()" % 'mail'
+        phone_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()" \
+                        % u'Тел|тел'
+        email_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/a/text()" % 'mail'
 
         out_item = FsvpsItem()
         out_item['name'] = response.xpath("//td[@id='contenttd']/div/h2/text()").extract()
         out_item['url'] = response.url
-        out_item['phone'] = sel.xpath(phone_pattern).extract()
 
+        out_item['phone'] = sel.xpath(phone_pattern).extract()
         if len(out_item['phone']) == 0:
-            phone_pattern_double = "//p[re:test(@class,'generic')][span[contains(text(),'%s')]]/text()" % u'Тел'
+            phone_pattern_double = "//p[re:test(@class,'generic')][span[re:test(text(),'%s')]]/text()" % u'Тел|тел'
             out_item['phone'] = sel.xpath(phone_pattern_double).extract()
+            if len(out_item['phone']) == 0:
+                phone_pattern3 = "//p[re:test(@class,'noin?dent')][b[re:test(text(),'%s')]]/span[@class='big']/text()" \
+                          % u'Тел|тел'
+                out_item['address'] = sel.xpath(phone_pattern3).extract()
+
+
 
         out_item['address'] = sel.xpath(address_pattern).extract()
         if len(out_item['address']) == 0:

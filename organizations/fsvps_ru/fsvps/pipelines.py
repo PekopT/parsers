@@ -14,109 +14,7 @@ from scrapy.exceptions import DropItem
 
 sout = getwriter("utf8")(stdout)
 
-BY_TYL_CODES = [unicode(x) for x in (
-  3012,
-  3022,
-  3412,
-  3435,
-  3439,
-  3452,
-  3456,
-  3462,
-  3463,
-  3466,
-  3473,
-  3494,
-  3496,
-  3513,
-  3519,
-  3532,
-  3537,
-  3812,
-  3822,
-  3823,
-  3842,
-  3843,
-  3846,
-  3852,
-  3854,
-  3882,
-  3902,
-  3919,
-  3942,
-  3952,
-  3953,
-  3955,
-  4012,
-  4112,
-  4132,
-  4152,
-  4162,
-  4212,
-  4217,
-  423,
-  4234,
-  4236,
-  4242,
-  4712,
-  4722,
-  4725,
-  4742,
-  4752,
-  4812,
-  4822,
-  4832,
-  4842,
-  4852,
-  4855,
-  4862,
-  4872,
-  4912,
-  4922,
-  4932,
-  4942,
-  8112,
-  8142,
-  8152,
-  8162,
-  8172,
-  8202,
-  8212,
-  8216,
-  8313,
-  8332,
-  8342,
-  8352,
-  8362,
-  8412,
-  8422,
-  8442,
-  8443,
-  8452,
-  8453,
-  8464,
-  8482,
-  8512,
-  8552,
-  8553,
-  8555,
-  8557,
-  8617,
-  862,
-  8634,
-  8635,
-  8636,
-  8639,
-  8652,
-  8662,
-  8672,
-  8712,
-  8722,
-  8732,
-  8772,
-  8782,
-  8793
-)]
+from phonecodes import BY_TYL_CODES
 
 
 class FsvpsPipeline(object):
@@ -153,7 +51,10 @@ class FsvpsPipeline(object):
                     for code in BY_TYL_CODES:
                         if phone.find(code) == 0:
                             phones.append(u"+7" + u" (" + code + u") " + re.sub("^%s" % code, '', phone))
+                            status = True
                             break
+                    if not status:
+                        phones.append(phone)
 
 
         return phones
@@ -171,6 +72,7 @@ class FsvpsPipeline(object):
         value = re.sub(r"\d{6}",'',value)
         value = re.sub(u"«|»|\(|\)",'',value)
         value = re.sub(u'&#13;|&lt;|&gt;|\/li','',value)
+        value.rstrip(',) ')
         return value
 
 
@@ -251,8 +153,12 @@ class FsvpsPipeline(object):
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         xml_name.text = name
-        xml_address = etree.SubElement(xml_item, 'address')
-        xml_address.text = organizations[0]
+
+        address = organizations[0].rstrip(',.; ').lstrip(',( ')
+
+        if address:
+            xml_address = etree.SubElement(xml_item, 'address')
+            xml_address.text = address
 
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = u'Россия'
@@ -266,8 +172,10 @@ class FsvpsPipeline(object):
             xml_phone_ext = etree.SubElement(xml_phone, 'ext')
             xml_phone_info = etree.SubElement(xml_phone, 'info')
 
-        xml_email = etree.SubElement(xml_item, 'email')
-        xml_email.text = email
+
+        if email:
+            xml_email = etree.SubElement(xml_item, 'email')
+            xml_email.text = email
 
         xml_url = etree.SubElement(xml_item, 'url', lang=u'ru')
         xml_url.text = url
@@ -291,7 +199,7 @@ class FsvpsPipeline(object):
             xml_name2 = etree.SubElement(xml_item2, 'name', lang=u'ru')
             xml_name2.text = name
             xml_address2 = etree.SubElement(xml_item2, 'address')
-            xml_address2.text = organizations[1]
+            xml_address2.text = organizations[1].rstrip(',.; ').lstrip(',( ')
 
             xml_url2 = etree.SubElement(xml_item2, 'url', lang=u'ru')
             xml_url2.text = url
