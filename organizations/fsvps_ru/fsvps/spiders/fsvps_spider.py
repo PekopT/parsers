@@ -22,9 +22,8 @@ class FsvpsSpider(scrapy.Spider):
     def parse_page(self, response):
         sel = response.xpath("//div[@class='nText']")
        # new_adress_pattern = "//p[re:test(@class,'noin?dent|generic') and re:test(text(),'%s')]/text()" % u'Адр|адр'
-        pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()"
         address_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()" \
-                          % u'Адр|адр'
+                          % u'Адр|адр|есторасполож'
 
         phone_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()" \
                         % u'Тел|тел'
