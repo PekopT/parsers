@@ -16,3 +16,4 @@ class FsvpsItem(scrapy.Item):
     email = scrapy.Field()
     type = scrapy.Field()
     content = scrapy.Field()
+    fax = scrapy.Field()
