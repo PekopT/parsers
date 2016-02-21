@@ -246,6 +246,7 @@ class FsvpsPipeline(object):
         xml_address = etree.SubElement(xml_item, 'address')
         xml_address.text = address
 
+
         if len(phones) == 0:
             url_check = url[:-15]
             phones = self.save_phones[url_check]
@@ -282,8 +283,8 @@ class FsvpsPipeline(object):
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
-        xml_count = etree.SubElement(xml_item, 'count-item')
-        xml_count.text = unicode(self.count_item)
+        # xml_count = etree.SubElement(xml_item, 'count-item')
+        # xml_count.text = unicode(self.count_item)
 
         if (len(organizations) > 1):
             xml_item2 = etree.SubElement(self.xml, 'company')
@@ -311,8 +312,8 @@ class FsvpsPipeline(object):
             xml_date2 = etree.SubElement(xml_item2, 'actualization-date')
             xml_date2.text = unicode(int(round(time.time() * 1000)))
 
-            xml_count2 = etree.SubElement(xml_item2, 'count-item')
-            xml_count2.text = unicode(self.count_item)
+            # xml_count2 = etree.SubElement(xml_item2, 'count-item')
+            # xml_count2.text = unicode(self.count_item)
 
     def close_spider(self, spider):
         doc = etree.tostring(self.xml, pretty_print=True, encoding='unicode')
