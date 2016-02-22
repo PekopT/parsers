@@ -26,7 +26,7 @@ class FsvpsSpider(scrapy.Spider):
                           % u'Адр|адр|есторасполож'
 
         phone_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()" \
-                        % u'^Тел|тел'
+                        % u'^[Т|т]ел'
 
         fax_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()" \
                         % u'^Факс|факс'
@@ -37,14 +37,20 @@ class FsvpsSpider(scrapy.Spider):
         out_item['name'] = response.xpath("//td[@id='contenttd']/div/h2/text()").extract()
         out_item['url'] = response.url
 
+
         out_item['phone'] = sel.xpath(phone_pattern).extract()
         if len(out_item['phone']) == 0:
-            phone_pattern_double = "//p[re:test(@class,'generic')][span[re:test(text(),'%s')]]/text()" % u'^Тел|тел'
-            out_item['phone'] = sel.xpath(phone_pattern_double).extract()
+            phone_pattern2 = "//p[re:test(@class,'generic')][span[re:test(text(),'%s')]]/text()" % u'^Тел|тел'
+            out_item['phone'] = sel.xpath(phone_pattern2).extract()
             if len(out_item['phone']) == 0:
                 phone_pattern3 = "//p[re:test(@class,'noin?dent')][b[re:test(text(),'%s')]]/span[@class='big']/text()" \
                           % u'^Тел|тел'
                 out_item['phone'] = sel.xpath(phone_pattern3).extract()
+                if len(out_item['phone']) == 0:
+                    phone_pattern4 = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/text()" % u'^Тел|тел'
+                    out_item['phone'] = sel.xpath(phone_pattern4).extract()
+
+
 
         out_item['address'] = sel.xpath(address_pattern).extract()
         if len(out_item['address']) == 0:
@@ -58,12 +64,15 @@ class FsvpsSpider(scrapy.Spider):
         out_item['fax'] = sel.xpath(fax_pattern).extract()
 
         if len(out_item['fax']) == 0:
-             fax_pattern_double = "//p[re:test(@class,'generic')][span[re:test(text(),'%s')]]/text()" % u'Факс|факс'
-             out_item['fax'] = sel.xpath(fax_pattern_double).extract()
-
+             fax_pattern2 = "//p[re:test(@class,'generic')][span[re:test(text(),'%s')]]/text()" % u'Факс|факс'
+             out_item['fax'] = sel.xpath(fax_pattern2).extract()
              if len(out_item['fax']) == 0:
-                 fax_pattern3 = "//p[re:test(@class,'noin?dent')][b[re:test(text(),'%s')]]/span[@class='big']/text()" % u'Факс|факс'
+                 fax_pattern3 = "//p[re:test(@class,'noin?dent')][b[re:test(text(),'%s')]]/span[@class='big']/text()" \
+                                % u'Факс|факс'
                  out_item['fax'] = sel.xpath(fax_pattern3).extract()
+                 if len(out_item['fax']) == 0:
+                    fax_pattern4 = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/text()" % u'^Факс|факс'
+                    out_item['fax'] = sel.xpath(fax_pattern4).extract()
 
 
         out_item['email'] = sel.xpath(email_pattern).extract()

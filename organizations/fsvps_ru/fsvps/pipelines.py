@@ -56,19 +56,29 @@ class FsvpsPipeline(object):
                 if phone.strip():
                     phone = re.sub('8-10-380-.{3}|8-10-383-.{3}','3652',phone)
                     phone = re.sub("^8", '', phone)
+                    phone = re.sub(u'\(доб.*\d+\)','',phone)
                     phone = re.sub('\D','',phone)
                     status = False
-                    for code in BY_TYL_CODES:
-                        if phone.find(code) == 0:
-                            phones.append(u"+7" + u" (" + code + u") " + re.sub("^%s" % code, '', phone))
-                            status = True
-                            break
 
-                    if not status:
-                        for code in CODE_OPERATORS:
+                    if len(phone)>3:
+                        if len(phone)>10:
+                            phone = phone[-10:]
+
+                        for code in BY_TYL_CODES:
                             if phone.find(code) == 0:
-                                phone = u"+7" + u" (" + code[1:] + u") " + re.sub("^%s" % code, '', phone)
-                        phones.append(phone)
+                                phones.append(u"+7" + u" (" + code + u") " + re.sub("^%s" % code, '', phone))
+                                status = True
+                                break
+
+                        if not status:
+                            for code in CODE_OPERATORS:
+                                if phone.find(code) == 0:
+                                    phone = u"+7" + u" (" + code + u") " + re.sub("^%s" % code, '', phone)
+                            if len(phone)<8 and phones:
+                                code_search = re.search(u'^.+\)',phones[0]).group(0)
+                                phone = code_search + phone
+
+                            phones.append(phone)
         return phones
 
     def validate_address(self, value):
@@ -78,6 +88,9 @@ class FsvpsPipeline(object):
         else:
             addr = try_split[0]
         return addr
+
+    def validate_test_address(self,value):
+        pass
 
     def remove_postal(self,value):
        value = re.sub(r"\d{6}",'',value)
@@ -98,6 +111,7 @@ class FsvpsPipeline(object):
 
     def split_organization(self,value):
         new_value = re.sub(u"\s+", '', value)
+        new_value = re.sub(u"г\.,", '', value)
         address = new_value.split(u'г.')
         if len(address) > 2:
             del address[0]
@@ -119,6 +133,18 @@ class FsvpsPipeline(object):
                     phones.append(ph)
 
         return phones
+
+    def get_phone_raw(self,value):
+        out = u''
+        items = value.split('<br>')
+        for item in items:
+            if re.search(u'^тел|Тел', item, re.IGNORECASE):
+                phone = item.strip()
+                phone = re.sub(u'&#13;|&lt;|&gt;|<|>|\/li|\r','',phone)
+                out +=  phone + u"||"
+
+        return out
+
 
     def get_faxes_from_content(self,value):
         phones = []
@@ -212,12 +238,14 @@ class FsvpsPipeline(object):
             address = self.remove_postal(address)
             email = self.validate_str(item['email'])
             phones = item['phone']
+            phone_raw = '||'.join(item['address'])
             faxes = item['fax']
             self.save_data[url] = address
             self.save_phones[url] = phones
         else:
             content = item["content"]
             address = self.remove_postal(self.get_address_from_content(content))
+            phone_raw = self.get_phone_raw(content)
             phones = self.get_phone_from_content(content)
             faxes = self.get_faxes_from_content(content)
             email = ""
@@ -243,8 +271,11 @@ class FsvpsPipeline(object):
 
         address = self.get_city(address)
 
-        xml_address = etree.SubElement(xml_item, 'address')
+        xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         xml_address.text = address
+
+        # xml_phone_raw = etree.SubElement(xml_item, 'phoneraw')
+        # xml_phone_raw.text = phone_raw
 
 
         if len(phones) == 0:
@@ -274,7 +305,7 @@ class FsvpsPipeline(object):
             xml_email = etree.SubElement(xml_item, 'email')
             xml_email.text = email
 
-        xml_url = etree.SubElement(xml_item, 'url', lang=u'ru')
+        xml_url = etree.SubElement(xml_item, 'url')
         xml_url.text = url
 
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
@@ -294,7 +325,7 @@ class FsvpsPipeline(object):
             xml_name2 = etree.SubElement(xml_item2, 'name', lang=u'ru')
             xml_name2.text = name
 
-            xml_address2 = etree.SubElement(xml_item2, 'address')
+            xml_address2 = etree.SubElement(xml_item2, 'address', lang=u'ru')
             xml_address2.text = organizations[1].rstrip(',.; ').lstrip(',( ')
 
             for phone in self.validate_phones(phones):
@@ -306,8 +337,11 @@ class FsvpsPipeline(object):
                 xml_phone_ext2 = etree.SubElement(xml_phone2, 'ext')
                 xml_phone_info2 = etree.SubElement(xml_phone2, 'info')
 
-            xml_url2 = etree.SubElement(xml_item2, 'url', lang=u'ru')
+            xml_url2 = etree.SubElement(xml_item2, 'url')
             xml_url2.text = url
+
+            xml_rubric2 = etree.SubElement(xml_item2, 'rubric-id')
+            xml_rubric2.text = u"184105646"
 
             xml_date2 = etree.SubElement(xml_item2, 'actualization-date')
             xml_date2.text = unicode(int(round(time.time() * 1000)))
