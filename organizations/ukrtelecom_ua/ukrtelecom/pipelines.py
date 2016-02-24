@@ -72,8 +72,12 @@ class UkrtelecomPipeline(object):
         url = item['url']
         phone = item['phone']
         working_time = self.formatter_workin_time(item['working_time'])
-        region = self.get_region(self.validate_str(item['city'])) or u""
-        address = region + u", місто " + self.validate_str(item['city']) + u", " +self.validate_str(item['address'])
+        city = self.validate_str(item['city'])
+        city = re.sub(u"’|`",u"'",city)
+        city = re.sub(u"i",u"і",city)
+        city = re.sub(u"смт\.",u"",city).strip()
+        region = self.get_region(city) or u""
+        address = region + u", місто " + city + u", " +self.validate_str(item['address'])
         address = re.sub(u'&#13;|\r','',address).strip()
         self.count_item +=1
         xml_item = etree.SubElement(self.xml, 'company')
