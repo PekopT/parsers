@@ -9,7 +9,10 @@ import re
 from codecs import getwriter
 from sys import stdout
 from lxml import etree
+
 from scrapy.exceptions import DropItem
+
+from ukrtelecom.utils import CITIES_UKR
 
 sout = getwriter("utf8")(stdout)
 
@@ -54,13 +57,24 @@ class UkrtelecomPipeline(object):
 
         return val.strip()
 
+    def formatter_address(self,value):
+        pass
+
+    def get_region(self,city):
+        for k, v in CITIES_UKR.iteritems():
+            if city in v:
+                return k
+        return False
+
+
     def process_item(self, item, spider):
         name = item['name']
         url = item['url']
         phone = item['phone']
-        city = item['city']
         working_time = self.formatter_workin_time(item['working_time'])
-        address = u"город " + self.validate_str(item['city']) + u" , " +self.validate_str(item['address'])
+        region = self.get_region(self.validate_str(item['city'])) or u""
+        address = region + u", місто " + self.validate_str(item['city']) + u", " +self.validate_str(item['address'])
+        address = re.sub(u'&#13;|\r','',address).strip()
         self.count_item +=1
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company_id')
