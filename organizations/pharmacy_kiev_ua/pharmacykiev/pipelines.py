@@ -21,7 +21,7 @@ class PharmacykievPipeline(object):
         self.xml = etree.Element('companies', version='2.1', nsmap=self.ns)
 
     def company_id(self):
-        return u'0009' + unicode(self.count_item)
+        return u'0099' + unicode(self.count_item)
 
     def validate_str(self, value):
         if type(value) == list:
@@ -71,12 +71,34 @@ class PharmacykievPipeline(object):
 
         return phones
 
+    def is_pharma_production(self,value):
+        value = value.strip()
+        m = re.search(u'Виробничі',value)
+        if m:
+            return True
+        return False
+
+    def is_pharma_homeopathic(self,value):
+        value = value.strip()
+        m = re.search(u'Гомеопатичні',value)
+        if m:
+            return True
+        return False
+
+    def is_payment_by_credit_card(self,value):
+        value = value.strip()
+        m = re.search(u'Працюють цілодобово',value)
+        if m:
+            return True
+        return False
+
     def process_item(self, item, spider):
         name = u"Аптека Фармация"
         name_other = item['name']
         url = item['url']
         address = item['address'].strip(',;. ')
         phones = item['phone']
+        indication = item['indication']
         self.count_item +=1
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company_id')
@@ -102,6 +124,24 @@ class PharmacykievPipeline(object):
 
         xml_url = etree.SubElement(xml_item, 'url')
         xml_url.text = url
+
+        prod_pharma = "0"
+        if self.is_pharma_production(indication):
+            prod_pharma = "1"
+
+        xml_prod_pharma = etree.SubElement(xml_item, 'feature-boolean',name="production_pharmacy",value=prod_pharma)
+
+        homeopathic_pharma = "0"
+        if self.is_pharma_homeopathic(indication):
+            homeopathic_pharma = "1"
+
+        xml_homeopathic_pharma = etree.SubElement(xml_item, 'feature-boolean',name="homeopathic_pharmacy",value=homeopathic_pharma)
+
+        payment_by_credit_card = "0"
+        if self.is_payment_by_credit_card(indication):
+            payment_by_credit_card = "1"
+
+        xml_payment_by_credit_card = etree.SubElement(xml_item, 'feature-boolean',name="payment_by_credit_card",value=payment_by_credit_card)
 
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
         xml_rubric.text = u"184105932"

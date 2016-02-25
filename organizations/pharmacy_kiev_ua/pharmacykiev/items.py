@@ -13,4 +13,9 @@ class PharmacykievItem(scrapy.Item):
     url = scrapy.Field()
     address = scrapy.Field()
     phone = scrapy.Field()
+    indication = scrapy.Field()
+
+
+
+
 
