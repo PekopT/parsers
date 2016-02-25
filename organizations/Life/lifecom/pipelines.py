@@ -126,27 +126,33 @@ BY_CITIES = {
         u"Вилейка",
         u"Воложин",
         u"Дзержинск",
+        u"Дружный", #поселок
         u"Клецк",
         u"Копыль",
         u"Крупки",
         u"Логойск",
         u"Любань",
+        u"Лошница",
         u"Молодечно",
         u"Мядель",
         u"Несвиж",
         u"Марьина Горка",
         u"Слуцк",
         u"Смолевичи",
+        u"Смиловичи",
         u"Солигорск",
-        u"Старые Дороги",
+        u"Старые дороги",
         u"Столбцы",
         u"Узда",
         u"Червень",
-        u"Жодино"
+        u"Жодино",
+        u"Нарочь"
+
     ],
     u"Брестская область": [
         u"Барановичи",
         u"Береза",
+        u"Высокое",
         u"Ганцевичи",
         u"Дрогичин",
         u"Жабинка",
@@ -172,6 +178,8 @@ BY_CITIES = {
         u"Лепель",
         u"Лиозно",
         u"Миоры",
+        u"Новолукомль",
+        u"Новополоцк",
         u"Орша",
         u"Полоцк",
         u"Поставы",
@@ -201,6 +209,7 @@ BY_CITIES = {
         u"Петриков",
         u"Речица",
         u"Рогачев",
+        u"Туров",
         u"Светлогорск",
         u"Чечерск",
         u"Хойники",
@@ -218,6 +227,7 @@ BY_CITIES = {
         u"Новогрудок",
         u"Ошмяны",
         u"Островец",
+        u"Радунь", #поселок
         u"Свислочь",
         u"Слоним",
         u"Сморгонь",
@@ -225,6 +235,7 @@ BY_CITIES = {
     ],
     u"Могилевская область": [
         u"Белыничи",
+        u"Березовка",
         u"Бобруйск",
         u"Быхов",
         u"Горки",
@@ -364,6 +375,15 @@ class LifecomPipeline(object):
         #     <info>секретарь</info>
         #     <type>phone</type>
         # </phone>
+
+        xml_phone_default = etree.SubElement(xml_item, 'phone')
+        xml_phone_number = etree.SubElement(xml_phone_default, 'number')
+        xml_phone_number.text = u"+375 (25) 909-09-09"
+        xml_phone_type = etree.SubElement(xml_phone_default, 'type')
+        xml_phone_type.text = u'phone'
+        xml_phone_ext = etree.SubElement(xml_phone_default, 'ext')
+        xml_phone_info = etree.SubElement(xml_phone_default, 'info')
+
         for phone in self.validate_tel(item['phone']):
             xml_phone = etree.SubElement(xml_item, 'phone')
             xml_phone_number = etree.SubElement(xml_phone, 'number')
@@ -390,7 +410,9 @@ class LifecomPipeline(object):
             inv_map[v].append(k)
         work_time = []
         for t, d in inv_map.iteritems():
-            work_time.append(u"-".join(self.get_borders(d)) + u": " + t.strip(' '))
+            t = re.sub(u'\*','',t).strip().lower()
+            if u'выходной' not in t:
+                work_time.append(u"-".join(self.get_borders(d)) + u": " + t)
         xml_time.text = u', '.join(work_time)
 
         # <rubric-id>184106414</rubric-id>
