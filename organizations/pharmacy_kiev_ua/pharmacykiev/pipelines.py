@@ -5,16 +5,22 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import time
+import StringIO
 import re
 from codecs import getwriter
 from sys import stdout
 from lxml import etree
+
 from scrapy.exceptions import DropItem
+from schema_org import SCHEMA_ORG
 
 sout = getwriter("utf8")(stdout)
 
-class PharmacykievPipeline(object):
+relaxng_doc = etree.parse(SCHEMA_ORG)
+relaxng = etree.RelaxNG(relaxng_doc)
 
+
+class PharmacykievPipeline(object):
     def __init__(self):
         self.count_item = 0
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
@@ -36,14 +42,13 @@ class PharmacykievPipeline(object):
             val = value
         return val.strip()
 
-
-    def formatter_workin_time(self,value):
+    def formatter_workin_time(self, value):
         if type(value) == list:
             val = u""
             for v in value:
                 if v.strip():
                     val_temp = v.strip()
-                    if not re.search(u"вихід",val_temp):
+                    if not re.search(u"вихід", val_temp):
                         val += u"," + v.strip()
 
             if val is None:
@@ -66,28 +71,28 @@ class PharmacykievPipeline(object):
             for ph in phns:
                 if ph.strip():
                     ph = ph.strip()
-                    phone = re.sub('\D','',ph)
+                    phone = re.sub('\D', '', ph)
                     phones.append(u"+380 (44) " + phone)
 
         return phones
 
-    def is_pharma_production(self,value):
+    def is_pharma_production(self, value):
         value = value.strip()
-        m = re.search(u'Виробничі',value)
+        m = re.search(u'Виробничі', value)
         if m:
             return True
         return False
 
-    def is_pharma_homeopathic(self,value):
+    def is_pharma_homeopathic(self, value):
         value = value.strip()
-        m = re.search(u'Гомеопатичні',value)
+        m = re.search(u'Гомеопатичні', value)
         if m:
             return True
         return False
 
-    def is_payment_by_credit_card(self,value):
+    def is_payment_by_credit_card(self, value):
         value = value.strip()
-        m = re.search(u'Працюють цілодобово',value)
+        m = re.search(u'Працюють цілодобово', value)
         if m:
             return True
         return False
@@ -99,9 +104,9 @@ class PharmacykievPipeline(object):
         address = item['address'].strip(',;. ')
         phones = item['phone']
         indication = item['indication']
-        self.count_item +=1
+        self.count_item += 1
         xml_item = etree.SubElement(self.xml, 'company')
-        xml_id = etree.SubElement(xml_item, 'company_id')
+        xml_id = etree.SubElement(xml_item, 'company-id')
         xml_id.text = self.company_id()
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ua')
@@ -125,32 +130,39 @@ class PharmacykievPipeline(object):
         xml_url = etree.SubElement(xml_item, 'url')
         xml_url.text = url
 
-        prod_pharma = "0"
-        if self.is_pharma_production(indication):
-            prod_pharma = "1"
-
-        xml_prod_pharma = etree.SubElement(xml_item, 'feature-boolean',name="production_pharmacy",value=prod_pharma)
-
-        homeopathic_pharma = "0"
-        if self.is_pharma_homeopathic(indication):
-            homeopathic_pharma = "1"
-
-        xml_homeopathic_pharma = etree.SubElement(xml_item, 'feature-boolean',name="homeopathic_pharmacy",value=homeopathic_pharma)
-
-        payment_by_credit_card = "0"
-        if self.is_payment_by_credit_card(indication):
-            payment_by_credit_card = "1"
-
-        xml_payment_by_credit_card = etree.SubElement(xml_item, 'feature-boolean',name="payment_by_credit_card",value=payment_by_credit_card)
-
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
         xml_rubric.text = u"184105932"
 
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
+        prod_pharma = "0"
+        if self.is_pharma_production(indication):
+            prod_pharma = "1"
+
+        xml_prod_pharma = etree.SubElement(xml_item, 'feature-boolean', name="production_pharmacy", value=prod_pharma)
+
+        homeopathic_pharma = "0"
+        if self.is_pharma_homeopathic(indication):
+            homeopathic_pharma = "1"
+
+        xml_homeopathic_pharma = etree.SubElement(xml_item, 'feature-boolean', name="homeopathic_pharmacy",
+                                                  value=homeopathic_pharma)
+
+        payment_by_credit_card = "0"
+        if self.is_payment_by_credit_card(indication):
+            payment_by_credit_card = "1"
+
+        xml_payment_by_credit_card = etree.SubElement(xml_item, 'feature-boolean', name="payment_by_credit_card",
+                                                      value=payment_by_credit_card)
+
+        company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
+        company_valid = StringIO.StringIO(company_valid)
+        valid = etree.parse(company_valid)
+        if not relaxng.validate(valid):
+            raise DropItem
+
     def close_spider(self, spider):
         doc = etree.tostring(self.xml, pretty_print=True, encoding='unicode')
         sout.write('<?xml version="1.0" encoding="UTF-8" ?>' + '\n')
         sout.write(doc)
-
