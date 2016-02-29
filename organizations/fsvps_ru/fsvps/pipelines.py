@@ -6,21 +6,25 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 from sys import stdout
 import time
-
+import StringIO
 import re
+
 from codecs import getwriter
 from lxml import etree
 from scrapy.exceptions import DropItem
+from phonecodes import BY_TYL_CODES,CODE_OPERATORS,CITIES
+from schema_org import SCHEMA_ORG
 
 sout = getwriter("utf8")(stdout)
-
-from phonecodes import BY_TYL_CODES,CODE_OPERATORS,CITIES
+relaxng_doc = etree.parse(SCHEMA_ORG)
+relaxng = etree.RelaxNG(relaxng_doc)
 
 
 class FsvpsPipeline(object):
 
     def __init__(self):
         self.count_item = 0
+        self.valid_count = 0
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
         self.xml = etree.Element('companies', version='2.1', nsmap=self.ns)
         self.save_data = dict()
@@ -145,7 +149,6 @@ class FsvpsPipeline(object):
 
         return out
 
-
     def get_faxes_from_content(self,value):
         phones = []
         items = value.split('<br>')
@@ -233,6 +236,7 @@ class FsvpsPipeline(object):
            raise DropItem
         
         url = item['url']
+
         if type == 1:
             address = self.validate_str(item['address'])
             address = self.remove_postal(address)
@@ -242,6 +246,7 @@ class FsvpsPipeline(object):
             faxes = item['fax']
             self.save_data[url] = address
             self.save_phones[url] = phones
+            url_to_xml = url
         else:
             content = item["content"]
             address = self.remove_postal(self.get_address_from_content(content))
@@ -249,6 +254,8 @@ class FsvpsPipeline(object):
             phones = self.get_phone_from_content(content)
             faxes = self.get_faxes_from_content(content)
             email = ""
+            url_add = url
+            url_to_xml = 'http://www.fsvps.ru'
 
         organizations = self.split_organization(address)
         address = organizations[0].rstrip(',.; ').lstrip(',( ')
@@ -260,11 +267,16 @@ class FsvpsPipeline(object):
 
         self.count_item +=1
         xml_item = etree.SubElement(self.xml, 'company')
-        xml_id = etree.SubElement(xml_item, 'company_id')
+        xml_id = etree.SubElement(xml_item, 'company-id')
         xml_id.text = self.company_id()
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         name = re.sub(u'&#13;|\r','',name).strip()
+
+        m = re.search(u'оссельхоз',name)
+        if not m:
+            name = u'Россельхознадзор ' + name
+
         xml_name.text = name
 
         address = self.address_formatter(address,check_url)
@@ -273,10 +285,6 @@ class FsvpsPipeline(object):
 
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         xml_address.text = address
-
-        # xml_phone_raw = etree.SubElement(xml_item, 'phoneraw')
-        # xml_phone_raw.text = phone_raw
-
 
         if len(phones) == 0:
             url_check = url[:-15]
@@ -306,7 +314,11 @@ class FsvpsPipeline(object):
             xml_email.text = email
 
         xml_url = etree.SubElement(xml_item, 'url')
-        xml_url.text = url
+        xml_url.text = url_to_xml
+
+        if type == 2:
+            xml_add_url = etree.SubElement(xml_item,'add-url')
+            xml_add_url.text = url_add
 
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
         xml_rubric.text = u"184105646"
@@ -314,12 +326,18 @@ class FsvpsPipeline(object):
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
-        # xml_count = etree.SubElement(xml_item, 'count-item')
-        # xml_count.text = unicode(self.count_item)
+        company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
+        # out = re.sub('\sxmlns:xi="http://www.w3.org/2001/XInclude"','',out)
+        company_valid = StringIO.StringIO(company_valid)
+
+        valid = etree.parse(company_valid)
+        if not relaxng.validate(valid):
+            raise DropItem
 
         if (len(organizations) > 1):
+            self.valid_count +=1
             xml_item2 = etree.SubElement(self.xml, 'company')
-            xml_id2 = etree.SubElement(xml_item2, 'company_id')
+            xml_id2 = etree.SubElement(xml_item2, 'company-id')
             xml_id2.text = self.company_id() + u'_2'
 
             xml_name2 = etree.SubElement(xml_item2, 'name', lang=u'ru')
@@ -340,14 +358,15 @@ class FsvpsPipeline(object):
             xml_url2 = etree.SubElement(xml_item2, 'url')
             xml_url2.text = url
 
+            if type == 2:
+                xml_add_url = etree.SubElement(xml_item2,'add-url')
+                xml_add_url.text = url_add
+
             xml_rubric2 = etree.SubElement(xml_item2, 'rubric-id')
             xml_rubric2.text = u"184105646"
 
             xml_date2 = etree.SubElement(xml_item2, 'actualization-date')
             xml_date2.text = unicode(int(round(time.time() * 1000)))
-
-            # xml_count2 = etree.SubElement(xml_item2, 'count-item')
-            # xml_count2.text = unicode(self.count_item)
 
     def close_spider(self, spider):
         doc = etree.tostring(self.xml, pretty_print=True, encoding='unicode')
