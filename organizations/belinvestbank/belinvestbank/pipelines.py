@@ -212,7 +212,7 @@ class BelinvestbankAtmPipeline(XmlPipeline):
 
         if item['accept']:
             # <known-boolean name="cash_to_card"/>
-            etree.SubElement(xml_item, 'known-boolean', name='cash_to_card')
+            etree.SubElement(xml_item, 'feature-boolean', name='cash_to_card')
 
         self.counter += 1
 

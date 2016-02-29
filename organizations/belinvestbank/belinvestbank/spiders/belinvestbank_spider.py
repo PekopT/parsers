@@ -149,10 +149,16 @@ class BelinvestbankOfficeSpider(scrapy.Spider):
             time[u'Вс: '] = u" ".join(
                 [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[6]/text()').extract()]).strip()
 
+            time_keys = [u'Пн-чт: ',u'Пт: ',u'Сб: ',u'Вс: ']
+
             time_str = []
-            for k, v in time.iteritems():
-                if v.find(u'Выходной') == -1:
-                    time_str.append(k + v)
+            # for k, v in time.iteritems():
+            #     if v.find(u'Выходной') == -1:
+            #         time_str.append(k + v)
+
+            for k in time_keys:
+                if time[k].find(u'Выходной') == -1:
+                    time_str.append(k + time[k])
 
             office['region'] = region
             office['time'] = u", ".join(time_str)
