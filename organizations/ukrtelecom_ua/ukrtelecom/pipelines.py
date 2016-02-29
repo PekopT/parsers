@@ -80,8 +80,9 @@ class UkrtelecomPipeline(object):
         address = region + u", місто " + city + u", " +self.validate_str(item['address'])
         address = re.sub(u'&#13;|\r','',address).strip()
         self.count_item +=1
+
         xml_item = etree.SubElement(self.xml, 'company')
-        xml_id = etree.SubElement(xml_item, 'company_id')
+        xml_id = etree.SubElement(xml_item, 'company-id')
         xml_id.text = self.company_id()
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ua')
