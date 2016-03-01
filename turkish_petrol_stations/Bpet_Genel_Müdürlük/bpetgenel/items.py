@@ -8,7 +8,6 @@
 import scrapy
 
 
-
 class BpetgenelItem(scrapy.Item):
     name = scrapy.Field()
     phone = scrapy.Field()
