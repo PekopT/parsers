@@ -24,7 +24,9 @@ class LifecombySpider(scrapy.Spider):
             office['phone'] = item.xpath('div/div[@class="phone"]/text()').extract()
             office['url'] = response.url
             office['city'] = city_name
-            days = [x.strip() for x in item.xpath('div[@class="cont"]//tr[1]/td/text()').extract()]
+            days = [x.strip() for x in item.xpath('div[@class="cont"]//tr[1]/td/text()').extract() if x.find(u"Отдел") == -1 ]
             times = [x.strip() for x in item.xpath('div[@class="cont"]//tr[2]/td/text()').extract()]
-            office['time'] = dict(zip(days, times))
+            office['days'] = days
+            office['times'] = times
+            office['time_res'] = dict(zip(days, times))
             yield office
