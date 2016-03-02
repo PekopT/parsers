@@ -162,6 +162,10 @@ class LagunaPipeline(object):
         # xml_phone_raw = etree.SubElement(xml_item, 'phone_raw', lang=u'ru')
         # xml_phone_raw.text = p_str
 
+        ch_phone =  re.sub('\D','',p_str).strip()
+        if not ch_phone:
+            raise DropItem
+
         for phone in self.validate_phones(p_str,type):
             xml_phone = etree.SubElement(xml_item, 'phone')
             xml_phone_number = etree.SubElement(xml_phone, 'number')
@@ -175,7 +179,7 @@ class LagunaPipeline(object):
         xml_url.text = url
 
         if working_time:
-            xml_working_time = etree.SubElement(xml_item, 'working-time',lang=u"ua")
+            xml_working_time = etree.SubElement(xml_item, 'working-time',lang=u"ru")
             xml_working_time.text = working_time
 
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
