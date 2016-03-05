@@ -131,11 +131,11 @@ class TehnoskarbPipeline(object):
         xml_name_ua = etree.SubElement(xml_item, 'name', lang=u'ua')
         xml_name_ua.text = name_ua
 
-        xml_address_rus = etree.SubElement(xml_item, 'address_rus', lang=u'ru')
+        xml_address_rus = etree.SubElement(xml_item, 'address', lang=u'ru')
         address_rus = self.validate_rus_address(address_rus)
         xml_address_rus.text = re.sub('\(|\)', '', address_rus)
 
-        xml_address_ua = etree.SubElement(xml_item, 'address_ua', lang=u'ua')
+        xml_address_ua = etree.SubElement(xml_item, 'address', lang=u'ua')
         address_ua = self.validate_ua_address(address_ua)
         xml_address_ua.text = re.sub('\(|\)', '', address_ua)
 
@@ -164,10 +164,10 @@ class TehnoskarbPipeline(object):
         xml_url_ua = etree.SubElement(xml_item, 'add-url')
         xml_url_ua.text = url_ua
 
-        xml_working_time_rus = etree.SubElement(xml_item, 'working_time', lang=u'ru')
+        xml_working_time_rus = etree.SubElement(xml_item, 'working-time', lang=u'ru')
         xml_working_time_rus.text = working_time_ru
 
-        xml_working_time_ua = etree.SubElement(xml_item, 'working_time', lang=u'ua')
+        xml_working_time_ua = etree.SubElement(xml_item, 'working-time', lang=u'ua')
         xml_working_time_ua.text = working_time_ua
 
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
@@ -185,8 +185,8 @@ class TehnoskarbPipeline(object):
         company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
         company_valid = StringIO.StringIO(company_valid)
         valid = etree.parse(company_valid)
-        # if not relaxng.validate(valid):
-        #     raise DropItem
+        if not relaxng.validate(valid):
+            raise DropItem
 
     def close_spider(self, spider):
         doc = etree.tostring(self.xml, pretty_print=True, encoding='unicode')
