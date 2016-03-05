@@ -404,28 +404,35 @@ class LifecomPipeline(object):
         # working-time
         xml_time = etree.SubElement(xml_item, 'working-time', lang=u'ru')
 
-        working_time = zip(item['days'],item['times'])
-        times_set = []
-        for t in item['times']:
-            if t not in times_set:
-                times_set.append(t)
-
-        in_map = {}
-        for t in times_set:
-            in_map[t] = list()
-            for k,v in working_time:
-                if t == v:
-                    in_map[t].append(k)
+        working_time = zip(item['days'], item['times'])
 
         work_str = ''
-        for t in times_set:
-            if u'выходной' not in t.lower():
-                if len(in_map[t]) > 1:
-                    work_str += ''.join(in_map[t][:1]) +'-'+''.join(in_map[t][-1:]) + ':' + t + ' , '
-                else:
-                    work_str += ''.join(in_map[t][0]) + ':' + t + ' , '
+        for k,v in working_time:
+            if u'выходной' not in v.lower() and u'закрыто' not in v.lower():
+                    work_str += k + ':' + v.replace('*', '') + ' , '
+
+        # times_set = []
+        # for t in item['times']:
+        #     if t not in times_set:
+        #         times_set.append(t)
+        #
+        # in_map = {}
+        # for t in times_set:
+        #     in_map[t] = list()
+        #     for k,v in working_time:
+        #         if t == v:
+        #             in_map[t].append(k)
+        #
+        # work_str = ''
+        # for t in times_set:
+        #     if u'выходной' not in t.lower():
+        #         if len(in_map[t]) > 1:
+        #             work_str += ''.join(in_map[t][:1]) +'-'+''.join(in_map[t][-1:]) + ':' + t + ' , '
+        #         else:
+        #             work_str += ''.join(in_map[t][0]) + ':' + t + ' , '
 
         xml_time.text = work_str[:-3]
+
 
         # <rubric-id>184106414</rubric-id>
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
