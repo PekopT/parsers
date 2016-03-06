@@ -14,6 +14,9 @@ class PharmacykievItem(scrapy.Item):
     address = scrapy.Field()
     phone = scrapy.Field()
     indication = scrapy.Field()
+    sat = scrapy.Field()
+    sunday = scrapy.Field()
+    pn_pt = scrapy.Field()
 
 
 

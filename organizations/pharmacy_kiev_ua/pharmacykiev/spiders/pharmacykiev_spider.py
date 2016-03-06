@@ -29,5 +29,11 @@ class PharmacykievSpider(scrapy.Spider):
         item['address'] = response.xpath("//div[@class='page-content']/p[1]/text()").extract()[0]
         phone_patterns = "//div[@class='page-content']/p[re:test(text(),'%s')]/text()" % u'[Т|т]ел\.'
         item['phone'] = response.xpath(phone_patterns).extract()
+        work_pattern = "//div[@class='page-content']/p[re:test(text(),'%s')]/text()" % u'Пн\.'
+        sat_pattern = "//div[@class='page-content']/p[re:test(text(),'%s')]/text()" % u'Субота'
+        sunday_pattern = "//div[@class='page-content']/p[re:test(text(),'%s')]/text()" % u'Неділя'
+        item['pn_pt'] = response.xpath(work_pattern).extract()
+        item['sat'] = response.xpath(sat_pattern).extract()
+        item['sunday'] = response.xpath(sunday_pattern).extract()
         item['indication'] = response.meta['indication']
         yield item
