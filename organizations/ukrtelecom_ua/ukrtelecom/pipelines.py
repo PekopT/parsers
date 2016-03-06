@@ -78,12 +78,16 @@ class UkrtelecomPipeline(object):
         city = re.sub(u"смт\.",u"",city).strip()
         region = self.get_region(city) or u""
         address = region + u", місто " + city + u", " +self.validate_str(item['address'])
-        address = re.sub(u'&#13;|\r','',address).strip()
+        address = re.sub(u'&#13;|\r|\n|\t','',address).strip()
+        address = re.sub('\(|\)', '', address).strip(',  .')
         self.count_item +=1
 
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company-id')
         xml_id.text = self.company_id()
+
+        xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
+        xml_name.text = name
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ua')
         xml_name.text = name
@@ -91,6 +95,12 @@ class UkrtelecomPipeline(object):
         address = address
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ua')
         xml_address.text = address
+
+        xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
+        xml_country.text = u"Украина"
+
+        xml_country = etree.SubElement(xml_item, 'country', lang=u'ua')
+        xml_country.text = u"Україна"
 
         xml_phone = etree.SubElement(xml_item, 'phone')
         xml_phone_number = etree.SubElement(xml_phone, 'number')
@@ -105,7 +115,10 @@ class UkrtelecomPipeline(object):
         xml_working_time.text = working_time[1:]
 
         xml_url = etree.SubElement(xml_item, 'url')
-        xml_url.text = url
+        xml_url.text = u"http://www.ukrtelecom.ua"
+
+        xml_url_add = etree.SubElement(xml_item, 'add-url')
+        xml_url_add.text = url
 
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
         xml_rubric.text = u"184107799"

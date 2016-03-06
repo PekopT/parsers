@@ -15,7 +15,7 @@ class UkrtelecomSpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        for href in response.xpath('//table[@class="invizible"]/tr/td[1]/a/@href'):
+        for href in response.xpath('//table[@class="invizible"]/tr/td/a/@href'):
             url = response.urljoin(href.extract())
             yield scrapy.Request(url, callback=self.parse_page)
 
