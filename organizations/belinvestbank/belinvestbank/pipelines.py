@@ -276,11 +276,6 @@ class BelinvestbankInfoPipeline(XmlPipeline):
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
-        # for cur in item['curr']:
-            # <enum-value name="currency_atm">atm_usd</enum-value>
-            # curr = etree.SubElement(xml_item, 'feature-enum-multiple', name='currency_atm')
-            # curr.text = u'atm_' + cur
-
         self.counter += 1
 
 
