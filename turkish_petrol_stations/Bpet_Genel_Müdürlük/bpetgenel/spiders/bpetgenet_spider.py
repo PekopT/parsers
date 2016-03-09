@@ -39,8 +39,8 @@ class BpetgenetSpider(scrapy.Spider):
          item['address'] = response.xpath('//div[@class="span12"]/div/div[@class="row-fluid"]/div[@class="span8"]/p[2]/text()').extract()[0]
          item['phone'] = response.xpath('//div[@class="span12"]/div/div[@class="row-fluid"]/div[@class="span8"]/p[3]/text()').extract()[0]
          item['fax'] = response.xpath('//div[@class="span12"]/div/div[@class="row-fluid"]/div[@class="span8"]/p[3]/text()').extract()[0]
-         item['latitude'] = response.xpath('//div[@class="span12"]/div/div[@class="row-fluid"]/div[@class="span8"]/p[4]/text()').extract()[0]
-         item['longitude'] = response.xpath('//div[@class="span12"]/div/div[@class="row-fluid"]/div[@class="span8"]/p[5]/text()').extract()[0]
+         item['latitude'] = response.xpath('//div[@class="span12"]/div/div[@class="row-fluid"]/div[@class="span8"]/p[5]/text()').extract()[0]
+         item['longitude'] = response.xpath('//div[@class="span12"]/div/div[@class="row-fluid"]/div[@class="span8"]/p[6]/text()').extract()[0]
          item['url'] = response.url
          item['city'] = response.meta['city']
          yield item
