@@ -76,6 +76,7 @@ class BelinvestbankAtmSpider(scrapy.Spider, BelinvestbankXmlMixin):
 
     def parse_atm_page(self, response):
         region = response.xpath('//div[@class="plashka"]/ul/li/span/text()').extract()[0].strip()
+
         for item in response.xpath('//div[@class="list"]/div[@class="item"]'):
             item_name = item.xpath('div[@class="name a"]/a/span/text()').extract()[0]
 
@@ -132,7 +133,7 @@ class BelinvestbankOfficeSpider(scrapy.Spider):
         region = response.xpath(
             '//div[@class="plashka"]/ul/li/a[@href = "%s"]/text() | //div[@class="plashka"]/ul/li[@class="a"]/span/text()' % path).extract()[
             0].strip()
-        for item in response.xpath('//div[@class="list"]/div[@class="item"]'):
+        for item in response.xpath('//div[@class="list"]/div[contains(@class,"item")]'):
             item_name = item.xpath('div[@class="name a"]/a/span/text()').extract()[0].strip()
             office = BelinvestbankOfficeItem()
             office['name'] = item_name
@@ -141,15 +142,19 @@ class BelinvestbankOfficeSpider(scrapy.Spider):
             office['phones'] = item.xpath('div[@class="item_block"]//tr/td[1]/strong/text()').extract()
             time = dict()
             time[u'Пн-чт: '] = u" ".join(
-                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[3]/text()').extract()]).strip()
+                [x.strip() for x in
+                 item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[3]/text()').extract()]).strip()
             time[u'Пт: '] = u" ".join(
-                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[4]/text()').extract()]).strip()
+                [x.strip() for x in
+                 item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[4]/text()').extract()]).strip()
             time[u'Сб: '] = u" ".join(
-                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[5]/text()').extract()]).strip()
+                [x.strip() for x in
+                 item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[5]/text()').extract()]).strip()
             time[u'Вс: '] = u" ".join(
-                [x.strip() for x in item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[6]/text()').extract()]).strip()
+                [x.strip() for x in
+                 item.xpath('div[@class="item_block"]//tbody/tr[last()]/td[6]/text()').extract()]).strip()
 
-            time_keys = [u'Пн-чт: ',u'Пт: ',u'Сб: ',u'Вс: ']
+            time_keys = [u'Пн-чт: ', u'Пт: ', u'Сб: ', u'Вс: ']
 
             time_str = []
             # for k, v in time.iteritems():

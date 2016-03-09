@@ -13,6 +13,7 @@ sout = getwriter("utf8")(stdout)
 BY_TYL_CODES = [unicode(x) for x in (
     17,
     25,
+    29,
     163,
     2232,
     1643,
@@ -112,7 +113,8 @@ BY_TYL_CODES = [unicode(x) for x in (
     1732,
     2332,
     2239,
-    1514
+    1514,
+    225
 )]
 
 
@@ -207,12 +209,12 @@ class BelinvestbankAtmPipeline(XmlPipeline):
 
         for cur in item['curr']:
             # <enum-value name="currency_atm">atm_usd</enum-value>
-            curr = etree.SubElement(xml_item, 'feature-enum-multiple', name='currency_atm')
-            curr.text = u'atm_' + cur
+            curr_text = u'atm_' + cur
+            curr = etree.SubElement(xml_item, 'feature-enum-multiple', name='currency_atm', value=curr_text)
 
         if item['accept']:
             # <known-boolean name="cash_to_card"/>
-            etree.SubElement(xml_item, 'feature-boolean', name='cash_to_card')
+            etree.SubElement(xml_item, 'feature-boolean', name='cash_to_card', value='1')
 
         self.counter += 1
 
