@@ -20,4 +20,7 @@ class BelorusneftSpider(scrapy.Spider):
             item['address'] = resp['address']
             item['phone'] = resp['phone']
             item['fuels'] = resp['fuels']
+            item['services'] = resp['services']
+            item['latitude'] = resp['latitude']
+            item['longitude'] = resp['longitude']
             yield item

@@ -13,3 +13,6 @@ class BelorusneftItem(scrapy.Item):
     address = scrapy.Field()
     phone = scrapy.Field()
     fuels = scrapy.Field()
+    services = scrapy.Field()
+    latitude = scrapy.Field()
+    longitude = scrapy.Field()

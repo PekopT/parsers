@@ -13,362 +13,16 @@ from lxml import etree
 
 from scrapy.exceptions import DropItem
 from schema_org import SCHEMA_ORG
+from utils import BY_CITIES, BY_TYL_CODES, SERVICES, FUELS
 
 sout = getwriter("utf8")(stdout)
 
 relaxng_doc = etree.parse(SCHEMA_ORG)
 relaxng = etree.RelaxNG(relaxng_doc)
 
-BY_TYL_CODES = [unicode(x) for x in (
-    2232,
-    1643,
-    1715,
-    1511,
-    2251,
-    1777,
-    2344,
-    162,
-    2336,
-    2231,
-    2330,
-    1771,
-    1512,
-    1772,
-    1594,
-    1646,
-    2230,
-    232,
-    2233,
-    1522,
-    1716,
-    2333,
-    1644,
-    1563,
-    2354,
-    1641,
-    2353,
-    2334,
-    1775,
-    1564,
-    1652,
-    1645,
-    1595,
-    2345,
-    1631,
-    2237,
-    1793,
-    2244,
-    2248,
-    2236,
-    1642,
-    1719,
-    1596,
-    2337,
-    2245,
-    2238,
-    2241,
-    2234,
-    1796,
-    2356,
-    1561,
-    1774,
-    2347,
-    1647,
-    1794,
-    1633,
-    1651,
-    1713,
-    2222,
-    222,
-    2351,
-    1773,
-    1515,
-    2240,
-    1797,
-    2355,
-    1797,
-    1770,
-    1597,
-    2357,
-    2235,
-    1591,
-    1593,
-    2350,
-    1653,
-    1632,
-    1713,
-    2340,
-    2339,
-    2342,
-    1513,
-    2246,
-    1562,
-    1795,
-    1776,
-    1592,
-    1710,
-    1792,
-    1717,
-    1655,
-    1718,
-    2346,
-    2247,
-    2242,
-    1714,
-    2243,
-    1732,
-    2332,
-    2239,
-    1514,
-    2131,
-    2130,
-    2132,
-    2133,
-    2135,
-    2136,
-    225,
-    17,
-    25,
-    163,
-    212,
-    214,
-    215,
-    216,
-    152,
-    2139,
-    154,
-    2138,
-    236,
-    29,
-    44,
-
-
-
-)]
-
-BY_CITIES = {
-    u"Минская область": [
-        u"Березино",
-        u"Борисов",
-        u"Вилейка",
-        u"Вишневка",
-        u"Воложин",
-        u"Дзержинск",
-        u"Красное",
-        u"Ивенец",
-        u"Клецк",
-        u"Копыль",
-        u"Крупки",
-        u"Логойск",
-        u"Любань",
-        u"Заславль",
-        u"Молодечно",
-        u"Малявка",
-        u"Мядель",
-        u"Несвиж",
-        u"Марьина Горка",
-        u"Слуцк",
-        u"Смолевичи",
-        u"Смиловичи",
-        u"Солигорск",
-        u"Старые Дороги",
-        u"Столбцы",
-        u"Фаниполь",
-        u"Узда",
-        u"Червень",
-        u"Жодино",
-        u"Озерцы",
-        u"Поречье",
-        u"Заболоть",
-        u"Новоселки",
-        u"Хозянинки",
-        u"Озерцо",
-
-
-    ],
-    u"Брестская область": [
-        u"Барановичи",
-        u"Брест",
-        u"Береза",
-        u"Ганцевичи",
-        u"Видомля",
-        u"Дрогичин",
-        u"Дивин",
-        u"Жабинка",
-        u"Иваново",
-        u"Ивацевичи",
-        u"Каменец",
-        u"Каменюки",
-        u"Кобрин",
-        u"Лунинец",
-        u"Ляховичы",
-        u"Малорита",
-        u"Пинск",
-        u"Пружаны",
-        u"Столин",
-        u"Невель",
-        u"Сосновка",
-        u"Бытень",
-        u"Углы",
-        u"Новоселки",
-        u"Березовичи",
-        u"Поречье",
-        u"Посеничи",
-        u"Томашовка",
-        u"Мотоль",
-    ],
-    u"Витебская область": [
-        u"Браслав",
-        u"Бешенковичи",
-        u"Бегомль",
-        u"Верхнедвинск",
-        u"Ветрино",
-        u"Воропаево",
-        u"Видзы",
-        u"Глубокое",
-        u"Городок",
-        u"Докшицы",
-        u"Дубровно",
-        u"Друя",
-        u"Езерище",
-        u"Красносельцы",
-        u"Фролковичи",
-        u"Лепель",
-        u"Лиозно",
-        u"Лукомль",
-        u"Лынтупы",
-        u"Миоры",
-        u"Новополоцк",
-        u"Орша",
-        u"Освея",
-        u"Остевичи",
-        u"Полоцк",
-        u"Подсвилье",
-        u"Поставы",
-        u"Россоны",
-        u"Сенно",
-        u"Сураж",
-        u"Толочин",
-        u"Тросно",
-        u"Чернещино",
-        u"Ушачи",
-        u"Чашники",
-        u"Шарковщина",
-        u"Шумилино",
-        u"Вороны",
-        u"Озеры",
-        u"Сосновка",
-        u"Волколата",
-        u"Крулевщина",
-        u"Азино",
-        u"Новоселки",
-        u"Сорочино",
-        u"Муравничи",
-    ],
-    u"Гомельская область": [
-        u"Брагин",
-        u"Буда-Кошелево",
-        u"Урицкое",
-        u"Ветка",
-        u"Добруш",
-        u"Ельск",
-        u"Житковичи",
-        u"Жлобин",
-        u"Калинковичи",
-        u"Корма",
-        u"Копаткевичи",
-        u"Лельчицы",
-        u"Лоев",
-        u"Мозырь",
-        u"Наровля",
-        u"Октябрьский",
-        u"Петриков",
-        u"Речица",
-        u"Рогачев",
-        u"Светлогорск",
-        u"Чечерск",
-        u"Хойники",
-        u"Поречье",
-        u"Добрынский",
-        u"Защебье",
-        u"Довск",
-        u"Лясковичи",
-        u"Новая Гута",
-    ],
-    u"Гродненская область": [
-        u"Бол.Берестовица",
-        u"Березовка",
-        u"Будёновка",
-        u"Волковыск",
-        u"Вороново",
-        u"Ворона",
-        u"Дятлово",
-        u"Зельва",
-        u"Ивье",
-        u"Красносельский",
-        u"Каменный лог",
-        u"Кореличи",
-        u"Козловщина",
-        u"Лида",
-        u"Мосты",
-        u"Муравщизна",
-        u"Новогрудок",
-        u"Новая Стража",
-        u"Новоельня",
-        u"Ошмяны",
-        u"Островец",
-        u"Острино",
-        u"Островля",
-        u"Порозово",
-        u"Скидель",
-        u"Радунь",
-        u"Свислочь",
-        u"Слоним",
-        u"Сморгонь",
-        u"Чемеры",
-        u"Щучин",
-        u"Заболоть",
-        u"Озеры",
-        u"Михалишки",
-        u"Новоселки",
-        u"Поречье",
-        u"Сосновка",
-    ],
-    u"Могилевская область": [
-        u"Белыничи",
-        u"Бобруйск",
-        u"Бол. Бортники",
-        u"Быхов",
-        u"Горки",
-        u"Глуск",
-        u"Дрибин",
-        u"Елизово",
-        u"Кировск",
-        u"Климовичи",
-        u"Кличев",
-        u"Костюковичи",
-        u"Краснополье",
-        u"Кричев",
-        u"Круглое",
-        u"Мстиславль",
-        u"Осиповичи",
-        u"Славгород",
-        u"Хотимск",
-        u"Чаусы",
-        u"Чериков",
-        u"Шклов",
-        u"Новоселки",
-        u"Сычково",
-        u"Чечевичи",
-        u"Белица",
-        u"Звенчатка",
-        u"Ходосы",
-        u"Ректа",
-        u"Достижение",
-    ]}
-
 
 class BelorusneftPipeline(object):
+
     def __init__(self):
         self.count_item = 0
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
@@ -376,7 +30,6 @@ class BelorusneftPipeline(object):
 
     def company_id(self):
         return u'0009' + unicode(self.count_item)
-
 
     def get_city(self, value):
         city_ag = re.search(u'аг\.\s*[А-Яа-я\-]+', value)
@@ -500,18 +153,33 @@ class BelorusneftPipeline(object):
 
                 for code in BY_TYL_CODES:
                     if ph.find(code) == 0:
-                        phones.append(u"+380" + u" (" + code + u") " + re.sub("^%s" % code, '', ph))
+                        phones.append(u"+375" + u" (" + code + u") " + re.sub("^%s" % code, '', ph))
                         break
 
         return phones
+
+    def get_tags(self, s, open_delim  ='<', close_delim ='>'):
+        while True:
+            start = s.find(open_delim)
+            end = s.find(close_delim)
+
+            if -1 < start < end:
+                start += len(open_delim)
+                yield s[start:end].strip()
+                s = s[end+len(close_delim):]
+            else:
+                return
 
     def process_item(self, item, spider):
         address = item['address']
         phones = item['phone']
         fuels = item['fuels']
+        services = item['services']
+        latitude = item['latitude']
+        longitude = item['longitude']
 
         if not phones:
-            raise DropItem
+            phones = u"(232) 793333"
 
         self.count_item += 1
         xml_item = etree.SubElement(self.xml, 'company')
@@ -520,8 +188,22 @@ class BelorusneftPipeline(object):
         # xml_address_raw = etree.SubElement(xml_item, 'address_raw', lang=u'ua')
         # xml_address_raw.text = address
 
-        xml_address = etree.SubElement(xml_item, 'address', lang=u'ua')
+        xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
+        xml_name.text = u"Белоруснефть"
+
+        xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         xml_address.text = self.get_city(address)
+
+        xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
+        xml_country.text = u"Беларусь"
+
+        xml_coordinates = etree.SubElement(xml_item, 'coordinates')
+
+        xml_lon = etree.SubElement(xml_coordinates, 'lon')
+        xml_lon.text = longitude
+
+        xml_lat = etree.SubElement(xml_coordinates, 'lat')
+        xml_lat.text = latitude
 
         for phone in self.validate_phones(phones):
             xml_phone = etree.SubElement(xml_item, 'phone')
@@ -532,6 +214,9 @@ class BelorusneftPipeline(object):
             xml_phone_ext = etree.SubElement(xml_phone, 'ext')
             xml_phone_info = etree.SubElement(xml_phone, 'info')
 
+        xml_url = etree.SubElement(xml_item, 'url')
+        xml_url.text = u"http://www.belorusneft.by"
+
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
         xml_rubric.text = u"184105274"
 
@@ -541,6 +226,17 @@ class BelorusneftPipeline(object):
 
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
+
+        for tag in self.get_tags(fuels):
+            for k in FUELS:
+                if FUELS[k] in tag:
+                    xml_feature_multiple = etree.SubElement(xml_item, 'feature-enum-multiple', name="fuel", value=k)
+
+        for tag in self.get_tags(services):
+            for k in SERVICES:
+                if SERVICES[k] in tag:
+                    xml_feature = etree.SubElement(xml_item, 'feature-boolean', name=k, value="1")
+
 
         company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
         company_valid = StringIO.StringIO(company_valid)
