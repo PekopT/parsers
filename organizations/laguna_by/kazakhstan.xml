@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<companies xmlns:xi="http://www.w3.org/2001/XInclude" version="2.1">
+  <company>
+    <company-id>01991</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Шымкент,б-р. Кунаева</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>+8(725)221-06-50</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+8(725)221-12-28</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/107-shymkent.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007053</actualization-date>
+  </company>
+  <company>
+    <company-id>01992</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Шымкент,Тамерлановское шоссе, 19б</address>
+    <country lang="ru">Казахстан</country>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/107-shymkent.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007054</actualization-date>
+  </company>
+  <company>
+    <company-id>01993</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Темиртау,Пр. Комсомольский 508А</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>(701)987-39 -19</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>(700)411-17-45</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>(721)390-45-99</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/217-temirtau.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007074</actualization-date>
+  </company>
+  <company>
+    <company-id>01994</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Тараз,ул. Толе би 95</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>(7262)34-79-83</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>(7262)34-79-84</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/216-taraz.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007112</actualization-date>
+  </company>
+  <company>
+    <company-id>01995</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Талдыкорган,ул. Алдабергенова, 119</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>+8(728)239-39-91</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/106-taldykorgan.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007134</actualization-date>
+  </company>
+  <company>
+    <company-id>01996</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Караганда,Ул. Юных Космонавтов 1Д</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>(700)138-09-05</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>(721)390-45-99</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/218-karaganda.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007144</actualization-date>
+  </company>
+  <company>
+    <company-id>01997</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город г.Кокшетау,ул. Сулейменова, 22</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>+7 (701) 656-13-06</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/215-kokshetau.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007191</actualization-date>
+  </company>
+  <company>
+    <company-id>01998</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Астана,ул. Валиханова, д. 24, второй этаж</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>(7172) 56-31-77</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/214-astana.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007208</actualization-date>
+  </company>
+  <company>
+    <company-id>01999</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Астана,ул. C-359, здание №3 район Центрального рынка, 4 этаж</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>(701) 670-57-80</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/214-astana.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007210</actualization-date>
+  </company>
+  <company>
+    <company-id>019910</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Алматы,ул. Кабдолова ул. Маречека, дом 1</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>+8(727)227-30-02</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+8(727)261-91-53</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/105-almaty.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007226</actualization-date>
+  </company>
+  <company>
+    <company-id>019911</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Алматы,ул. Кабдолова ул. Маречека, дом 1</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>+8(727)227-30-76</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+8(727)261-91-54</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/105-almaty.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007228</actualization-date>
+  </company>
+  <company>
+    <company-id>019912</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Алматы,пр. Суюнбая, 2</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>+8(727)270-58-83</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+8(727)270-58-84</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/105-almaty.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007230</actualization-date>
+  </company>
+  <company>
+    <company-id>019913</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Алматы,мкр. Астана, дом 110</address>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>+8(727)239-20-34</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/105-almaty.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457600007232</actualization-date>
+  </company>
+</companies>

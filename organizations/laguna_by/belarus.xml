@@ -1,0 +1,5203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<companies xmlns:xi="http://www.w3.org/2001/XInclude" version="2.1">
+  <company>
+    <company-id>01991</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,Старовиленский тракт 281</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335624</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133117</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 20.00;воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984330</actualization-date>
+  </company>
+  <company>
+    <company-id>01992</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск, ул. Куйбышева, 40</address>
+    <address-add lang="ru">ТЦ Паркинг</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3338876</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133362</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 21.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984340</actualization-date>
+  </company>
+  <company>
+    <company-id>01993</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Максима Танка, 10</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3338864</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133354</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984343</actualization-date>
+  </company>
+  <company>
+    <company-id>01994</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск, Щомыслицкий сc, 43, р-н Дворицкая Слобода</address>
+    <address-add lang="ru">ТЦ Озерцо</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334425</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5114567</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 20.00;воскресенье: с 11.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984347</actualization-date>
+  </company>
+  <company>
+    <company-id>01995</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Брикета, 2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334160</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3152516</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 20.00;воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984355</actualization-date>
+  </company>
+  <company>
+    <company-id>01996</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Казинца, 121</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004389</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3904386</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 20.00;воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984359</actualization-date>
+  </company>
+  <company>
+    <company-id>01997</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Мясникова, 78, пом. 3Н ЖРЭО</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707663</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5647164</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 20.00;воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984366</actualization-date>
+  </company>
+  <company>
+    <company-id>01998</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Дунина-Марцинкевича, 11</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334423</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5744567</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984370</actualization-date>
+  </company>
+  <company>
+    <company-id>01999</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Налибокская, 36-31 пом. 33</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001951</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5755652</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 21.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984374</actualization-date>
+  </company>
+  <company>
+    <company-id>019910</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Хоружей, 16, пом. 1Н</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707211</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5534016</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 21.00;суббота, воскресенье: с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984378</actualization-date>
+  </company>
+  <company>
+    <company-id>019911</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Сурганова, 61</address>
+    <address-add lang="ru">ТЦ Зебра</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002086</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1996117</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2900369</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2902733</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984382</actualization-date>
+  </company>
+  <company>
+    <company-id>019912</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,помещение 524</address>
+    <address-add lang="ru">ТЦ Столица уровень 3</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002097</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5859630</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 3273765</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 3273783</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 22.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984386</actualization-date>
+  </company>
+  <company>
+    <company-id>019913</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Кальварийская, 2-113</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (29) 3246381</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3001907</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 21.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984389</actualization-date>
+  </company>
+  <company>
+    <company-id>019914</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,пр-т. Партизанский, 182</address>
+    <address-add lang="ru">ТЦ ПРОСТОР</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (29) 1995883</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 6602577</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 22.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984392</actualization-date>
+  </company>
+  <company>
+    <company-id>019915</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Уборевича, 176</address>
+    <address-add lang="ru">ТЦ ПРОСТОР</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (29) 1995876</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 6602576</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 3454380</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 22.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984395</actualization-date>
+  </company>
+  <company>
+    <company-id>019916</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Долгобродская, 14</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002096</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5451339</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2300366</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 9.00 до 21.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984400</actualization-date>
+  </company>
+  <company>
+    <company-id>019917</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Алибегова, 15</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707665</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3302224</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984403</actualization-date>
+  </company>
+  <company>
+    <company-id>019918</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск, ул.Матусевича, 35</address>
+    <address-add lang="ru">ТЦ Мебельный МегаМаркет Домашний очаг</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004460</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5454680</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2547954</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 21.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984407</actualization-date>
+  </company>
+  <company>
+    <company-id>019919</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. В.Хоружей, 1ацокольный этаж</address>
+    <address-add lang="ru">ТЦ Силуэт</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004554</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5882074</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 3360270</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984410</actualization-date>
+  </company>
+  <company>
+    <company-id>019920</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Уманская, 54-105</address>
+    <address-add lang="ru">ТЦ Глобо</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001903</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3215017</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984415</actualization-date>
+  </company>
+  <company>
+    <company-id>019921</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Сухаревская, 6</address>
+    <address-add lang="ru">ТЦ На Сухаревской</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002088</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1995862</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2599995</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2599625</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 21.00;суббота, воскресенье: с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984419</actualization-date>
+  </company>
+  <company>
+    <company-id>019922</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Уручская, 19, Стройрынок, павильон №пк2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (44) 5451342</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3004402</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2687987</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">вторник-воскресенье: с 9.00 до 17.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984422</actualization-date>
+  </company>
+  <company>
+    <company-id>019923</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Ташкентская, 16, корп. 1, пом. 2Н</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334364</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3128106</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 20.00;воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984425</actualization-date>
+  </company>
+  <company>
+    <company-id>019924</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Маяковского, 154, 6Н</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707696</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5509490</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 21.00;суббота, воскресенье: с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984428</actualization-date>
+  </company>
+  <company>
+    <company-id>019925</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск ,пр-т Партизанский, 114</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334452</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5429676</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 21.00;суббота: с 10.00 до 19.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984431</actualization-date>
+  </company>
+  <company>
+    <company-id>019926</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Якуба Коласа, 52</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001919</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6710337</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 21.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984434</actualization-date>
+  </company>
+  <company>
+    <company-id>019927</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,ул. Янки Лучины, 22</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707785</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7231696</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984437</actualization-date>
+  </company>
+  <company>
+    <company-id>019928</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск,Логойский тракт, 27, пом. 4Н</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004496</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5899425</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 20.00;суббота, воскресенье: с 10.00 до 19.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984443</actualization-date>
+  </company>
+  <company>
+    <company-id>019929</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Минск, ул. Каменногорская, 3</address>
+    <address-add lang="ru">ТЦ ПРОСТОР</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334511</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133356</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 21.00;суббота, воскресенье: с 10.00 до 19.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984447</actualization-date>
+  </company>
+  <company>
+    <company-id>019930</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,Минский р-н,Новодворский сс, р-н д. Большое Стиклево, 40-5а</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707690</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5656247</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 20.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984451</actualization-date>
+  </company>
+  <company>
+    <company-id>019931</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,Минский р-н,Боровлянский сс, д. Боровая, гипермаркет "Гиппо"</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707691</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5405591</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 21.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984453</actualization-date>
+  </company>
+  <company>
+    <company-id>019932</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Солигорск,ул. Набережная, 13</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (44) 7873548</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3004440</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984456</actualization-date>
+  </company>
+  <company>
+    <company-id>019933</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Солигорск,пр-т Мира, 5</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004528</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5899180</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984462</actualization-date>
+  </company>
+  <company>
+    <company-id>019934</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Слуцк,ул. Копыльская, 182</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (17) 9528624</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3004409</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5859627</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984464</actualization-date>
+  </company>
+  <company>
+    <company-id>019935</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Слуцк,ул. 14 Партизан, 15</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707698</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5997583</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984467</actualization-date>
+  </company>
+  <company>
+    <company-id>019936</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Молодечно,пл. Старое место, 15</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004415</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1996087</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984470</actualization-date>
+  </company>
+  <company>
+    <company-id>019937</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. Барыкина, 132</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335604</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5184567</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">ежедневно: с 9.00 до 21.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984485</actualization-date>
+  </company>
+  <company>
+    <company-id>019938</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Молодечно,ул. Волынца, 12д</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001987</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5801921</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984488</actualization-date>
+  </company>
+  <company>
+    <company-id>019939</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Молодечно,ул. Ф Скорины, 10А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 6602842</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5859635</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 19.00;суббота: с 9.00 до 17.00; воскресенье: с 9.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984493</actualization-date>
+  </company>
+  <company>
+    <company-id>019940</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Молодечно,ул. Великий Гостинец, 163А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707880</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7073573</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00;воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984496</actualization-date>
+  </company>
+  <company>
+    <company-id>019941</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. Карповича, 28, корп.1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334428</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5132345</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 9.00 до 18.00;воскресенье: с 9.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984499</actualization-date>
+  </company>
+  <company>
+    <company-id>019942</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. Царикова, 44</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707689</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5401532</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00;воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984501</actualization-date>
+  </company>
+  <company>
+    <company-id>019943</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. Ильича, 36</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002082</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 1996122</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984504</actualization-date>
+  </company>
+  <company>
+    <company-id>019944</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. 60 лет СССР, 21</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (232) 401801</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (232) 401802</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3002080</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3002083</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1996128</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 20.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984507</actualization-date>
+  </company>
+  <company>
+    <company-id>019945</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Жодино,ул. Деревянко, 3-Б</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 6603450</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3240476</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984510</actualization-date>
+  </company>
+  <company>
+    <company-id>019946</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Жодино,пр-т Ленина, 2а</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004437</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873617</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984513</actualization-date>
+  </company>
+  <company>
+    <company-id>019947</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Борисов,ул. 30 лет ВЛКСМ, 31</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (44) 7883353</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3004423</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 7769418</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984517</actualization-date>
+  </company>
+  <company>
+    <company-id>019948</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. Интернациональная, 13-1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001941</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7802795</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00 воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984521</actualization-date>
+  </company>
+  <company>
+    <company-id>019949</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. Советская, 134б</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (44) 7873461</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3004430</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984524</actualization-date>
+  </company>
+  <company>
+    <company-id>019950</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,пр-т Космонавтов 61,1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004499</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5882061</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984528</actualization-date>
+  </company>
+  <company>
+    <company-id>019951</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Борисов,ул. III Интернационала, 8</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707693</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5504325</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984532</actualization-date>
+  </company>
+  <company>
+    <company-id>019952</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Борисов,б-р Комарова, 2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707683</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7537317</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00;воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984535</actualization-date>
+  </company>
+  <company>
+    <company-id>019953</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Марьина Горка,ул. Андреевская, 20</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004478</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5909416</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">ежедневно с 09.00 до 19.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984539</actualization-date>
+  </company>
+  <company>
+    <company-id>019954</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. Мазурова, 60</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001955</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3220158</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984542</actualization-date>
+  </company>
+  <company>
+    <company-id>019955</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. Макаенка, 27, корп. 3</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707672</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3302878</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">ежедневно: с 9.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984545</actualization-date>
+  </company>
+  <company>
+    <company-id>019956</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. Жукова, 2-1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004411</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5859631</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00; суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984548</actualization-date>
+  </company>
+  <company>
+    <company-id>019957</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,пр-т Речицкий, 5В-12</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335604</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5184567</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">ежедневно: с 9.00 до 21.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984551</actualization-date>
+  </company>
+  <company>
+    <company-id>019958</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Вилейка,ул. Чапаева, 74</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004459</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5454673</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 16.00;воскресенье: с 10.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984571</actualization-date>
+  </company>
+  <company>
+    <company-id>019959</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Воложин,ул. Гагарина, 6</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334159</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6373532</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00;воскресенье: с 10.00 до 15.00  </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984575</actualization-date>
+  </company>
+  <company>
+    <company-id>019960</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Дзержинск,ул. Протасова, 23а</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001973</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5899381</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984578</actualization-date>
+  </company>
+  <company>
+    <company-id>019961</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Клецк,пл. Маяковского, 3</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334418</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5142345</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 18.00;суббота: с 10.00 до 17.00;воскресенье: с 10.00 до 14.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984581</actualization-date>
+  </company>
+  <company>
+    <company-id>019962</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Гомель,ул. Сухого, 2а</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335628</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5336082</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 19.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984583</actualization-date>
+  </company>
+  <company>
+    <company-id>019963</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Речица,Светлогорское шоссе, 29а</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004408</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5859626</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00; суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984586</actualization-date>
+  </company>
+  <company>
+    <company-id>019964</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Речица,ул. Конева, 23-2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001908</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3237517</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984589</actualization-date>
+  </company>
+  <company>
+    <company-id>019965</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Жлобин,1-й Заводской пер., 12-2, 2-й и 3-й этаж</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 6602850</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1995870</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984591</actualization-date>
+  </company>
+  <company>
+    <company-id>019966</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Логойск,ул. Янки Купалы, 12А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004473</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5122345</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00;воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984596</actualization-date>
+  </company>
+  <company>
+    <company-id>019967</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Любань,ул. Первомайская, 28-2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707734</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873915</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00;воскресенье: с 10.00 до 16.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984600</actualization-date>
+  </company>
+  <company>
+    <company-id>019968</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Мядель,ул. Крупской, 8</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707729</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3904081</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота: с 9.00 до 14.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984604</actualization-date>
+  </company>
+  <company>
+    <company-id>019969</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Жлобин,ул. Подъездная, 2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 6603378</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3757696</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984609</actualization-date>
+  </company>
+  <company>
+    <company-id>019970</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Жлобин,ул. Первомайская, 76</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707771</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873935</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984612</actualization-date>
+  </company>
+  <company>
+    <company-id>019971</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Жлобин,ул. Полевая, 61</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334438</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3151493</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984615</actualization-date>
+  </company>
+  <company>
+    <company-id>019972</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Несвиж,ул. Ленинская, 153-1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334174</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5303440</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00;воскресенье: с 10.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984619</actualization-date>
+  </company>
+  <company>
+    <company-id>019973</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Смолевичи,ул. Центральная, 12</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002068</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5330008</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.30 до 18.30;суббота, воскресенье: с 10.00 до 17.00  </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984622</actualization-date>
+  </company>
+  <company>
+    <company-id>019974</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Столбцы,ул. Социалистическая, 90</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001961</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3220374</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00;воскресенье: с 10.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984625</actualization-date>
+  </company>
+  <company>
+    <company-id>019975</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Старые Дороги,ул. Московская, 22, корп.1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334451</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6710362</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00;воскресенье: с 10.00 до 15.00  </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984628</actualization-date>
+  </company>
+  <company>
+    <company-id>019976</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Мозырь,ул. Ленинская, 7</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004493</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984631</actualization-date>
+  </company>
+  <company>
+    <company-id>019977</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Мозырь,ул. Ленина, 9</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (44) 5859633</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3004413</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984633</actualization-date>
+  </company>
+  <company>
+    <company-id>019978</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Светлогорск,ул. Дорожная, 24А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004392</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5656382</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984636</actualization-date>
+  </company>
+  <company>
+    <company-id>019979</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Светлогорск,ул. Азалова, 8Б</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707725</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3905473</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984639</actualization-date>
+  </company>
+  <company>
+    <company-id>019980</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Узда,ул. Молодежная, 1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3706652</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 3151458</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 9.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984644</actualization-date>
+  </company>
+  <company>
+    <company-id>019981</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Фаниполь,ул. Мира, 3-306</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707684</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 5468090</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984649</actualization-date>
+  </company>
+  <company>
+    <company-id>019982</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Минская область,город Червень,ул. Советская, 47</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3706603</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6086731</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/80-minsk-region.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота, воскресенье: с 10.00 до 14.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984652</actualization-date>
+  </company>
+  <company>
+    <company-id>019983</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Калинковичи,ул. Октябрьская, 43</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002062</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5336608</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873482</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984654</actualization-date>
+  </company>
+  <company>
+    <company-id>019984</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Ветка,ул. Батракова, 115</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334413</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5643264</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984657</actualization-date>
+  </company>
+  <company>
+    <company-id>019985</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Добруш,ул. Комарова, 5</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707692</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5406102</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 16.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984660</actualization-date>
+  </company>
+  <company>
+    <company-id>019986</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Ельск,ул. Яна Налепки, 55</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004393</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5427312</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984662</actualization-date>
+  </company>
+  <company>
+    <company-id>019987</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Житковичи,ул. Матоха, 54</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002052</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5325042</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00  </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984675</actualization-date>
+  </company>
+  <company>
+    <company-id>019988</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Костюковка,ул. 9 Мая, 1Б</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707774</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873846</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 18.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984680</actualization-date>
+  </company>
+  <company>
+    <company-id>019989</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,г.п. Лоев,ул. Ленина, 25</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707502</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6698399</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 18.00;суббота, воскресенье: с 10.00 до 16.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984683</actualization-date>
+  </company>
+  <company>
+    <company-id>019990</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,пр-т Строителей, 4</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3338869</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133364</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984709</actualization-date>
+  </company>
+  <company>
+    <company-id>019991</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Наровля,ул. Коммунистическая, 22</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707772</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873839</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984717</actualization-date>
+  </company>
+  <company>
+    <company-id>019992</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,г.п. Октябрьский,ул. Дзержинского, 45</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334309</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5641664</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 17.30;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984720</actualization-date>
+  </company>
+  <company>
+    <company-id>019993</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Петриков,ул. Королева, 10</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334348</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3151548</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984723</actualization-date>
+  </company>
+  <company>
+    <company-id>019994</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Могилев,ул. Пионерская, 37</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001925</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3334958</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984735</actualization-date>
+  </company>
+  <company>
+    <company-id>019995</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Гродно,ул. Богуцкого, 5, пом. 9 2 этаж</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (44) 5997586</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3707702</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984749</actualization-date>
+  </company>
+  <company>
+    <company-id>019996</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,ул. Ленина, 3-81</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3338867</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133353</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984754</actualization-date>
+  </company>
+  <company>
+    <company-id>019997</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,ул. Ленина, 62-35</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335866</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7558666</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 20.00;суббота, воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984757</actualization-date>
+  </company>
+  <company>
+    <company-id>019998</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,пр-т Победы, 15</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3706659</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5656617</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 20.00;суббота, воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984761</actualization-date>
+  </company>
+  <company>
+    <company-id>019999</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Брест,Варшавское шоссе, 1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335623</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133379</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">ежедневно с 9.00 до 17.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984774</actualization-date>
+  </company>
+  <company>
+    <company-id>0199100</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Рогачев,ул. Октябрьская, 29</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004447</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3757685</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 19.00;суббота, воскресенье: с 9.00 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984778</actualization-date>
+  </company>
+  <company>
+    <company-id>0199101</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Рогачев, Богатырева,ул. Богатырева, 133</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334431</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3124033</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 19.00;суббота: с 9.00 до 17.00; воскресенье: с 9.00 до 14.00  </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984781</actualization-date>
+  </company>
+  <company>
+    <company-id>0199102</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гомельская область,город Хойники,ул. Колесника, 2к</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001939</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5801825</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/81-gomel.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 16.00  </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984784</actualization-date>
+  </company>
+  <company>
+    <company-id>0199103</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Могилев,пр-т Мира, 32-6</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334429</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5162345</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984787</actualization-date>
+  </company>
+  <company>
+    <company-id>0199104</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Могилев,ул. Бонч-Бруевича, 5-21</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707673</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5750863</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 18.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984790</actualization-date>
+  </company>
+  <company>
+    <company-id>0199105</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Могилев,ул. Н. Островского, 13</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (222) 403114</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 6602571</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1996083</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984795</actualization-date>
+  </company>
+  <company>
+    <company-id>0199106</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Гродно,пр-т Я. Купалы, 72Б-4</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707669</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3302729</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984800</actualization-date>
+  </company>
+  <company>
+    <company-id>0199107</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Гродно, ул. Соломовой, 82</address>
+    <address-add lang="ru">ТЦ Фламинго</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (29) 1996119</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3004429</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984803</actualization-date>
+  </company>
+  <company>
+    <company-id>0199108</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Гродно,ул. Антонова, 31</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (152) 756214</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 6602830</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5451327</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота: с 9.00 до 17.00; воскресенье: с 9.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984806</actualization-date>
+  </company>
+  <company>
+    <company-id>0199109</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,пр-т Фрунзе, 45-105</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707818</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3153684</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984809</actualization-date>
+  </company>
+  <company>
+    <company-id>0199110</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,пр-т Московский, 20</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3706654</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6451892</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984812</actualization-date>
+  </company>
+  <company>
+    <company-id>0199111</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,ул. Генерала Белобородова, 1-171</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002078</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3151472</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984815</actualization-date>
+  </company>
+  <company>
+    <company-id>0199112</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,ул. Коммунистическая, 16</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004406</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5451341</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (212) 602962</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984818</actualization-date>
+  </company>
+  <company>
+    <company-id>0199113</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Брест,набережная Ф. Скорины, 6-4б</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001934</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3165251</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984821</actualization-date>
+  </company>
+  <company>
+    <company-id>0199114</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Брест,бульвар Космонавтов, 90</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 6602839</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1996114</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984824</actualization-date>
+  </company>
+  <company>
+    <company-id>0199115</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Брест,ул. Московская, 202</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004405</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1995971</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984827</actualization-date>
+  </company>
+  <company>
+    <company-id>0199116</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Брест,пр-т Машерова, 17</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004736</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5590415</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 20.00;воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984830</actualization-date>
+  </company>
+  <company>
+    <company-id>0199117</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Могилев,ул. Мовчанского, 4а </address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004488</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5477640</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984841</actualization-date>
+  </company>
+  <company>
+    <company-id>0199118</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Могилев,ул. Королева, 37а-3</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002017</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5801435</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984844</actualization-date>
+  </company>
+  <company>
+    <company-id>0199119</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Могилев,б-р Непокоренных, д. 65-129</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3706653</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6086693</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984847</actualization-date>
+  </company>
+  <company>
+    <company-id>0199120</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Гродно,ул. Богуцкого, 5магазин "Мебель "Лагуна"</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 6602831</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1995978</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984850</actualization-date>
+  </company>
+  <company>
+    <company-id>0199121</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Гродно,ул. Богуцкого, 5 магазин "Ами Мебель"</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004480</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 3757686</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984853</actualization-date>
+  </company>
+  <company>
+    <company-id>0199122</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Гродно, ул. Лиможа, 32б</address>
+    <address-add lang="ru">ТЦ АЛМИ</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004489</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5477660</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984856</actualization-date>
+  </company>
+  <company>
+    <company-id>0199123</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Гродно,ул. Славинского, 11</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707661</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3604938</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984859</actualization-date>
+  </company>
+  <company>
+    <company-id>0199124</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,ул. Ленина, 26а</address>
+    <address-add lang="ru">ТЦ Пирамида</address-add>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707688</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5889838</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 20.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984861</actualization-date>
+  </company>
+  <company>
+    <company-id>0199125</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,ул. Евстигнеева, 275</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (29) 3302845</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3707675</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (212) 602962</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984865</actualization-date>
+  </company>
+  <company>
+    <company-id>0199126</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,пр-т Строителей, 11а</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (44) 5859636</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3004416</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">ежедневно с 10.00 до 19.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984868</actualization-date>
+  </company>
+  <company>
+    <company-id>0199127</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,ул. Павлова, 54</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004491</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5477370</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: c 10.00 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984872</actualization-date>
+  </company>
+  <company>
+    <company-id>0199128</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Брест,ул. 17-го Сентября, 49</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334196</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5890630</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 20.00;суббота, воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984875</actualization-date>
+  </company>
+  <company>
+    <company-id>0199129</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Барановичи,ул. Димитрова, 15 пом. 68</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004470</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5454404</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984881</actualization-date>
+  </company>
+  <company>
+    <company-id>0199130</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Барановичи,ул. Брестская, 281а</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (163) 441644</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 6602584</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1995974</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984884</actualization-date>
+  </company>
+  <company>
+    <company-id>0199131</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Могилев,ул. Орловского, 2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334352</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3153364</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984887</actualization-date>
+  </company>
+  <company>
+    <company-id>0199132</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Бобруйск,ул. Минская, 89</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (44) 5859634</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3004410</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984890</actualization-date>
+  </company>
+  <company>
+    <company-id>0199133</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Бобруйск,ул. Пушкина, 265А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335884</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7559311</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984893</actualization-date>
+  </company>
+  <company>
+    <company-id>0199134</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Бобруйск,ул. Крылова, 54 А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707082</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5778070</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984896</actualization-date>
+  </company>
+  <company>
+    <company-id>0199135</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Волковыск,ул. Ф. Скорины, 11</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004426</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873472</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984899</actualization-date>
+  </company>
+  <company>
+    <company-id>0199136</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Волковыск,ул. Жолудева, 35Б</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001926</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3314089</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 19.00; суббота: с 9 до 17.00; воскресенье: с 9.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984902</actualization-date>
+  </company>
+  <company>
+    <company-id>0199137</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Волковыск,ул. Ленина, 26</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335376</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5331304</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 9.00 до 17.00; воскресенье: с 9.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984905</actualization-date>
+  </company>
+  <company>
+    <company-id>0199138</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Волковыск,ул. Советская, 6434</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335642</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133371</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 9.00 до 17.00; воскресенье: с 9.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984909</actualization-date>
+  </company>
+  <company>
+    <company-id>0199139</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Витебск,ул. Титова, 113</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707723</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 3909329</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984912</actualization-date>
+  </company>
+  <company>
+    <company-id>0199140</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Полоцк,ул. Ленина, 6</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (214) 423369</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 6602568</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1996058</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 19.00;суббота: с 9.00 до 17.00; воскресенье: с 9.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984916</actualization-date>
+  </company>
+  <company>
+    <company-id>0199141</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Полоцк,ул. Космонавтов, 77</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001958</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3220854</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984920</actualization-date>
+  </company>
+  <company>
+    <company-id>0199142</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Барановичи,ул. Брестская, 4</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004474</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5909421</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: c 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984924</actualization-date>
+  </company>
+  <company>
+    <company-id>0199143</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Барановичи,ул. Фабричная, 7-1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001952</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3001989</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5454850</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: c 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984929</actualization-date>
+  </company>
+  <company>
+    <company-id>0199144</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Барановичи,ул. Франциска Скорины, 4А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002066</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3316815</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: c 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984932</actualization-date>
+  </company>
+  <company>
+    <company-id>0199145</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Бобруйск,ул. Октябрьская, 136-103</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335605</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5154567</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984935</actualization-date>
+  </company>
+  <company>
+    <company-id>0199146</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Осиповичи,ул. Сумченко, 51А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004412</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5859632</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984938</actualization-date>
+  </company>
+  <company>
+    <company-id>0199147</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Осиповичи,ул. Интернациональная, 5</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707784</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1940330</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984941</actualization-date>
+  </company>
+  <company>
+    <company-id>0199148</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Кричев,м-н Сож, 14, 66-67</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004497</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5808906</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 18.00;суббота, воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984943</actualization-date>
+  </company>
+  <company>
+    <company-id>0199149</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Лида,ул. Коммунистическая, 19</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (44) 7873465</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3004431</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984946</actualization-date>
+  </company>
+  <company>
+    <company-id>0199150</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Лида,ул. Камышовая, 4</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004425</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873421</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984949</actualization-date>
+  </company>
+  <company>
+    <company-id>0199151</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Лида,ул. Труханова, 10</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001967</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5899344</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984953</actualization-date>
+  </company>
+  <company>
+    <company-id>0199152</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Лида,ул. Набережная, 2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3706621</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133118</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984956</actualization-date>
+  </company>
+  <company>
+    <company-id>0199153</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Полоцк,ул. Октябрьская, 54, пом. 1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334193</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5429640</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984959</actualization-date>
+  </company>
+  <company>
+    <company-id>0199154</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Новополоцк,ул. Кирова, 3</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001906</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3205585</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984964</actualization-date>
+  </company>
+  <company>
+    <company-id>0199155</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Новополоцк,ул. Олимпийская, 6, пом. 114</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334382</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3152422</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984967</actualization-date>
+  </company>
+  <company>
+    <company-id>0199156</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Пинск,ул. Интернациональная, 53</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001988</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5801993</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984970</actualization-date>
+  </company>
+  <company>
+    <company-id>0199157</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Пинск,ул. Заслонова, 15</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002016</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5802363</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984973</actualization-date>
+  </company>
+  <company>
+    <company-id>0199158</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Пинск,ул. Ленина, 21</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002079</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1996121</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984976</actualization-date>
+  </company>
+  <company>
+    <company-id>0199159</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Пинск,ул. Ленинградская, 15Б</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335612</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133116</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">вторник - пятница: с 9.00 до 18.00;суббота, воскресенье: с 9.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984979</actualization-date>
+  </company>
+  <company>
+    <company-id>0199160</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Быхов,ул. Советская, 5</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001938</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5801786</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">вторник - пятница: с 9.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 16.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984982</actualization-date>
+  </company>
+  <company>
+    <company-id>0199161</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Костюковичи,ул. Первомайская, 2А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707781</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1941991</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 18.00;суббота: с 10.00 до 16.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984984</actualization-date>
+  </company>
+  <company>
+    <company-id>0199162</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Горки,ул. Заслонова, 2-3</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707731</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873911</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 16.00; воскресенье: с 10.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984987</actualization-date>
+  </company>
+  <company>
+    <company-id>0199163</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Кировск,ул. Пушкинская, 19</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707712</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5886703</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984990</actualization-date>
+  </company>
+  <company>
+    <company-id>0199164</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Слоним,ул. Советская, 72</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004427</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873451</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 9.00 до 17.00; воскресенье: с 9.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984994</actualization-date>
+  </company>
+  <company>
+    <company-id>0199165</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Слоним,ул. Ершова, 58 А, кв. 2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335371</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5330336</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599984998</actualization-date>
+  </company>
+  <company>
+    <company-id>0199166</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Сморгонь,ул. Юбилейная, 25</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004468</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5882134</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985001</actualization-date>
+  </company>
+  <company>
+    <company-id>0199167</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Новополоцк,ул. Молодежная, 32-19</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334191</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5427323</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - суббота: с 10.00 до 19.00;воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985004</actualization-date>
+  </company>
+  <company>
+    <company-id>0199168</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Орша,ул. Ленина, 81</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (29) 1996108</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3002084</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (216) 212351</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985007</actualization-date>
+  </company>
+  <company>
+    <company-id>0199169</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Орша,ул. 1-ая Мая, 28</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004395</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5307868</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 20.00;суббота, воскресенье: с 10.00 до 18.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985010</actualization-date>
+  </company>
+  <company>
+    <company-id>0199170</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Орша,ул. Молокова, 22</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334461</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5144567</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985013</actualization-date>
+  </company>
+  <company>
+    <company-id>0199171</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Кобрин,ул. Первомайская, 34</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004428</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873458</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985015</actualization-date>
+  </company>
+  <company>
+    <company-id>0199172</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Кобрин,ул. Спортивная, 2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707721</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 3905503</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985018</actualization-date>
+  </company>
+  <company>
+    <company-id>0199173</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Береза,ул. Комсомольская Торговые ряды Красные казармы</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (164) 342040</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1995860</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 3002092</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985021</actualization-date>
+  </company>
+  <company>
+    <company-id>0199174</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Пружаны,ул. Юбилейная, 12А1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001913</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3221339</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985024</actualization-date>
+  </company>
+  <company>
+    <company-id>0199175</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Климовичи,ул. Зеленая, 4А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004388</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5656721</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота: с 9.00 до 16.00; воскресенье: с 9.00 до 16.00  </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985027</actualization-date>
+  </company>
+  <company>
+    <company-id>0199176</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Кличев,ул. Ленинская, 78</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707671</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3302760</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985030</actualization-date>
+  </company>
+  <company>
+    <company-id>0199177</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,г.п. Краснополье,ул. Ленинская, 11</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334308</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5661396</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 17.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985032</actualization-date>
+  </company>
+  <company>
+    <company-id>0199178</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,г.п. Круглое,ул. Советская, 32</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3706623</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6451838</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985036</actualization-date>
+  </company>
+  <company>
+    <company-id>0199179</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Сморгонь,ул. Я. Коласа, 78</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3002036</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5537692</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985040</actualization-date>
+  </company>
+  <company>
+    <company-id>0199180</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Сморгонь,ул. Танкистов, 1А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3706602</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6086740</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985043</actualization-date>
+  </company>
+  <company>
+    <company-id>0199181</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Новогрудок,ул. Мицкевича, 3</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004494</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5477170</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 9.00 до 17.00; воскресенье: с 9.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985046</actualization-date>
+  </company>
+  <company>
+    <company-id>0199182</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Мосты,ул. Песочная, 13</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707178</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5909411</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985050</actualization-date>
+  </company>
+  <company>
+    <company-id>0199183</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Лепель,ул. Будденного, 6</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001937</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5802293</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота, воскресенье: с 9.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985052</actualization-date>
+  </company>
+  <company>
+    <company-id>0199184</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Поставы,ул. Ленинская, 16</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004461</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5909403</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985055</actualization-date>
+  </company>
+  <company>
+    <company-id>0199185</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Новолукомль,б-р Озмителя, 10</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707705</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5887630</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота, воскресенье: с 9.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985058</actualization-date>
+  </company>
+  <company>
+    <company-id>0199186</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Сенно,ул. Назаренко, 10А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707780</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1944006</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">вторник - пятница: с 10.00 до 18.00;суббота, воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985061</actualization-date>
+  </company>
+  <company>
+    <company-id>0199187</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Лунинец,ул. Мелиоративная, 16Б</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004521</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5899326</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 17.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985064</actualization-date>
+  </company>
+  <company>
+    <company-id>0199188</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Ивацевичи,ул. Механизаторов, 33-2</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707720</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3905526</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985067</actualization-date>
+  </company>
+  <company>
+    <company-id>0199189</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Белоозерск,ул. Энергетиков, 4</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707732</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7872239</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985070</actualization-date>
+  </company>
+  <company>
+    <company-id>0199190</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Ганцевичи,ул. Матросова 65-1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004498</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5680815</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985074</actualization-date>
+  </company>
+  <company>
+    <company-id>0199191</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Чаусы,пер. Первомайский, 5</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707210</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5530743</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985078</actualization-date>
+  </company>
+  <company>
+    <company-id>0199192</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Чериков,ул. Болдина, 33</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707710</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5884165</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота: с 10.00 до 15.00; воскресенье: с 10.00 до 13.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985081</actualization-date>
+  </company>
+  <company>
+    <company-id>0199193</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Шклов,ул. Советская, 20</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707713</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5509976</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 15.00  </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985084</actualization-date>
+  </company>
+  <company>
+    <company-id>0199194</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,город Мстиславль,ул. Пролетарская, 61</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001945</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7801213</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота: с 9.00 до 15.00; воскресенье: с 10.00 до 13.00   </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985086</actualization-date>
+  </company>
+  <company>
+    <company-id>0199195</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Щучин,ул. 17 лет Сентября, 41</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001944</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7801422</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 16.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985090</actualization-date>
+  </company>
+  <company>
+    <company-id>0199196</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Березовка,ул. Заводская, 9, пом. 3</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001933</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3149326</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота: с 9.00 до 17.00; воскресенье: с 9.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985093</actualization-date>
+  </company>
+  <company>
+    <company-id>0199197</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Большая Берестовица,ул. Красноармейская, 22-1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334426</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133365</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 18.00;суббота, воскресенье: с 10.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985096</actualization-date>
+  </company>
+  <company>
+    <company-id>0199198</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Дятлово,ул. Советская, 73</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707503</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5808901</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">вторник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00  </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985100</actualization-date>
+  </company>
+  <company>
+    <company-id>0199199</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Барань,ул. Первомайская, 8</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707736</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7873928</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985103</actualization-date>
+  </company>
+  <company>
+    <company-id>0199200</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Браслав,ул. Советская, 117</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707728</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3908546</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота: с 9.00 до 16.00; воскресенье: с 9.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985106</actualization-date>
+  </company>
+  <company>
+    <company-id>0199201</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Глубокое,ул. Советская, 50</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004385</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5656331</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 18.00; воскресенье: с 10.00 до 16.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985110</actualization-date>
+  </company>
+  <company>
+    <company-id>0199202</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Дрогичин,ул. Юбилейная, 45</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3001985</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5667506</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 16.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985113</actualization-date>
+  </company>
+  <company>
+    <company-id>0199203</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Иваново,ул. Комарова, д. 15Д-1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334439</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3152593</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 19.00;суббота: с 9.00 до 17.00; воскресенье: с 9.00 до 16.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985116</actualization-date>
+  </company>
+  <company>
+    <company-id>0199204</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Коссово,ул. 3-го Февраля, 7</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334320</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3125597</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985120</actualization-date>
+  </company>
+  <company>
+    <company-id>0199205</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Могилевская область,г.п. Хотимск,ул. Ленинская, 18</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004467</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5331792</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/84-mogilev.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985124</actualization-date>
+  </company>
+  <company>
+    <company-id>0199206</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,г.п. Зельва,ул. Вокзальная, 21А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004390</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5642564</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985134</actualization-date>
+  </company>
+  <company>
+    <company-id>0199207</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Ивье,ул. Ленина, 1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3338891</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5133361</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 15.00; воскресенье: с 10.00 до 15.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985137</actualization-date>
+  </company>
+  <company>
+    <company-id>0199208</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Красносельский,ул. Школьная, 7</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334387</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5661356</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985140</actualization-date>
+  </company>
+  <company>
+    <company-id>0199209</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Островец,ул. Ленинская, 67А</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3335883</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7109385</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985143</actualization-date>
+  </company>
+  <company>
+    <company-id>0199210</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Толочин,ул. 40 лет Октября, 71</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707776</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1969287</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">вторник - пятница: с 9.00 до 18.00;суббота, воскресенье: с 9.00 до 16.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985146</actualization-date>
+  </company>
+  <company>
+    <company-id>0199211</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,г.п. Ушачи,ул. Советская, 39</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707289</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3220388</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота: с 9.00 до 16.00; воскресенье: с 9.00 до 15.00  </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985149</actualization-date>
+  </company>
+  <company>
+    <company-id>0199212</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Чашники,ул. Советская, 43</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3706661</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 7424862</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 18.00;суббота, воскресенье: с 9.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985152</actualization-date>
+  </company>
+  <company>
+    <company-id>0199213</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Витебская область,город Докшицы,ул. Ленинская, 19, пом.1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334386</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3318853</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/83-vitebsk.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 9.00 до 17.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985154</actualization-date>
+  </company>
+  <company>
+    <company-id>0199214</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Ляховичи,ул. Ленина, 56</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334419</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5152345</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 18.00;суббота: с 9.00 до 16.00; воскресенье: с 9.00 до 16.00</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985158</actualization-date>
+  </company>
+  <company>
+    <company-id>0199215</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Малорита,ул. Парковая, 4</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3004540</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (44) 5882039</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985162</actualization-date>
+  </company>
+  <company>
+    <company-id>0199216</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Микашевичи,ул. Ленинская, 29</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707727</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3904360</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985165</actualization-date>
+  </company>
+  <company>
+    <company-id>0199217</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Ошмяны 2,ул. Советская, 97, корп. 1</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3706657</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6374047</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 15.00; воскресенье: с 10.00 до 16.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985168</actualization-date>
+  </company>
+  <company>
+    <company-id>0199218</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Гродненская область,город Скидель,ул. Луговая, 3</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3707724</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3907850</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/85-grodno.html</add-url>
+    <working-time lang="ru">вторник - пятница: с 9.00 до 18.00;</working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985171</actualization-date>
+  </company>
+  <company>
+    <company-id>0199219</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">Брестская область,город Столин,ул. Советская, 38 а</address>
+    <country lang="ru">Беларусь</country>
+    <phone>
+      <number>+375 (33) 3334351</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3151541</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/84-belarus/82-brest.html</add-url>
+    <working-time lang="ru">понедельник - пятница: с 10.00 до 19.00;суббота: с 10.00 до 17.00; воскресенье: с 10.00 до 15.00 </working-time>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1457599985184</actualization-date>
+  </company>
+</companies>

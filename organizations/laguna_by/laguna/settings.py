@@ -62,7 +62,8 @@ NEWSPIDER_MODULE = 'laguna.spiders'
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'laguna.pipelines.LagunaPipeline': 300,
+   'laguna.pipelines.LagunaBelPipeline': 300,
+   'laguna.pipelines.LagunaKzPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
