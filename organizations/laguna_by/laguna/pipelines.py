@@ -267,6 +267,10 @@ class LagunaKzPipeline(XmlPipeline):
         address_out = oblast + u',город ' + city + ',' + address
         address_out = re.sub('\(|\)', '', address_out)
         xml_address.text = address_out.strip(', ')
+        info = self.validate_str(item['info'])
+        info = re.sub(u'\”|\"|\«|\»', ' ', info)
+        xml_address_add = etree.SubElement(xml_item,'address-add', lang=u"ru")
+        xml_address_add.text = info
 
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = country
@@ -297,79 +301,3 @@ class LagunaKzPipeline(XmlPipeline):
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
 
-
-# class LagunaPipeline(object):
-#
-#     @check_spider_pipeline
-#     def process_item(self, item, spider):
-#         name = u"Лагуна"
-#         address = ''.join(item['address'])
-#         phones = ''.join(item['phone'])
-#         url = item['url']
-#         type = item['type']
-#         country = item['country']
-#         oblast = item['oblast'].strip()
-#         working_time = ''.join(item['working_time'])
-#
-#         w_items = working_time.split('<br>')
-#
-#         w_str = ''
-#         for w in w_items:
-#             m = re.search(u'выход', w)
-#             if not m:
-#                 w_str += w
-#
-#         working_time = w_str
-#
-#         phone_items = phones.split('<br>')
-#
-#         p_str = ''
-#         for p in phone_items:
-#             p_str += self.delete_tags(p)
-#
-#         ch_phone = re.sub('\D', '', p_str).strip()
-#         if not ch_phone:
-#             raise DropItem
-#
-#         city = ''.join(item['city'])
-#         city = self.delete_tags(city)
-#         address = self.delete_tags(address)
-#         working_time = self.delete_tags(working_time)
-#
-#         self.count_item += 1
-#         xml_item = etree.SubElement(self.xml, 'company')
-#         xml_id = etree.SubElement(xml_item, 'company-id')
-#         xml_id.text = self.company_id()
-#
-#         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
-#         xml_name.text = name
-#
-#         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
-#         address_out = oblast + u',город ' + city + ',' + address
-#         address_out = re.sub('\(|\)', '', address_out)
-#         xml_address.text = address_out.strip(', ')
-#
-#         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
-#         xml_country.text = country
-#
-#         for phone in self.validate_phones(p_str, type):
-#             xml_phone = etree.SubElement(xml_item, 'phone')
-#             xml_phone_number = etree.SubElement(xml_phone, 'number')
-#             xml_phone_number.text = phone.strip()
-#             xml_phone_type = etree.SubElement(xml_phone, 'type')
-#             xml_phone_type.text = u'phone'
-#             xml_phone_ext = etree.SubElement(xml_phone, 'ext')
-#             xml_phone_info = etree.SubElement(xml_phone, 'info')
-#
-#         xml_url = etree.SubElement(xml_item, 'url')
-#         xml_url.text = url
-#
-#         if working_time:
-#             xml_working_time = etree.SubElement(xml_item, 'working-time', lang=u"ru")
-#             xml_working_time.text = working_time
-#
-#         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
-#         xml_rubric.text = u"184107871"
-#
-#         xml_date = etree.SubElement(xml_item, 'actualization-date')
-#         xml_date.text = unicode(int(round(time.time() * 1000)))

@@ -19,4 +19,5 @@ class LagunaItem(scrapy.Item):
     country = scrapy.Field()
     oblast = scrapy.Field()
     type = scrapy.Field()
+    info = scrapy.Field()
 

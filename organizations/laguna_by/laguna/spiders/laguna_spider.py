@@ -89,6 +89,7 @@ class LagunaKzSpider(scrapy.Spider):
             office['oblast'] = oblast
             office['working_time'] = working_time
             office['type'] = type
+            office['info'] = info
             yield office
 
 
