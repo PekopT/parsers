@@ -96,9 +96,6 @@ class UkrtelecomPipeline(object):
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ua')
         xml_address.text = address
 
-        xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
-        xml_country.text = u"Украина"
-
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ua')
         xml_country.text = u"Україна"
 
