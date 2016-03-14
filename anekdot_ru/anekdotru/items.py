@@ -16,3 +16,4 @@ class AnekdotruItem(scrapy.Item):
     author = scrapy.Field()
     url = scrapy.Field()
     date = scrapy.Field()
+    rating = scrapy.Field()

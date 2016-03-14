@@ -27,6 +27,13 @@ class AnekdotruPipeline(object):
             val = value
         return val.strip()
 
+    def delete_tags(self, value):
+        pattern = u'\<[^>]*\>'
+        value = re.sub(pattern, '', value)
+        value = re.sub(u'&#13;|&lt;|&gt;|<|>|\/li|\r\n', '', value)
+        value = re.sub(u'td|span|\/|br|\\\\', '', value)
+        return value
+
     def get_date(self, value):
         date =u""
         pattern = u'\/[0-9-]+\/?$'
@@ -38,20 +45,22 @@ class AnekdotruPipeline(object):
     def process_item(self, item, spider):
         id = self.validate_str(item['id'])
         id = re.sub(u'\D','', id)
-        text = self.validate_str(item['text'])
+        text = ''.join(item['text'])
+        text = self.delete_tags(text)
+
         num = self.validate_str(item['num'])
         author = item['author']
         url = item['url']
         date = self.validate_str(item['date'])
         tags = item['tags']
-
+        rating = item['rating']
         human = {
             "id": id,
             "text": text,
             "rating":
                 {
-                    "positive": u"",
-                    "negative": u"",
+                    "positive": rating[2],
+                    "negative": rating[3],
                     "num": num
                 },
 
