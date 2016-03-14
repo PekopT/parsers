@@ -138,7 +138,7 @@ class PharmacykievPipeline(object):
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ua')
         xml_address.text = address
 
-        xml_country = etree.SubElement(xml_item, 'name', lang=u'ua')
+        xml_country = etree.SubElement(xml_item, 'country', lang=u'ua')
         xml_country.text = u"Україна"
 
         xml_phone_main = etree.SubElement(xml_item, 'phone')
@@ -177,13 +177,13 @@ class PharmacykievPipeline(object):
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
         if self.is_pharma_production(indication):
-            xml_prod_pharma = etree.SubElement(xml_item, 'feature-boolean', name="production_pharmacy")
+            xml_prod_pharma = etree.SubElement(xml_item, 'feature-boolean', name="production_pharmacy", value="1")
 
         if self.is_pharma_homeopathic(indication):
-            xml_homeopathic_pharma = etree.SubElement(xml_item, 'feature-boolean', name="homeopathic_pharmacy")
+            xml_homeopathic_pharma = etree.SubElement(xml_item, 'feature-boolean', name="homeopathic_pharmacy", value="1")
 
         if self.is_payment_by_credit_card(indication):
-            xml_payment_by_credit_card = etree.SubElement(xml_item, 'feature-boolean', name="payment_by_credit_card")
+            xml_payment_by_credit_card = etree.SubElement(xml_item, 'feature-boolean', name="payment_by_credit_card", value="1")
 
         company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
         company_valid = StringIO.StringIO(company_valid)

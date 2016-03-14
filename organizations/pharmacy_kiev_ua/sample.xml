@@ -6,7 +6,7 @@
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №1</name-other>
     <address lang="ua">Київ, вул.Володимирська, 51/53</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -35,48 +35,17 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-1-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.Цілодобово , Субота.Цілодобово , Неділя.Цілодобово</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238317310</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-    <feature-boolean name="payment_by_credit_card"/>
+    <actualization-date>1457950278635</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+    <feature-boolean name="payment_by_credit_card" value="1"/>
   </company>
   <company>
     <company-id>00992</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №10</name-other>
-    <address lang="ua">Київ, вул.Стальського, 24</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5120307</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5121413</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-10-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-18:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238317381</actualization-date>
-  </company>
-  <company>
-    <company-id>00993</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №9</name-other>
     <address lang="ua">Київ, вул.Богатирська, 30, корп.1</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -93,326 +62,41 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-9-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.9:00-18:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238317434</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950278693</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>00993</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №5</name-other>
+    <address lang="ua">Київ, просп. Бажана, 3</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5634501</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-5/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-21:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950278754</actualization-date>
   </company>
   <company>
     <company-id>00994</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №19</name-other>
-    <address lang="ua">Київ, вул.Північна, 46</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4117953</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4117791</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-19-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238317510</actualization-date>
-  </company>
-  <company>
-    <company-id>00995</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №18</name-other>
-    <address lang="ua">Київ, вул.Будівельників, 36</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2922394</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-18-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-19:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238317571</actualization-date>
-  </company>
-  <company>
-    <company-id>00996</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №17</name-other>
-    <address lang="ua">Київ, вул. Урицького, 27/5</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2485337</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2485209</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-17-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238317646</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>00997</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №14</name-other>
-    <address lang="ua">Київ, вул.Мілютенка, 34</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5180700</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5182702</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-14/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-19:00 , Неділя.9:00-19:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238317669</actualization-date>
-  </company>
-  <company>
-    <company-id>00998</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №12</name-other>
-    <address lang="ua">Київ, просп. Відрадний, 61</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4552501</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4552502</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-12-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9-00–18-00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238317760</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-    <feature-boolean name="homeopathic_pharmacy"/>
-  </company>
-  <company>
-    <company-id>00999</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №31</name-other>
-    <address lang="ua">Київ, просп. Науки, 4</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5259214</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5257162</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-31/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-21:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238317850</actualization-date>
-  </company>
-  <company>
-    <company-id>009910</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №59</name-other>
-    <address lang="ua">Київ, просп. Маяковського, 47</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5152132</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5151234</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-59/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318038</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009911</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №114</name-other>
-    <address lang="ua">Київ, бульв. Дружби Народів, 30/1</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2850481</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2858442</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-114-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-20:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318140</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009912</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №130</name-other>
-    <address lang="ua">Київ, вул. Щербакова, 60</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4003021</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4439528</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-130-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318275</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009913</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №128</name-other>
-    <address lang="ua">Київ, вул.Героїв Севастополя, 44/10</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4085020</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4553951</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-128-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-22:00 , Субота.8:00-22:00 , Неділя.8:00-22:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318373</actualization-date>
-  </company>
-  <company>
-    <company-id>009914</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №3</name-other>
     <address lang="ua">Київ, просп.Ватутіна, 2-В</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -435,99 +119,17 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-3-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-18:00 , Неділя.9:00-18:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318463</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-    <feature-boolean name="homeopathic_pharmacy"/>
+    <actualization-date>1457950278787</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+    <feature-boolean name="homeopathic_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009915</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №6</name-other>
-    <address lang="ua">Київ, вул.Кібальчича, 13-А</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5127069</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5121290</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-6-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-19:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318603</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009916</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №127</name-other>
-    <address lang="ua">Київ, вул. Васильківська, 55</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2574118</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-127/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-19:00 , Неділя.9:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318632</actualization-date>
-  </company>
-  <company>
-    <company-id>009917</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №5</name-other>
-    <address lang="ua">Київ, просп. Бажана, 3</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5634501</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-5/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-21:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318653</actualization-date>
-  </company>
-  <company>
-    <company-id>009918</company-id>
+    <company-id>00995</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №2</name-other>
     <address lang="ua">Київ, вул.Народного ополчення, 5</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -550,16 +152,16 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-2-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.9:00-18:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318705</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950278873</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009919</company-id>
+    <company-id>00996</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №7</name-other>
-    <address lang="ua">Київ, вул.Артема,10</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №31</name-other>
+    <address lang="ua">Київ, просп. Науки, 4</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -567,32 +169,30 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 2721109</number>
+      <number>+380 (44) 5259214</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 2721000</number>
+      <number>+380 (44) 5257162</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-7-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.Цілодобово , Субота.Цілодобово , Неділя.Цілодобово</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-31/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-21:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318745</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-    <feature-boolean name="payment_by_credit_card"/>
+    <actualization-date>1457950279092</actualization-date>
   </company>
   <company>
-    <company-id>009920</company-id>
+    <company-id>00997</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №125</name-other>
-    <address lang="ua">Київ, вул. Лаврська, 8</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №30</name-other>
+    <address lang="ua">Київ, вул. Алма-Атинська, 103/1</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -600,30 +200,24 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 2803611</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2800582</number>
+      <number>+380 (44) 5688132</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-125-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.10:00-18:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-30-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.9:00-20:00 , Субота.9:00-16:00 , Неділя.9:00-16:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318773</actualization-date>
+    <actualization-date>1457950279458</actualization-date>
   </company>
   <company>
-    <company-id>009921</company-id>
+    <company-id>00998</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №126</name-other>
-    <address lang="ua">Київ, вул. Івана Кудрі, 35-А</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №29</name-other>
+    <address lang="ua">Київ, вул. Борщагівська, 117/125</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -631,30 +225,24 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 2855758</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2964713</number>
+      <number>+380 (44) 4571437</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-126-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-18:00 , Неділя.9:00-18:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-29-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318836</actualization-date>
+    <actualization-date>1457950279655</actualization-date>
   </company>
   <company>
-    <company-id>009922</company-id>
+    <company-id>00999</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №121</name-other>
-    <address lang="ua">Київ, вул. Щусєва, 2/19</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №12</name-other>
+    <address lang="ua">Київ, просп. Відрадний, 61</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -662,30 +250,32 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4403148</number>
+      <number>+380 (44) 4552501</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4406181</number>
+      <number>+380 (44) 4552502</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-121-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-20:00 , Неділя.10:00-17:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-12-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9-00–18-00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318879</actualization-date>
+    <actualization-date>1457950279785</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+    <feature-boolean name="homeopathic_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009923</company-id>
+    <company-id>009910</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №124</name-other>
-    <address lang="ua">Київ, Харківське шосе, 164</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №6</name-other>
+    <address lang="ua">Київ, вул.Кібальчича, 13-А</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -693,182 +283,31 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 5645300</number>
+      <number>+380 (44) 5127069</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 5633538</number>
+      <number>+380 (44) 5121290</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-124/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-17:00 , Неділя.9:00-16:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-6-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-19:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318936</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950279835</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009924</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №22</name-other>
-    <address lang="ua">Київ, вул.Немировича-Данченка, 1</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2807576</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2807687</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-22-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-20:00 , Неділя.9:00-16:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238318985</actualization-date>
-  </company>
-  <company>
-    <company-id>009925</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №118</name-other>
-    <address lang="ua">Київ, вул. Булгакова, 13</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4021204</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4586146</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-118-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.9:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319040</actualization-date>
-  </company>
-  <company>
-    <company-id>009926</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №122</name-other>
-    <address lang="ua">Київ, вул. Вітряні гори, 3</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4344944</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-122-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319077</actualization-date>
-  </company>
-  <company>
-    <company-id>009927</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №123</name-other>
-    <address lang="ua">Київ, вул. Д’яченка, 10</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5655404</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5648065</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-123/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-17:00 , Неділя.10:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319129</actualization-date>
-  </company>
-  <company>
-    <company-id>009928</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №119</name-other>
-    <address lang="ua">Київ, просп. Маяковського, 15</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5466900</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5450979</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-119-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.цілодобово , Субота.цілодобово , Неділя.цілодобово</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319186</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-    <feature-boolean name="payment_by_credit_card"/>
-  </company>
-  <company>
-    <company-id>009929</company-id>
+    <company-id>009911</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №11</name-other>
     <address lang="ua">Київ, просп. Правди, 66-А</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -891,16 +330,16 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-11-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-22:00 , Субота.8:00-22:00 , Неділя.9:00-21:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319222</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950279883</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009930</company-id>
+    <company-id>009912</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №115</name-other>
-    <address lang="ua">Київ, вул. Кондратюка, 8</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №7</name-other>
+    <address lang="ua">Київ, вул.Артема,10</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -908,31 +347,433 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4328947</number>
+      <number>+380 (44) 2721109</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4305238</number>
+      <number>+380 (44) 2721000</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-115-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.9:00-18:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-7-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.Цілодобово , Субота.Цілодобово , Неділя.Цілодобово</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319276</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950279936</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+    <feature-boolean name="payment_by_credit_card" value="1"/>
   </company>
   <company>
-    <company-id>009931</company-id>
+    <company-id>009913</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №10</name-other>
+    <address lang="ua">Київ, вул.Стальського, 24</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5120307</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5121413</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-10-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-18:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280007</actualization-date>
+  </company>
+  <company>
+    <company-id>009914</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №104</name-other>
+    <address lang="ua">Київ, вул. Зодчих, 50</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4058009</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4052055</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-104-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-18:00 , Неділя.9:00-16:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280124</actualization-date>
+  </company>
+  <company>
+    <company-id>009915</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №27</name-other>
+    <address lang="ua">Київ, вул. Б.Хмельницького, 42</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2345583</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2340588</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2352321</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-27-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.10:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280154</actualization-date>
+  </company>
+  <company>
+    <company-id>009916</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №128</name-other>
+    <address lang="ua">Київ, вул.Героїв Севастополя, 44/10</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4085020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4553951</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-128-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-22:00 , Субота.8:00-22:00 , Неділя.8:00-22:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280179</actualization-date>
+  </company>
+  <company>
+    <company-id>009917</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №130</name-other>
+    <address lang="ua">Київ, вул. Щербакова, 60</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4003021</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4439528</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-130-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280235</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009918</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №124</name-other>
+    <address lang="ua">Київ, Харківське шосе, 164</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5645300</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5633538</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-124/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-17:00 , Неділя.9:00-16:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280255</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009919</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №14</name-other>
+    <address lang="ua">Київ, вул.Мілютенка, 34</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5180700</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5182702</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-14/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-19:00 , Неділя.9:00-19:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280317</actualization-date>
+  </company>
+  <company>
+    <company-id>009920</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №127</name-other>
+    <address lang="ua">Київ, вул. Васильківська, 55</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2574118</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-127/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-19:00 , Неділя.9:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280338</actualization-date>
+  </company>
+  <company>
+    <company-id>009921</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №125</name-other>
+    <address lang="ua">Київ, вул. Лаврська, 8</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2803611</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2800582</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-125-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.10:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280380</actualization-date>
+  </company>
+  <company>
+    <company-id>009922</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №123</name-other>
+    <address lang="ua">Київ, вул. Д’яченка, 10</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5655404</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5648065</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-123/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-17:00 , Неділя.10:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280423</actualization-date>
+  </company>
+  <company>
+    <company-id>009923</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №126</name-other>
+    <address lang="ua">Київ, вул. Івана Кудрі, 35-А</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2855758</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2964713</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-126-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-18:00 , Неділя.9:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280476</actualization-date>
+  </company>
+  <company>
+    <company-id>009924</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №119</name-other>
+    <address lang="ua">Київ, просп. Маяковського, 15</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5466900</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5450979</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-119-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.цілодобово , Субота.цілодобово , Неділя.цілодобово</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280541</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+    <feature-boolean name="payment_by_credit_card" value="1"/>
+  </company>
+  <company>
+    <company-id>009925</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №122</name-other>
+    <address lang="ua">Київ, вул. Вітряні гори, 3</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4344944</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-122-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280577</actualization-date>
+  </company>
+  <company>
+    <company-id>009926</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №116</name-other>
     <address lang="ua">Київ, вул. Гната Юри, 7-А</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -955,16 +796,110 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-116-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319321</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950280631</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009932</company-id>
+    <company-id>009927</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №118</name-other>
+    <address lang="ua">Київ, вул. Булгакова, 13</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4021204</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4586146</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-118-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.9:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280675</actualization-date>
+  </company>
+  <company>
+    <company-id>009928</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №114</name-other>
+    <address lang="ua">Київ, бульв. Дружби Народів, 30/1</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2850481</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2858442</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-114-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-20:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280718</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009929</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №121</name-other>
+    <address lang="ua">Київ, вул. Щусєва, 2/19</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4403148</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4406181</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-121-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-20:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280758</actualization-date>
+  </company>
+  <company>
+    <company-id>009930</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №110</name-other>
     <address lang="ua">Київ, вул. Гарматна, 16/85</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -987,72 +922,15 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-110-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-18:00 , Неділя.10:00-18:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319375</actualization-date>
+    <actualization-date>1457950280819</actualization-date>
   </company>
   <company>
-    <company-id>009933</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №109</name-other>
-    <address lang="ua">Київ, вул. Раїси Окіпної, 9</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5171345</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5176291</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-109-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-19:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319418</actualization-date>
-    <feature-boolean name="homeopathic_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009934</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №107</name-other>
-    <address lang="ua">Київ, вул. Вербицького, 5</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5026184</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-107/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-15:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319456</actualization-date>
-  </company>
-  <company>
-    <company-id>009935</company-id>
+    <company-id>009931</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №113</name-other>
     <address lang="ua">Київ, просп. Юрія Гагаріна, 2/35</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1081,16 +959,137 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-113-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319528</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950280883</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009932</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №109</name-other>
+    <address lang="ua">Київ, вул. Раїси Окіпної, 9</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5171345</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5176291</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-109-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-19:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280918</actualization-date>
+    <feature-boolean name="homeopathic_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009933</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №115</name-other>
+    <address lang="ua">Київ, вул. Кондратюка, 8</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4328947</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4305238</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-115-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.9:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950280969</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009934</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №28</name-other>
+    <address lang="ua">Київ, вул. Луначарського, 22-А</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5172691</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5172705</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-28-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.10:00-18:00 , Неділя.10:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281026</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009935</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №107</name-other>
+    <address lang="ua">Київ, вул. Вербицького, 5</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5026184</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-107/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-15:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281090</actualization-date>
   </company>
   <company>
     <company-id>009936</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №104</name-other>
-    <address lang="ua">Київ, вул. Зодчих, 50</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №106</name-other>
+    <address lang="ua">Київ, вул. Березняківська, 8</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1098,62 +1097,30 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4058009</number>
+      <number>+380 (44) 5500273</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4052055</number>
+      <number>+380 (44) 5503034</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-104-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-18:00 , Неділя.9:00-16:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-106-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-17:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319559</actualization-date>
+    <actualization-date>1457950281119</actualization-date>
   </company>
   <company>
     <company-id>009937</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №103</name-other>
-    <address lang="ua">Київ, Русанівська набережна, 24/51</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2956987</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2954654</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-103-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319601</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009938</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №105</name-other>
     <address lang="ua">Київ, вул. Серафимовича, 3-А</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1176,72 +1143,15 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-105-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.8:00-20:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319632</actualization-date>
+    <actualization-date>1457950281174</actualization-date>
   </company>
   <company>
-    <company-id>009939</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №102</name-other>
-    <address lang="ua">Київ, вул. Ілліча,4/6</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5663044</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5668211</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-102/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-18:00 , Неділя.9:00-16:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319662</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009940</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №98</name-other>
-    <address lang="ua">Київ, бульв. Кольцова, 13</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4054366</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-98-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-21:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319734</actualization-date>
-  </company>
-  <company>
-    <company-id>009941</company-id>
+    <company-id>009938</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №99</name-other>
     <address lang="ua">Київ, вул. Стражеска, 6-А</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1276,16 +1186,16 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-99-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.9:00-19:00 , Субота.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319764</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950281219</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009942</company-id>
+    <company-id>009939</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №106</name-other>
-    <address lang="ua">Київ, вул. Березняківська, 8</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №96</name-other>
+    <address lang="ua">Київ, вул. Доброхотова, 13</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1293,30 +1203,263 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 5500273</number>
+      <number>+380 (44) 4240319</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 5503034</number>
+      <number>+380 (44) 4241094</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-106-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-17:00 , Неділя.10:00-17:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-96-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319811</actualization-date>
+    <actualization-date>1457950281276</actualization-date>
+  </company>
+  <company>
+    <company-id>009940</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №98</name-other>
+    <address lang="ua">Київ, бульв. Кольцова, 13</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4054366</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-98-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-21:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281306</actualization-date>
+  </company>
+  <company>
+    <company-id>009941</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №95</name-other>
+    <address lang="ua">Київ, вул. Маршала Гречка, 14</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4436397</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-95-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281369</actualization-date>
+  </company>
+  <company>
+    <company-id>009942</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №103</name-other>
+    <address lang="ua">Київ, Русанівська набережна, 24/51</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2956987</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2954654</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-103-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281401</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
     <company-id>009943</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №91</name-other>
+    <address lang="ua">Київ, вул. Миропільська, 19</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5131563</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-91-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.10:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281449</actualization-date>
+  </company>
+  <company>
+    <company-id>009944</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №102</name-other>
+    <address lang="ua">Київ, вул. Ілліча,4/6</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5663044</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5668211</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-102/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-18:00 , Неділя.9:00-16:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281498</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009945</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №90</name-other>
+    <address lang="ua">Київ, вул. Ісаакяна, 2</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2363052</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2365159</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-90-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , </working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281567</actualization-date>
+  </company>
+  <company>
+    <company-id>009946</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №87</name-other>
+    <address lang="ua">Київ, вул.Ревуцького 16-а</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5649533</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5649726</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-87/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-16:00 , Неділя.9:00-16:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281612</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009947</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №97</name-other>
+    <address lang="ua">Київ, бульв. Івана Лепсе, 31</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4978105</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4082187</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-97-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281662</actualization-date>
+  </company>
+  <company>
+    <company-id>009948</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №101</name-other>
     <address lang="ua">Київ, просп. Возз’єднання, 6</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1345,224 +1488,17 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-101-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.цілодобово , Субота.цілодобово , Неділя.цілодобово</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319853</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-    <feature-boolean name="payment_by_credit_card"/>
-  </company>
-  <company>
-    <company-id>009944</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №91</name-other>
-    <address lang="ua">Київ, вул. Миропільська, 19</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5131563</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-91-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.10:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319891</actualization-date>
-  </company>
-  <company>
-    <company-id>009945</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №96</name-other>
-    <address lang="ua">Київ, вул. Доброхотова, 13</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4240319</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4241094</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-96-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319937</actualization-date>
-  </company>
-  <company>
-    <company-id>009946</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №95</name-other>
-    <address lang="ua">Київ, вул. Маршала Гречка, 14</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4436397</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-95-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238319999</actualization-date>
-  </company>
-  <company>
-    <company-id>009947</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №97</name-other>
-    <address lang="ua">Київ, бульв. Івана Лепсе, 31</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4978105</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4082187</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-97-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320028</actualization-date>
-  </company>
-  <company>
-    <company-id>009948</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №84</name-other>
-    <address lang="ua">Київ, вул. Лятошинського, 24</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2500702</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2500700</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-84/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.8:00-20:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320065</actualization-date>
+    <actualization-date>1457950281714</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+    <feature-boolean name="payment_by_credit_card" value="1"/>
   </company>
   <company>
     <company-id>009949</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №87</name-other>
-    <address lang="ua">Київ, вул.Ревуцького 16-а</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5649533</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5649726</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-87/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-16:00 , Неділя.9:00-16:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320109</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009950</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №82</name-other>
-    <address lang="ua">Київ, вул. Шолом-Алейхема, 3</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5135009</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5134609</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-82-2/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320138</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009951</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №92</name-other>
     <address lang="ua">Київ, вул. Шолом-Алейхема, 18</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1585,16 +1521,16 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-92-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.8:00-20:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320190</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950281764</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009952</company-id>
+    <company-id>009950</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №85</name-other>
-    <address lang="ua">Київ, просп. Героїв Сталінграду, 65</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №82</name-other>
+    <address lang="ua">Київ, вул. Шолом-Алейхема, 3</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1602,30 +1538,121 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4113474</number>
+      <number>+380 (44) 5135009</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4113403</number>
+      <number>+380 (44) 5134609</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-85-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-21:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-82-2/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320235</actualization-date>
+    <actualization-date>1457950281800</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009951</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №84</name-other>
+    <address lang="ua">Київ, вул. Лятошинського, 24</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2500702</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2500700</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-84/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.8:00-20:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281849</actualization-date>
+  </company>
+  <company>
+    <company-id>009952</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №81</name-other>
+    <address lang="ua">Київ, просп. Маяковського, 73</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5302031</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5302032</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-81-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.цілодобово , Субота.цілодобово , Неділя.цілодобово</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281900</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+    <feature-boolean name="payment_by_credit_card" value="1"/>
   </company>
   <company>
     <company-id>009953</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №80</name-other>
+    <address lang="ua">Київ, вул. Ю.Коцюбинського, 9-А</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4866877</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-80-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.9:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950281945</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009954</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №79</name-other>
     <address lang="ua">Київ, бульв. Перова, 15</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1648,143 +1675,16 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-79-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320279</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009954</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №80</name-other>
-    <address lang="ua">Київ, вул. Ю.Коцюбинського, 9-А</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4866877</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-80-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.9:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320320</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950281999</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
     <company-id>009955</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №78</name-other>
-    <address lang="ua">Київ, просп. Перемоги, 148/1</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4242587</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4248004</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-78-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-19:00 , Субота.9:00-16:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320364</actualization-date>
-  </company>
-  <company>
-    <company-id>009956</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №77</name-other>
-    <address lang="ua">Київ, вул. Миропільська, 1</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5136627</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5131572</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-77-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-19:00 , Неділя.9:00-16:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320405</actualization-date>
-  </company>
-  <company>
-    <company-id>009957</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №75</name-other>
-    <address lang="ua">Київ, просп. Перемоги, 104</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4247561</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4247342</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4248002</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-75-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.цілодобово , Субота.цілодобово , Неділя.цілодобово</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320450</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-    <feature-boolean name="payment_by_credit_card"/>
-  </company>
-  <company>
-    <company-id>009958</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №83</name-other>
     <address lang="ua">Київ, вул. Драйзера, 8</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1807,15 +1707,46 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-83-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.9:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320526</actualization-date>
+    <actualization-date>1457950282037</actualization-date>
   </company>
   <company>
-    <company-id>009959</company-id>
+    <company-id>009956</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №78</name-other>
+    <address lang="ua">Київ, просп. Перемоги, 148/1</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4242587</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4248004</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-78-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-19:00 , Субота.9:00-16:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950282086</actualization-date>
+  </company>
+  <company>
+    <company-id>009957</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №74</name-other>
     <address lang="ua">Київ, вул. Тимошенка, 14</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1844,80 +1775,78 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-74-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-21:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320550</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950282129</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009958</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №77</name-other>
+    <address lang="ua">Київ, вул. Миропільська, 1</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5136627</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5131572</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-77-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-19:00 , Неділя.9:00-16:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950282194</actualization-date>
+  </company>
+  <company>
+    <company-id>009959</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №86</name-other>
+    <address lang="ua">Київ, вул. Академіка Туполева, 28</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4438863</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4000492</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-86-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950282219</actualization-date>
   </company>
   <company>
     <company-id>009960</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №81</name-other>
-    <address lang="ua">Київ, просп. Маяковського, 73</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5302031</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5302032</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-81-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.цілодобово , Субота.цілодобово , Неділя.цілодобово</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320581</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-    <feature-boolean name="payment_by_credit_card"/>
-  </company>
-  <company>
-    <company-id>009961</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №76</name-other>
-    <address lang="ua">Київ, бульв. Ромена Роллана, 13-А</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2743413</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2743413</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-76-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.8:00-20:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320630</actualization-date>
-  </company>
-  <company>
-    <company-id>009962</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №72</name-other>
     <address lang="ua">Київ, вул. Червонопільська, 14/14</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1940,15 +1869,15 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-72-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-17:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320671</actualization-date>
+    <actualization-date>1457950282266</actualization-date>
   </company>
   <company>
-    <company-id>009963</company-id>
+    <company-id>009961</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №69</name-other>
-    <address lang="ua">Київ, Харківське шосе, 144-В</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №76</name-other>
+    <address lang="ua">Київ, бульв. Ромена Роллана, 13-А</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1956,23 +1885,93 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 5630856</number>
+      <number>+380 (44) 2743413</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 5644788</number>
+      <number>+380 (44) 2743413</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-69/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-17:00 , Неділя.9:00-17:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-76-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.8:00-20:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320719</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950282313</actualization-date>
+  </company>
+  <company>
+    <company-id>009962</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №73</name-other>
+    <address lang="ua">Київ, вул. Пироговського Олександра, 4</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2758257</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2753724</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-73-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950282343</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009963</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №75</name-other>
+    <address lang="ua">Київ, просп. Перемоги, 104</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4247561</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4247342</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4248002</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-75-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.цілодобово , Субота.цілодобово , Неділя.цілодобово</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950282390</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+    <feature-boolean name="payment_by_credit_card" value="1"/>
   </company>
   <company>
     <company-id>009964</company-id>
@@ -1980,7 +1979,7 @@
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №71</name-other>
     <address lang="ua">Київ, вул. Пшенична, 16</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -1997,78 +1996,15 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-71-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-16:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320754</actualization-date>
+    <actualization-date>1457950282431</actualization-date>
   </company>
   <company>
     <company-id>009965</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №66</name-other>
-    <address lang="ua">Київ, вул. Фрунзе, 116-А</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4258709</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4254306</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-66-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-16:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320799</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009966</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №90</name-other>
-    <address lang="ua">Київ, вул. Ісаакяна, 2</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2363052</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2365159</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-90-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , </working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320842</actualization-date>
-  </company>
-  <company>
-    <company-id>009967</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №70</name-other>
     <address lang="ua">Київ, вул. Героїв Космосу, 17</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2097,515 +2033,16 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-70-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-18:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320888</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950282469</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009968</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №63</name-other>
-    <address lang="ua">Київ, вул. Жукова Маршала, 26</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5188390</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5182097</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-63/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-20:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320926</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009969</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №62</name-other>
-    <address lang="ua">Київ, вул. Вербицького Архітектора, 18</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5625110</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5622337</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-62/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.11:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238320981</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009970</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №58</name-other>
-    <address lang="ua">Київ, вул. Полярна, 8-А</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4623713</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-58-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.9:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321019</actualization-date>
-  </company>
-  <company>
-    <company-id>009971</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №57</name-other>
-    <address lang="ua">Київ, вул. Героїв Дніпра, 18</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4123006</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4123112</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-57-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-19:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321056</actualization-date>
-  </company>
-  <company>
-    <company-id>009972</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №56</name-other>
-    <address lang="ua">Київ, вул. Бориспільська, 34</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5665508</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 5678697</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-56/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-16:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321106</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009973</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №55</name-other>
-    <address lang="ua">Київ, просп. Маршала Рокосовського, 4</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4688010</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4624479</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-55-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321149</actualization-date>
-  </company>
-  <company>
-    <company-id>009974</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №52</name-other>
-    <address lang="ua">Київ, вул. В. Чорновола, 28/1</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2361205</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2369753</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-52-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.9:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321182</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009975</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №51</name-other>
-    <address lang="ua">Київ, просп. Свободи, 22</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4344768</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4344611</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-51-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-18:00 , Неділя.8:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321241</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009976</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №50</name-other>
-    <address lang="ua">Київ, вул. Малиновського Маршала, 34</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4187257</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4199460</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-50-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.9:00-20:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321279</actualization-date>
-  </company>
-  <company>
-    <company-id>009977</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №73</name-other>
-    <address lang="ua">Київ, вул. Пироговського Олександра, 4</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2758257</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2753724</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-73-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321321</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009978</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №65</name-other>
-    <address lang="ua">Київ, вул. Вишгородська, 28/1</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4303487</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4303343</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-65-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-21:00 , Неділя.9:00-18:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321372</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009979</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №49</name-other>
-    <address lang="ua">Київ, вул. Леваневського, 33-35</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4570955</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4570959</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-49-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321415</actualization-date>
-  </company>
-  <company>
-    <company-id>009980</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №86</name-other>
-    <address lang="ua">Київ, вул. Академіка Туполева, 28</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4438863</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4000492</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-86-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321454</actualization-date>
-  </company>
-  <company>
-    <company-id>009981</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №46</name-other>
-    <address lang="ua">Київ, вул. Костянтинівська, 1/2</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4250184</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4253435</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-46-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321518</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009982</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №38</name-other>
-    <address lang="ua">Київ, бульвар Івана Лепсе, 75</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4974086</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 4986519</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-38-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321552</actualization-date>
-  </company>
-  <company>
-    <company-id>009983</company-id>
-    <name lang="ru">Аптека Фармация</name>
-    <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №37</name-other>
-    <address lang="ua">Київ, просп. Повітрофлотський, 47</address>
-    <name lang="ua">Україна</name>
-    <phone>
-      <number>+380 (44) 407-90-90</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2490717</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2490717</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-37-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-22:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
-    <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321581</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
-  </company>
-  <company>
-    <company-id>009984</company-id>
+    <company-id>009966</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №68</name-other>
     <address lang="ua">Київ ,просп.Академіка Глушкова, 31-А, блок В</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2628,15 +2065,15 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-68/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321624</actualization-date>
+    <actualization-date>1457950282519</actualization-date>
   </company>
   <company>
-    <company-id>009985</company-id>
+    <company-id>009967</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №44</name-other>
-    <address lang="ua">Київ, просп. Героїв Сталінграду, 27</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №85</name-other>
+    <address lang="ua">Київ, просп. Героїв Сталінграду, 65</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2644,31 +2081,30 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4186612</number>
+      <number>+380 (44) 4113474</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4193050</number>
+      <number>+380 (44) 4113403</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-44-1/?lang=ua</add-url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-85-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-21:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321661</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950282564</actualization-date>
   </company>
   <company>
-    <company-id>009986</company-id>
+    <company-id>009968</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №33</name-other>
-    <address lang="ua">Київ, Стратегічне шосе, 35</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №63</name-other>
+    <address lang="ua">Київ, вул. Жукова Маршала, 26</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2676,24 +2112,31 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 5250116</number>
+      <number>+380 (44) 5188390</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5182097</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-33/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.9:00-22:0 , Субота.10:00-17:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-63/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-20:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321726</actualization-date>
+    <actualization-date>1457950282602</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009987</company-id>
+    <company-id>009969</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №48</name-other>
-    <address lang="ua">Київ, просп. Василя Порика, 13</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №62</name-other>
+    <address lang="ua">Київ, вул. Вербицького Архітектора, 18</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2701,31 +2144,151 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4345744</number>
+      <number>+380 (44) 5625110</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4330811</number>
+      <number>+380 (44) 5622337</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-48-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-62/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.11:00-18:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321770</actualization-date>
-    <feature-boolean name="homeopathic_pharmacy"/>
+    <actualization-date>1457950282646</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009988</company-id>
+    <company-id>009970</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №59</name-other>
+    <address lang="ua">Київ, просп. Маяковського, 47</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5152132</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5151234</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-59/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950282698</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009971</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №69</name-other>
+    <address lang="ua">Київ, Харківське шосе, 144-В</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5630856</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5644788</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-69/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-17:00 , Неділя.9:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950282733</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009972</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №57</name-other>
+    <address lang="ua">Київ, вул. Героїв Дніпра, 18</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4123006</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4123112</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-57-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-19:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950282790</actualization-date>
+  </company>
+  <company>
+    <company-id>009973</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №58</name-other>
+    <address lang="ua">Київ, вул. Полярна, 8-А</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4623713</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-58-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.9:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950282834</actualization-date>
+  </company>
+  <company>
+    <company-id>009974</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №64</name-other>
     <address lang="ua">Київ, вул. Маршала Якубовського, 6</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2754,16 +2317,16 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-64/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-17:00 , Неділя.9:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321807</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950282889</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009989</company-id>
+    <company-id>009975</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №36</name-other>
-    <address lang="ua">Київ, просп. Перемоги, 45</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №56</name-other>
+    <address lang="ua">Київ, вул. Бориспільська, 34</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2771,30 +2334,31 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4568031</number>
+      <number>+380 (44) 5665508</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4560059</number>
+      <number>+380 (44) 5678697</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-36-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-22:00 , Субота.8:00-22:00 , Неділя.8:00-22:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-56/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-16:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321834</actualization-date>
+    <actualization-date>1457950282937</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009990</company-id>
+    <company-id>009976</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №28</name-other>
-    <address lang="ua">Київ, вул. Луначарського, 22-А</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №50</name-other>
+    <address lang="ua">Київ, вул. Малиновського Маршала, 34</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2802,31 +2366,30 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 5172691</number>
+      <number>+380 (44) 4187257</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 5172705</number>
+      <number>+380 (44) 4199460</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-28-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.10:00-18:00 , Неділя.10:00-18:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-50-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.9:00-20:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321877</actualization-date>
-    <feature-boolean name="production_pharmacy"/>
+    <actualization-date>1457950282979</actualization-date>
   </company>
   <company>
-    <company-id>009991</company-id>
+    <company-id>009977</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №35</name-other>
-    <address lang="ua">Київ, вул. Щербакова, 32/38</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №66</name-other>
+    <address lang="ua">Київ, вул. Фрунзе, 116-А</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2834,30 +2397,31 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4003390</number>
+      <number>+380 (44) 4258709</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4000120</number>
+      <number>+380 (44) 4254306</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-35-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-18:00 , Неділя.10:00-17:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-66-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-16:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321942</actualization-date>
+    <actualization-date>1457950283036</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009992</company-id>
+    <company-id>009978</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №30</name-other>
-    <address lang="ua">Київ, вул. Алма-Атинська, 103/1</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №48</name-other>
+    <address lang="ua">Київ, просп. Василя Порика, 13</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2865,24 +2429,31 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 5688132</number>
+      <number>+380 (44) 4345744</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4330811</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-30-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.9:00-20:00 , Субота.9:00-16:00 , Неділя.9:00-16:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-48-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238321989</actualization-date>
+    <actualization-date>1457950283082</actualization-date>
+    <feature-boolean name="homeopathic_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009993</company-id>
+    <company-id>009979</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №25</name-other>
-    <address lang="ua">Київ, вул.Фрунзе, 109/2</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №49</name-other>
+    <address lang="ua">Київ, вул. Леваневського, 33-35</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2890,24 +2461,30 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4681082</number>
+      <number>+380 (44) 4570955</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4570959</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-25-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.10:00-18:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-49-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238322036</actualization-date>
+    <actualization-date>1457950283134</actualization-date>
   </company>
   <company>
-    <company-id>009994</company-id>
+    <company-id>009980</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №32</name-other>
-    <address lang="ua">Київ, просп.Свободи,2</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №51</name-other>
+    <address lang="ua">Київ, просп. Свободи, 22</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2915,30 +2492,31 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4620301</number>
+      <number>+380 (44) 4344768</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4620255</number>
+      <number>+380 (44) 4344611</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-32-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-20:00 , Неділя.9:00-20:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-51-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-18:00 , Неділя.8:00-18:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238322074</actualization-date>
+    <actualization-date>1457950283165</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009995</company-id>
+    <company-id>009981</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №29</name-other>
-    <address lang="ua">Київ, вул. Борщагівська, 117/125</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №44</name-other>
+    <address lang="ua">Київ, просп. Героїв Сталінграду, 27</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2946,24 +2524,31 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 4571437</number>
+      <number>+380 (44) 4186612</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4193050</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-29-1/?lang=ua</add-url>
-    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00</working-time>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-44-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-21:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238322098</actualization-date>
+    <actualization-date>1457950283237</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
   <company>
-    <company-id>009996</company-id>
+    <company-id>009982</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
     <name-other lang="ru">Аптека №40</name-other>
     <address lang="ua">Київ, вул. Зої Гайдай, 5</address>
-    <name lang="ua">Україна</name>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -2986,15 +2571,15 @@
     <add-url>http://pharmacy.kiev.ua/department/apteka-40-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-18:00 , Неділя.10:00-18:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238322140</actualization-date>
+    <actualization-date>1457950283299</actualization-date>
   </company>
   <company>
-    <company-id>009997</company-id>
+    <company-id>009983</company-id>
     <name lang="ru">Аптека Фармация</name>
     <name lang="ua">Аптека Фармація</name>
-    <name-other lang="ru">Аптека №27</name-other>
-    <address lang="ua">Київ, вул. Б.Хмельницького, 42</address>
-    <name lang="ua">Україна</name>
+    <name-other lang="ru">Аптека №65</name-other>
+    <address lang="ua">Київ, вул. Вишгородська, 28/1</address>
+    <country lang="ua">Україна</country>
     <phone>
       <number>+380 (44) 407-90-90</number>
       <type>phone</type>
@@ -3002,27 +2587,442 @@
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 2345583</number>
+      <number>+380 (44) 4303487</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+380 (44) 2340588</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+380 (44) 2352321</number>
+      <number>+380 (44) 4303343</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://pharmacy.kiev.ua</url>
-    <add-url>http://pharmacy.kiev.ua/department/apteka-27-1/?lang=ua</add-url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-65-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-21:00 , Неділя.9:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283336</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009984</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №55</name-other>
+    <address lang="ua">Київ, просп. Маршала Рокосовського, 4</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4688010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4624479</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-55-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.8:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283390</actualization-date>
+  </company>
+  <company>
+    <company-id>009985</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №35</name-other>
+    <address lang="ua">Київ, вул. Щербакова, 32/38</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4003390</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4000120</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-35-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-18:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283455</actualization-date>
+  </company>
+  <company>
+    <company-id>009986</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №38</name-other>
+    <address lang="ua">Київ, бульвар Івана Лепсе, 75</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4974086</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4986519</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-38-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283482</actualization-date>
+  </company>
+  <company>
+    <company-id>009987</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №33</name-other>
+    <address lang="ua">Київ, Стратегічне шосе, 35</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 5250116</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-33/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.9:00-22:0 , Субота.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283540</actualization-date>
+  </company>
+  <company>
+    <company-id>009988</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №32</name-other>
+    <address lang="ua">Київ, просп.Свободи,2</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4620301</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4620255</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-32-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-20:00 , Неділя.9:00-20:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283581</actualization-date>
+  </company>
+  <company>
+    <company-id>009989</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №52</name-other>
+    <address lang="ua">Київ, вул. В. Чорновола, 28/1</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2361205</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2369753</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-52-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.9:00-18:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283638</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009990</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №22</name-other>
+    <address lang="ua">Київ, вул.Немировича-Данченка, 1</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2807576</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2807687</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-22-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.9:00-20:00 , Неділя.9:00-16:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283679</actualization-date>
+  </company>
+  <company>
+    <company-id>009991</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №37</name-other>
+    <address lang="ua">Київ, просп. Повітрофлотський, 47</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2490717</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2490717</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-37-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-22:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283731</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009992</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №18</name-other>
+    <address lang="ua">Київ, вул.Будівельників, 36</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2922394</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-18-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.9:00-19:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283783</actualization-date>
+  </company>
+  <company>
+    <company-id>009993</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №25</name-other>
+    <address lang="ua">Київ, вул.Фрунзе, 109/2</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4681082</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-25-1/?lang=ua</add-url>
     <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.10:00-18:00</working-time>
     <rubric-id>184105932</rubric-id>
-    <actualization-date>1457238322162</actualization-date>
+    <actualization-date>1457950283829</actualization-date>
+  </company>
+  <company>
+    <company-id>009994</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №17</name-other>
+    <address lang="ua">Київ, вул. Урицького, 27/5</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2485337</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 2485209</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-17-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.10:00-17:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283893</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
+  </company>
+  <company>
+    <company-id>009995</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №36</name-other>
+    <address lang="ua">Київ, просп. Перемоги, 45</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4568031</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4560059</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-36-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-22:00 , Субота.8:00-22:00 , Неділя.8:00-22:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283913</actualization-date>
+  </company>
+  <company>
+    <company-id>009996</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №19</name-other>
+    <address lang="ua">Київ, вул.Північна, 46</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4117953</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4117791</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-19-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-21:00 , Субота.8:00-21:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950283959</actualization-date>
+  </company>
+  <company>
+    <company-id>009997</company-id>
+    <name lang="ru">Аптека Фармация</name>
+    <name lang="ua">Аптека Фармація</name>
+    <name-other lang="ru">Аптека №46</name-other>
+    <address lang="ua">Київ, вул. Костянтинівська, 1/2</address>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (44) 407-90-90</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4250184</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (44) 4253435</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://pharmacy.kiev.ua</url>
+    <add-url>http://pharmacy.kiev.ua/department/apteka-46-1/?lang=ua</add-url>
+    <working-time lang="ua">Пн.-Пт.8:00-20:00 , Субота.8:00-20:00 , Неділя.10:00-17:00</working-time>
+    <rubric-id>184105932</rubric-id>
+    <actualization-date>1457950284082</actualization-date>
+    <feature-boolean name="production_pharmacy" value="1"/>
   </company>
 </companies>
