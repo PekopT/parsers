@@ -150,13 +150,14 @@ class SgroshiPipeline(object):
 
         xml_name_ua = etree.SubElement(xml_item, 'name', lang=u'ua')
         xml_name_ua.text = name_ua
-
+        address = address.replace(u'</strong>', u'</strong>,')
         address = self.delete_tags(address)
         tc = self.get_address_info(address)
         address = address.replace(tc, '')
         region = self.get_region(city, UA_CITIES_RUS) or ""
         address = region + u'город ' + city + u',' + address
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
+        address = re.sub(u'\(|\)|\«|\»|\"', '', address).strip()
         xml_address.text = address
 
         if tc:
@@ -164,12 +165,14 @@ class SgroshiPipeline(object):
             tc = re.sub(u'\(|\)|\«|\»|\"', '', tc)
             xml_address_add.text = tc
 
+        address_ua = address_ua.replace(u'</strong>', u'</strong>,')
         address_ua = self.delete_tags(address_ua)
         tc_ua = self.get_address_info(address_ua)
         address_ua = address_ua.replace(tc_ua, '')
         region_ua = self.get_region(city_ua, UA_CITIES_UKR) or ""
         address_ua = region_ua + u'мисто ' + city_ua + u',' + address_ua
-        xml_address_ua = etree.SubElement(xml_item, 'address_ua', lang=u'ua')
+        xml_address_ua = etree.SubElement(xml_item, 'address', lang=u'ua')
+        address_ua = re.sub(u'\(|\)|\«|\»|\"', '', address_ua).strip()
         xml_address_ua.text = address_ua
 
         if tc_ua:
@@ -200,7 +203,7 @@ class SgroshiPipeline(object):
             xml_phone_info = etree.SubElement(xml_phone, 'info')
 
         xml_url = etree.SubElement(xml_item, 'url')
-        xml_url.text = "http://tehnoskarb.com.ua/"
+        xml_url.text = u"http://sgroshi.com.ua"
 
         working_time_ru = item['working_time']
         working_time_ua = item['working_time_ua']
