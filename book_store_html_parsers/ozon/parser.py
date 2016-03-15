@@ -55,22 +55,38 @@ def parse_data(data):
         }
         also_buy_books.append(also_row)
 
+    pattern_photo = u'\"Фотографии\"\,\"Elements\"\:\[[^]]*\]'
+    m_photo = re.search(pattern_photo, script_text)
+    if m_photo:
+        pictures_search = m_photo.group(0)[24:]
+
+    pict_list = json.loads(pictures_search)
+    pictures = []
+    for p in pict_list:
+        pictures.append(p['Preview'])
+
+    price_pattern = u'\"PriceString\"\:["\d]*\,'
+    m_price = re.search(price_pattern, script_text)
+    if m_price:
+        price = m_price.group(0)
+        price = re.sub(u'\D', '', price)
+
+    price_stock = soup.find('div','eOneTile_priceStock').text
+    if not price_stock:
+        price_stock = u"На складе."
+
     row = {
         "url": "http://www.ozon.ru/context/detail/id/5793186/",
         "name": name.strip(),
-        "images": [
-            "http://static2.ozone.ru/multimedia/books_covers/c300/1005820676.jpg",
-            "http://static2.ozone.ru/multimedia/books_covers/c300/1005820676-2.jpg",
-        ],
         "author": author.strip(),
         "publisher": publisher.strip(),
         "description": description.strip(),
         "price": {
             "currency": "RUR",
             "type": "currency",
-            "content": 403
+            "content": price
         },
-        "availability": u"На складе.",
+        "availability": price_stock,
         "year": year.strip(),
         "cover": cover.strip(),
         "pages": pages.strip(),
@@ -80,6 +96,9 @@ def parse_data(data):
 
     if also_buy_books:
         row["also_buy"] = also_buy_books
+
+    if pictures:
+        row["images"] = pictures
 
     sout.write(json.dumps(row, ensure_ascii=False))
 
