@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 sout = getwriter("utf-8")(sys.stdout)
 
 def remove_tags(value):
-    # value = re.sub('')
+    #todo
     return value
 
 def parse_data(data):
@@ -93,7 +93,6 @@ def parse_data(data):
         "isbn": isbn.strip(),
 
     }
-
     if also_buy_books:
         row["also_buy"] = also_buy_books
 
