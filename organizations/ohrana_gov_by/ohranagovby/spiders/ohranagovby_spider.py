@@ -54,10 +54,11 @@ class OhranagovbySpider(scrapy.Spider):
             href = response.xpath(pattern)
             if href:
                 url = response.urljoin(href.extract()[0])
-                yield scrapy.Request(url, callback=self.parse_page_struct, meta={'region': region})
+                yield scrapy.Request(url, callback=self.parse_page_struct, meta={'region': region, 'region_url':response.url})
 
     def parse_page_struct(self, response):
         region = response.meta['region']
+        region_url = response.meta['region_url']
 
         if region == "brest":
             items = response.xpath("//div[@class='entry-content']/blockquote/p")
@@ -92,7 +93,7 @@ class OhranagovbySpider(scrapy.Spider):
                         phones.append(p)
 
                 otdel['phone'] = phones
-                otdel['url'] = response.url
+                otdel['url'] = region_url
                 yield otdel
         elif region == "vitebsk":
             items_content = response.xpath("//div[@class='entry-content']")
@@ -128,7 +129,7 @@ class OhranagovbySpider(scrapy.Spider):
                 otdel['name'] = name
                 otdel['address'] = address
                 otdel['phone'] = phones
-                otdel['url'] = response.url
+                otdel['url'] = region_url
                 otdel['phone_code'] = u""
                 yield otdel
 
@@ -137,7 +138,7 @@ class OhranagovbySpider(scrapy.Spider):
                     otdel2['name'] = name2
                     otdel2['address'] = address2
                     otdel2['phone'] = phones2
-                    otdel2['url'] = response.url
+                    otdel2['url'] = region_url
                     yield otdel2
 
         elif region == "gomel":
@@ -151,7 +152,7 @@ class OhranagovbySpider(scrapy.Spider):
                 otdel['name'] = raw_list[0]
                 otdel['address'] = addr_an_ph[:pos_ph]
                 otdel['phone'] = [addr_an_ph[pos_ph:]]
-                otdel['url'] = response.url
+                otdel['url'] = region_url
                 otdel['phone_code'] = u""
                 yield otdel
         elif region == "grodno":
@@ -164,9 +165,31 @@ class OhranagovbySpider(scrapy.Spider):
                 otdel['name'] = name
                 otdel['address'] = address
                 otdel['phone'] = phones
-                otdel['url'] = response.url
+                otdel['url'] = region_url
                 otdel['phone_code'] = u""
                 yield otdel
+                pat = u"td[1]/p[re:test(text(),'%s')]" % u'Отдел'
+                name_add = item.xpath(pat)
+                if len(name_add)>0:
+                    otdel_add = OhranagovbyItem()
+                    otdel_add['name'] = name_add.xpath("text()").extract()
+                    #following-sibling::p[1]/text()
+                    address_add = name_add.xpath("following-sibling::p[1]/text()").extract()
+                    phones_add = name_add.xpath("following-sibling::p[2]/text()").extract()
+                    if not address_add:
+                        address_add = address
+
+                    if len(phones_add) == 0 or phones_add[0] == u'\xa0':
+                        phones_add = phones
+
+                    otdel_add['address'] = address_add
+                    otdel_add['phone'] = phones_add
+                    otdel_add['url'] = region_url
+                    otdel_add['phone_code'] = u""
+                    yield otdel_add
+
+
+
 
         elif region == "minsk":
             links = response.xpath("//div[@class='entry-content']/ul/li/strong/a/@href")
@@ -186,7 +209,7 @@ class OhranagovbySpider(scrapy.Spider):
         item['name'] = response.xpath("//header/h1/text()").extract()[0]
         item['address'] = response.xpath("//div[@class='entry-content']/div[1]").extract()
         item['phone'] = response.xpath("//div[@class='entry-content']/p[1]").extract()
-        item['url'] = response.url
+        item['url'] = u"http://mou.ohrana.gov.by/"
         item['phone_code'] = u""
         yield item
 
@@ -207,8 +230,7 @@ class OhranagovbySpider(scrapy.Spider):
                 item['address'] = re.sub(pat, '', info[1].extract())
                 item['phone'] = [re.sub(pat, '', info[2].extract())]
                 item['phone_code'] = u""
-                # item['phone'] = info[2].extract()
-            item['url'] = response.url
+            item['url'] = u"http://mogilev.ohrana.gov.by/"
             yield item
 
     def parse_minsk(self, response):
@@ -225,6 +247,6 @@ class OhranagovbySpider(scrapy.Spider):
         item['name'] = response.xpath("//header/h1/text()").extract()[0]
         item['address'] = address
         item['phone'] = response.xpath(ptn_ph).extract()
-        item['url'] = response.url
+        item['url'] = u"http://minsk.ohrana.gov.by/"
         item['phone_code'] = u""
         yield item
