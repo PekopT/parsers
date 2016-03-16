@@ -27,6 +27,8 @@ class FsvpsSpider(scrapy.Spider):
 
         phone_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()" \
                         % u'^[Т|т]ел'
+        site_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/a/text()" \
+                        % u'^[С|с]айт'
 
         fax_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()" \
                         % u'^Факс|факс'
@@ -35,7 +37,7 @@ class FsvpsSpider(scrapy.Spider):
 
         out_item = FsvpsItem()
         out_item['name'] = response.xpath("//td[@id='contenttd']/div/h2/text()").extract()
-        out_item['url'] = response.url
+
 
 
         out_item['phone'] = sel.xpath(phone_pattern).extract()
@@ -50,6 +52,17 @@ class FsvpsSpider(scrapy.Spider):
                     phone_pattern4 = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/text()" % u'^Тел|тел'
                     out_item['phone'] = sel.xpath(phone_pattern4).extract()
 
+        out_item['site_url'] = sel.xpath(site_pattern).extract()
+        if len(out_item['site_url']) == 0:
+            site_pattern2 = "//p[re:test(@class,'generic')][span[re:test(text(),'%s')]]/a/text()" % u'^Сайт|сайт'
+            out_item['site_url'] = sel.xpath(site_pattern2).extract()
+            if len(out_item['site_url']) == 0:
+                site_pattern3 = "//p[re:test(@class,'noin?dent')][b[re:test(text(),'%s')]]/a/text()" \
+                          % u'^Сайт|сайт'
+                out_item['site_url'] = sel.xpath(site_pattern3).extract()
+                if len(out_item['site_url']) == 0:
+                    site_pattern4 = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/a/text()" % u'^Сайт|сайт'
+                    out_item['site_url'] = sel.xpath(site_pattern4).extract()
 
 
         out_item['address'] = sel.xpath(address_pattern).extract()
@@ -77,6 +90,7 @@ class FsvpsSpider(scrapy.Spider):
 
         out_item['email'] = sel.xpath(email_pattern).extract()
         out_item['type'] = 1
+        out_item['url'] = response.url
         yield out_item
 
         links = response.xpath("//div[@class='linkholder']//a[re:test(@href,'structure.html$')]/@href")

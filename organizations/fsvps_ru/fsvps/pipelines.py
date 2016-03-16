@@ -246,7 +246,10 @@ class FsvpsPipeline(object):
             faxes = item['fax']
             self.save_data[url] = address
             self.save_phones[url] = phones
-            url_to_xml = url
+            url_to_xml = self.validate_str(item['site_url'])
+            if not url_to_xml:
+                url_to_xml = 'http://www.fsvps.ru'
+            url_add = url
         else:
             content = item["content"]
             address = self.remove_postal(self.get_address_from_content(content))
@@ -316,9 +319,9 @@ class FsvpsPipeline(object):
         xml_url = etree.SubElement(xml_item, 'url')
         xml_url.text = url_to_xml
 
-        if type == 2:
-            xml_add_url = etree.SubElement(xml_item,'add-url')
-            xml_add_url.text = url_add
+
+        xml_add_url = etree.SubElement(xml_item,'add-url')
+        xml_add_url.text = url_add
 
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
         xml_rubric.text = u"184105646"

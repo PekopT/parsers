@@ -11,6 +11,7 @@ import scrapy
 class FsvpsItem(scrapy.Item):
     name = scrapy.Field()
     url = scrapy.Field()
+    site_url = scrapy.Field()
     phone = scrapy.Field()
     address = scrapy.Field()
     email = scrapy.Field()
