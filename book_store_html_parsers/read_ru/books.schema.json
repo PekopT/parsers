@@ -1,0 +1,153 @@
+{
+	"$schema" : "http://json-schema.org/draft-04/schema#",
+	"title" : "Book Store vol. 2 universal schema",
+	"type" : "object",
+	"properties" : {
+		"url" : {
+			"type" : "string",
+			"format" : "uri"
+		},
+		"name" : {
+			"title" : "Название",
+			"type" : "string"
+		},
+		"images" : {
+			"title" : "Изображения книги",
+			"type" : "array",
+			"items" : {
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
+		"author" : {
+			"title" : "Автор",
+			"type" : "string"
+		},
+		"publisher" : {
+			"title" : "Издательство",
+			"type" : "string"
+		},
+		"isbn" : {
+			"title" : "ISBN — уникальный номер книжного издания",
+			"type" : "string",
+			"pattern" : "^[0-9-‑, ЯХXхx]+$"
+		},
+		"description" : {
+			"title" : "Описание",
+			"type" : "string"
+		},
+		"price" : {
+			"title" : "Цена",
+			"type" : "object",
+			"string" : {
+				"template" : "{content} руб.",
+				"jsonpath_dict" : {
+					"content" : "@.content"
+				}
+			},
+			"properties" : {
+				"currency" : {
+					"oneOf" : [{
+							"type" : "string",
+							"pattern" : "^RUR$"
+						}, {
+							"type" : "string",
+							"pattern" : "^USD$"
+						}
+					]
+				},
+				"type" : {
+					"type" : "string",
+					"pattern" : "^currency$"
+				},
+				"content" : {
+					"type" : "number"
+				}
+			}
+		},
+		"availability" : {
+			"title" : "Наличие",
+			"type" : "string"
+		},
+		"year" : {
+			"title" : "Год издания",
+			"oneOf" : [{
+					"type" : "number"
+				}, {
+					"type" : "string",
+					"pattern" : "(1|2)\\d\\d\\d"
+				}
+			]
+		},
+		"ebook" : {
+			"title" : "Электронное издание?",
+			"type " : "boolean"
+		},
+		"also_buy" : {
+			"title" : "Также покупают",
+			"type" : "array",
+			"items" : {
+				"type" : "object",
+				"properties" : {
+					"url" : {
+						"type" : "string",
+						"format" : "uri"
+					},
+					"price" : {
+						"title" : "Цена",
+						"type" : "object",
+						"properties" : {
+							"currency" : {
+								"oneOf" : [{
+										"type" : "string",
+										"pattern" : "^RUR$"
+									}, {
+										"type" : "string",
+										"pattern" : "^USD$"
+									}
+								]
+							},
+							"type" : {
+								"type" : "string",
+								"pattern" : "^currency$"
+							},
+							"content" : {
+								"type" : "number"
+							}jsonschema==2.5.1.post15
+						}
+					},
+					"name" : {
+						"type" : "string"
+					},
+					"image" : {
+						"type" : "string",
+						"format" : "uri"
+					},
+					"author" : {
+						"type" : "string"
+					}
+				}
+			}
+		},
+		"cover" : {
+			"title" : "Переплет",
+			"type" : "string"
+		},
+		"pages" : {
+			"title" : "Количество страниц",
+			"oneOf" : [{
+					"type" : "integer"
+				}, {
+					"type" : "string",
+					"pattern" : "^[0-9 ]+$"
+				}
+			]
+		}
+	},
+	"additionalProperties" : false,
+	"required" : [
+		"url",
+		"name",
+		"availability"
+	]
+}
