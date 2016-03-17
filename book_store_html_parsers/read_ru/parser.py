@@ -8,11 +8,7 @@ sout = getwriter("utf-8")(sys.stdout)
 
 
 class Parser(object):
-    data = {}
-    def __init__(self, url, html):
-        self.url = url
-        self.html = html
-
+    rows_data = []
 
     def remove_tags(self, value):
         value = value.replace(u'\n', u'')
@@ -32,8 +28,11 @@ class Parser(object):
 
         return images
 
-    def parse_html(self):
-        soup = BeautifulSoup(self.html, 'html.parser')
+    def parse_html(self, data):
+        url = data['url']
+        html = data['html']
+        soup = BeautifulSoup(html, 'html.parser')
+
         info = soup.body.div
 
         isbn = info.find('span', {'itemprop': 'isbn'})
@@ -75,7 +74,7 @@ class Parser(object):
         cover = self.remove_tags(cover)
 
         row = {
-            "url": self.url,
+            "url": url,
             "name": name,
             "author": author,
             "publisher": publisher,
@@ -96,22 +95,27 @@ class Parser(object):
         if images:
             row["images"] = images
 
-        self.data = row
+        self.rows_data.append(row)
 
     def check_validate_schema(self):
         pass
 
     def close_parser(self):
-        sout.write(json.dumps(self.data, ensure_ascii=False))
+        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
-    obj = json.load(sys.stdin)
-    url = obj['url']
-    html = obj['html']
-    # html = open("book3.html", "rb")  for testing
-    parser = Parser(url, html)
-    parser.parse_html()
+    parser = Parser()
+    for line in sys.stdin:
+        try:
+            data = json.loads(line)
+            try:
+                parser.parse_html(data)
+            except Exception:
+                pass
+        except Exception:
+            pass
+
     parser.close_parser()
 
 if __name__ == '__main__':

@@ -113,7 +113,7 @@
 							},
 							"content" : {
 								"type" : "number"
-							}jsonschema==2.5.1.post15
+							}
 						}
 					},
 					"name" : {
