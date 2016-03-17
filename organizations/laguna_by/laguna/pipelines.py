@@ -155,12 +155,24 @@ class LagunaBelPipeline(XmlPipeline):
         working_time = ''.join(item['working_time'])
         w_items = working_time.split('<br>')
 
-        w_str = ''
+        new_works = []
         for w in w_items:
+            w = self.delete_tags(w).rstrip(';')
+            w_list = w.split(';')
+            if len(w_list) == 1:
+                new_works.append(w_list[0] + ';')
+            elif len(w_list) > 1:
+                for nw in w_list:
+                    if nw.strip():
+                        new_works.append(nw.strip() + ';')
+
+
+        w_str = ''
+        for w in new_works:
             m = re.search(u'выход', w)
             if not m:
                 w_str += w
-        working_time = w_str
+        working_time = w_str[:-1]
 
         phone_items = phones.split('<br>')
         p_str = ''
