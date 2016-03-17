@@ -4,9 +4,709 @@
     <company-id>00991</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Троещина,пр. Маяковского, 52-Б.</address>
+    <address lang="ru">город Киев,ул. Командарма Уборевича,1</address>
+    <address-add lang="ru">выход с метро в сторону ул. К. Уборевича, напротив памятника Защитников Киева </address-add>
+    <address lang="ua">мисто Київ, вул. Командарма Уборевича,1</address>
+    <address-add lang="ua">вихід з метро в бік вул. К.Уборевича, навпроти пам'ятника Захисників Києва</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695625</actualization-date>
+  </company>
+  <company>
+    <company-id>00992</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,пр. Победы,100</address>
+    <address-add lang="ru">выход с метро на сторону пр.Победы к заводу  АнтоновАвиант</address-add>
+    <address lang="ua">мисто Київ,пр. Перемоги,100А</address>
+    <address-add lang="ua">вихід з метро на сторону пр. Перемоги до заводу Антонов Авіант</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695628</actualization-date>
+  </company>
+  <company>
+    <company-id>00993</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Щербакова,2А</address>
+    <address-add lang="ru">выход с метро на сторону ул.Щербакова, в длинный переход</address-add>
+    <address lang="ua">мисто Київ,вул. Щербакова,2А</address>
+    <address-add lang="ua">вихід з метро на сторону вул.Щербакова, в довгий перехід</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695631</actualization-date>
+  </company>
+  <company>
+    <company-id>00994</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,пр. Победы,48</address>
+    <address-add lang="ru">вход в метро Шулявская, направо в здании метро</address-add>
+    <address lang="ua">мисто Київ,пр. Перемоги,48</address>
+    <address-add lang="ua">вхід в метро Шулявська, праворуч в будівлі метро</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695633</actualization-date>
+  </company>
+  <company>
+    <company-id>00995</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,пер. Политехнический,1/33</address>
+    <address-add lang="ru">выход из метро напротив остановки маршрутки № 442</address-add>
+    <address lang="ua">мисто Київ,пров. Політехнічний,1/33</address>
+    <address-add lang="ua">вихід з метро напроти зупинки маршруток №442 </address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695641</actualization-date>
+  </company>
+  <company>
+    <company-id>00996</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,Вокзальная площадь,1</address>
+    <address-add lang="ru">в подземном переходе между Центральным и Южным вокзалом</address-add>
+    <address lang="ua">мисто Київ,пл. Вокзальна,1</address>
+    <address-add lang="ua">в підземному переході між Центральним та Південним вокзалами</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695644</actualization-date>
+  </company>
+  <company>
+    <company-id>00997</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Саксаганского,133а</address>
+    <address-add lang="ru">перекресток Саксаганского и С. Петлюры, 2-эт., оф. 1</address-add>
+    <address lang="ua">мисто Київ,вул. Саксаганського,133а</address>
+    <address-add lang="ua">перехрестя Саксаганського та С. Петлюри, вул. Саксаганського 133-А, 2-пов. оф. 1</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695650</actualization-date>
+  </company>
+  <company>
+    <company-id>00998</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Крещатик,46-А</address>
+    <address-add lang="ru">остановка Центральный универмаг, вход в арку напротив остановки</address-add>
+    <address lang="ua">мисто Київ,вул. Хрещатик,46-А</address>
+    <address-add lang="ua">зупинка Центральний універмаг, вхід в арку навпроти зупинки</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695652</actualization-date>
+  </company>
+  <company>
+    <company-id>00999</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Евгения Сверстюка,2Б</address>
+    <address-add lang="ru">выход из метро в сторону гостиницы Турист, в ТЦ Левобережный 1-этаж, бывшая ул. М. Расковой</address-add>
+    <address lang="ua">мисто Київ,вул. Євгенія Сверстюка,2Б</address>
+    <address-add lang="ua">вихід з метро в бік готелю Турист, в ТЦ Лівобережний 1 поверх, колишня вул. М. Раскової</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695655</actualization-date>
+  </company>
+  <company>
+    <company-id>009910</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,Новороссийская площадь,1</address>
+    <address-add lang="ru">выход из метро в сторону ул. Красногвардейская</address-add>
+    <address lang="ua">мисто Київ,Новоросійська площа,1</address>
+    <address-add lang="ua">вихід з метро в бік вул. Красногвардійська</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695663</actualization-date>
+  </company>
+  <company>
+    <company-id>009911</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Киото,8</address>
+    <address-add lang="ru">выход с метро к Киевскому национальному торгово-экономическому университету, ТЦ Зеленая Линия 0-й этаж</address-add>
+    <address lang="ua">мисто Київ, вул. Кіото,8</address>
+    <address-add lang="ua">вихід з метро до Київського національного торговельно-економічного університету, ТЦ Зелена Лінія 0-й поверх</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695665</actualization-date>
+  </company>
+  <company>
+    <company-id>009912</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,просп. Победы,136</address>
+    <address-add lang="ru">выход с метро на сторону просп. Победы, возле магазина Рошен, Фаворит Спорт, на остановке троллейбуса №7</address-add>
+    <address lang="ua">мисто Київ,просп. Перемоги,136</address>
+    <address-add lang="ua">вихід з метро в бік просп. Перемоги, біля магазину Рошен, Фаворит Спорт, на зупинці тролейбуса №7</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695668</actualization-date>
+  </company>
+  <company>
+    <company-id>009913</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Героев Днепра,22</address>
+    <address-add lang="ru">через дорогу от супермаркета Велика кишеня</address-add>
+    <address lang="ua">мисто Київ,вул. Героїв Дніпра,22</address>
+    <address-add lang="ua">через дорогу від супермаркету Велика кишеня</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695670</actualization-date>
+  </company>
+  <company>
+    <company-id>009914</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,пр. Оболонский,20а</address>
+    <address-add lang="ru">магазин Varus, цокольный этаж</address-add>
+    <address lang="ua">мисто Київ, пр. Оболонський,20а</address>
+    <address-add lang="ua">магазин Varus, цокольний поверх</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695673</actualization-date>
+  </company>
+  <company>
+    <company-id>009915</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,пр. Маршала Тимошенко,14-А</address>
+    <address-add lang="ru">фасад рынка Минский со стороны Оболонского пр-кта, между магазинами Киевстар и Космо</address-add>
+    <address lang="ua">мисто Київ,пр. Маршала Тимошенка,14-А</address>
+    <address-add lang="ua">фасад ринку Мінський зі сторони Оболонського пр-кту, між магазинами Київстар і Космо</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695675</actualization-date>
+  </company>
+  <company>
+    <company-id>009916</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,просп. Оболонский,10</address>
+    <address-add lang="ru">выход на сторону Оболонского пр-кта, 20 м от выхода с метро по пути к 1-му Дрим Тауну</address-add>
+    <address lang="ua">мисто Київ,пр-т Оболонський,10</address>
+    <address-add lang="ua">вихід на сторону Оболонського пр-кту, 20 м від виходу з метро по дорозі до 1-го Дрім Тауну</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695683</actualization-date>
+  </company>
+  <company>
+    <company-id>009917</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,просп. Московский,16 б</address>
+    <address-add lang="ru">выход к вещевому рынку, находится перед магазином Територия низких цен</address-add>
+    <address lang="ua">мисто Київ, пр. Московський,16Б</address>
+    <address-add lang="ua">вихід до речового ринку. Знаходиться перед магазином Територія низьких цін</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695689</actualization-date>
+  </company>
+  <company>
+    <company-id>009918</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Изюмская,1</address>
+    <address-add lang="ru">павильйоны по левую сторону от центрального входа в рынок Демеевский, возле м-на Киевстар</address-add>
+    <address lang="ua">мисто Київ,вул. Ізюмська,1</address>
+    <address-add lang="ua">павільйони по ліву сторону від центрального входу в ринок Деміївський, біля магазину Київстар</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695691</actualization-date>
+  </company>
+  <company>
+    <company-id>009919</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Горького,180</address>
+    <address-add lang="ru">в сторону ТРЦ Океан Плаза, общественная остановка возле здания тарелка</address-add>
+    <address lang="ua">мисто Київ,вул. Горького,180</address>
+    <address-add lang="ua">в сторону ТРЦ Океан Плаза, зупинка біля будівлі Тарілка</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695694</actualization-date>
+  </company>
+  <company>
+    <company-id>009920</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Мельникова,1</address>
+    <address-add lang="ru">между зданием метро Лукъяновка и рынком Лукъяновский</address-add>
+    <address lang="ua">мисто Київ,вул. Мельникова,1</address>
+    <address-add lang="ua">між будівлею метро Лук'янівка і ринком Лук'янівський</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695700</actualization-date>
+  </company>
+  <company>
+    <company-id>009921</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Срибнокильская,20 В</address>
+    <address-add lang="ru">в сторону ТЦ Аркадия, центральный рыночный ряд</address-add>
+    <address lang="ua">мисто Київ,вул. Срібнокільска,20 В</address>
+    <address-add lang="ua">в сторону ТЦ Аркадія, центральний ринковий ряд</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695702</actualization-date>
+  </company>
+  <company>
+    <company-id>009922</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,пр. Н. Бажана,3г, павильон №10</address>
+    <address-add lang="ru">выход из метро к ТЦ Аладдин, торговые ряды</address-add>
+    <address lang="ua">мисто Київ,пр. Миколи Бажана,3-г, павільон №10</address>
+    <address-add lang="ua">вихід з метро до ТЦ Аладдін, торгові ряди</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695705</actualization-date>
+  </company>
+  <company>
+    <company-id>009923</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,пр. М. Бажана,3 В, пав.№25</address>
+    <address-add lang="ru">выход из метро в сторону магазина Рошен, торговые ряды</address-add>
+    <address lang="ua">мисто Київ,пр. Миколи Бажана,3-в, пав. №25</address>
+    <address-add lang="ua">вихід з метро в бік магазину Рошен, торгові ряди</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695711</actualization-date>
+  </company>
+  <company>
+    <company-id>009924</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. А.Ахматовой,4-А</address>
+    <address-add lang="ru">остановка рынок Позняки или универсам Позняки</address-add>
+    <address lang="ua">мисто Київ, вул. А. Ахматової,4-А</address>
+    <address-add lang="ua">зупинка ринок Позняки або універсам Позняки</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695714</actualization-date>
+  </company>
+  <company>
+    <company-id>009925</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,ул. Набережно-Печерская,10А</address>
+    <address-add lang="ru">в помещение автостанции Выдубичи, 2 зал</address-add>
+    <address lang="ua">мисто Київ,вул. Набережно-Печерска,10А</address>
+    <address-add lang="ua">в приміщенні автостанції Видубичі 2 зал</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701010</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695720</actualization-date>
+  </company>
+  <company>
+    <company-id>009926</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">город Киев,пр. Маяковского,52-Б.</address>
     <address-add lang="ru">напротив фитнес-клуба Sport Life Дворец Спорта, Автобусная остановка Торговый центр</address-add>
-    <address lang="ua">мисто Київ,Троєщина,пр. Маяковського 52-В</address>
+    <address lang="ua">мисто Київ,пр. Маяковського,52-В</address>
     <address-add lang="ua"> напроти фітнес-клуба Sport Life Палац Спорту,  автобусна зупинка Торговий центр</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -26,15 +726,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370044</actualization-date>
+    <actualization-date>1458202695722</actualization-date>
   </company>
   <company>
-    <company-id>00992</company-id>
+    <company-id>009927</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Троещина,пр. Маяковского 17</address>
+    <address lang="ru">город Киев,пр. Маяковского,17</address>
     <address-add lang="ru">остановка Железнодорожные кассы, на стороне рынка Полюс</address-add>
-    <address lang="ua">мисто Київ,Троєщина,пр. Маяковського 17</address>
+    <address lang="ua">мисто Київ,пр. Маяковського,17</address>
     <address-add lang="ua">зупинка Залізничні каси, на стороні ринку Полюс</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -54,15 +754,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370046</actualization-date>
+    <actualization-date>1458202695724</actualization-date>
   </company>
   <company>
-    <company-id>00993</company-id>
+    <company-id>009928</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Троещина,пр. Маяковского 26д.</address>
+    <address lang="ru">город Киев,пр. Маяковского,26д.</address>
     <address-add lang="ru">остановка Фестивальный, ТЦ Маяк, 2 этаж налево</address-add>
-    <address lang="ua">мисто Київ,Троєщина,пр. Маяковського 26д.</address>
+    <address lang="ua">мисто Київ,пр. Маяковського,26д.</address>
     <address-add lang="ua">ТЦ Маяк 2-й поверх</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -82,15 +782,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370050</actualization-date>
+    <actualization-date>1458202695728</actualization-date>
   </company>
   <company>
-    <company-id>00994</company-id>
+    <company-id>009929</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Виноградарь,ул. Вышгородская 262</address>
+    <address lang="ru">город Киев,ул. Вышгородская,26/2</address>
     <address-add lang="ru">остановка пр. Правды, через дорогу от МакДональдса</address-add>
-    <address lang="ua">мисто Київ,Виноградар, вул. Вишгородська 262</address>
+    <address lang="ua">мисто Київ, вул. Вишгородська,26/2</address>
     <address-add lang="ua">зупинка пр. Правди, через дорогу від МакДональдса</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -110,15 +810,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370052</actualization-date>
+    <actualization-date>1458202695730</actualization-date>
   </company>
   <company>
-    <company-id>00995</company-id>
+    <company-id>009930</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Ленинградская площадь,пр. Мира 23</address>
+    <address lang="ru">город Киев,пр. Мира,2/3</address>
     <address-add lang="ru">выход из метро Дарница на сторону рынка, четвёртая остановка от метро, на противоположной стороне от универмага Дарница</address-add>
-    <address lang="ua">мисто Київ,Ленінградська площа, пр. Миру 23</address>
+    <address lang="ua">мисто Київ, пр. Миру,2/3</address>
     <address-add lang="ua">метро Дарниця, вихід на бік ринку, 4-а зупинка від метро, на протилежній стороні від універмагу Дарниця</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -138,15 +838,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370056</actualization-date>
+    <actualization-date>1458202695733</actualization-date>
   </company>
   <company>
-    <company-id>00996</company-id>
+    <company-id>009931</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Дарницкий вокзал,ул. Привокзальная 3</address>
+    <address lang="ru">город Киев,ул. Привокзальная,3</address>
     <address-add lang="ru">с права от Дарницкого вокзала</address-add>
-    <address lang="ua">мисто Київ,Дарницкій вокзал,вул. Привокзальна 3</address>
+    <address lang="ua">мисто Київ,вул. Привокзальна,3</address>
     <address-add lang="ua">справа від Дарницького вокзалу</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -166,15 +866,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370059</actualization-date>
+    <actualization-date>1458202695735</actualization-date>
   </company>
   <company>
-    <company-id>00997</company-id>
+    <company-id>009932</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Борщаговка,ул. Гната Юры 9</address>
+    <address lang="ru">город Киев,ул. Гната Юры,9</address>
     <address-add lang="ru">рынок Колибрис, павильон 9</address-add>
-    <address lang="ua">мисто Київ,Борщагівка,вул. Гната Юри 9</address>
+    <address lang="ua">мисто Київ,вул. Гната Юри,9</address>
     <address-add lang="ua">ринок Колібріс, павільйон 9</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -194,15 +894,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370063</actualization-date>
+    <actualization-date>1458202695743</actualization-date>
   </company>
   <company>
-    <company-id>00998</company-id>
+    <company-id>009933</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Борщаговка,бул. Ивана Лепсе 5738</address>
+    <address lang="ru">город Киев,бул. Ивана Лепсе,57/38</address>
     <address-add lang="ru">Борщаговка. Отрадный. Остановка скоростного трамвая № 1 и 3 Ивана Лепсе, в жилом доме</address-add>
-    <address lang="ua">мисто Київ,Борщагівка,бул. Івана Лепсе 5738</address>
+    <address lang="ua">мисто Київ,бул. Івана Лепсе,57/38</address>
     <address-add lang="ua">Борщаговка. Отрадний. Зупинка швидкісного трамваю № 1 і 3 Івана Лепсе. Знаходиться в житловому будинку</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -222,15 +922,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370066</actualization-date>
+    <actualization-date>1458202695745</actualization-date>
   </company>
   <company>
-    <company-id>00999</company-id>
+    <company-id>009934</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Тараса Шевченка,пл. Тараса Шевченка 2</address>
+    <address lang="ru">город Киев,пл. Тараса Шевченка,2</address>
     <address-add lang="ru">торговый ряд между автостанцией Полесье и рынком Полесье</address-add>
-    <address lang="ua">мисто Київ,Тараса Шевченка, пл. Тараса Шевченка 2</address>
+    <address lang="ua">мисто Київ, пл. Тараса Шевченка,2</address>
     <address-add lang="ua">торговий ряд між автостанцією Полісся и ринком Полісся</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -250,16 +950,16 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370069</actualization-date>
+    <actualization-date>1458202695748</actualization-date>
   </company>
   <company>
-    <company-id>009910</company-id>
+    <company-id>009935</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Борщаговка,ул. Жолудева 4</address>
-    <address-add lang="ru">остановка скоростного трамвая №1, возле торгового центра Универсам</address-add>
-    <address lang="ua">мисто Київ,Борщагівка,вул. Жолудєва 48</address>
-    <address-add lang="ua">зупинка швидкісного трамвая №1, біля торгового цетру Універсам </address-add>
+    <address lang="ru">город Киев,ул. Симиренко,1</address>
+    <address-add lang="ru">по правую сторону от ТЦ Универсам</address-add>
+    <address lang="ua">мисто Київ,вул. Симиренко,1</address>
+    <address-add lang="ua">з правого боку від ТЦ Універсам</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
     <phone>
@@ -278,15 +978,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370072</actualization-date>
+    <actualization-date>1458202695751</actualization-date>
   </company>
   <company>
-    <company-id>009911</company-id>
+    <company-id>009936</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">город Киев,Севастопольская площадь,ул. Донецкая 502</address>
+    <address lang="ru">город Киев,ул. Донецкая,50/2</address>
     <address-add lang="ru">Севастопольская площадь, остановка пр. Воздухофлотский, на углу жилого дома</address-add>
-    <address lang="ua">мисто Київ,Севастопольська площа,вул. Донецька 502</address>
+    <address lang="ua">мисто Київ,вул. Донецька,50/2</address>
     <address-add lang="ua">Севастопольська площа, зупинка пр. Повітрофлотський, на розі житлового будинку</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -306,15 +1006,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370075</actualization-date>
+    <actualization-date>1458202695753</actualization-date>
   </company>
   <company>
-    <company-id>009912</company-id>
+    <company-id>009937</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Киевская область,город Белая Церковь,ул. Ярослава Мудрого 29</address>
+    <address lang="ru">Киевская область,город Белая Церковь,ул. Ярослава Мудрого,29</address>
     <address-add lang="ru">остановка Торговый центр, напротив ТРЦ Гермес</address-add>
-    <address lang="ua">Київська область,мисто Біла Церква,вул. Ярослава Мудрого 29</address>
+    <address lang="ua">Київська область,мисто Біла Церква,вул. Ярослава Мудрого,29</address>
     <address-add lang="ua">зупинка Торговий центр, навпроти ТРЦ Гермес</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -334,15 +1034,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370078</actualization-date>
+    <actualization-date>1458202695757</actualization-date>
   </company>
   <company>
-    <company-id>009913</company-id>
+    <company-id>009938</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Киевская область,город Белая Церковь,бул. 50 лет Победы 58В</address>
+    <address lang="ru">Киевская область,город Белая Церковь,бул. 50 лет Победы,58В</address>
     <address-add lang="ru">остановка Крытый рынок, идти в сторону 5-й площадки</address-add>
-    <address lang="ua">Київська область,мисто Біла Церква,бул. 50-річчя Перемоги 58 В</address>
+    <address lang="ua">Київська область,мисто Біла Церква,бул. 50-річчя Перемоги,58 В</address>
     <address-add lang="ua">зупинка Критий ринок в бік 5-го майданчика</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -362,15 +1062,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370080</actualization-date>
+    <actualization-date>1458202695759</actualization-date>
   </company>
   <company>
-    <company-id>009914</company-id>
+    <company-id>009939</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Киевская область,город Белая Церковь,ул. Леваневского 53-Г</address>
+    <address lang="ru">Киевская область,город Белая Церковь,ул. Леваневского,53-Г</address>
     <address-add lang="ru">остановка ДК Росава, возле магазина Конфи склад</address-add>
-    <address lang="ua">Київська область,мисто Біла Церква,вул. Леваневського 53-Г</address>
+    <address lang="ua">Київська область,мисто Біла Церква,вул. Леваневського,53-Г</address>
     <address-add lang="ua">зупинка ДК Росава, біля магазину Конфі склад</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -390,15 +1090,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370083</actualization-date>
+    <actualization-date>1458202695761</actualization-date>
   </company>
   <company>
-    <company-id>009915</company-id>
+    <company-id>009940</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Киевская область,город Борисполь,ул. Киевский шлях 84</address>
+    <address lang="ru">Киевская область,город Борисполь,ул. Киевский шлях,84</address>
     <address-add lang="ru">ТЦ Трест, 2 этаж, офис 231, возле Центрального рынка</address-add>
-    <address lang="ua">Київська область,мисто Бориспіль,вул. Київський шлях 84</address>
+    <address lang="ua">Київська область,мисто Бориспіль,вул. Київський шлях,84</address>
     <address-add lang="ua">ТЦ Трест, 2 поверх, офіс 231, біля Центрального ринку</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -418,15 +1118,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370086</actualization-date>
+    <actualization-date>1458202695764</actualization-date>
   </company>
   <company>
-    <company-id>009916</company-id>
+    <company-id>009941</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Киевская область,город Бровары,ул. Гагарина 16</address>
+    <address lang="ru">Киевская область,город Бровары,ул. Гагарина,16</address>
     <address-add lang="ru">офисный центр Лиза, 2 этаж, 22 офис</address-add>
-    <address lang="ua">Київська область,мисто Бровари,вул. Гагаріна 16</address>
+    <address lang="ua">Київська область,мисто Бровари,вул. Гагаріна,16</address>
     <address-add lang="ua">офісний центр Ліза, 2 поверх, 22 офіс</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -446,15 +1146,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370089</actualization-date>
+    <actualization-date>1458202695767</actualization-date>
   </company>
   <company>
-    <company-id>009917</company-id>
+    <company-id>009942</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Винницкая область,город Винница,ул. Театральная, 10, офис № 311</address>
+    <address lang="ru">Винницкая область,город Винница,ул. Театральная,10, офис № 311</address>
     <address-add lang="ru">Офис ЦЕНТР, 3 этаж</address-add>
-    <address lang="ua">Вінницька область,мисто Вінниця,вул. Театральная 10, оф. 311</address>
+    <address lang="ua">Вінницька область,мисто Вінниця,вул. Театральная,10, оф. 311</address>
     <address-add lang="ua">Офіс ЦЕНТР, 3 поверх</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -474,15 +1174,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370093</actualization-date>
+    <actualization-date>1458202695770</actualization-date>
   </company>
   <company>
-    <company-id>009918</company-id>
+    <company-id>009943</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Винницкая область,город Винница,ул. Коцюбинского 70</address>
+    <address lang="ru">Винницкая область,город Винница,ул. Коцюбинского,70</address>
     <address-add lang="ru">ТЦ ПетроЦентр</address-add>
-    <address lang="ua">Вінницька область,мисто Вінниця,вул. Коцюбинського 70</address>
+    <address lang="ua">Вінницька область,мисто Вінниця,вул. Коцюбинського,70</address>
     <address-add lang="ua">ТЦ Петроцентр</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -502,15 +1202,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370096</actualization-date>
+    <actualization-date>1458202695772</actualization-date>
   </company>
   <company>
-    <company-id>009919</company-id>
+    <company-id>009944</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Винницкая область,город Винница,ул. Келецкая 104</address>
+    <address lang="ru">Винницкая область,город Винница,ул. Келецкая,104</address>
     <address-add lang="ru">остановка Воинов Интернационалистов</address-add>
-    <address lang="ua">Вінницька область,мисто Вінниця,вул. Келецька 104</address>
+    <address lang="ua">Вінницька область,мисто Вінниця,вул. Келецька,104</address>
     <address-add lang="ua">зупинка Воїнів Інтернаціоналістів</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -530,15 +1230,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370099</actualization-date>
+    <actualization-date>1458202695774</actualization-date>
   </company>
   <company>
-    <company-id>009920</company-id>
+    <company-id>009945</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Винницкая область,город Винница,ул. Тимирязева 48</address>
+    <address lang="ru">Винницкая область,город Винница,ул. Тимирязева,48</address>
     <address-add lang="ru">Остановка Центральный рынок, с правой стороны от парковки, двухэтажное здание, рядом находится магазин  Книжкова Хата.</address-add>
-    <address lang="ua">Вінницька область,мисто Вінниця,вул. Тимірязєва 48</address>
+    <address lang="ua">Вінницька область,мисто Вінниця,вул. Тимірязєва,48</address>
     <address-add lang="ua">Зупинка Центральний ринок, з правого боку від паркування, двоповерхова будівля, поруч знаходиться магазин Книжкова Хата</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -558,15 +1258,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370103</actualization-date>
+    <actualization-date>1458202695779</actualization-date>
   </company>
   <company>
-    <company-id>009921</company-id>
+    <company-id>009946</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Днепродзержинск,пр. Ленина 49</address>
+    <address lang="ru">Днепропетровская область,город Днепродзержинск,пр. Ленина,49</address>
     <address-add lang="ru">остановка Площадь Ленина, возле центральной оптики</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Дніпродзержинськ,пр. Леніна 49</address>
+    <address lang="ua">Дніпропетровська область,мисто Дніпродзержинськ,пр. Леніна,49</address>
     <address-add lang="ua">зупинка Площа Леніна, біля центральної оптики</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -586,15 +1286,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370106</actualization-date>
+    <actualization-date>1458202695782</actualization-date>
   </company>
   <company>
-    <company-id>009922</company-id>
+    <company-id>009947</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Днепродзержинск,б-р Строителей 7</address>
+    <address lang="ru">Днепропетровская область,город Днепродзержинск,б-р Строителей,7</address>
     <address-add lang="ru">остановка Поликлиника, напротив рынка</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Дніпродзержинськ,бул. Будівельників 7</address>
+    <address lang="ua">Дніпропетровська область,мисто Дніпродзержинськ,бул. Будівельників,7</address>
     <address-add lang="ua">перехрестя вул. Шмідта і пр. Карла Маркса, ТЦ Андрос</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -614,15 +1314,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370109</actualization-date>
+    <actualization-date>1458202695785</actualization-date>
   </company>
   <company>
-    <company-id>009923</company-id>
+    <company-id>009948</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Днепропетровск,пр. Карла Маркса 111-А</address>
+    <address lang="ru">Днепропетровская область,город Днепропетровск,пр. Карла Маркса,111-А</address>
     <address-add lang="ru">перекресток ул. Шмидта и пр. Карла Маркса, ТЦ Андрос</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,пр. Карла Маркса 111-А</address>
+    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,пр. Карла Маркса,111-А</address>
     <address-add lang="ua">перехрестя вул. Шмідта і пр. Карла Маркса</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -642,15 +1342,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370113</actualization-date>
+    <actualization-date>1458202695788</actualization-date>
   </company>
   <company>
-    <company-id>009924</company-id>
+    <company-id>009949</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Днепропетровск,ул. Инженерная 4</address>
+    <address lang="ru">Днепропетровская область,город Днепропетровск,ул. Инженерная,4</address>
     <address-add lang="ru">рынок 12 квартал</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,вул. Інженерна 4</address>
+    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,вул. Інженерна,4</address>
     <address-add lang="ua">ринок 12 квартал</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -670,15 +1370,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370115</actualization-date>
+    <actualization-date>1458202695790</actualization-date>
   </company>
   <company>
-    <company-id>009925</company-id>
+    <company-id>009950</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Днепропетровск,ул. Ширшова 10</address>
+    <address lang="ru">Днепропетровская область,город Днепропетровск,ул. Ширшова,10</address>
     <address-add lang="ru">перекресток ул. Ширшова и Харьковской, напротив ТЦ Новый центр</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,вул. Ширшова 10</address>
+    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,вул. Ширшова,10</address>
     <address-add lang="ua">перехрестя вул. Ширшова та Харківської, навпроти ТЦ Новий центр</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -698,15 +1398,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370118</actualization-date>
+    <actualization-date>1458202695793</actualization-date>
   </company>
   <company>
-    <company-id>009926</company-id>
+    <company-id>009951</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Днепропетровск,ул. Березинская 23-К</address>
+    <address lang="ru">Днепропетровская область,город Днепропетровск,ул. Березинская,23-К</address>
     <address-add lang="ru">Березинский рынок, возле магазина Руллон</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,вул. Березинська 23-К</address>
+    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,вул. Березинська,23-К</address>
     <address-add lang="ua">Березинський ринок біля магазину Руллон</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -726,15 +1426,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370121</actualization-date>
+    <actualization-date>1458202695795</actualization-date>
   </company>
   <company>
-    <company-id>009927</company-id>
+    <company-id>009952</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Днепропетровск,ул. Пастера 7а</address>
+    <address lang="ru">Днепропетровская область,город Днепропетровск,ул. Пастера,7а</address>
     <address-add lang="ru">пл. Николая Островского, напротив магазина Эльдорадо</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,вул. Пастера 7а</address>
+    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,вул. Пастера,7а</address>
     <address-add lang="ua">пл. Миколи Островського, навпроти магазину Ельдорадо</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -754,15 +1454,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370123</actualization-date>
+    <actualization-date>1458202695798</actualization-date>
   </company>
   <company>
-    <company-id>009928</company-id>
+    <company-id>009953</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Днепропетровск,пр. Кирова 110</address>
+    <address lang="ru">Днепропетровская область,город Днепропетровск,пр. Кирова,110</address>
     <address-add lang="ru">Троллейбусная остановка на перекрестке пр. Кирова и пр. Титова</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,пр. Кірова 110</address>
+    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,пр. Кірова,110</address>
     <address-add lang="ua">Тролейбусна зупинка на перехресті пр. Кірова і пр. Тітова</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -782,15 +1482,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370126</actualization-date>
+    <actualization-date>1458202695799</actualization-date>
   </company>
   <company>
-    <company-id>009929</company-id>
+    <company-id>009954</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Днепропетровск,пр. Газеты Правда 89</address>
+    <address lang="ru">Днепропетровская область,город Днепропетровск,пр. Газеты Правда,89</address>
     <address-add lang="ru">перекресток пр.имени Газеты Правда и ул. Калиновой</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,пр. ім. Газети Правда 89</address>
+    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,пр. ім. Газети Правда,89</address>
     <address-add lang="ua">перехрестя пр.ім. Газети Правда та вул. Калинової</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -810,15 +1510,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370128</actualization-date>
+    <actualization-date>1458202695801</actualization-date>
   </company>
   <company>
-    <company-id>009930</company-id>
+    <company-id>009955</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Днепропетровск,ул. Братьев Трофимовых 32Н</address>
+    <address lang="ru">Днепропетровская область,город Днепропетровск,ул. Братьев Трофимовых,32Н</address>
     <address-add lang="ru">м. Коммунаровская, выход в сторону ул. Братьев Трофимовых, рядом клуб КобиNet и зоомагазин</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,вул. Братів Трофімових 32Н</address>
+    <address lang="ua">Дніпропетровська область,мисто Дніпропетровськ,вул. Братів Трофімових,32Н</address>
     <address-add lang="ua">м. Комунарівська, вихід в бік вул. Братів Трофімових, поряд клуб КобіNet та зоомагазин</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -838,15 +1538,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370131</actualization-date>
+    <actualization-date>1458202695804</actualization-date>
   </company>
   <company>
-    <company-id>009931</company-id>
+    <company-id>009956</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Житомирская область,город Житомир,ул. Небесной сотни, 26</address>
+    <address lang="ru">Житомирская область,город Житомир,ул. Небесной сотни,26</address>
     <address-add lang="ru">остановка Центральный Универмаг, бывшая ул. Московская</address-add>
-    <address lang="ua">Житомирська область,мисто Житомир,ул. Небесної сотні, 26</address>
+    <address lang="ua">Житомирська область,мисто Житомир,ул. Небесної сотні,26</address>
     <address-add lang="ua">колишня вул. Московська, навпроти ЦУМу</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -866,15 +1566,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370134</actualization-date>
+    <actualization-date>1458202695808</actualization-date>
   </company>
   <company>
-    <company-id>009932</company-id>
+    <company-id>009957</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Житомирская область,город Житомир,ул. Киевская 79</address>
+    <address lang="ru">Житомирская область,город Житомир,ул. Киевская,79</address>
     <address-add lang="ru">в здании ЖитомирБуд, 1 этаж, офис 5</address-add>
-    <address lang="ua">Житомирська область,мисто Житомир,вул. Київська 79</address>
+    <address lang="ua">Житомирська область,мисто Житомир,вул. Київська,79</address>
     <address-add lang="ua">приміщення Житомирбуд, 1 поверх, оф. 5</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -894,15 +1594,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370136</actualization-date>
+    <actualization-date>1458202695811</actualization-date>
   </company>
   <company>
-    <company-id>009933</company-id>
+    <company-id>009958</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Житомирская область,город Житомир,пл. Победы 42</address>
+    <address lang="ru">Житомирская область,город Житомир,пл. Победы,4/2</address>
     <address-add lang="ru">возле магазина Молодежная мода</address-add>
-    <address lang="ua">Житомирська область,мисто Житомир,пл. Перемоги 42</address>
+    <address lang="ua">Житомирська область,мисто Житомир,пл. Перемоги,4/2</address>
     <address-add lang="ua">біля магазину Молодіжна мода</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -922,15 +1622,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370139</actualization-date>
+    <actualization-date>1458202695813</actualization-date>
   </company>
   <company>
-    <company-id>009934</company-id>
+    <company-id>009959</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Запорожская область,город Запорожье,пр Ленина 35</address>
+    <address lang="ru">Запорожская область,город Запорожье,пр Ленина,35</address>
     <address-add lang="ru">от остановки Анголенко пройти вниз 50 м в сторону Автовокзала, бывший магазин Зброя</address-add>
-    <address lang="ua">Луганська область,мисто Запоріжжя,вул. Анголенка 14б</address>
+    <address lang="ua">Луганська область,мисто Запоріжжя,вул. Анголенка,14б</address>
     <address-add lang="ua">колишній магазин Зброя, від зупинки Анголенко пройти вниз 50м у бік Автовокзалу</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -950,15 +1650,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370143</actualization-date>
+    <actualization-date>1458202695816</actualization-date>
   </company>
   <company>
-    <company-id>009935</company-id>
+    <company-id>009960</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Запорожская область,город Запорожье,ул. Гудыменко 6</address>
+    <address lang="ru">Запорожская область,город Запорожье,ул. Гудыменко,6</address>
     <address-add lang="ru">остановка Универсам, сразу за супермаркетом Сильпо, одно крыльцо с почтой Интайм</address-add>
-    <address lang="ua">Луганська область,мисто Запоріжжя,вул. Гудименка 6</address>
+    <address lang="ua">Луганська область,мисто Запоріжжя,вул. Гудименка,6</address>
     <address-add lang="ua">зупинка Універсам, відразу за супермаркетом Сільпо, один ганок з поштою Інтайм</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -978,15 +1678,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370146</actualization-date>
+    <actualization-date>1458202695819</actualization-date>
   </company>
   <company>
-    <company-id>009936</company-id>
+    <company-id>009961</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Запорожская область,город Запорожье,ул. Лермонтова 3</address>
+    <address lang="ru">Запорожская область,город Запорожье,ул. Лермонтова,3</address>
     <address-add lang="ru">на остановке возле ТЦ Украина</address-add>
-    <address lang="ua">Луганська область,мисто Запоріжжя,вул. Лермонтова 3</address>
+    <address lang="ua">Луганська область,мисто Запоріжжя,вул. Лермонтова,3</address>
     <address-add lang="ua">на зупинці біля ТЦ Україна</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1006,15 +1706,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370148</actualization-date>
+    <actualization-date>1458202695821</actualization-date>
   </company>
   <company>
-    <company-id>009937</company-id>
+    <company-id>009962</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Запорожская область,город Запорожье,пр. Ленина 179</address>
+    <address lang="ru">Запорожская область,город Запорожье,пр. Ленина,179</address>
     <address-add lang="ru">на остановке пр.Металлургов как ехать на Бабурку</address-add>
-    <address lang="ua">Луганська область,мисто Запоріжжя,пр. Леніна 179</address>
+    <address lang="ua">Луганська область,мисто Запоріжжя,пр. Леніна,179</address>
     <address-add lang="ua">на зупинці пр.Металлургів як їхати на Бабурку</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1034,15 +1734,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370151</actualization-date>
+    <actualization-date>1458202695824</actualization-date>
   </company>
   <company>
-    <company-id>009938</company-id>
+    <company-id>009963</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Запорожская область,город Запорожье,ул. Счастливая 7</address>
+    <address lang="ru">Запорожская область,город Запорожье,ул. Счастливая,7</address>
     <address-add lang="ru">на остановке Правобережный рынок</address-add>
-    <address lang="ua">Луганська область,мисто Запоріжжя,вул. Щаслива 7</address>
+    <address lang="ua">Луганська область,мисто Запоріжжя,вул. Щаслива,7</address>
     <address-add lang="ua">на зупинці Правобережний ринок</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1062,15 +1762,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370153</actualization-date>
+    <actualization-date>1458202695829</actualization-date>
   </company>
   <company>
-    <company-id>009939</company-id>
+    <company-id>009964</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Ивано-Франковская область,город Ивано-Франковск,ул. Днестровская 26</address>
+    <address lang="ru">Ивано-Франковская область,город Ивано-Франковск,ул. Днестровская,26</address>
     <address-add lang="ru">ТЦ Мальва, 1 этаж, 27 бутик, напротив Центрального рынка</address-add>
-    <address lang="ua">Івано-Франківська область,мисто Івано-Франківськ,вул. Дністровська 26</address>
+    <address lang="ua">Івано-Франківська область,мисто Івано-Франківськ,вул. Дністровська,26</address>
     <address-add lang="ua">ТЦ Мальва 1 поверх, 27 бутік, навпроти Центрального ринка</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1090,15 +1790,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370156</actualization-date>
+    <actualization-date>1458202695832</actualization-date>
   </company>
   <company>
-    <company-id>009940</company-id>
+    <company-id>009965</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Ивано-Франковская область,город Ивано-Франковск,ул. Мельника 2</address>
+    <address lang="ru">Ивано-Франковская область,город Ивано-Франковск,ул. Мельника,2</address>
     <address-add lang="ru">ТЦ Экстим престиж, 1 этаж</address-add>
-    <address lang="ua">Івано-Франківська область,мисто Івано-Франківськ,вул. Мельника 2</address>
+    <address lang="ua">Івано-Франківська область,мисто Івано-Франківськ,вул. Мельника,2</address>
     <address-add lang="ua">ТЦ Екстім престиж, 1 поверх</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1118,15 +1818,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370159</actualization-date>
+    <actualization-date>1458202695835</actualization-date>
   </company>
   <company>
-    <company-id>009941</company-id>
+    <company-id>009966</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Одесская область,город Ильичевск,ул. Ленина 35А</address>
+    <address lang="ru">Одесская область,город Ильичевск,ул. Ленина,35А</address>
     <address-add lang="ru">остановка Таврия В, с правой стороны от магазина Таврия в жилом доме</address-add>
-    <address lang="ua">Одеська область,мисто Іллічівськ,вул. Леніна 35А</address>
+    <address lang="ua">Одеська область,мисто Іллічівськ,вул. Леніна,35А</address>
     <address-add lang="ua">зупинка Таврія В, праворуч від магазину Таврія у житловому будинку</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1146,15 +1846,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370162</actualization-date>
+    <actualization-date>1458202695839</actualization-date>
   </company>
   <company>
-    <company-id>009942</company-id>
+    <company-id>009967</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Хмельницкая область,город Каменец-Подольский,пр. Грушевского 253</address>
+    <address lang="ru">Хмельницкая область,город Каменец-Подольский,пр. Грушевского,25/3</address>
     <address-add lang="ru">остановка Центральный рынок, слева от центрального входа в рынок, 2 этаж.</address-add>
-    <address lang="ua">Хмельницька область,мисто Кам`янець-Подільський,пр. Грушевського 253</address>
+    <address lang="ua">Хмельницька область,мисто Кам`янець-Подільський,пр. Грушевського,25/3</address>
     <address-add lang="ua">зупинка Центральний ринок, ліворуч від центрального входу в ринок, 2 поверх.</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1174,15 +1874,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370165</actualization-date>
+    <actualization-date>1458202695842</actualization-date>
   </company>
   <company>
-    <company-id>009943</company-id>
+    <company-id>009968</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Кировоградская область,город Кировоград,ул. Большая Перспективная 3432</address>
+    <address lang="ru">Кировоградская область,город Кировоград,ул. Большая Перспективная,34/32</address>
     <address-add lang="ru">напротив кинотеатра Звездный, в помещении торгового дома Империал</address-add>
-    <address lang="ua">Кіровоградська область,мисто Кiровоград,вул. Велика Перспективна 3432</address>
+    <address lang="ua">Кіровоградська область,мисто Кiровоград,вул. Велика Перспективна,34/32</address>
     <address-add lang="ua">навпроти кінотеатру Зоряний, в приміщенні торгового дому Імперіал</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1202,15 +1902,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370168</actualization-date>
+    <actualization-date>1458202695845</actualization-date>
   </company>
   <company>
-    <company-id>009944</company-id>
+    <company-id>009969</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Кировоградская область,город Кировоград,ул. 50 лет Октября 2334 торговый павильон №8</address>
+    <address lang="ru">Кировоградская область,город Кировоград,ул. 50 лет Октября,23/34 торговый павильон №8</address>
     <address-add lang="ru">остановка Крытый рынок, новые торговые павильоны вдоль центральной проезжей части</address-add>
-    <address lang="ua">Кіровоградська область,мисто Кiровоград,вул. 50-річчя Жовтня 2334, торг. пав. №8,</address>
+    <address lang="ua">Кіровоградська область,мисто Кiровоград,вул. 50-річчя Жовтня,23/34, торг. пав. №8,</address>
     <address-add lang="ua">зупинка Критий ринок, нові торгові павільйони вздовж центральної проїжджої частини</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1230,16 +1930,16 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370170</actualization-date>
+    <actualization-date>1458202695847</actualization-date>
   </company>
   <company>
-    <company-id>009945</company-id>
+    <company-id>009970</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Волынская область,город Ковель,ул. Леси Украинки 3126</address>
-    <address-add lang="ru">ТЦ Ажур, с левой стороны от магазина Ватсонс, напротив авто и жд вокзалов</address-add>
-    <address lang="ua">Волинська область,мисто Ковель,вул. Лесi Українки 3126</address>
-    <address-add lang="ua">ТЦ Ажур, ліворуч від магазину Ватсонс, навпроти авто і жд вокзалів</address-add>
+    <address lang="ru">Волынская область,город Ковель,ул. Леси Украинки,31/26</address>
+    <address-add lang="ru">ТЦ Ажур, с левой стороны от магазина Ватсонс, напротив авто и ж/д вокзалов</address-add>
+    <address lang="ua">Волинська область,мисто Ковель,вул. Лесi Українки,31/26</address>
+    <address-add lang="ua">ТЦ Ажур, ліворуч від магазину Ватсонс, навпроти авто і ж/д вокзалів</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
     <phone>
@@ -1258,15 +1958,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370173</actualization-date>
+    <actualization-date>1458202695850</actualization-date>
   </company>
   <company>
-    <company-id>009946</company-id>
+    <company-id>009971</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Сумская область,город Конотоп,пл. Конотопских Дивизий 24а</address>
+    <address lang="ru">Сумская область,город Конотоп,пл. Конотопских Дивизий,24а</address>
     <address-add lang="ru">остановка Медучилище, рядом рынок Воронцова, напротив ПриватБанка в ТЦ Маяк 2 этаж</address-add>
-    <address lang="ua">Сумська область,мисто Конотоп,пл. Конотопських Дивізій 24а</address>
+    <address lang="ua">Сумська область,мисто Конотоп,пл. Конотопських Дивізій,24а</address>
     <address-add lang="ua">зупинка Медучилище, поблизу ринок Воронцова, навпроти ПриватБанку в ТЦ Маяк 2 поверх</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1286,15 +1986,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370177</actualization-date>
+    <actualization-date>1458202695853</actualization-date>
   </company>
   <company>
-    <company-id>009947</company-id>
+    <company-id>009972</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Донецкая область,город Краматорск,ул. Островского 5</address>
+    <address lang="ru">Донецкая область,город Краматорск,ул. Островского,5</address>
     <address-add lang="ru">с автобуса необходимо идти по напрвлению к ЖД вокзалу, отделение находится справа</address-add>
-    <address lang="ua">Донецька область,мисто Краматорск,вул. Островського 5</address>
+    <address lang="ua">Донецька область,мисто Краматорск,вул. Островського,5</address>
     <address-add lang="ua">з автобуса необхідно йти в направленні до ЖД вокзалу, відділення знаходиться праворуч</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1314,15 +2014,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370180</actualization-date>
+    <actualization-date>1458202695856</actualization-date>
   </company>
   <company>
-    <company-id>009948</company-id>
+    <company-id>009973</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Полтавская область,город Кременчуг,ул. Первомайская 20а, офис 217</address>
+    <address lang="ru">Полтавская область,город Кременчуг,ул. Первомайская,20а, офис 217</address>
     <address-add lang="ru">офисный центр Бизнес Букет, напротив суда Автозаводского района</address-add>
-    <address lang="ua">Полтавська область,мисто Кременчук,вул. Першотравнева 20А</address>
+    <address lang="ua">Полтавська область,мисто Кременчук,вул. Першотравнева,20А</address>
     <address-add lang="ua">офісний центр Бізнес Букет навпроти суду Автозаводського району</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1342,15 +2042,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370183</actualization-date>
+    <actualization-date>1458202695859</actualization-date>
   </company>
   <company>
-    <company-id>009949</company-id>
+    <company-id>009974</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Полтавская область,город Кременчуг,ул. Киевская 8</address>
+    <address lang="ru">Полтавская область,город Кременчуг,ул. Киевская,8</address>
     <address-add lang="ru">возле МакДональдса</address-add>
-    <address lang="ua">Полтавська область,мисто Кременчук,вул. Київська 8</address>
+    <address lang="ua">Полтавська область,мисто Кременчук,вул. Київська,8</address>
     <address-add lang="ua">біля МакДональдса</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1370,15 +2070,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370186</actualization-date>
+    <actualization-date>1458202695861</actualization-date>
   </company>
   <company>
-    <company-id>009950</company-id>
+    <company-id>009975</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Кривой Рог,просп. Гагарина 1</address>
+    <address lang="ru">Днепропетровская область,город Кривой Рог,просп. Гагарина,1</address>
     <address-add lang="ru">кольцо 95 квартала, остановка в сторону пл. Артема</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,просп. Гагаріна 1</address>
+    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,просп. Гагаріна,1</address>
     <address-add lang="ua">кільце 95 кварталу, зупинка в сторону пл. Артема</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1398,15 +2098,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370189</actualization-date>
+    <actualization-date>1458202695864</actualization-date>
   </company>
   <company>
-    <company-id>009951</company-id>
+    <company-id>009976</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Кривой Рог,ул. Лермонтова 20</address>
+    <address lang="ru">Днепропетровская область,город Кривой Рог,ул. Лермонтова,20</address>
     <address-add lang="ru">первый 5-ти этажный дом справа от входа в рынок, через дорогу от нашего отделения находится ТЦ Бульвар</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,вул. Лермонтова 20</address>
+    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,вул. Лермонтова,20</address>
     <address-add lang="ua">перший 5-ти поверховий будинок праворуч від входу в ринок, через дорогу від ТЦ Бульвар</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1426,15 +2126,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370192</actualization-date>
+    <actualization-date>1458202695867</actualization-date>
   </company>
   <company>
-    <company-id>009952</company-id>
+    <company-id>009977</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Кривой Рог,ул. Мелешкина 36, остановка Космонавтов</address>
+    <address lang="ru">Днепропетровская область,город Кривой Рог,ул. Мелешкина,36, остановка Космонавтов</address>
     <address-add lang="ru">5-ти этажный дом по стороне бывшей гостиницы Киев, через дорогу от нашего отделения находятся магазин АТБ и Дом быта</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,вул. Мелешкіна 36</address>
+    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,вул. Мелешкіна,36</address>
     <address-add lang="ua">5-ти поверховий будинок по стороні колишнього готелю Київ, через дорогу від магазину АТБ і Будинок побуту</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1454,15 +2154,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370195</actualization-date>
+    <actualization-date>1458202695869</actualization-date>
   </company>
   <company>
-    <company-id>009953</company-id>
+    <company-id>009978</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Кривой Рог,ул. 20-го Партсъезда 14</address>
+    <address lang="ru">Днепропетровская область,город Кривой Рог,ул. 20-го Партсъезда,14</address>
     <address-add lang="ru">напротив дома, в котором находится ВТБ банк, через дорогу находится бывший кукольный театр</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,вул. 20 Партз'їзду 14</address>
+    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,вул. 20 Партз'їзду,14</address>
     <address-add lang="ua">навпроти будинку, в якому знаходиться ВТБ банк, через дорогу знаходиться колишній ляльковий театр</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1482,15 +2182,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370197</actualization-date>
+    <actualization-date>1458202695872</actualization-date>
   </company>
   <company>
-    <company-id>009954</company-id>
+    <company-id>009979</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Кривой Рог,ул. Косиора 27</address>
+    <address lang="ru">Днепропетровская область,город Кривой Рог,ул. Косиора,27</address>
     <address-add lang="ru">перекресток пр. Металлургов - ул. Косиора, возле станции скоростного трамвая пр. Металлургов, слева от помещения Национальной лотереи</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,вул. Косіора 27</address>
+    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,вул. Косіора,27</address>
     <address-add lang="ua">перехрестя пр. Металургів - вул. Косіора, біля станції швидкісного трамвая пр. Металургів, ліворуч від приміщення Національної лотереї</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1510,15 +2210,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370200</actualization-date>
+    <actualization-date>1458202695878</actualization-date>
   </company>
   <company>
-    <company-id>009955</company-id>
+    <company-id>009980</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Кривой Рог,пр. 200-летия Кривого Рога 8</address>
+    <address lang="ru">Днепропетровская область,город Кривой Рог,пр.,200-летия Кривого Рога 8</address>
     <address-add lang="ru">остановка Юбилейная, на стороне рынка, 3-й дом от магазина Комфи в сторону 173 квартала, возле магазина Ясень</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,пр. 200-річчя Кривого Рогу 8</address>
+    <address lang="ua">Дніпропетровська область,мисто Кривий Ріг,пр.,200-річчя Кривого Рогу 8</address>
     <address-add lang="ua">зупинка Ювілейна, на стороні ринку, 3-й будинок від магазину Комфі у бік 173 кварталу, біля магазину Ясень</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1538,15 +2238,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370202</actualization-date>
+    <actualization-date>1458202695880</actualization-date>
   </company>
   <company>
-    <company-id>009956</company-id>
+    <company-id>009981</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Волынская область,город Луцк,ул. Сенатора Левчановской 13</address>
+    <address lang="ru">Волынская область,город Луцк,ул. Сенатора Левчановской,13</address>
     <address-add lang="ru">остановка Центральный рынок, 2 этаж, вход через арку налево</address-add>
-    <address lang="ua">Волинська область,мисто Луцьк,вул. Сенаторки Левчанівської 13</address>
+    <address lang="ua">Волинська область,мисто Луцьк,вул. Сенаторки Левчанівської,13</address>
     <address-add lang="ua">зупинка Центральний ринок, 2 поверх, вхід через арку наліво</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1566,15 +2266,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370205</actualization-date>
+    <actualization-date>1458202695883</actualization-date>
   </company>
   <company>
-    <company-id>009957</company-id>
+    <company-id>009982</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Волынская область,город Луцк,ул. Кравчука 44А</address>
+    <address lang="ru">Волынская область,город Луцк,ул. Кравчука,44А</address>
     <address-add lang="ru">остановка Варшавский рынок, через дорогу от гипермаркета ТАМ ТАМ</address-add>
-    <address lang="ua">Волинська область,мисто Луцьк,вул. Кравчука 44А</address>
+    <address lang="ua">Волинська область,мисто Луцьк,вул. Кравчука,44А</address>
     <address-add lang="ua">зупинка Варшавський ринок, через дорогу від гіпермаркету ТАМ ТАМ</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1594,15 +2294,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370208</actualization-date>
+    <actualization-date>1458202695885</actualization-date>
   </company>
   <company>
-    <company-id>009958</company-id>
+    <company-id>009983</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Львовская область,город Львов,пл. Князя Ярослава Осмомысла 11</address>
+    <address lang="ru">Львовская область,город Львов,пл. Князя Ярослава Осмомысла,11</address>
     <address-add lang="ru">через дорогу от рынка Добробут</address-add>
-    <address lang="ua">Львівська область,мисто Львів,пл. Князя Ярослава Осмомисла 11</address>
+    <address lang="ua">Львівська область,мисто Львів,пл. Князя Ярослава Осмомисла,11</address>
     <address-add lang="ua">через дорогу від ринку Добробут</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1622,15 +2322,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370211</actualization-date>
+    <actualization-date>1458202695890</actualization-date>
   </company>
   <company>
-    <company-id>009959</company-id>
+    <company-id>009984</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Львовская область,город Львов,ул. Шпитальна 28</address>
+    <address lang="ru">Львовская область,город Львов,ул. Шпитальна,28</address>
     <address-add lang="ru">возле центрального входа в рынок Краковский</address-add>
-    <address lang="ua">Львівська область,мисто Львів,вул. Шпитальна 28</address>
+    <address lang="ua">Львівська область,мисто Львів,вул. Шпитальна,28</address>
     <address-add lang="ua">біля центрального входу в ринок Краковський</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1650,15 +2350,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370214</actualization-date>
+    <actualization-date>1458202695893</actualization-date>
   </company>
   <company>
-    <company-id>009960</company-id>
+    <company-id>009985</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Львовская область,город Львов,ул. Горской 7</address>
+    <address lang="ru">Львовская область,город Львов,ул. Горской,7</address>
     <address-add lang="ru">рынок Привокзальный</address-add>
-    <address lang="ua">Львівська область,мисто Львів,вул. Горської 7</address>
+    <address lang="ua">Львівська область,мисто Львів,вул. Горської,7</address>
     <address-add lang="ua">ринок Привокзальний</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1678,15 +2378,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370217</actualization-date>
+    <actualization-date>1458202695895</actualization-date>
   </company>
   <company>
-    <company-id>009961</company-id>
+    <company-id>009986</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Львовская область,город Львов,ул. Сыховская 28, 1 этаж</address>
+    <address lang="ru">Львовская область,город Львов,ул. Сыховская,28, 1 этаж</address>
     <address-add lang="ru">с левой стороны от ТЦ Искра</address-add>
-    <address lang="ua">Львівська область,мисто Львів,вул. Сихівська 28, 1 поверх</address>
+    <address lang="ua">Львівська область,мисто Львів,вул. Сихівська,28, 1 поверх</address>
     <address-add lang="ua">ліворуч від ТЦ Іскра</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1706,15 +2406,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370220</actualization-date>
+    <actualization-date>1458202695900</actualization-date>
   </company>
   <company>
-    <company-id>009962</company-id>
+    <company-id>009987</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Львовская область,город Львов,ул. Владимира Великого 63</address>
+    <address lang="ru">Львовская область,город Львов,ул. Владимира Великого,63</address>
     <address-add lang="ru">Океан возле нового ЦУМа</address-add>
-    <address lang="ua">Львівська область,мисто Львів,вул. Володимира Великого 63</address>
+    <address lang="ua">Львівська область,мисто Львів,вул. Володимира Великого,63</address>
     <address-add lang="ua">зупинка Океан, біля нового ЦУМу</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1734,15 +2434,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370222</actualization-date>
+    <actualization-date>1458202695902</actualization-date>
   </company>
   <company>
-    <company-id>009963</company-id>
+    <company-id>009988</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Львовская область,город Львов,ул. Ивана Франка 6</address>
+    <address lang="ru">Львовская область,город Львов,ул. Ивана Франка,6</address>
     <address-add lang="ru">остановка Площадь Соборная</address-add>
-    <address lang="ua">Львівська область,мисто Львів,вул. Івана Франка 6</address>
+    <address lang="ua">Львівська область,мисто Львів,вул. Івана Франка,6</address>
     <address-add lang="ua">зупинка Площа Соборна</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1762,15 +2462,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370225</actualization-date>
+    <actualization-date>1458202695904</actualization-date>
   </company>
   <company>
-    <company-id>009964</company-id>
+    <company-id>009989</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Донецкая область,город Мариуполь,пр. Металлургов 215</address>
+    <address lang="ru">Донецкая область,город Мариуполь,пр. Металлургов,215</address>
     <address-add lang="ru">напротив аптеки Ильич-Фарм</address-add>
-    <address lang="ua">Донецька область,мисто Маріуполь,пр. Металургів 215</address>
+    <address lang="ua">Донецька область,мисто Маріуполь,пр. Металургів,215</address>
     <address-add lang="ua">навпроти аптеки Ілліч-Фарм</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1790,15 +2490,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370228</actualization-date>
+    <actualization-date>1458202695908</actualization-date>
   </company>
   <company>
-    <company-id>009965</company-id>
+    <company-id>009990</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Донецкая область,город Мариуполь,пр. Металлургов 62</address>
+    <address lang="ru">Донецкая область,город Мариуполь,пр. Металлургов,62</address>
     <address-add lang="ru">остановка Центральный рынок</address-add>
-    <address lang="ua">Донецька область,мисто Маріуполь,пр. Металургів 62</address>
+    <address lang="ua">Донецька область,мисто Маріуполь,пр. Металургів,62</address>
     <address-add lang="ua">зупинка Центральний ринок</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1818,15 +2518,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370231</actualization-date>
+    <actualization-date>1458202695911</actualization-date>
   </company>
   <company>
-    <company-id>009966</company-id>
+    <company-id>009991</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Донецкая область,город Мариуполь,б-р 50 лет Октября 3218</address>
+    <address lang="ru">Донецкая область,город Мариуполь,б-р 50 лет Октября,32/18</address>
     <address-add lang="ru">Левый берег, остановка площадь Победы</address-add>
-    <address lang="ua">Донецька область,мисто Маріуполь,бул. 50-річчя Жовтня 3218</address>
+    <address lang="ua">Донецька область,мисто Маріуполь,бул. 50-річчя Жовтня,32/18</address>
     <address-add lang="ua">Лівий берег, зупинка пл. Перемоги</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1846,15 +2546,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370233</actualization-date>
+    <actualization-date>1458202695913</actualization-date>
   </company>
   <company>
-    <company-id>009967</company-id>
+    <company-id>009992</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Донецкая область,город Мариуполь,пр. Строителей 86</address>
+    <address lang="ru">Донецкая область,город Мариуполь,пр. Строителей,86</address>
     <address-add lang="ru">остановка 1000 мелочей, как ехать в Порт</address-add>
-    <address lang="ua">Донецька область,мисто Маріуполь,пр. Будівельників 86</address>
+    <address lang="ua">Донецька область,мисто Маріуполь,пр. Будівельників,86</address>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
     <phone>
@@ -1873,15 +2573,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370236</actualization-date>
+    <actualization-date>1458202695915</actualization-date>
   </company>
   <company>
-    <company-id>009968</company-id>
+    <company-id>009993</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Донецкая область,город Мариуполь,б-р Шевченко 289</address>
+    <address lang="ru">Донецкая область,город Мариуполь,б-р Шевченко,289</address>
     <address-add lang="ru">рынок Космос</address-add>
-    <address lang="ua">Донецька область,мисто Маріуполь,бул. Шевченко 289</address>
+    <address lang="ua">Донецька область,мисто Маріуполь,бул. Шевченко,289</address>
     <address-add lang="ua">ринок Космос</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1901,15 +2601,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370238</actualization-date>
+    <actualization-date>1458202695918</actualization-date>
   </company>
   <company>
-    <company-id>009969</company-id>
+    <company-id>009994</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Запорожская область,город Мелитополь,пр. 50 лет Победы 254</address>
+    <address lang="ru">Запорожская область,город Мелитополь,пр. 50 лет Победы,25/4</address>
     <address-add lang="ru">остановка Дом быта, напротив АТБ, рядом с маг.Мида</address-add>
-    <address lang="ua">Запорізька область,мисто Мелiтополь,пр. 50-річчя Перемоги 254</address>
+    <address lang="ua">Запорізька область,мисто Мелiтополь,пр. 50-річчя Перемоги,25/4</address>
     <address-add lang="ua">зупинка Будинок побуту, навпроти АТБ, поряд з магазином Міда</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1929,15 +2629,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370241</actualization-date>
+    <actualization-date>1458202695921</actualization-date>
   </company>
   <company>
-    <company-id>009970</company-id>
+    <company-id>009995</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Черниговская область,город Нежин,ул. Московская 2Е</address>
+    <address lang="ru">Черниговская область,город Нежин,ул. Московская,2Е</address>
     <address-add lang="ru">напротив Центрального рынка, рядом магазин Квiти, Райффайзен банк Аваль</address-add>
-    <address lang="ua">Чернігівська область,мисто Ніжин,вул. Московська 2Є</address>
+    <address lang="ua">Чернігівська область,мисто Ніжин,вул. Московська,2Є</address>
     <address-add lang="ua">навпроти Центрального ринку, поруч магазин Квіти, Райффайзен банк Аваль</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1957,15 +2657,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370245</actualization-date>
+    <actualization-date>1458202695924</actualization-date>
   </company>
   <company>
-    <company-id>009971</company-id>
+    <company-id>009996</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Николаевская область,город Николаев,пр. Ленина 154</address>
+    <address lang="ru">Николаевская область,город Николаев,пр. Ленина,154</address>
     <address-add lang="ru">остановка Дзержинского, в АТБ-маркет, возле входа</address-add>
-    <address lang="ua">Миколаївська область,мисто Миколаїв,пр. Леніна 154</address>
+    <address lang="ua">Миколаївська область,мисто Миколаїв,пр. Леніна,154</address>
     <address-add lang="ua">зупинка Дзержинського, в АТБ-маркет, біля входу</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -1985,15 +2685,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370249</actualization-date>
+    <actualization-date>1458202695929</actualization-date>
   </company>
   <company>
-    <company-id>009972</company-id>
+    <company-id>009997</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Николаевская область,город Николаев,пр. Ленина 111</address>
+    <address lang="ru">Николаевская область,город Николаев,пр. Ленина,111</address>
     <address-add lang="ru">остановка Садовая</address-add>
-    <address lang="ua">Миколаївська область,мисто Миколаїв,пр. Леніна 111</address>
+    <address lang="ua">Миколаївська область,мисто Миколаїв,пр. Леніна,111</address>
     <address-add lang="ua">зупинка Садова</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2013,15 +2713,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370252</actualization-date>
+    <actualization-date>1458202695931</actualization-date>
   </company>
   <company>
-    <company-id>009973</company-id>
+    <company-id>009998</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Николаевская область,город Николаев,пр. Мира 2</address>
+    <address lang="ru">Николаевская область,город Николаев,пр. Мира,2</address>
     <address-add lang="ru">остановка Рынок Колос</address-add>
-    <address lang="ua">Миколаївська область,мисто Миколаїв,пр. Миру 2</address>
+    <address lang="ua">Миколаївська область,мисто Миколаїв,пр. Миру,2</address>
     <address-add lang="ua">зупинка Ринок Колос</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2041,15 +2741,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370255</actualization-date>
+    <actualization-date>1458202695934</actualization-date>
   </company>
   <company>
-    <company-id>009974</company-id>
+    <company-id>009999</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Николаевская область,город Николаев,просп. Ленина 27</address>
+    <address lang="ru">Николаевская область,город Николаев,просп. Ленина,27</address>
     <address-add lang="ru">остановка Центральный рынок, на углу магазина Modisa</address-add>
-    <address lang="ua">Миколаївська область,мисто Миколаїв,просп. Леніна 27</address>
+    <address lang="ua">Миколаївська область,мисто Миколаїв,просп. Леніна,27</address>
     <address-add lang="ua">зупинка Центральний ринок, на розі магазину Modisa</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2069,15 +2769,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370258</actualization-date>
+    <actualization-date>1458202695936</actualization-date>
   </company>
   <company>
-    <company-id>009975</company-id>
+    <company-id>0099100</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Одесская область,город Одесса,пл. Старосенная 6</address>
+    <address lang="ru">Одесская область,город Одесса,пл. Старосенная,6</address>
     <address-add lang="ru">вход к перонам ЖД вокзала со стороны камер хранения</address-add>
-    <address lang="ua">Одеська область,мисто Одеса,пл. Старосінна 6</address>
+    <address lang="ua">Одеська область,мисто Одеса,пл. Старосінна,6</address>
     <address-add lang="ua">вхід до перонів ЖД вокзалу зі сторони камер схову</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2097,15 +2797,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370263</actualization-date>
+    <actualization-date>1458202695939</actualization-date>
   </company>
   <company>
-    <company-id>009976</company-id>
+    <company-id>0099101</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Одесская область,город Одесса,ул. Нежинская, 11 , угол улиц Нежинская и Конная</address>
+    <address lang="ru">Одесская область,город Одесса,ул. Нежинская,11 , угол улиц Нежинская и Конная</address>
     <address-add lang="ru">выход на радио рынок</address-add>
-    <address lang="ua">Одеська область,мисто Одеса,вул. Ніжинська 11</address>
+    <address lang="ua">Одеська область,мисто Одеса,вул. Ніжинська,11</address>
     <address-add lang="ua">вихід на радіоринок, ріг вулиць Ніжинська і Кінна</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2125,15 +2825,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370266</actualization-date>
+    <actualization-date>1458202695941</actualization-date>
   </company>
   <company>
-    <company-id>009977</company-id>
+    <company-id>0099102</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Одесская область,город Одесса,ул. Академика Королева 33</address>
+    <address lang="ru">Одесская область,город Одесса,ул. Академика Королева,33</address>
     <address-add lang="ru">микрорайон Таирово, остановка пл. Независимости, в сторону ТЦ Фантазия</address-add>
-    <address lang="ua">Одеська область,мисто Одеса,вул. Академіка Корольова 33</address>
+    <address lang="ua">Одеська область,мисто Одеса,вул. Академіка Корольова,33</address>
     <address-add lang="ua">мікрорайон Таїрово, зупинка пл. Незалежності, в сторону ТЦ Фантазія</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2153,16 +2853,16 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370268</actualization-date>
+    <actualization-date>1458202695943</actualization-date>
   </company>
   <company>
-    <company-id>009978</company-id>
+    <company-id>0099103</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Одесская область,город Одесса,ул. Пантелеймоновская 126</address>
-    <address-add lang="ru">остановка Привоз, на пересечении улиц ПантелеймоновскаяПреображенская, дальше от перекрестка по ул. Пантелеймоновской в сторону кинотеатра Родина</address-add>
-    <address lang="ua">Одеська область,мисто Одеса,вул. Пантелеймонівська 126</address>
-    <address-add lang="ua">зупинка Привоз, на перехресті вулиць ПантелеймонівськаПреображенська, далі від перехрестя по вул. Пантелеймонівській в бік кінотеатру Родина</address-add>
+    <address lang="ru">Одесская область,город Одесса,ул. Пантелеймоновская,126</address>
+    <address-add lang="ru">остановка Привоз, на пересечении улиц Пантелеймоновская/Преображенская, дальше от перекрестка по ул. Пантелеймоновской в сторону кинотеатра Родина</address-add>
+    <address lang="ua">Одеська область,мисто Одеса,вул. Пантелеймонівська,126</address>
+    <address-add lang="ua">зупинка Привоз, на перехресті вулиць Пантелеймонівська/Преображенська, далі від перехрестя по вул. Пантелеймонівській в бік кінотеатру Родина</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
     <phone>
@@ -2181,15 +2881,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370272</actualization-date>
+    <actualization-date>1458202695946</actualization-date>
   </company>
   <company>
-    <company-id>009979</company-id>
+    <company-id>0099104</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Одесская область,город Одесса,пр. Добровольского 114</address>
+    <address lang="ru">Одесская область,город Одесса,пр. Добровольского,114</address>
     <address-add lang="ru">остановка Бочарова, на стороне Северного рынка</address-add>
-    <address lang="ua">Одеська область,мисто Одеса,пр. Добровольського 114</address>
+    <address lang="ua">Одеська область,мисто Одеса,пр. Добровольського,114</address>
     <address-add lang="ua">зупинкаБочарова, на стороні Північного ринку</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2209,15 +2909,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370275</actualization-date>
+    <actualization-date>1458202695948</actualization-date>
   </company>
   <company>
-    <company-id>009980</company-id>
+    <company-id>0099105</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Днепропетровская область,город Павлоград,ул. Горького 166</address>
+    <address lang="ru">Днепропетровская область,город Павлоград,ул. Горького,166</address>
     <address-add lang="ru">ТК Олимпия, возле входа в рынок</address-add>
-    <address lang="ua">Дніпропетровська область,мисто Павлоград,вул. Горького 166</address>
+    <address lang="ua">Дніпропетровська область,мисто Павлоград,вул. Горького,166</address>
     <address-add lang="ua">ТК Олімпія, біля входу в ринок</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2237,15 +2937,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370277</actualization-date>
+    <actualization-date>1458202695951</actualization-date>
   </company>
   <company>
-    <company-id>009981</company-id>
+    <company-id>0099106</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Полтавская область,город Полтава,ул. Калинина 26</address>
+    <address lang="ru">Полтавская область,город Полтава,ул. Калинина,26</address>
     <address-add lang="ru">остановка 23 сентября</address-add>
-    <address lang="ua">Полтавська область,мисто Полтава,вул. Калініна 26</address>
+    <address lang="ua">Полтавська область,мисто Полтава,вул. Калініна,26</address>
     <address-add lang="ua">зупинка 23 вересня</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2265,15 +2965,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370281</actualization-date>
+    <actualization-date>1458202695954</actualization-date>
   </company>
   <company>
-    <company-id>009982</company-id>
+    <company-id>0099107</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Полтавская область,город Полтава,ул. Шевченко 50</address>
+    <address lang="ru">Полтавская область,город Полтава,ул. Шевченко,50</address>
     <address-add lang="ru">напротив магазина Эльдорадо, 2 этаж, вход через маг-н Mix Fashion</address-add>
-    <address lang="ua">Полтавська область,мисто Полтава,вул. Шевченко 50</address>
+    <address lang="ua">Полтавська область,мисто Полтава,вул. Шевченко,50</address>
     <address-add lang="ua">навпроти магазину Ельдорадо, 2 поверх, вхід через магазин Mix Fashion</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2293,15 +2993,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370284</actualization-date>
+    <actualization-date>1458202695960</actualization-date>
   </company>
   <company>
-    <company-id>009983</company-id>
+    <company-id>0099108</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Ровенская область,город Ровно,ул. Соборная 192</address>
+    <address lang="ru">Ровенская область,город Ровно,ул. Соборная,192</address>
     <address-add lang="ru">ТЦ Лион, 1 этаж, офис 5</address-add>
-    <address lang="ua">Рівненська область,мисто Рівне,вул. Соборна 192</address>
+    <address lang="ua">Рівненська область,мисто Рівне,вул. Соборна,192</address>
     <address-add lang="ua">ТЦ Ліон, 1 поверх, офіс 5</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2321,15 +3021,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370287</actualization-date>
+    <actualization-date>1458202695962</actualization-date>
   </company>
   <company>
-    <company-id>009984</company-id>
+    <company-id>0099109</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Сумская область,город Сумы,ул. Шевченко 2</address>
+    <address lang="ru">Сумская область,город Сумы,ул. Шевченко,2</address>
     <address-add lang="ru">остановка Укртелеком, в сторону Иллинской церкви</address-add>
-    <address lang="ua">Сумська область,мисто Суми,вул. Шевченко 2</address>
+    <address lang="ua">Сумська область,мисто Суми,вул. Шевченко,2</address>
     <address-add lang="ua">зупинка Укртелеком, в бік Іллінської церкви</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2349,15 +3049,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370290</actualization-date>
+    <actualization-date>1458202695965</actualization-date>
   </company>
   <company>
-    <company-id>009985</company-id>
+    <company-id>0099110</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Сумская область,город Сумы,ул.1-я Набережная реки Стрелки 3</address>
+    <address lang="ru">Сумская область,город Сумы,ул.1-я Набережная реки Стрелки,3</address>
     <address-add lang="ru">остановка Центральный рынок</address-add>
-    <address lang="ua">Сумська область,мисто Суми,вул. 1-а Набережна ріки Стрілки 3</address>
+    <address lang="ua">Сумська область,мисто Суми,вул.,1-а Набережна ріки Стрілки 3</address>
     <address-add lang="ua">зупинка Центральний ринок</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2377,15 +3077,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370293</actualization-date>
+    <actualization-date>1458202695968</actualization-date>
   </company>
   <company>
-    <company-id>009986</company-id>
+    <company-id>0099111</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Тернопольская область,город Тернополь,ул. Шептицкого 23 б</address>
+    <address lang="ru">Тернопольская область,город Тернополь,ул. Шептицкого,23 б</address>
     <address-add lang="ru">ТЦ Soteria 2 этаж, 202 офис</address-add>
-    <address lang="ua">Тернопільська область,мисто Тернопіль,вул. Шептицького 23 б</address>
+    <address lang="ua">Тернопільська область,мисто Тернопіль,вул. Шептицького,23 б</address>
     <address-add lang="ua">ТЦ Soteria 2 поверх, 202 офіс</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2405,15 +3105,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370297</actualization-date>
+    <actualization-date>1458202695970</actualization-date>
   </company>
   <company>
-    <company-id>009987</company-id>
+    <company-id>0099112</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Тернопольская область,город Тернополь,ул. Живова 7</address>
+    <address lang="ru">Тернопольская область,город Тернополь,ул. Живова,7</address>
     <address-add lang="ru">остановка Автовокзал, возле пиццерии Фламинго</address-add>
-    <address lang="ua">Тернопільська область,мисто Тернопіль,вул. Живова 7</address>
+    <address lang="ua">Тернопільська область,мисто Тернопіль,вул. Живова,7</address>
     <address-add lang="ua">зупинка Автовокзал, біля піцерії Фламінго</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2433,15 +3133,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370301</actualization-date>
+    <actualization-date>1458202695973</actualization-date>
   </company>
   <company>
-    <company-id>009988</company-id>
+    <company-id>0099113</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Закарпатская область,город Ужгород,пр. Свободы 203</address>
+    <address lang="ru">Закарпатская область,город Ужгород,пр. Свободы,20/3</address>
     <address-add lang="ru">остановка пр.Свободы, слева от ТЦ Белочка</address-add>
-    <address lang="ua">Закарпатська область,мисто Ужгород,пр. Свободи 203</address>
+    <address lang="ua">Закарпатська область,мисто Ужгород,пр. Свободи,20/3</address>
     <address-add lang="ua">зупинка пр. Свободи, ліворуч від ТЦ Білочка</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2461,15 +3161,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370305</actualization-date>
+    <actualization-date>1458202695976</actualization-date>
   </company>
   <company>
-    <company-id>009989</company-id>
+    <company-id>0099114</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Закарпатская область,город Ужгород,ул. Фединца 32</address>
+    <address lang="ru">Закарпатская область,город Ужгород,ул. Фединца,32</address>
     <address-add lang="ru">на кольце остановки пл. Корятовича, рядом ТЦ Уж</address-add>
-    <address lang="ua">Закарпатська область,мисто Ужгород,вул. Федінця 32</address>
+    <address lang="ua">Закарпатська область,мисто Ужгород,вул. Федінця,32</address>
     <address-add lang="ua">на кільці зупинки пл. Корятовича, поруч ТЦ Уж</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2489,15 +3189,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370307</actualization-date>
+    <actualization-date>1458202695979</actualization-date>
   </company>
   <company>
-    <company-id>009990</company-id>
+    <company-id>0099115</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Черкасская область,город Умань,ул. Советская 32</address>
+    <address lang="ru">Черкасская область,город Умань,ул. Советская,32</address>
     <address-add lang="ru">остановка Центральный рынок, рядом магазины Добробут и Ева</address-add>
-    <address lang="ua">Черкаська область,мисто Умань,вул. Радянська 32</address>
+    <address lang="ua">Черкаська область,мисто Умань,вул. Радянська,32</address>
     <address-add lang="ua">зупинка Центральний ринок, поруч магазини Добробут,Єва</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2517,16 +3217,16 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370310</actualization-date>
+    <actualization-date>1458202695981</actualization-date>
   </company>
   <company>
-    <company-id>009991</company-id>
+    <company-id>0099116</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Харьковская область,город Харьков,пр. Гагарина,пр. Гагарина 177Б</address>
-    <address-add lang="ru">остановка Одесская</address-add>
-    <address lang="ua">Харківська область,мисто Харків,Гагаріна,пр. Гагаріна 177-Б</address>
-    <address-add lang="ua">зупинка Одеська</address-add>
+    <address lang="ru">Харьковская область,город Харьков,ул. Камская,2</address>
+    <address-add lang="ru">выход из метро в сторону маг-на Киевский</address-add>
+    <address lang="ua">Харківська область,мисто Харків,вул. Камська,2</address>
+    <address-add lang="ua">вихід з метро в бік магазину Київський</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
     <phone>
@@ -2545,15 +3245,43 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370316</actualization-date>
+    <actualization-date>1458202695985</actualization-date>
   </company>
   <company>
-    <company-id>009992</company-id>
+    <company-id>0099117</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Харьковская область,город Харьков,пр. Косиора,пр. Косиора 9316</address>
-    <address-add lang="ru">по левую сторону от рынка ХТЗ</address-add>
-    <address lang="ua">Харківська область,мисто Харків,пр. Косіора 9316,</address>
+    <address lang="ru">Харьковская область,город Харьков,ул. Полтавский Шлях,148/2</address>
+    <address-add lang="ru">возле Аптеки низьких цін</address-add>
+    <address lang="ua">Харківська область,мисто Харків,вул. Полтавський Шлях,148/2</address>
+    <address-add lang="ua">біля Аптеки низьких цін</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695988</actualization-date>
+  </company>
+  <company>
+    <company-id>0099118</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,ул. Полтавский шлях,56/58</address>
+    <address-add lang="ru">ТЦ Подземный город, 2 этаж, через дорогу от McDonalds</address-add>
+    <address lang="ua">Харківська область,мисто Харків,вул. Полтавський шлях,56/58</address>
     <address-add lang="ua">по лівий бік від ринку ХТЗ</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2573,15 +3301,379 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370318</actualization-date>
+    <actualization-date>1458202695990</actualization-date>
   </company>
   <company>
-    <company-id>009993</company-id>
+    <company-id>0099119</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Херсонская область,город Херсон,бул. Мирный 6</address>
+    <address lang="ru">Харьковская область,город Харьков,пр. Гагарина,22</address>
+    <address-add lang="ru">выход из метро к супермаркету АТБ, в сторону ж/д станции Левада</address-add>
+    <address lang="ua">Харківська область,мисто Харків,пр. Гагаріна,22</address>
+    <address-add lang="ua">вихід з метро до супермаркета АТБ, в бік залізничної станції Левада</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695992</actualization-date>
+  </company>
+  <company>
+    <company-id>0099120</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,пр. Маршала Жукова,3</address>
+    <address-add lang="ru">выход из метро в сторону Дворца Спорта</address-add>
+    <address lang="ua">Харківська область,мисто Харків,просп. Маршала Жукова, д.,3</address>
+    <address-add lang="ua">вихід з метро в бік Палацу Спорту</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695995</actualization-date>
+  </company>
+  <company>
+    <company-id>0099121</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,пр. Московский,274</address>
+    <address-add lang="ru">выход к супермаркету Восторг</address-add>
+    <address lang="ua">Харківська область,мисто Харків, пр. Московський,274</address>
+    <address-add lang="ua">вихід до супермаркету Восторг</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202695998</actualization-date>
+  </company>
+  <company>
+    <company-id>0099122</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,ул. Энгельса,33</address>
+    <address-add lang="ru">Центральный вход в рынок, выход на сторону Макдональдс, супермаркета АТБ</address-add>
+    <address lang="ua">Харківська область,мисто Харків,вул. Енгельса,33</address>
+    <address-add lang="ua">Центральний вхід в ринок, вихід на сторону Макдональдс, супермаркету АТБ</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202696000</actualization-date>
+  </company>
+  <company>
+    <company-id>0099123</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,пер. Амурский,1 Б-2/8</address>
+    <address-add lang="ru">выход из метро в сторону магазина Ева</address-add>
+    <address lang="ua">Харківська область,мисто Харків,пров. Амурський,1 Б-2/8</address>
+    <address-add lang="ua">вихід із метро в сторону магазину Єва</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202696003</actualization-date>
+  </company>
+  <company>
+    <company-id>0099124</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,ул. Героев Труда,20/321</address>
+    <address-add lang="ru">выход из метро к ТЦ Караван, напротив Радиорынка</address-add>
+    <address lang="ua">Харківська область,мисто Харків,вул. Героїв Праці,20/321</address>
+    <address-add lang="ua">вихід з метро до ТЦ Караван, навпроти Радіоринку</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202696005</actualization-date>
+  </company>
+  <company>
+    <company-id>0099125</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,ул. Блюхера,23</address>
+    <address-add lang="ru">справа от ТЦ Дигма</address-add>
+    <address lang="ua">Харківська область,мисто Харків,вул. Блюхера,23</address>
+    <address-add lang="ua">праворуч від ТЦ Дігма</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202696008</actualization-date>
+  </company>
+  <company>
+    <company-id>0099126</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,ул. Сумская,41/2</address>
+    <address-add lang="ru">выход из метро на сторону просп. Правды</address-add>
+    <address lang="ua">Харківська область,мисто Харків, вул. Сумська,41/2</address>
+    <address-add lang="ua">вихід з метро в бік пр. Правди</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202696010</actualization-date>
+  </company>
+  <company>
+    <company-id>0099127</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,ул. Сумская,4, офис 122</address>
+    <address-add lang="ru">слева от Пузата хата</address-add>
+    <address lang="ua">Харківська область,мисто Харків,вул. Сумська,4, офіс 122</address>
+    <address-add lang="ua">зліва від Пузата хата</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202696013</actualization-date>
+  </company>
+  <company>
+    <company-id>0099128</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,пр. Ленина,64</address>
+    <address-add lang="ru">выход к памятнику Воина Освободителя</address-add>
+    <address lang="ua">Харківська область,мисто Харків,пр. Леніна,64</address>
+    <address-add lang="ua">вихід до пам'ятника Воїна Визволителя</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202696015</actualization-date>
+  </company>
+  <company>
+    <company-id>0099129</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,пл. Восстания,3</address>
+    <address-add lang="ru">возле Национальной Академии Национальной Гвардии Украины</address-add>
+    <address lang="ua">Харківська область,мисто Харків,пл. Повстання,3</address>
+    <address-add lang="ua">біля Національної Академії Національної Гвардії України</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202696018</actualization-date>
+  </company>
+  <company>
+    <company-id>0099130</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,пр. Гагарина,177Б</address>
+    <address-add lang="ru">остановка Одесская</address-add>
+    <address lang="ua">Харківська область,мисто Харків,пр. Гагаріна,177-Б</address>
+    <address-add lang="ua">зупинка Одеська</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202696020</actualization-date>
+  </company>
+  <company>
+    <company-id>0099131</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Харьковская область,город Харьков,пр. Косиора,93/16</address>
+    <address-add lang="ru">по левую сторону от рынка ХТЗ</address-add>
+    <address lang="ua">Харківська область,мисто Харків,</address>
+    <address-add lang="ua">по лівий бік від ринку ХТЗ</address-add>
+    <country lang="ru">Украина</country>
+    <country lang="ua">Україна</country>
+    <phone>
+      <number>+380 (800) 50-10-20</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+380 (93) 1701020</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://sgroshi.com.ua</url>
+    <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
+    <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
+    <rubric-id>184105574</rubric-id>
+    <actualization-date>1458202696022</actualization-date>
+  </company>
+  <company>
+    <company-id>0099132</company-id>
+    <name lang="ru">ШвидкоГроши</name>
+    <name lang="ua">ШвидкоГрошi</name>
+    <address lang="ru">Херсонская область,город Херсон,бул. Мирный,6</address>
     <address-add lang="ru">остановка Центральный рынок, в здании Ателье Світанок</address-add>
-    <address lang="ua">Херсонська область,мисто Херсон,бул. Мирний 6</address>
+    <address lang="ua">Херсонська область,мисто Херсон,бул. Мирний,6</address>
     <address-add lang="ua">зупинка Центральний ринок, в будівлі Ательє Світанок</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2601,15 +3693,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370322</actualization-date>
+    <actualization-date>1458202696025</actualization-date>
   </company>
   <company>
-    <company-id>009994</company-id>
+    <company-id>0099133</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Херсонская область,город Херсон,ул. Илюши Кулика 122</address>
+    <address lang="ru">Херсонская область,город Херсон,ул. Илюши Кулика,122</address>
     <address-add lang="ru">остановка Днепровский рынок</address-add>
-    <address lang="ua">Херсонська область,мисто Херсон,вул. Ілюши Кулика 122</address>
+    <address lang="ua">Херсонська область,мисто Херсон,вул. Ілюши Кулика,122</address>
     <address-add lang="ua">зупинка Дніпровський ринок</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2629,15 +3721,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370325</actualization-date>
+    <actualization-date>1458202696027</actualization-date>
   </company>
   <company>
-    <company-id>009995</company-id>
+    <company-id>0099134</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Хмельницкая область,город Хмельницкий,ул. Проскуровская 7, офис № 2</address>
+    <address lang="ru">Хмельницкая область,город Хмельницкий,ул. Проскуровская,7, офис № 2</address>
     <address-add lang="ru">напротив ТЦ Променад Александровский</address-add>
-    <address lang="ua">Хмельницька область,мисто Хмельницький,вул. Проскурівська, 7, офіс 2</address>
+    <address lang="ua">Хмельницька область,мисто Хмельницький,вул. Проскурівська,7, офіс 2</address>
     <address-add lang="ua">навпроти ТЦ Променад Олександрівський</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2657,15 +3749,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370328</actualization-date>
+    <actualization-date>1458202696030</actualization-date>
   </company>
   <company>
-    <company-id>009996</company-id>
+    <company-id>0099135</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Хмельницкая область,город Хмельницкий,ул. Шевченко 101</address>
+    <address lang="ru">Хмельницкая область,город Хмельницкий,ул. Шевченко,101</address>
     <address-add lang="ru">остановка Бакалия</address-add>
-    <address lang="ua">Хмельницька область,мисто Хмельницький,вул. Шевченко, 101</address>
+    <address lang="ua">Хмельницька область,мисто Хмельницький,вул. Шевченко,101</address>
     <address-add lang="ua">зупинка Бакалія</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2685,15 +3777,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370331</actualization-date>
+    <actualization-date>1458202696032</actualization-date>
   </company>
   <company>
-    <company-id>009997</company-id>
+    <company-id>0099136</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Черкасская область,город Черкассы,ул. Смелянская 41</address>
+    <address lang="ru">Черкасская область,город Черкассы,ул. Смелянская,41</address>
     <address-add lang="ru">остановка Центральный рынок, возле магазина Шарм, в ТЦ Салют, 2 этаж</address-add>
-    <address lang="ua">Черкаська область,мисто Черкаси,вул. Смілянська 41</address>
+    <address lang="ua">Черкаська область,мисто Черкаси,вул. Смілянська,41</address>
     <address-add lang="ua">зупинка Центральний ринок, біля магазину Шарм, в ТЦ Салют, 2 поверх</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2713,15 +3805,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370334</actualization-date>
+    <actualization-date>1458202696035</actualization-date>
   </company>
   <company>
-    <company-id>009998</company-id>
+    <company-id>0099137</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Черкасская область,город Черкассы,ул. Вернигоры 12</address>
-    <address-add lang="ru">остановка Жд вокзал, возле памятника Пушка</address-add>
-    <address lang="ua">Черкаська область,мисто Черкаси,вул. Вернигори 12</address>
+    <address lang="ru">Черкасская область,город Черкассы,ул. Вернигоры,12</address>
+    <address-add lang="ru">остановка Ж/д вокзал, возле памятника Пушка</address-add>
+    <address lang="ua">Черкаська область,мисто Черкаси,вул. Вернигори,12</address>
     <address-add lang="ua">зупинка Залізничний вокзал, біля пам`ятника Пушка</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2741,15 +3833,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370338</actualization-date>
+    <actualization-date>1458202696037</actualization-date>
   </company>
   <company>
-    <company-id>009999</company-id>
+    <company-id>0099138</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Черниговская область,город Чернигов,пр. Победы 8526</address>
+    <address lang="ru">Черниговская область,город Чернигов,пр. Победы,85/26</address>
     <address-add lang="ru">слева через дорогу от Главпочтамта, подвальное помещение; рядом с аптекой Доброго дня и маг-ном обуви Rylko</address-add>
-    <address lang="ua">Чернігівська область,мисто Чернігів,просп. Перемоги 8526</address>
+    <address lang="ua">Чернігівська область,мисто Чернігів,просп. Перемоги,85/26</address>
     <address-add lang="ua">зліва через дорогу від Головпоштамту, підвальне приміщення; поруч з аптекою Доброго дня і магазином взуття Rylko</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2769,15 +3861,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370343</actualization-date>
+    <actualization-date>1458202696040</actualization-date>
   </company>
   <company>
-    <company-id>0099100</company-id>
+    <company-id>0099139</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Черниговская область,город Чернигов,ул. Рокоссовского 12</address>
+    <address lang="ru">Черниговская область,город Чернигов,ул. Рокоссовского,12</address>
     <address-add lang="ru">остановка магазин Турист, слева на торце здания большой баннер ШвидкоГроші </address-add>
-    <address lang="ua">Чернігівська область,мисто Чернігів,вул. Рокосовського 12</address>
+    <address lang="ua">Чернігівська область,мисто Чернігів,вул. Рокосовського,12</address>
     <address-add lang="ua">зупинка магазин Турист, зліва на торці будинку великий банер ШвидкоГроші</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2797,15 +3889,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370346</actualization-date>
+    <actualization-date>1458202696042</actualization-date>
   </company>
   <company>
-    <company-id>0099101</company-id>
+    <company-id>0099140</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">черновицкая область,город Черновцы,ул. Небесной сотни 19В</address>
+    <address lang="ru">черновицкая область,город Черновцы,ул. Небесной сотни,19В</address>
     <address-add lang="ru">ТЦ Формаркет, 1 эт., оф. 106</address-add>
-    <address lang="ua">Чернівецька область,мисто Чернiвцi,вул. Небесної сотні 19В</address>
+    <address lang="ua">Чернівецька область,мисто Чернiвцi,вул. Небесної сотні,19В</address>
     <address-add lang="ua">ТЦ Формаркет 1 поверх., оф. 106</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2825,15 +3917,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370349</actualization-date>
+    <actualization-date>1458202696045</actualization-date>
   </company>
   <company>
-    <company-id>0099102</company-id>
+    <company-id>0099141</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">черновицкая область,город Черновцы,ул. Главная, 101</address>
+    <address lang="ru">черновицкая область,город Черновцы,ул. Главная,101</address>
     <address-add lang="ru">слева от остановки ул. Шевченка, 0 этаж</address-add>
-    <address lang="ua">Чернівецька область,мисто Чернiвцi,вул. Головна 101</address>
+    <address lang="ua">Чернівецька область,мисто Чернiвцi,вул. Головна,101</address>
     <address-add lang="ua">зліва від зуп. вул. Шевченка, 0 поверх</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2853,15 +3945,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370352</actualization-date>
+    <actualization-date>1458202696048</actualization-date>
   </company>
   <company>
-    <company-id>0099103</company-id>
+    <company-id>0099142</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">черновицкая область,город Черновцы,ул. Энтузиастов 2</address>
+    <address lang="ru">черновицкая область,город Черновцы,ул. Энтузиастов,2</address>
     <address-add lang="ru">остановка Типография или Энтузиастов, центральный вход в рынок Главный</address-add>
-    <address lang="ua">Чернівецька область,мисто Чернiвцi,вул. Ентузіастів 2</address>
+    <address lang="ua">Чернівецька область,мисто Чернiвцi,вул. Ентузіастів,2</address>
     <address-add lang="ua">зупинка Типографія або Ентузіастів , центральний вхід в ринок Головний</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2881,15 +3973,15 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370354</actualization-date>
+    <actualization-date>1458202696050</actualization-date>
   </company>
   <company>
-    <company-id>0099104</company-id>
+    <company-id>0099143</company-id>
     <name lang="ru">ШвидкоГроши</name>
     <name lang="ua">ШвидкоГрошi</name>
-    <address lang="ru">Сумская область,город Шостка,ул. Карла Маркса 182</address>
+    <address lang="ru">Сумская область,город Шостка,ул. Карла Маркса,18/2</address>
     <address-add lang="ru">возле входа в продовольственный рынок, через дорогу от магазина Оксана</address-add>
-    <address lang="ua">Сумська область,мисто Шостка,вул. Карла Маркса 182</address>
+    <address lang="ua">Сумська область,мисто Шостка,вул. Карла Маркса,18/2</address>
     <address-add lang="ua">біля входу в продовольчий ринок, через дорогу від магазину Оксана</address-add>
     <country lang="ru">Украина</country>
     <country lang="ua">Україна</country>
@@ -2909,6 +4001,6 @@
     <working-time lang="ru">понедельник-пятница с 8.00 до 20.00, Сб с 10.00 до 19.00</working-time>
     <working-time lang="ua">понедiлок-п'ятница з 8.00 до 20.00, Сб з 10.00 до 19.00</working-time>
     <rubric-id>184105574</rubric-id>
-    <actualization-date>1457960370357</actualization-date>
+    <actualization-date>1458202696053</actualization-date>
   </company>
 </companies>

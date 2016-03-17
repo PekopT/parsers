@@ -110,7 +110,7 @@ class SgroshiPipeline(object):
         pattern = u'\<[^>]*\>'
         value = re.sub(pattern, '', value)
         value = re.sub(u'&#13;|&lt;|&gt;|<|>|\/li|\r', '', value)
-        value = re.sub(u'td|span|\/|br', '', value)
+        value = re.sub(u'td|span|br', '', value)
         return value
 
     def delete_brackets(self, value):
@@ -125,6 +125,17 @@ class SgroshiPipeline(object):
         if m:
             info = m.group(0)
         return info
+
+    def get_number_from_street(self, value):
+        value = re.sub(u'50 лет',u'', value)
+        value = re.sub(u'20\-го',u'', value)
+        value = re.sub(u'50\-річчя',u'', value)
+        value = re.sub(u'20 Парт',u'', value)
+        s_val = u''
+        m = re.search(u'(\s+[0-9-]+)', value)
+        if m:
+            s_val = m.group(0)
+        return s_val
 
     def process_item(self, item, spider):
         name = u"ШвидкоГроши"
@@ -150,11 +161,17 @@ class SgroshiPipeline(object):
 
         xml_name_ua = etree.SubElement(xml_item, 'name', lang=u'ua')
         xml_name_ua.text = name_ua
-        address = address.replace(u'</strong>', u'</strong>,')
+        to_replace = u"\<strong\>.+\<\/strong\>"
+        # address = address.replace(u'</strong>', u'</strong>,')
+        address = re.sub(to_replace, u'', address)
         address = self.delete_tags(address)
         tc = self.get_address_info(address)
         address = address.replace(tc, '')
         region = self.get_region(city, UA_CITIES_RUS) or ""
+        n_for_address = self.get_number_from_street(address)
+        if n_for_address:
+            address = address.replace(n_for_address, u',' + n_for_address.strip())
+            address = re.sub(u'(\,){2,}', u',', address)
         address = region + u'город ' + city + u',' + address
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         address = re.sub(u'\(|\)|\«|\»|\"', '', address).strip()
@@ -165,11 +182,16 @@ class SgroshiPipeline(object):
             tc = re.sub(u'\(|\)|\«|\»|\"', '', tc)
             xml_address_add.text = tc
 
-        address_ua = address_ua.replace(u'</strong>', u'</strong>,')
+        address_ua = re.sub(to_replace, u'', address_ua)
+        # address_ua = address_ua.replace(u'</strong>', u'</strong>,')
         address_ua = self.delete_tags(address_ua)
         tc_ua = self.get_address_info(address_ua)
         address_ua = address_ua.replace(tc_ua, '')
         region_ua = self.get_region(city_ua, UA_CITIES_UKR) or ""
+        n_for_address = self.get_number_from_street(address_ua)
+        if n_for_address:
+            address_ua = address_ua.replace(n_for_address, u',' + n_for_address.strip())
+            address_ua = re.sub(u'(\,){2,}', u',', address_ua)
         address_ua = region_ua + u'мисто ' + city_ua + u',' + address_ua
         xml_address_ua = etree.SubElement(xml_item, 'address', lang=u'ua')
         address_ua = re.sub(u'\(|\)|\«|\»|\"', '', address_ua).strip()
@@ -223,8 +245,8 @@ class SgroshiPipeline(object):
         company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
         company_valid = StringIO.StringIO(company_valid)
         valid = etree.parse(company_valid)
-        if not relaxng.validate(valid):
-            raise DropItem
+        # if not relaxng.validate(valid):
+        #     raise DropItem
 
     def close_spider(self, spider):
         doc = etree.tostring(self.xml, pretty_print=True, encoding='unicode')
