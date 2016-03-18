@@ -37,14 +37,23 @@ class Parser(object):
 
         book_info = soup.find('div', 'info2').find('dl')
 
-        isbn = book_info.find('dt', text=re.compile('ISBN')).findNextSibling('dd')
-        isbn = isbn.text
+        isbn = book_info.find('dt', text=re.compile(u'ISBN'))
+        if isbn:
+            isbn = isbn.findNextSibling('dd')
+            isbn = isbn.text.strip()
 
-        year = book_info.find('dt', text=re.compile(u'написания')).findNextSibling('dd')
-        year = year.text
+        pages = book_info.find('dt', text=re.compile(u'Объем'))
+        if pages:
+            pages.findNextSibling('dd')
+            pages = pages.text.strip()
 
-        pages = book_info.find('dt', text=re.compile(u'Объем')).find_next_sibling('dd')
-        pages = pages.text
+        year = book_info.find('dt', text=re.compile(u'написания'))
+        if year:
+            year = year.findNextSibling('dd')
+            year = year.text
+
+        # pages = book_info.find('dt', text=re.compile(u'Объем')).find_next_sibling('dd')
+        # pages = pages.text
 
         description = soup.find('div', 'book_annotation')
         description = description.text.strip()
@@ -53,7 +62,7 @@ class Parser(object):
         price_text = price.text.strip()
 
         price = re.sub(u'[А-Я а-яA-Za-z]+', '', price_text).split(',')
-        price = price[0]
+        price = re.sub(u'\D', u'', price[0])
         stock = u"На складе"
 
         row = {}
@@ -62,12 +71,15 @@ class Parser(object):
         row["author"] = author
         row["description"] = description
         row["availability"] = stock
-        row["isbn"] = isbn
-        row["year"] = year
+        if isbn:
+            row["isbn"] = isbn
+        if year:
+            row["year"] = year
+
         row["price"] = {
             "currency": "RUR",
             "type": "currency",
-            "content": price
+            "content": int(price.strip())
         }
 
         try:
@@ -79,7 +91,6 @@ class Parser(object):
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
         schema = json.loads(f.read())
-
         validate(node, schema)
 
     def close_parser(self):

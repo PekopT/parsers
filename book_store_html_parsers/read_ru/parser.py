@@ -3,6 +3,7 @@ import json
 import re
 from codecs import getwriter
 from bs4 import BeautifulSoup
+from jsonschema import validate
 
 sout = getwriter("utf-8")(sys.stdout)
 
@@ -38,8 +39,10 @@ class Parser(object):
         isbn = info.find('span', {'itemprop': 'isbn'})
         isbn = isbn.text.strip()
 
+        isbn = isbn.replace('\\n','')
+
         author = soup.find('div', 'j-book_autors book_autors').find('span')
-        author = author.text.strip()
+        author = author.text.replace('\\n', '').strip()
 
         price = soup.find('div', 'book_price3__fullprice').find('div', {'itemprop': 'price'})
         price = price.text.strip()
@@ -56,21 +59,22 @@ class Parser(object):
         description = self.remove_tags(description)
 
         name = info.find('span', {'itemprop': 'name'})
-        name = name.text.strip()
+        name = name.text.replace('\\n', '').strip()
 
         pages = soup.find('td', 'pages').find('span', 'book_field')
-        pages = pages.text.strip()
+        pages = pages.text.replace('\\n', '').strip()
 
         publisher = soup.find('li', 'j-book_pub').find('td', 'pubhouse')
         publisher = publisher.text.strip()
         publisher = self.remove_tags(publisher)
+        publisher = publisher.replace('\\n', '').strip()
 
         price_stock = soup.find('div', 'book_price3').find('div','book_price__title_ok-thin')
-        price_stock = price_stock.text.strip()
+        price_stock = price_stock.text.replace('\\n', '').strip()
         price_stock = self.remove_tags(price_stock)
 
         cover = soup.findAll('div', 'j-book_autors book_autors')[0].findNextSibling('ul')
-        cover = cover.text.strip()
+        cover = cover.text.replace('\\n', '').strip()
         cover = self.remove_tags(cover)
 
         row = {
@@ -82,7 +86,7 @@ class Parser(object):
             "price": {
                 "currency": price_currency,
                 "type": "currency",
-                "content": price
+                "content": int(price)
             },
             "availability": price_stock,
             "year": year,
@@ -95,10 +99,18 @@ class Parser(object):
         if images:
             row["images"] = images
 
-        self.rows_data.append(row)
+        try:
+            self.check_validate_schema(row)
+            self.rows_data.append(row)
+        except Exception as e:
+            print e.message
 
-    def check_validate_schema(self):
-        pass
+        # self.rows_data.append(row)
+
+    def check_validate_schema(self, node):
+        f = open('books.schema.json', 'r')
+        schema = json.loads(f.read())
+        validate(node, schema)
 
     def close_parser(self):
         sout.write(json.dumps(self.rows_data, ensure_ascii=False))
@@ -111,12 +123,14 @@ def main():
             data = json.loads(line)
             try:
                 parser.parse_html(data)
-            except Exception:
-                pass
-        except Exception:
-            pass
+            except Exception as e:
+                print str(e)
+        except Exception as e:
+                print str(e)
 
     parser.close_parser()
 
+
 if __name__ == '__main__':
     main()
+
