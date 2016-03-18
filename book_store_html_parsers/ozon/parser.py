@@ -23,8 +23,7 @@ class Parser(object):
         url = data['url']
         html = data['html']
         soup = BeautifulSoup(html, 'html.parser')
-        name = soup.find('h1').text\
-
+        name = soup.find('h1').text
 
         author = soup.find('div', text=re.compile(u'Автор'), attrs={'class': 'eItemProperties_name'}) \
             .find_next_sibling().find('a').text
@@ -129,9 +128,9 @@ def main():
             try:
                 parser.parse_html(data)
             except Exception:
-                pass
+                print "errors parse"
         except Exception:
-            pass
+            print "error reading"
 
     parser.close_parser()
 
