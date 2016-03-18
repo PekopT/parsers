@@ -1,8 +1,10 @@
+# coding=utf-8
 import sys
 import json
 import re
 from codecs import getwriter
 from bs4 import BeautifulSoup
+from jsonschema import validate
 
 sout = getwriter("utf-8")(sys.stdout)
 
@@ -31,6 +33,8 @@ class Parser(object):
         cover = ''
         stock = ''
         isbn = soup.find('div', 'isbn').text
+        isbn = isbn.replace(u"ISBN:", u"")
+
         price = soup.find('span', 'buying-price-val-number')
         price_currency = soup.find('span', 'buying-pricenew-val-currency').text
 
@@ -43,10 +47,19 @@ class Parser(object):
         description = description.text
 
         pages = soup.find('div', 'pages2')
-        pages = pages.text
+        pages = pages.text.strip()
+
+        pages = re.sub(u'\D', u'', pages)
+        year = re.sub(u'\D', u'', year)
 
         author = soup.find('div', 'authors').find('a')
         author = author.text
+
+
+        if u"руб" in price_currency:
+            price_currency = u"RUR"
+
+        stock = soup.find('div', 'prodtitle-availibility').span.text.strip()
 
         row = {
             "url": url,
@@ -57,19 +70,30 @@ class Parser(object):
             "price": {
                 "currency": price_currency,
                 "type": "currency",
-                "content": price
+                "content": int(price)
             },
-            "availability": stock,
             "year": year,
-            "cover": cover,
             "pages": pages,
             "isbn": isbn,
         }
 
-        self.rows_data.append(row)
+        if stock:
+            row["availability"] = stock
 
-    def check_validate_schema(self):
-        pass
+        if cover:
+            row["cover"] = cover
+
+        try:
+            self.check_validate_schema(row)
+            self.rows_data.append(row)
+        except Exception as e:
+            print e.message
+        # self.rows_data.append(row)
+
+    def check_validate_schema(self, node):
+        f = open('books.schema.json', 'r')
+        schema = json.loads(f.read())
+        validate(node, schema)
 
     def close_parser(self):
         sout.write(json.dumps(self.rows_data, ensure_ascii=False))
@@ -82,10 +106,10 @@ def main():
             data = json.loads(line)
             try:
                 parser.parse_html(data)
-            except Exception:
-                pass
-        except Exception:
-            pass
+            except Exception as e:
+                print str(e)
+        except Exception as e:
+            print str(e)
 
     parser.close_parser()
 

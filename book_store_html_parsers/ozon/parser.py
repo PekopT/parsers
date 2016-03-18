@@ -4,6 +4,7 @@ import json
 import re
 from codecs import getwriter
 from bs4 import BeautifulSoup
+from jsonschema import validate
 
 sout = getwriter("utf-8")(sys.stdout)
 
@@ -28,7 +29,7 @@ class Parser(object):
         author = soup.find('div', text=re.compile(u'Автор'), attrs={'class': 'eItemProperties_name'}) \
             .find_next_sibling().find('a').text
         year = soup.find('div', text=re.compile(u'Год'), attrs={'class': 'eItemProperties_name'}) \
-            .find_next_sibling().text
+            .find_next_sibling().text.strip()
 
         pages = soup.find('div', text=re.compile(u'Количество страниц'), attrs={'class': 'eItemProperties_name'}) \
             .find_next_sibling().text
@@ -59,9 +60,10 @@ class Parser(object):
                 "image": book["Picture"],
                 "author": author,
                 "price": {
-                    "currency": book["PriceInfo"]["CurrencyName"],
+                    # "currency": book["PriceInfo"]["CurrencyName"],
+                    "currency": "RUR",
                     "type": "currency",
-                    "content": book["PriceInfo"]["PriceValue"],
+                    "content": int(book["PriceInfo"]["PriceValue"]),
                 }
             }
             also_buy_books.append(also_row)
@@ -86,6 +88,11 @@ class Parser(object):
         if not price_stock:
             price_stock = u"На складе."
 
+        pages = re.sub(u'\D', u'', pages)
+        year = re.sub(u'\D', u'', year)
+
+        isbn = isbn.strip()
+
         row = {
             "url": "http://www.ozon.ru/context/detail/id/5793186/",
             "name": name.strip(),
@@ -95,13 +102,13 @@ class Parser(object):
             "price": {
                 "currency": "RUR",
                 "type": "currency",
-                "content": price
+                "content": int(price)
             },
             "availability": price_stock,
-            "year": year.strip(),
+            "year": year,
             "cover": cover.strip(),
-            "pages": pages.strip(),
-            "isbn": isbn.strip(),
+            "pages": pages,
+            "isbn": isbn,
 
         }
         if also_buy_books:
@@ -110,11 +117,19 @@ class Parser(object):
         if pictures:
             row["images"] = pictures
 
-        self.rows_data.append(row)
+        try:
+            self.check_validate_schema(row)
+            self.rows_data.append(row)
+        except Exception as e:
+            print e.message
+
+        # self.rows_data.append(row)
 
 
-    def check_validate_schema(self):
-        pass
+    def check_validate_schema(self, node):
+        f = open('books.schema.json', 'r')
+        schema = json.loads(f.read())
+        validate(node, schema)
 
     def close_parser(self):
         sout.write(json.dumps(self.rows_data, ensure_ascii=False))
@@ -127,10 +142,10 @@ def main():
             data = json.loads(line)
             try:
                 parser.parse_html(data)
-            except Exception:
-                print "errors parse"
-        except Exception:
-            print "error reading"
+            except Exception as e:
+                print str(e)
+        except Exception as e:
+                print str(e)
 
     parser.close_parser()
 
