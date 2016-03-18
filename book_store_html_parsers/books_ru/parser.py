@@ -1,8 +1,10 @@
+# -*- coding: utf-8 -*-
 import sys
 import json
 import re
 from codecs import getwriter
 from bs4 import BeautifulSoup
+from jsonschema import validate
 
 sout = getwriter("utf-8")(sys.stdout)
 
@@ -25,7 +27,7 @@ class Parser(object):
         soup = BeautifulSoup(html, 'html.parser')
 
         name = soup.h1
-        name = name.text.strip()
+        name = name.text.replace('\\n', '').strip()
 
         isbn_li = soup.find('ul', 'isbn-list').find('li', 'first')
         isbn = isbn_li.find('span')
@@ -34,26 +36,29 @@ class Parser(object):
         pages_info = isbn_li.findNextSibling('li')
         pages = pages_info.text.strip()
 
+        pages = re.sub('\D', '', pages)
+
         year = pages_info.findNextSibling('li')
         year = year.text.strip()
+        year = re.sub('\D', '', year)
 
         author = soup.find('p', 'author')
-        author = author.text
+        author = author.text.replace('\\n', '').strip()
 
-        price_info = soup.find('div','yprice price')
+        price_info = soup.find('div', 'yprice price')
         price = price_info.text
 
         price = self.str_to_int(price)
 
         description_info = soup.find('div', 'note')
-        description = description_info.text.strip()
+        description = description_info.text.replace('\\n', '').strip()
 
         price_currency = "RUR"
         stock = u'На складе'
         cover_info = soup.find('td',text=re.compile(u'Обложка')).findNextSibling('td')
         cover = cover_info.text.strip()
 
-        publisher_info = soup.find('td',text=re.compile(u'Издательство')).findNextSibling('td')
+        publisher_info = soup.find('td', text=re.compile(u'Издательство')).findNextSibling('td')
         publisher = publisher_info.text.strip()
 
         row = {
@@ -65,7 +70,7 @@ class Parser(object):
             "price": {
                 "currency": price_currency,
                 "type": "currency",
-                "content": price
+                "content": int(price)
             },
             "availability": stock,
             "year": year,
@@ -74,10 +79,19 @@ class Parser(object):
             "isbn": isbn,
         }
 
-        self.rows_data.append(row)
+        try:
+            self.check_validate_schema(row)
+            self.rows_data.append(row)
+        except Exception as e:
+            print e.message
 
-    def check_validate_schema(self):
-        pass
+        # self.rows_data.append(row)
+
+
+    def check_validate_schema(self, node):
+        f = open('books.schema.json', 'r')
+        schema = json.loads(f.read())
+        validate(node, schema)
 
     def close_parser(self):
         sout.write(json.dumps(self.rows_data, ensure_ascii=False))
@@ -90,12 +104,13 @@ def main():
             data = json.loads(line)
             try:
                 parser.parse_html(data)
-            except Exception:
-                pass
-        except Exception:
-            pass
+            except Exception as e:
+                print str(e)
+        except Exception as e:
+                print str(e)
 
     parser.close_parser()
+
 
 if __name__ == '__main__':
     main()
