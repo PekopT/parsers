@@ -40,6 +40,8 @@ class Parser(object):
         isbn = soup.find('div', text=re.compile(u'ISBN'), attrs={'class': 'eItemProperties_name'}) \
             .find_next_sibling().text
 
+        isbn = isbn.replace("\\n","")
+
         publisher = soup.find('div', text=re.compile(u'Издательство'), attrs={'class': 'eItemProperties_name'}) \
             .find_next_sibling().text
         description = soup.find('div', 'eProductDescriptionText_text').text
@@ -55,7 +57,7 @@ class Parser(object):
         also_buy_books = []
         for book in also_buy:
             also_row = {
-                "url": "http://www.ozon.ru/context/detail/id/6305434/",
+                "url": "http://www.ozon.ru/context/detail/id/" + str(book["Id"]),
                 "name": book["Name"],
                 "image": book["Picture"],
                 "author": author,
