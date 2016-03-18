@@ -1,8 +1,11 @@
-import sys
+# coding=utf-8
 import json
+import sys
+
 import re
-from codecs import getwriter
 from bs4 import BeautifulSoup
+from codecs import getwriter
+from jsonschema import validate
 
 sout = getwriter("utf-8")(sys.stdout)
 
@@ -64,10 +67,17 @@ class Parser(object):
             "content": price
         }
 
-        self.rows_data.append(row)
+        try:
+            self.check_validate_schema(row)
+            self.rows_data.append(row)
+        except Exception as e:
+            print e.message
 
-    def check_validate_schema(self):
-        pass
+    def check_validate_schema(self, node):
+        f = open('books.schema.json', 'r')
+        schema = json.loads(f.read())
+
+        validate(node, schema)
 
     def close_parser(self):
         sout.write(json.dumps(self.rows_data, ensure_ascii=False))
@@ -80,10 +90,10 @@ def main():
             data = json.loads(line)
             try:
                 parser.parse_html(data)
-            except Exception:
-                pass
-        except Exception:
-            pass
+            except Exception as e:
+                print str(e)
+        except Exception as e:
+            print str(e)
 
     parser.close_parser()
 
