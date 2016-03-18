@@ -44,12 +44,23 @@ class Parser(object):
         html = data['html']
         soup = BeautifulSoup(html, 'html.parser')
         name = soup.h1.text.strip()
+        description = u""
 
         stock = u"В наличии"
         row = {}
         row["url"] = url
         row["name"] = name
         row["availability"] = stock
+        row["description"] = description
+
+        price_info = soup.find('td', 'w184 vat').find('table','w100p').find('b', {'style':'font-size:14px'})
+        price = re.sub(u'\D',u'', price_info.text)
+
+        row[u"price"] = {
+                "currency": "RUR",
+                "type": "currency",
+                "content": price
+        }
 
         self.rows_data.append(row)
 
