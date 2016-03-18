@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import sys
 import json
 import re
@@ -39,6 +41,9 @@ class Parser(object):
 
         year = book_info.find('dt', text=re.compile(u'написания')).findNextSibling('dd')
         year = year.text
+
+        pages = book_info.find('dt', text=re.compile(u'Объем')).find_next_sibling('dd')
+        pages = pages.text
 
         description = soup.find('div', 'book_annotation')
         description = description.text.strip()
