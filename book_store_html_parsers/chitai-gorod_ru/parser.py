@@ -126,6 +126,7 @@ class Parser(object):
         try:
             self.check_validate_schema(row)
             self.rows_data.append(row)
+            
         except Exception as e:
             print e.message
 
