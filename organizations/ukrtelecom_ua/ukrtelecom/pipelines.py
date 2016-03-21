@@ -19,13 +19,24 @@ sout = getwriter("utf8")(stdout)
 
 class UkrtelecomPipeline(object):
 
+    hash_data = []
+
     def __init__(self):
         self.count_item = 0
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
         self.xml = etree.Element('companies', version='2.1', nsmap=self.ns)
 
-    def company_id(self):
-        return u'0009' + unicode(self.count_item)
+    def check_hash(self, hash_addr):
+        if hash_addr in self.hash_data:
+            hash_addr += 1
+            hash_addr = self.check_hash(hash_addr)
+        return hash_addr
+
+    def company_id(self, address):
+        hash_for_address = abs(hash(address))
+        hash_for_address = self.check_hash(hash_for_address)
+        self.hash_data.append(hash_for_address)
+        return unicode(hash_for_address)
 
     def validate_str(self, value):
         if type(value) == list:
@@ -84,7 +95,7 @@ class UkrtelecomPipeline(object):
 
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()
+        xml_id.text = self.company_id(address)
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         xml_name.text = name
@@ -92,7 +103,6 @@ class UkrtelecomPipeline(object):
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ua')
         xml_name.text = name
 
-        address = address
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ua')
         xml_address.text = address
 
