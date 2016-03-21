@@ -126,7 +126,7 @@ BY_CITIES = {
         u"Вилейка",
         u"Воложин",
         u"Дзержинск",
-        u"Дружный", #поселок
+        u"Дружный",  # поселок
         u"Клецк",
         u"Копыль",
         u"Крупки",
@@ -227,7 +227,7 @@ BY_CITIES = {
         u"Новогрудок",
         u"Ошмяны",
         u"Островец",
-        u"Радунь", #поселок
+        u"Радунь",  # поселок
         u"Свислочь",
         u"Слоним",
         u"Сморгонь",
@@ -260,9 +260,19 @@ BY_CITIES = {
 
 class LifecomPipeline(object):
     counter = 0
+    hash_data = []
 
-    def company_id(self):
-        return u'0004' + unicode(self.counter)
+    def check_hash(self, hash_addr):
+        if hash_addr in self.hash_data:
+            hash_addr += 1
+            hash_addr = self.check_hash(hash_addr)
+        return hash_addr
+
+    def company_id(self, address):
+        hash_for_address = abs(hash(address))
+        hash_for_address = self.check_hash(hash_for_address)
+        self.hash_data.append(hash_for_address)
+        return unicode(hash_for_address)
 
     def __init__(self):
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
@@ -341,10 +351,21 @@ class LifecomPipeline(object):
         if name.find(u'Клуб') >= 0:
             raise DropItem()
 
+        tsa = self.try_split_addr(address)
+        region = self.get_region(self.validate_str(item['city'])) or u""
+
+        if region:
+            region += u", "
+
+        if len(tsa) > 1:
+            address_to_xml = region + u"город " + self.validate_str(item['city']) + u', ' + tsa[0]
+        else:
+            address_to_xml = region + u"город " + self.validate_str(item['city']) + u', ' + address
+
         xml_item = etree.SubElement(self.xml, 'company')
 
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()  # TODO
+        xml_id.text = self.company_id(address_to_xml)
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         xml_name.text = u'Life:)'
@@ -352,10 +373,6 @@ class LifecomPipeline(object):
         xml_name = etree.SubElement(xml_item, 'name-other', lang=u'ru')
         xml_name.text = name
 
-        tsa = self.try_split_addr(address)
-        region = self.get_region(self.validate_str(item['city'])) or u""
-        if region:
-            region += u", "
         if len(tsa) > 1:
             xml_addr = etree.SubElement(xml_item, 'address', lang=u'ru')
             xml_addr.text = region + u"город " + self.validate_str(item['city']) + u', ' + tsa[0]
@@ -407,9 +424,9 @@ class LifecomPipeline(object):
         working_time = zip(item['days'], item['times'])
 
         work_str = ''
-        for k,v in working_time:
+        for k, v in working_time:
             if u'выходной' not in v.lower() and u'закрыто' not in v.lower():
-                    work_str += k + ':' + v.replace('*', '') + ' , '
+                work_str += k + ':' + v.replace('*', '') + ' , '
 
         # times_set = []
         # for t in item['times']:
@@ -432,7 +449,6 @@ class LifecomPipeline(object):
         #             work_str += ''.join(in_map[t][0]) + ':' + t + ' , '
 
         xml_time.text = work_str[:-3]
-
 
         # <rubric-id>184106414</rubric-id>
         xml_rubric = etree.SubElement(xml_item, 'rubric-id')
