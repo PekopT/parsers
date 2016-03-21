@@ -23,6 +23,10 @@ class IafdActorsItem(scrapy.Item):
     height = scrapy.Field()
     isa = scrapy.Field()
     projects = scrapy.Field()
+    image = scrapy.Field()
+    years = scrapy.Field()
+    nationality = scrapy.Field()
+    ethnicity = scrapy.Field()
 
 
 class IafdStudioItem(scrapy.Item):

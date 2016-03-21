@@ -37,6 +37,13 @@ class JsonPipeline(object):
 
 
 class IafdActorsPipeline(JsonPipeline):
+
+    def check_no_data(self, value):
+        if value.strip() == "No data":
+            return ''
+        else:
+            return value
+
     @check_spider_pipeline
     def process_item(self, item, spider):
         name = self.validate_str(item['name'])
@@ -44,6 +51,37 @@ class IafdActorsPipeline(JsonPipeline):
         init_place = ''.join(item['init_place'])
         init_date = ''.join(item['init_date'])
         end_date = ''.join(item['end_date'])
+        years = ''.join(item['end_date']).strip()
+        image = item['image'][0]
+
+        haircolors = item['hair_colors']
+        weight = ''.join(item['weight'])
+        height = ''.join(item['height'])
+        ethnicity = ''.join(item['ethnicity'])
+        nationality = ''.join(item['nationality'])
+
+
+        nationality = self.check_no_data(nationality)
+        init_place = self.check_no_data(init_place)
+        ethnicity = self.check_no_data(ethnicity)
+
+
+
+        wm = re.search(u"\(.+\)", weight)
+        if wm:
+            weight = wm.group(0)
+            weight = re.sub('\D', '', weight)
+        else:
+            weight = ''
+
+        hm = re.search(u"\(.+\)", height)
+        if hm:
+
+            height = hm.group(0)
+            height = re.sub(u'\D', u'', height)
+        else:
+            height = ''
+
 
         udm = re.search(u"gender.+", url)
 
@@ -56,6 +94,11 @@ class IafdActorsPipeline(JsonPipeline):
         row = {}
 
         row['ontoid'] = u"ext_iafd_{0}_{1}".format(male, url_data[1])
+
+        if male.lower == "m":
+            profession = u"порноактер"
+        else:
+            profession = u"поноактрисса"
 
         ids = []
 
@@ -85,7 +128,7 @@ class IafdActorsPipeline(JsonPipeline):
         if init_date:
             row[u"InitDate"] = [
                 {
-                    u"value": u"1973-01-06"
+                    u"value": init_date,
                 }
             ]
         if end_date:
@@ -96,6 +139,88 @@ class IafdActorsPipeline(JsonPipeline):
             ]
 
         performer = ''.join(item['performer'])
+
+        row["params"] = {}
+
+        if haircolors:
+            row["params"]["HairColor"] = [
+                {
+                    "value": haircolors,
+                    "langua": "en",
+                }
+            ]
+        if weight:
+            row["params"]["Weight"] = [
+                {
+                    "value": weight,
+                    "unit": "kg",
+                }
+            ]
+
+        if height:
+            row["params"]["Height"] = [
+                {
+                    "value": height,
+                    "unit": "m",
+                }
+            ]
+
+        if ethnicity:
+            row["params"]["Ethnicity"] = [
+                {
+                    "value": ethnicity,
+                    "langua": "en",
+                }
+            ]
+
+        row["isa"] = {}
+        row["isa"]["Profession"] = [
+            {
+                "value": profession,  # для f или "порноактер" для m
+                "langua": "ru"
+            }
+        ]
+
+        if nationality:
+            row["isa"]["Nationality"] = [
+                {
+                    "value": nationality,  # для f или "порноактер" для m
+                    "langua": "en"
+                }
+            ]
+
+        row["isa"]["otype"] = [
+            {
+                "value": "Hum"
+            }
+        ]
+
+        row["isa"]["tags"] = [
+            {
+                "value": "Pornoactor@on"
+            }
+        ]
+
+        if image:
+            row['Image'] = [
+                {
+                    "src": [
+                        {
+                            "url": url,
+                        }
+                    ],
+                    "value": image,
+                    "url": image,
+                }
+            ]
+
+        if years:
+            row['Years'] = [
+                {
+                    "value": years,
+                }
+            ]
+
         row['Key'] = [
             {
                 "value": performer,
@@ -114,8 +239,6 @@ class IafdActorsPipeline(JsonPipeline):
 
         if projects:
             row['projects'] = projects
-
-
 
         self.data.append(row)
 

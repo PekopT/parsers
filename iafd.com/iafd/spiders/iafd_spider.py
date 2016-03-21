@@ -19,22 +19,20 @@ class ActorsSpider(scrapy.Spider):
         IafdActorsPipeline,
     ])
 
-
     def parse(self, response):
         links = response.xpath("//div[@class='col-lg-2 col-sm-4 col-xs-6 text-center']/a/@href").extract()
         for href in links:
             self.counter += 1
             url = response.urljoin(href)
-            if self.counter < 2:
-                yield scrapy.Request(url, callback=self.parse_page)
+            yield scrapy.Request(url, callback=self.parse_page)
 
     def parse_page(self, response):
         it = 0
         for link in response.xpath("//div[@id='astro']/div[@class='perficon']/a/@href").extract():
             it += 1
             url = response.urljoin(link)
-            if it < 20:
-                yield scrapy.Request(url, callback=self.parse_page_detail)
+
+            yield scrapy.Request(url, callback=self.parse_page_detail)
 
     def parse_page_detail(self, response):
         title = response.xpath("//div[@class='container']/div[@class='row']/div/h1/text()").extract()
@@ -45,6 +43,19 @@ class ActorsSpider(scrapy.Spider):
         # height = vitalbox.xpath("div/div[2]/p[@class='biodata'][1]/text()").extract()
         # weight = vitalbox.xpath("div/div[2]/p[@class='biodata'][2]/text()").extract()
         info = response.xpath("//div[@class='container']/div[@class='row'][2]/div")
+        home_info = response.xpath("//div[@id='home']/div")
+        ethnicity = home_info.xpath(
+            "div/p[@class='bioheading' and re:test(text(), 'Ethnicity')]/following-sibling::p[1]/text()").extract()
+        nationality = home_info.xpath(
+            "div/p[@class='bioheading' and re:test(text(), 'Nationality')]/following-sibling::p[1]/text()").extract()
+        haircolors = home_info.xpath(
+            "div/p[@class='bioheading' and re:test(text(), 'Hair Colors')]/following-sibling::p[1]/text()").extract()
+        height = home_info.xpath(
+            "div/p[@class='bioheading' and re:test(text(), 'Height')]/following-sibling::p[1]/text()").extract()
+        weight = home_info.xpath(
+            "div/p[@class='bioheading' and re:test(text(), 'Weight')]/following-sibling::p[1]/text()").extract()
+
+        image = info.xpath("div[@id='headshot']/img/@src").extract()
         performer_aka = info.xpath(
             "p[@class='bioheading' and re:test(text(), 'Performer')]/following-sibling::div[1]/text()").extract()
         init_place = info.xpath(
@@ -54,6 +65,9 @@ class ActorsSpider(scrapy.Spider):
 
         end_date = info.xpath(
             "p[@class='bioheading' and re:test(text(), 'Death')]/following-sibling::p[1]/a/text()").extract()
+
+        years = info.xpath(
+            "p[@class='bioheading' and re:test(text(), 'Years')]/following-sibling::p[1]/text()").extract()
 
         # ethnicity = response.xpath(patt)
 
@@ -83,6 +97,13 @@ class ActorsSpider(scrapy.Spider):
         item['end_date'] = end_date
         item['performer'] = performer_aka
         item['projects'] = projects
+        item['years'] = years
+        item['image'] = image
+        item['hair_colors'] = haircolors
+        item['weight'] = weight
+        item['height'] = height
+        item['ethnicity'] = ethnicity
+        item['nationality'] = nationality
 
         yield item
 
@@ -101,9 +122,8 @@ class TitlesSpider(scrapy.Spider):
 
     def parse(self, response):
         for option in response.xpath("//select[@name='Studio']/option/@value").extract():
-            self.counter +=1
-            if self.counter < 3:
-                yield FormRequest("http://www.iafd.com/studio.rme",
+            self.counter += 1
+            yield FormRequest("http://www.iafd.com/studio.rme",
                               formdata={u'Studio': option},
                               callback=self.parse_page)
 
@@ -129,16 +149,15 @@ class TitlesSpider(scrapy.Spider):
         url_data = self.get_url_data(value)
         return url_data[1]
 
-
-
     def parse_title_page(self, response):
         info = response.xpath("//div[@class='container']/div[@class='row'][2]/div")
         title = response.xpath("//h1/text()").extract()
-        release = info.xpath("p[@class='bioheading' and re:test(text(), 'Release Date')]/following-sibling::p[1]/text()")
+        release = info.xpath(
+            "p[@class='bioheading' and re:test(text(), 'Release Date')]/following-sibling::p[1]/text()")
         duration = info.xpath("p[@class='bioheading' and re:test(text(), 'Minutes')]/following-sibling::p[1]/text()")
 
-
-        performers = response.xpath("//div[@class='container']/div[@class='row'][2]/div[2]/div/div[@class='padded-panel']/div/div/div[@class='castbox']")
+        performers = response.xpath(
+            "//div[@class='container']/div[@class='row'][2]/div[2]/div/div[@class='padded-panel']/div/div/div[@class='castbox']")
 
         participants = []
         actors = []
@@ -157,15 +176,15 @@ class TitlesSpider(scrapy.Spider):
         director_info = info.xpath("p[@class='bioheading' and re:test(text(), 'Director')]/following-sibling::p[1]/a")
 
         director = {}
-        if len(director_info)> 0:
+        if len(director_info) > 0:
             director_url = director_info.xpath('@href').extract()[0]
             director_url = response.urljoin(director_url)
-            director_value = u"[[#ext_iafd_{0}_{1}]]".format(self.get_male(director_url), self.get_name_htm(director_url))
+            director_value = u"[[#ext_iafd_{0}_{1}]]".format(self.get_male(director_url),
+                                                             self.get_name_htm(director_url))
 
             director[u"Role"] = u"Director@on"
             director[u"value"] = director_value
             director[u"url"] = director_url
-
 
         distrib_info = info.xpath("p[@class='bioheading' and re:test(text(), 'Distributor')]/following-sibling::p[1]")
         distrib_url = distrib_info.xpath('a/@href').extract()
@@ -199,7 +218,7 @@ class TitlesSpider(scrapy.Spider):
         item = IafdTitleItem()
         item['name'] = title
         item['url'] = response.url
-        item['release_date']  = release.extract()
+        item['release_date'] = release.extract()
         item['duration'] = duration.extract()
         item['studio'] = studio
         item['distributor'] = distributor
@@ -224,10 +243,9 @@ class DistributorsSpider(scrapy.Spider):
     def parse(self, response):
         for option in response.xpath("//select[@name='Distrib']/option/@value").extract():
             self.counter += 1
-            if self.counter < 10:
-                yield FormRequest("http://www.iafd.com/distrib.rme",
-                          formdata={u'Distrib': option},
-                          callback=self.parse_page)
+            yield FormRequest("http://www.iafd.com/distrib.rme",
+                              formdata={u'Distrib': option},
+                              callback=self.parse_page)
 
     def parse_page(self, response):
         title = response.xpath("//h2").extract()
