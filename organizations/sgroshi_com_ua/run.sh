@@ -6,4 +6,4 @@
     "schema": "sgroshi/schema_org.xml"
   },
   "command": "1> /dev/null scrapy crawl sgroshi -L CRITICAL
-
+}
