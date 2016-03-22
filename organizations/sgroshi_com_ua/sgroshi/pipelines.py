@@ -27,8 +27,10 @@ class SgroshiPipeline(object):
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
         self.xml = etree.Element('companies', version='2.1', nsmap=self.ns)
 
-    def company_id(self):
-        return u'0099' + unicode(self.count_item)
+    def company_id(self, value):
+        str_for_hash = value
+        hash_for_address = abs(hash(str_for_hash))
+        return unicode(hash_for_address)
 
     def validate_str(self, value):
         if type(value) == list:
@@ -138,7 +140,7 @@ class SgroshiPipeline(object):
         return s_val
 
     def process_item(self, item, spider):
-        name = u"ШвидкоГроши"
+        name = u"ШвидкоГрошi"
         name_ua = u"ШвидкоГрошi"
         url = item['url']
         address = item['address']
@@ -148,21 +150,8 @@ class SgroshiPipeline(object):
         city_ua = ''.join(item['city_ua'])
         city_ua = city_ua.replace(':', '').strip()
         phones = item['phone']
-        # working_time_ru = ''.join(item['working_time_ru'])
-        # working_time_ua = ''.join(item['working_time_ua'])
 
-        self.count_item += 1
-        xml_item = etree.SubElement(self.xml, 'company')
-        xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()
-
-        xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
-        xml_name.text = name
-
-        xml_name_ua = etree.SubElement(xml_item, 'name', lang=u'ua')
-        xml_name_ua.text = name_ua
         to_replace = u"\<strong\>.+\<\/strong\>"
-        # address = address.replace(u'</strong>', u'</strong>,')
         address = re.sub(to_replace, u'', address)
         address = self.delete_tags(address)
         tc = self.get_address_info(address)
@@ -173,8 +162,21 @@ class SgroshiPipeline(object):
             address = address.replace(n_for_address, u',' + n_for_address.strip())
             address = re.sub(u'(\,){2,}', u',', address)
         address = region + u'город ' + city + u',' + address
-        xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         address = re.sub(u'\(|\)|\«|\»|\"', '', address).strip()
+
+        self.count_item += 1
+        xml_item = etree.SubElement(self.xml, 'company')
+        xml_id = etree.SubElement(xml_item, 'company-id')
+        xml_id.text = self.company_id(address)
+
+        xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
+        xml_name.text = name
+
+        xml_name_ua = etree.SubElement(xml_item, 'name', lang=u'ua')
+        xml_name_ua.text = name_ua
+
+
+        xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         xml_address.text = address
 
         if tc:
@@ -209,7 +211,7 @@ class SgroshiPipeline(object):
 
         xml_phone_main = etree.SubElement(xml_item, 'phone')
         xml_phone_number_main = etree.SubElement(xml_phone_main, 'number')
-        xml_phone_number_main.text = "+380 (800) 50-10-20"
+        xml_phone_number_main.text = "0 (800) 50-10-20"
         xml_phone_type = etree.SubElement(xml_phone_main, 'type')
         xml_phone_type.text = u'phone'
         xml_phone_ext = etree.SubElement(xml_phone_main, 'ext')
@@ -245,8 +247,8 @@ class SgroshiPipeline(object):
         company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
         company_valid = StringIO.StringIO(company_valid)
         valid = etree.parse(company_valid)
-        # if not relaxng.validate(valid):
-        #     raise DropItem
+        if not relaxng.validate(valid):
+            raise DropItem
 
     def close_spider(self, spider):
         doc = etree.tostring(self.xml, pretty_print=True, encoding='unicode')
