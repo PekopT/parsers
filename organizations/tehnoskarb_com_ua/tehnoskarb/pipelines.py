@@ -27,8 +27,10 @@ class TehnoskarbPipeline(object):
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
         self.xml = etree.Element('companies', version='2.1', nsmap=self.ns)
 
-    def company_id(self):
-        return u'0099' + unicode(self.count_item)
+    def company_id(self, value):
+        str_for_hash = value
+        hash_for_address = abs(hash(str_for_hash))
+        return unicode(hash_for_address)
 
     def validate_str(self, value):
         if type(value) == list:
@@ -120,10 +122,13 @@ class TehnoskarbPipeline(object):
         working_time_ru = ''.join(item['working_time_ru'])
         working_time_ua = ''.join(item['working_time_ua'])
 
+        address_rus = self.validate_rus_address(address_rus)
+        address_rus = re.sub('\(|\)', '', address_rus)
+
         self.count_item += 1
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()
+        xml_id.text = self.company_id(address_rus)
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         xml_name.text = name
@@ -132,8 +137,7 @@ class TehnoskarbPipeline(object):
         xml_name_ua.text = name_ua
 
         xml_address_rus = etree.SubElement(xml_item, 'address', lang=u'ru')
-        address_rus = self.validate_rus_address(address_rus)
-        xml_address_rus.text = re.sub('\(|\)', '', address_rus)
+        xml_address_rus.text = address_rus
 
         xml_address_ua = etree.SubElement(xml_item, 'address', lang=u'ua')
         address_ua = self.validate_ua_address(address_ua)
