@@ -1,4 +1,9 @@
 {
-  pip install -r requirements.txt
-} 1> /dev/null
-scrapy crawl lagunabel -L CRITICAL
+  "type": "scraper",
+  "runtime": "python-2.7",
+  "data": {
+    "format": "xml",
+    "schema": "laguna/schema_org.xml"
+  },
+  "command": "1> /dev/null scrapy crawl lagunabel -L CRITICAL
+ }

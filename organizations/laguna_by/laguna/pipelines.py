@@ -47,8 +47,10 @@ class XmlPipeline(object):
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
         self.xml = etree.Element('companies', version='2.1', nsmap=self.ns)
 
-    def company_id(self):
-        return u'0199' + unicode(self.counter)
+    def company_id(self, value):
+        str_for_hash = value
+        hash_for_address = abs(hash(str_for_hash))
+        return unicode(hash_for_address)
 
     def validate_str(self, value):
         if type(value) == list:
@@ -179,14 +181,6 @@ class LagunaBelPipeline(XmlPipeline):
         for p in phone_items:
             p_str += self.delete_tags(p)
 
-        self.counter += 1
-        xml_item = etree.SubElement(self.xml, 'company')
-        xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()
-
-        xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
-        xml_name.text = u"Лагуна"
-
         city = ''.join(item['city'])
         city = self.delete_tags(city)
         address = self.delete_tags(address)
@@ -198,8 +192,19 @@ class LagunaBelPipeline(XmlPipeline):
         address_out = address_out.replace(tc, '')
         address_out = address_out.replace(tc[:-1], '')
         address_out = address_out.replace("www.dom35.by", '')
+        address_out = address_out.strip(', ')
+
+        self.counter += 1
+        xml_item = etree.SubElement(self.xml, 'company')
+        xml_id = etree.SubElement(xml_item, 'company-id')
+        xml_id.text = self.company_id(address_out)
+
+        xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
+        xml_name.text = u"Лагуна"
+
+
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
-        xml_address.text = address_out.strip(', ')
+        xml_address.text = address_out
 
         if tc:
             tc = re.sub(u'\"|\«|\»', ' ', tc)
@@ -237,6 +242,15 @@ class LagunaBelPipeline(XmlPipeline):
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
 
+        company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
+        company_valid = StringIO.StringIO(company_valid)
+        valid = etree.parse(company_valid)
+        if not relaxng.validate(valid):
+            raise DropItem
+
+
+
+
 class LagunaKzPipeline(XmlPipeline):
 
     @check_spider_pipeline
@@ -267,20 +281,26 @@ class LagunaKzPipeline(XmlPipeline):
         address = self.delete_tags(address)
         working_time = self.delete_tags(working_time)
 
+        address_out = oblast + u',город ' + city + ',' + address
+        address_out = re.sub('\(|\)', '', address_out)
+        address_out = address_out.strip(', ')
+
+        info = self.validate_str(item['info'])
+        info = re.sub(u'\”|\"|\«|\»', ' ', info)
+
+        addr_info = address_out + info
+
         self.counter += 1
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()
+        xml_id.text = self.company_id(addr_info)
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         xml_name.text = u"Лагуна"
 
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
-        address_out = oblast + u',город ' + city + ',' + address
-        address_out = re.sub('\(|\)', '', address_out)
-        xml_address.text = address_out.strip(', ')
-        info = self.validate_str(item['info'])
-        info = re.sub(u'\”|\"|\«|\»', ' ', info)
+        xml_address.text = address_out
+
         xml_address_add = etree.SubElement(xml_item,'address-add', lang=u"ru")
         xml_address_add.text = info
 
@@ -311,5 +331,11 @@ class LagunaKzPipeline(XmlPipeline):
 
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
+
+        company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
+        company_valid = StringIO.StringIO(company_valid)
+        valid = etree.parse(company_valid)
+        if not relaxng.validate(valid):
+            raise DropItem
 
 

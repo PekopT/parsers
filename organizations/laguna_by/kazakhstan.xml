@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <companies xmlns:xi="http://www.w3.org/2001/XInclude" version="2.1">
   <company>
-    <company-id>01991</company-id>
+    <company-id>5008278200770831153</company-id>
     <name lang="ru">Лагуна</name>
     <address lang="ru">город Алматы,ул. Кабдолова ул. Маречека, дом 1</address>
     <address-add lang="ru">ТЦ  АРМАДА , блок 2, МС  СКАРЛЕТТ </address-add>
@@ -21,10 +21,10 @@
     <url>http://www.laguna.by/</url>
     <add-url>http://www.laguna.by/shops/87-kazakhstan/105-almaty.html</add-url>
     <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942836835</actualization-date>
+    <actualization-date>1458665432097</actualization-date>
   </company>
   <company>
-    <company-id>01992</company-id>
+    <company-id>7236037468054720508</company-id>
     <name lang="ru">Лагуна</name>
     <address lang="ru">город Алматы,ул. Кабдолова ул. Маречека, дом 1</address>
     <address-add lang="ru">ТЦ  АРМАДА , блок 3, МС  СКАРЛЕТТ </address-add>
@@ -44,10 +44,10 @@
     <url>http://www.laguna.by/</url>
     <add-url>http://www.laguna.by/shops/87-kazakhstan/105-almaty.html</add-url>
     <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942836841</actualization-date>
+    <actualization-date>1458665432116</actualization-date>
   </company>
   <company>
-    <company-id>01993</company-id>
+    <company-id>4169162922862196743</company-id>
     <name lang="ru">Лагуна</name>
     <address lang="ru">город Алматы,пр. Суюнбая, 2</address>
     <address-add lang="ru">ТЦ  МЕРЕЙ , павильон  Все для дома , зал №1, МС  СКАРЛЕТТ </address-add>
@@ -67,10 +67,10 @@
     <url>http://www.laguna.by/</url>
     <add-url>http://www.laguna.by/shops/87-kazakhstan/105-almaty.html</add-url>
     <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942836843</actualization-date>
+    <actualization-date>1458665432119</actualization-date>
   </company>
   <company>
-    <company-id>01994</company-id>
+    <company-id>7549972000431085048</company-id>
     <name lang="ru">Лагуна</name>
     <address lang="ru">город Алматы,мкр. Астана, дом 110</address>
     <address-add lang="ru">ТЦ  ЛюМир , МС  СКАРЛЕТТ </address-add>
@@ -84,10 +84,61 @@
     <url>http://www.laguna.by/</url>
     <add-url>http://www.laguna.by/shops/87-kazakhstan/105-almaty.html</add-url>
     <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942836845</actualization-date>
+    <actualization-date>1458665432122</actualization-date>
   </company>
   <company>
-    <company-id>01995</company-id>
+    <company-id>8579431715234328128</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Шымкент,б-р. Кунаева</address>
+    <address-add lang="ru">Супермаркет мебели “АйЯ , Маг. “Планета Электроники , 0-й этаж</address-add>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>+8(725)221-06-50</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+8(725)221-12-28</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/107-shymkent.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1458665432130</actualization-date>
+  </company>
+  <company>
+    <company-id>1908997554618393144</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Шымкент,Тамерлановское шоссе, 19б</address>
+    <address-add lang="ru">Мебельный салон  СКАРЛЕТТ на Аль Фараби </address-add>
+    <country lang="ru">Казахстан</country>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/107-shymkent.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1458665432133</actualization-date>
+  </company>
+  <company>
+    <company-id>2047104503307139064</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Талдыкорган,ул. Алдабергенова, 119</address>
+    <address-add lang="ru">Супермаркет мебели “АйЯ , 2-й этаж</address-add>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>+8(728)239-39-91</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/106-taldykorgan.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1458665432141</actualization-date>
+  </company>
+  <company>
+    <company-id>6627220825672843056</company-id>
     <name lang="ru">Лагуна</name>
     <address lang="ru">город г.Кокшетау,ул. Сулейменова, 22</address>
     <address-add lang="ru">МС  АРЗАН </address-add>
@@ -101,10 +152,90 @@
     <url>http://www.laguna.by/</url>
     <add-url>http://www.laguna.by/shops/87-kazakhstan/215-kokshetau.html</add-url>
     <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942836855</actualization-date>
+    <actualization-date>1458665432151</actualization-date>
   </company>
   <company>
-    <company-id>01996</company-id>
+    <company-id>2467705777387008757</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Тараз,ул. Толе би 95</address>
+    <address-add lang="ru">МС  ФАРТ </address-add>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>(7262)34-79-83</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>(7262)34-79-84</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/216-taraz.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1458665432161</actualization-date>
+  </company>
+  <company>
+    <company-id>6186763667128121969</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Астана,ул. Валиханова, д. 24, второй этаж</address>
+    <address-add lang="ru">ТЦ  ТУЛПАР </address-add>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>(7172) 56-31-77</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/214-astana.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1458665432374</actualization-date>
+  </company>
+  <company>
+    <company-id>4868837703265097872</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Астана,ул. C-359, здание №3 район Центрального рынка, 4 этаж</address>
+    <address-add lang="ru">ТЦ  Самгау </address-add>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>(701) 670-57-80</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/214-astana.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1458665432377</actualization-date>
+  </company>
+  <company>
+    <company-id>5856271955252229143</company-id>
+    <name lang="ru">Лагуна</name>
+    <address lang="ru">город Караганда,Ул. Юных Космонавтов 1Д</address>
+    <address-add lang="ru">ТЦ  Сулпак </address-add>
+    <country lang="ru">Казахстан</country>
+    <phone>
+      <number>(700)138-09-05</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>(721)390-45-99</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://www.laguna.by/</url>
+    <add-url>http://www.laguna.by/shops/87-kazakhstan/218-karaganda.html</add-url>
+    <rubric-id>184107871</rubric-id>
+    <actualization-date>1458665432417</actualization-date>
+  </company>
+  <company>
+    <company-id>4567783575474512899</company-id>
     <name lang="ru">Лагуна</name>
     <address lang="ru">город Темиртау,Пр. Комсомольский 508А</address>
     <address-add lang="ru">ТЦ  Мебель на Димитрова </address-add>
@@ -130,137 +261,6 @@
     <url>http://www.laguna.by/</url>
     <add-url>http://www.laguna.by/shops/87-kazakhstan/217-temirtau.html</add-url>
     <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942836874</actualization-date>
-  </company>
-  <company>
-    <company-id>01997</company-id>
-    <name lang="ru">Лагуна</name>
-    <address lang="ru">город Караганда,Ул. Юных Космонавтов 1Д</address>
-    <address-add lang="ru">ТЦ  Сулпак </address-add>
-    <country lang="ru">Казахстан</country>
-    <phone>
-      <number>(700)138-09-05</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>(721)390-45-99</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.laguna.by/</url>
-    <add-url>http://www.laguna.by/shops/87-kazakhstan/218-karaganda.html</add-url>
-    <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942837210</actualization-date>
-  </company>
-  <company>
-    <company-id>01998</company-id>
-    <name lang="ru">Лагуна</name>
-    <address lang="ru">город Астана,ул. Валиханова, д. 24, второй этаж</address>
-    <address-add lang="ru">ТЦ  ТУЛПАР </address-add>
-    <country lang="ru">Казахстан</country>
-    <phone>
-      <number>(7172) 56-31-77</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.laguna.by/</url>
-    <add-url>http://www.laguna.by/shops/87-kazakhstan/214-astana.html</add-url>
-    <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942837233</actualization-date>
-  </company>
-  <company>
-    <company-id>01999</company-id>
-    <name lang="ru">Лагуна</name>
-    <address lang="ru">город Астана,ул. C-359, здание №3 район Центрального рынка, 4 этаж</address>
-    <address-add lang="ru">ТЦ  Самгау </address-add>
-    <country lang="ru">Казахстан</country>
-    <phone>
-      <number>(701) 670-57-80</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.laguna.by/</url>
-    <add-url>http://www.laguna.by/shops/87-kazakhstan/214-astana.html</add-url>
-    <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942837236</actualization-date>
-  </company>
-  <company>
-    <company-id>019910</company-id>
-    <name lang="ru">Лагуна</name>
-    <address lang="ru">город Талдыкорган,ул. Алдабергенова, 119</address>
-    <address-add lang="ru">Супермаркет мебели “АйЯ , 2-й этаж</address-add>
-    <country lang="ru">Казахстан</country>
-    <phone>
-      <number>+8(728)239-39-91</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.laguna.by/</url>
-    <add-url>http://www.laguna.by/shops/87-kazakhstan/106-taldykorgan.html</add-url>
-    <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942837243</actualization-date>
-  </company>
-  <company>
-    <company-id>019911</company-id>
-    <name lang="ru">Лагуна</name>
-    <address lang="ru">город Шымкент,б-р. Кунаева</address>
-    <address-add lang="ru">Супермаркет мебели “АйЯ , Маг. “Планета Электроники , 0-й этаж</address-add>
-    <country lang="ru">Казахстан</country>
-    <phone>
-      <number>+8(725)221-06-50</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+8(725)221-12-28</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.laguna.by/</url>
-    <add-url>http://www.laguna.by/shops/87-kazakhstan/107-shymkent.html</add-url>
-    <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942837257</actualization-date>
-  </company>
-  <company>
-    <company-id>019912</company-id>
-    <name lang="ru">Лагуна</name>
-    <address lang="ru">город Шымкент,Тамерлановское шоссе, 19б</address>
-    <address-add lang="ru">Мебельный салон  СКАРЛЕТТ на Аль Фараби </address-add>
-    <country lang="ru">Казахстан</country>
-    <url>http://www.laguna.by/</url>
-    <add-url>http://www.laguna.by/shops/87-kazakhstan/107-shymkent.html</add-url>
-    <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942837259</actualization-date>
-  </company>
-  <company>
-    <company-id>019913</company-id>
-    <name lang="ru">Лагуна</name>
-    <address lang="ru">город Тараз,ул. Толе би 95</address>
-    <address-add lang="ru">МС  ФАРТ </address-add>
-    <country lang="ru">Казахстан</country>
-    <phone>
-      <number>(7262)34-79-83</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>(7262)34-79-84</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://www.laguna.by/</url>
-    <add-url>http://www.laguna.by/shops/87-kazakhstan/216-taraz.html</add-url>
-    <rubric-id>184107871</rubric-id>
-    <actualization-date>1457942837275</actualization-date>
+    <actualization-date>1458665432582</actualization-date>
   </company>
 </companies>
