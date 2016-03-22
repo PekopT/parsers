@@ -2,7 +2,7 @@
   "type": "scraper",
   "runtime": "python-2.7",
   "data": {
-    "format": "xml",
+    "format": "txt",
   },
   "command": "1> /dev/null scrapy crawl iafd_actors -L CRITICAL"
 }
