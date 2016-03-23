@@ -2,11 +2,16 @@
 
 from sys import stdout
 import time
-
+import StringIO
 import re
 from belinvestbank.utils import check_spider_pipeline, check_spider_close
 from lxml import etree
 from codecs import getwriter
+from scrapy.exceptions import DropItem
+from schema_org import SCHEMA_ORG
+
+relaxng_doc = etree.parse(SCHEMA_ORG)
+relaxng = etree.RelaxNG(relaxng_doc)
 
 sout = getwriter("utf8")(stdout)
 
@@ -136,8 +141,9 @@ class XmlPipeline(object):
 
         return val.strip()
 
-    def company_id(self):
-        return u'0001' + unicode(self.counter)
+    def company_id(self, value):
+        hash_for_address = abs(hash(value))
+        return unicode(hash_for_address)
 
     def __init__(self):
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
@@ -154,24 +160,34 @@ class BelinvestbankAtmPipeline(XmlPipeline):
     @check_spider_pipeline
     def process_item(self, item, spider):
         # <companies xmlns:xi="http://www.w3.org/2001/XInclude" version="2.1"></companies>
+        address_source = item['name']
+        addr = re.sub(u'Банкомат ([№\d ,]+)?', '', item['name']).replace('  ', ' ')
         xml_item = etree.SubElement(self.xml, 'company')
 
+        if addr.find(u"Минск ") != -1 or addr.find(u"Минск,") != -1:
+            # xml_addr.text = addr
+            address_to_xml = addr
+        else:
+            if addr.find(u'г.') != -1:
+                # xml_addr.text = item['region'].replace(u'Минск и ', '') + u', ' + addr
+                address_to_xml = item['region'].replace(u'Минск и ', '') + u', ' + addr
+
+            else:
+                # xml_addr.text = item['region'] + u', ' + addr
+                address_to_xml = item['region'] + u', ' + addr
+
+
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()
+        xml_id.text = self.company_id(address_source)
 
         xml_name = etree.SubElement(xml_item, 'name')
         xml_name.text = u'Белинвестбанк, банкомат'
 
-        xml_addr = etree.SubElement(xml_item, 'address', lang=u'ru')
-        addr = re.sub(u'Банкомат ([№\d ,]+)?', '', item['name']).replace('  ', ' ')
+        # xml_addr = etree.SubElement(xml_item, 'address', lang=u'ru')
+        # addr = re.sub(u'Банкомат ([№\d ,]+)?', '', item['name']).replace('  ', ' ')11
 
-        if addr.find(u"Минск ") != -1 or addr.find(u"Минск,") != -1:
-            xml_addr.text = addr
-        else:
-            if xml_addr.find(u'г.') != -1:
-                xml_addr.text = item['region'].replace(u'Минск и ', '') + u', ' + addr
-            else:
-                xml_addr.text = item['region'] + u', ' + addr
+        xml_addr = etree.SubElement(xml_item, 'address', lang=u'ru')
+        xml_addr.text = address_to_xml
 
         xml_addr_add = etree.SubElement(xml_item, 'address-add', lang=u'ru')
         xml_addr_add.text = self.validate_str(item['add_address']).rstrip(',) ').lstrip(',( ')
@@ -218,6 +234,12 @@ class BelinvestbankAtmPipeline(XmlPipeline):
 
         self.counter += 1
 
+        company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
+        company_valid = StringIO.StringIO(company_valid)
+        valid = etree.parse(company_valid)
+        if not relaxng.validate(valid):
+            raise DropItem
+
 
 class BelinvestbankInfoPipeline(XmlPipeline):
     @check_spider_pipeline
@@ -225,14 +247,17 @@ class BelinvestbankInfoPipeline(XmlPipeline):
         # <companies xmlns:xi="http://www.w3.org/2001/XInclude" version="2.1"></companies>
         xml_item = etree.SubElement(self.xml, 'company')
 
+        address_source = item['name']
+        addr = re.sub(u'Инфокиоск ([№\d ,]+)?', '', item['name']).replace('  ', ' ')
+
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()  # TODO
+        xml_id.text = self.company_id(address_source)  # TODO
 
         xml_name = etree.SubElement(xml_item, 'name')
         xml_name.text = u'Белинвестбанк, инфокиоск'
 
         xml_addr = etree.SubElement(xml_item, 'address', lang=u'ru')
-        addr = re.sub(u'Инфокиоск ([№\d ,]+)?', '', item['name']).replace('  ', ' ')
+
 
         if addr.find(u"Минск ") != -1 or addr.find(u"Минск,") != -1:
             xml_addr.text = addr
@@ -278,6 +303,12 @@ class BelinvestbankInfoPipeline(XmlPipeline):
 
         self.counter += 1
 
+        company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
+        company_valid = StringIO.StringIO(company_valid)
+        valid = etree.parse(company_valid)
+        if not relaxng.validate(valid):
+            raise DropItem
+
 
 class BelinvestbankOfficePipeline(XmlPipeline):
     def validate_tel(self, value):
@@ -301,17 +332,19 @@ class BelinvestbankOfficePipeline(XmlPipeline):
 
         if self.counter == 198:
             spider.log(item)
+
+        addr = item['address'].strip().rstrip(',')
         xml_item = etree.SubElement(self.xml, 'company')
 
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()
+        xml_id.text = self.company_id(addr)
         self.counter += 1
 
         xml_name = etree.SubElement(xml_item, 'name')
         xml_name.text = u'Белинвестбанк, ' + item['name']
 
         xml_addr = etree.SubElement(xml_item, 'address', lang=u'ru')
-        addr = item['address'].strip().rstrip(',')
+
         add_addr = False
         try_split = addr.split('(')
         if len(try_split) > 1:
@@ -371,3 +404,9 @@ class BelinvestbankOfficePipeline(XmlPipeline):
         # <actualization-date>1305705951000</actualization-date>
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
+
+        company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
+        company_valid = StringIO.StringIO(company_valid)
+        valid = etree.parse(company_valid)
+        if not relaxng.validate(valid):
+            raise DropItem
