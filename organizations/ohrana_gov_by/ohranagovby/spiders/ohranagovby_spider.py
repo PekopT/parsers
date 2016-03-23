@@ -234,14 +234,17 @@ class OhranagovbySpider(scrapy.Spider):
             yield item
 
     def parse_minsk(self, response):
-        pattern = "//div[@class='entry-content']/div/div/div[@class='otdely_text']/div"
-        ptn_ph = "//div[@class='entry-content']/div/div/div[@class='otdely_text']/div/p[re:test(text(),'%s')]/text()"\
-                        % u'тел|Тел'
+        # pattern = "//div[@class='entry-content']/div/div/div[@class='otdely_text']/div"
+        pattern = "//div[@class='entry-content']/h4"
+        # ptn_ph = "//div[@class='entry-content']/div/div/div[@class='otdely_text']/div/p[re:test(text(),'%s')]/text()"\
+        #                 % u'тел|Тел'
+        ptn_ph = "//div[@class='entry-content']/p[re:test(text(),'%s')]/text()" % u'^[тел|Тел]'
+
 
         for d in response.xpath(pattern):
-            h4 = d.xpath("h4/text()").extract()
+            h4 = d.xpath("text()").extract()
             if re.search(u'Наш', h4[0]):
-                address = d.xpath("p/text()").extract()
+                address = d.xpath("following-sibling::p[1]/text()").extract()
 
         item = OhranagovbyItem()
         item['name'] = response.xpath("//header/h1/text()").extract()[0]

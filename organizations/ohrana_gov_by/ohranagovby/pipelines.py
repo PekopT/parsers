@@ -1,24 +1,41 @@
 # -*- coding: utf-8 -*-
 import time
 import re
+import StringIO
 from codecs import getwriter
 from sys import stdout
 from lxml import etree
 from scrapy.exceptions import DropItem
 
+from schema_org import SCHEMA_ORG
+
 from utils import BY_CODES, BY_CITIES
 
 sout = getwriter("utf8")(stdout)
 
+relaxng_doc = etree.parse(SCHEMA_ORG)
+relaxng = etree.RelaxNG(relaxng_doc)
+
 
 class OhranagovbyPipeline(object):
+    hash_data = []
+
     def __init__(self):
         self.count_item = 0
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
         self.xml = etree.Element('companies', version='2.1', nsmap=self.ns)
 
-    def company_id(self):
-        return u'0000' + unicode(self.count_item)
+    def check_hash(self, value):
+        if value in self.hash_data:
+            value += 1
+            value = self.check_hash(value)
+        return value
+
+    def company_id(self, value):
+        hash_str = abs(hash(value))
+        hash_for_address = self.check_hash(hash_str)
+        self.hash_data.append(hash_for_address)
+        return unicode(hash_for_address)
 
     def get_city(self, value):
         city_ag = re.search(u'аг\.\s*[А-Яа-я\-]+', value)
@@ -106,7 +123,7 @@ class OhranagovbyPipeline(object):
 
     def tel_format(self, phones, phone_code):
         phns = []
-        if len(phones) == 1 and len(phones[0]) >15:
+        if len(phones) == 1 and len(phones[0]) > 15:
             phones = [phones[0][0:11], phones[0][11:]]
         for p in phones:
             p = re.sub(u'^80|^375', u'', p)
@@ -218,7 +235,24 @@ class OhranagovbyPipeline(object):
         if city:
             region = self.get_region(city) or ""
 
-        address = region + re.sub(u'г\.\s*', u'город ', address)
+        mpgt = re.search(u"п\.г\.т\.\s*[А-Яа-я-]+", address)
+        mcc = re.search(u"г\s?\.п?\.?\s*[А-Яа-я-]+", address)
+
+        city_out = u''
+        if mpgt:
+            city_out = mpgt.group(0)
+        if not city_out:
+            if mcc:
+                city_out = mcc.group(0)
+                if u"г ." in city_out:
+                    city_out = city_out.replace(u'г .', u'г. ')
+                if u"Старые" in city_out:
+                    city_out += u' Дороги'
+
+        address = address.replace(city_out, u'')
+        address = address.strip(',')
+        address = region + city_out + u',' + address
+
         phones = self.tel_test(item['phone'])
         phone_code = item['phone_code']
 
@@ -226,12 +260,15 @@ class OhranagovbyPipeline(object):
         xml_item = etree.SubElement(self.xml, 'company')
 
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()
+        xml_id.text = self.company_id(address)
+
+        name = re.sub(u"Департамента\sохраны$", u"", name)
+        name = re.sub(u"охраны$", u"", name)
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         xml_name.text = name
 
-        xml_address = etree.SubElement(xml_item, 'address',lang=u'ru')
+        xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         xml_address.text = address
 
         phones_itogo = self.tel_test(item['phone'])
@@ -258,6 +295,12 @@ class OhranagovbyPipeline(object):
 
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
+
+        company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
+        company_valid = StringIO.StringIO(company_valid)
+        valid = etree.parse(company_valid)
+        if not relaxng.validate(valid):
+            raise DropItem
 
     def close_spider(self, spider):
         doc = etree.tostring(self.xml, pretty_print=True, encoding='unicode')
