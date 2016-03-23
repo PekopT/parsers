@@ -13,7 +13,7 @@ from lxml import etree
 
 from scrapy.exceptions import DropItem
 from schema_org import SCHEMA_ORG
-from utils import BY_CITIES, BY_TYL_CODES, SERVICES, FUELS
+from utils import BY_CITIES, BY_TYL_CODES, SERVICES, FUELS, ADDITIONAL, FUEL_CARDS, CREDIT_CARD
 
 sout = getwriter("utf8")(stdout)
 
@@ -28,18 +28,20 @@ class BelorusneftPipeline(object):
         self.ns = {"xi": 'http://www.w3.org/2001/XInclude'}
         self.xml = etree.Element('companies', version='2.1', nsmap=self.ns)
 
-    def company_id(self):
-        return u'0009' + unicode(self.count_item)
+    def company_id(self, value):
+        str_for_hash = value
+        hash_for_address = abs(hash(str_for_hash))
+        return unicode(hash_for_address)
 
     def get_city(self, value):
         city_ag = re.search(u'аг\.\s*[А-Яа-я\-]+', value)
         city_only = re.search(u'г\.\s*[А-Яа-я\-]+', value)
-        city_with_p = re.search(u'г\.п\.\s*[А-Яа-я\-]+', value)
+        city_with_p = re.search(u'г\.\s?п\.\s*[А-Яа-я\-]+', value)
         village = re.search(u'д\.\s*[А-Яа-яё\-]+', value)
         if city_with_p:
             result = city_with_p.group(0).strip()
             if value.find(result) == 0:
-                poselok = re.sub(u'г\.п\.\s*', u'', result)
+                poselok = re.sub(u'г\.\s?п\.\s*', u'', result)
                 region = self.get_region(poselok) or u""
                 address_sub = re.sub(result,'',value)
                 city = region + u"поселок " + poselok + address_sub
@@ -88,11 +90,44 @@ class BelorusneftPipeline(object):
                 city = value
 
         else:
-            city = value
+            cc = re.search(u'[А-Яа-яё\-]+\s+с\/с', value)
+            np = re.search(u'н\.п\.\s*[А-Яа-яё\-]+', value)
+            p_only = re.search(u'п\.\s*[А-Яа-яё\-]+', value)
+            city_res = u''
+
+            if cc:
+                res = cc.group(0).strip()
+                if value.find(res) == 0:
+                    vil = re.sub(u'\s+с\/с', u'', res)
+                    vil = vil.strip()
+                    address_sub = re.sub(res, '', value)
+                    region = self.get_region(vil) or u""
+                    city_res = region + res + address_sub
+            elif np:
+                res = np.group(0).strip()
+                if value.find(res) == 0:
+                    vil = re.sub(u'н\.п\.\s*', u'', res)
+                    vil = vil.strip()
+                    address_sub = re.sub(res, '', value)
+                    region = self.get_region(vil) or u""
+                    city_res = region + res + address_sub
+            elif p_only:
+                res = p_only.group(0).strip()
+                if value.find(res) == 0:
+                    vil = re.sub(u'п\.\s*', u'', res)
+                    vil = vil.strip()
+                    address_sub = re.sub(res, '', value)
+                    region = self.get_region(vil) or u""
+                    city_res = region + res + address_sub
+
+            if city_res:
+                city = city_res
+            else:
+                city = value
 
         return city
 
-    def get_region(self,city):
+    def get_region(self, city):
         for k, v in BY_CITIES.iteritems():
             if city in v:
                 return k + u","
@@ -175,6 +210,7 @@ class BelorusneftPipeline(object):
         phones = item['phone']
         fuels = item['fuels']
         services = item['services']
+        payments = item['payments']
         latitude = item['latitude']
         longitude = item['longitude']
 
@@ -184,7 +220,7 @@ class BelorusneftPipeline(object):
         self.count_item += 1
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()
+        xml_id.text = self.company_id(address)
         # xml_address_raw = etree.SubElement(xml_item, 'address_raw', lang=u'ua')
         # xml_address_raw.text = address
 
@@ -192,6 +228,11 @@ class BelorusneftPipeline(object):
         xml_name.text = u"Белоруснефть"
 
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
+        # address = self.get_city(address)
+
+        address = re.sub(u'\d{6}', '', address).strip(';, .')
+        address = address.replace(u'Республика Беларусь', '').strip(';, .')
+        
         xml_address.text = self.get_city(address)
 
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
@@ -233,9 +274,26 @@ class BelorusneftPipeline(object):
                     xml_feature_multiple = etree.SubElement(xml_item, 'feature-enum-multiple', name="fuel", value=k)
 
         for tag in self.get_tags(services):
+            for k in ADDITIONAL:
+                if ADDITIONAL[k] in tag:
+                    xml_feature_service_car = etree.SubElement(xml_item, 'feature-enum-multiple', name="additional_services_cars", value=k)
+
+        for tag in self.get_tags(payments):
+            for k in FUEL_CARDS:
+                if FUEL_CARDS[k] in tag:
+                    xml_feature_cards = etree.SubElement(xml_item, 'feature-enum-multiple', name="fuel_cards", value=k)
+
+
+        for tag in self.get_tags(payments):
+            for k in CREDIT_CARD:
+                if CREDIT_CARD[k] in tag:
+                    xml_feature_credit_card = etree.SubElement(xml_item, 'feature-boolean', name=k, value="1")
+
+        for tag in self.get_tags(services):
             for k in SERVICES:
                 if SERVICES[k] in tag:
                     xml_feature = etree.SubElement(xml_item, 'feature-boolean', name=k, value="1")
+
 
 
         company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')

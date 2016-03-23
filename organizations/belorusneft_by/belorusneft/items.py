@@ -14,5 +14,6 @@ class BelorusneftItem(scrapy.Item):
     phone = scrapy.Field()
     fuels = scrapy.Field()
     services = scrapy.Field()
+    payments = scrapy.Field()
     latitude = scrapy.Field()
     longitude = scrapy.Field()
