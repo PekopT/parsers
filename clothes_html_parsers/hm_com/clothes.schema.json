@@ -1,0 +1,77 @@
+{
+	"$schema" : "http://json-schema.org/draft-04/schema#",
+	"title" : "Clothes stores universal schema for categories",
+	"patternProperties" : {
+		"^http://+" : {
+			"type" : "object",
+			"properties" : {
+				"item_list" : {
+					"title" : "Список товаров в категории",
+					"type" : "array",
+					"items" : {
+						"type" : "object",
+						"properties" : {
+							"url" : {
+								"type" : "string",
+								"format" : "uri"
+							},
+							"price" : {
+								"type" : "object",
+								"properties" : {
+									"currency" : {
+										"type" : "string",
+										"pattern" : "^RUR$"
+									},
+									"type" : {
+										"type" : "string",
+										"pattern" : "^currency$"
+									},
+									"content" : {
+										"type" : "number"
+									}
+								}
+							},
+							"name" : {
+								"type" : "string"
+							},
+							"image" : {
+								"type" : "string",
+								"format" : "uri"
+							},
+							"brand" : {
+								"type" : "string"
+							}
+						},
+						"additionalProperties" : false,
+						"required" : [
+							"url",
+							"price",
+							"name"
+						]
+					},
+					"minItems" : 1
+				},
+				"url" : {
+					"type" : "string",
+					"format" : "uri"
+				},
+				"item_count" : {
+					"title" : "Количество элементов в списке",
+					"type" : "integer",
+					"minimum" : 1
+				},
+				"list_name" : {
+					"title" : "Название списка",
+					"type" : "string"
+				}
+			},
+			"required" : [
+				"item_list",
+				"url",
+				"item_count",
+				"list_name"
+			]
+		}
+	},
+	"additionalProperties" : false
+}
