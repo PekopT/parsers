@@ -21,6 +21,7 @@ relaxng = etree.RelaxNG(relaxng_doc)
 
 
 class FsvpsPipeline(object):
+    hash_data = []
 
     def __init__(self):
         self.count_item = 0
@@ -29,9 +30,22 @@ class FsvpsPipeline(object):
         self.xml = etree.Element('companies', version='2.1', nsmap=self.ns)
         self.save_data = dict()
         self.save_phones = dict()
+        self.save_urls= dict()
 
-    def company_id(self):
-        return u'0005' + unicode(self.count_item)
+    def check_hash(self, value):
+        if value in self.hash_data:
+            raise DropItem
+            value += 1
+            value = self.check_hash(value)
+        return value
+
+    def company_id(self, value):
+        hash_str = abs(hash(value))
+        hash_for_address = hash_str
+        if hash_for_address in self.hash_data:
+            raise DropItem
+        self.hash_data.append(hash_for_address)
+        return unicode(hash_for_address)
 
     def validate_str(self, value):
         if type(value) == list:
@@ -93,11 +107,9 @@ class FsvpsPipeline(object):
             addr = try_split[0]
         return addr
 
-    def validate_test_address(self,value):
-        pass
 
     def remove_postal(self,value):
-       value = re.sub(r"\d{6}",'',value)
+       value = re.sub(u"\d{6}",'',value)
        value = re.sub(u"«|»|\(|\)",'',value)
        value = re.sub(u'&#13;|&lt;|&gt;|<|>|\/li|\r','',value)
        value.rstrip(',) ')
@@ -106,10 +118,16 @@ class FsvpsPipeline(object):
     def validate_otdel_name(self,name,type):
         if type == 1:
             return True
-        keywords = [u"Межрайонный",u"надзор",u"контрол",u"межрай"]
+        # keywords = [u"Межрайонный",u"надзор",u"контрол",u"межрай"]
+        keywords = [u"отдел", u"Отдел"]
         pattern = u'|'.join(keywords)
         if re.search(pattern,name,re.IGNORECASE):
-            return True
+            keywords = [u"надзор",u"контрол",u"межрай"]
+            pat = u'|'.join(keywords)
+            if re.search(pat,name,re.IGNORECASE):
+                return True
+            else:
+                return False
         else:
             return False
 
@@ -179,7 +197,7 @@ class FsvpsPipeline(object):
 
     def address_formatter(self,value,url):
         value = value.rstrip(',.; ').lstrip(',( ')
-        if re.search(u'^г\.[А-Яа-я]+$',value):
+        if re.search(u'^г\.[А-Яа-я]+$', value):
             value = self.get_parent_address(url)
         if re.search(u"^[ул\.|с\.|п\.]",value):
             value = self.get_parent_address(url)
@@ -195,6 +213,10 @@ class FsvpsPipeline(object):
         address = self.save_data[check_url].rstrip(',.; ').lstrip(',( ')
         return address
 
+    def get_parent_urls(self, check_url):
+        url = self.save_urls[check_url]
+        return url
+
 
     def get_city(self,value):
         pattern = u'г\.\s*[А-Яа-я\-]+'
@@ -208,7 +230,9 @@ class FsvpsPipeline(object):
             city = re.sub(u'г\.\s*','',res)
             region = self.get_region(city)
             if region:
-                city = region + u' город ' + city + re.sub(pattern,'',value)
+                pos_search = value.find(res)
+                value = value[pos_search:]
+                city = region + u',' +u' город ' + city + re.sub(pattern,'',value)
             elif cities[city]:
                 end_address = re.sub(pattern,'',value)
                 end_address = re.sub(u'Новгород','',end_address)
@@ -229,7 +253,7 @@ class FsvpsPipeline(object):
 
     def process_item(self, item, spider):
         name = self.validate_str(item['name'])
-        name = re.sub('\(.*\)','',name)
+        # name = re.sub('\(.*\)','',name)
         type = item['type']
 
         if not self.validate_otdel_name(name, type):
@@ -239,6 +263,7 @@ class FsvpsPipeline(object):
 
         if type == 1:
             address = self.validate_str(item['address'])
+            # address_raw = ''.join(item['address'])
             address = self.remove_postal(address)
             email = self.validate_str(item['email'])
             phones = item['phone']
@@ -246,19 +271,24 @@ class FsvpsPipeline(object):
             faxes = item['fax']
             self.save_data[url] = address
             self.save_phones[url] = phones
+
             url_to_xml = self.validate_str(item['site_url'])
             if not url_to_xml:
                 url_to_xml = 'http://www.fsvps.ru'
+            self.save_urls[url] = url_to_xml
             url_add = url
         else:
             content = item["content"]
             address = self.remove_postal(self.get_address_from_content(content))
+            # address_raw = self.remove_postal(self.get_address_from_content(content))
             phone_raw = self.get_phone_raw(content)
             phones = self.get_phone_from_content(content)
             faxes = self.get_faxes_from_content(content)
             email = ""
             url_add = url
-            url_to_xml = 'http://www.fsvps.ru'
+            check_url = url[:-15]
+            url_to_xml = self.get_parent_urls(check_url)
+            # url_to_xml = 'http://www.fsvps.ru'
 
         organizations = self.split_organization(address)
         address = organizations[0].rstrip(',.; ').lstrip(',( ')
@@ -269,9 +299,11 @@ class FsvpsPipeline(object):
         address = re.sub(u'&#13;|&lt;|&gt;|<|>|\/li|\r','',address).strip().rstrip(',;)').lstrip(',(')
 
         self.count_item +=1
+        hash_company_id = self.company_id(address + name)
+
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id()
+        xml_id.text = hash_company_id
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         name = re.sub(u'&#13;|\r','',name).strip()
@@ -282,12 +314,16 @@ class FsvpsPipeline(object):
 
         xml_name.text = name
 
+        # address_raw = address
         address = self.address_formatter(address,check_url)
 
         address = self.get_city(address)
 
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         xml_address.text = address
+
+        # xml_address_raw = etree.SubElement(xml_item, 'address_raw', lang=u'ru')
+        # xml_address_raw.text = address_raw
 
         if len(phones) == 0:
             url_check = url[:-15]
@@ -330,7 +366,6 @@ class FsvpsPipeline(object):
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
         company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
-        # out = re.sub('\sxmlns:xi="http://www.w3.org/2001/XInclude"','',out)
         company_valid = StringIO.StringIO(company_valid)
 
         valid = etree.parse(company_valid)
@@ -338,16 +373,17 @@ class FsvpsPipeline(object):
             raise DropItem
 
         if (len(organizations) > 1):
-            self.valid_count +=1
+            address_two = organizations[1].rstrip(',.; ').lstrip(',( ')
+            hash_company_id = self.company_id(address_two + name)
             xml_item2 = etree.SubElement(self.xml, 'company')
             xml_id2 = etree.SubElement(xml_item2, 'company-id')
-            xml_id2.text = self.company_id() + u'_2'
+            xml_id2.text = hash_company_id
 
             xml_name2 = etree.SubElement(xml_item2, 'name', lang=u'ru')
             xml_name2.text = name
 
             xml_address2 = etree.SubElement(xml_item2, 'address', lang=u'ru')
-            xml_address2.text = organizations[1].rstrip(',.; ').lstrip(',( ')
+            xml_address2.text = address_two
 
             for phone in self.validate_phones(phones):
                 xml_phone2 = etree.SubElement(xml_item2, 'phone')
@@ -361,9 +397,9 @@ class FsvpsPipeline(object):
             xml_url2 = etree.SubElement(xml_item2, 'url')
             xml_url2.text = url
 
-            if type == 2:
-                xml_add_url = etree.SubElement(xml_item2,'add-url')
-                xml_add_url.text = url_add
+
+            xml_add_url2 = etree.SubElement(xml_item2,'add-url')
+            xml_add_url2.text = url_add
 
             xml_rubric2 = etree.SubElement(xml_item2, 'rubric-id')
             xml_rubric2.text = u"184105646"
