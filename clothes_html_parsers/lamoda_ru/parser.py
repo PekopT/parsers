@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
+import traceback
 import json
 import re
 from codecs import getwriter
@@ -39,17 +40,16 @@ class Parser(object):
         for prod in products:
             brand = prod.find('div', 'products-list-item__brand').text
             title = prod.find('div', 'products-list-item__type').text
-            price_new = prod.find('span', 'price').find('span','price__new')
+            price_new = prod.find('span', 'price').find('span', 'price__new')
             url_item = prod.find('a').get('href')
             image = prod.find('img').get('src')
-
 
             if price_new:
                 price = price_new
             else:
                 price = prod.find('span', 'price')
 
-            price = re.sub('\D','', price.text)
+            price = re.sub('\D', '', price.text)
             row_item = {
                 "image": image,
                 "url": url_item,
@@ -63,7 +63,6 @@ class Parser(object):
             }
             item_list.append(row_item)
 
-
         row = {}
         row[url] = {}
         row[url]["url"] = url
@@ -72,11 +71,10 @@ class Parser(object):
 
         if item_list:
             row[url]["item_list"] = item_list
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
+
+
+        self.check_validate_schema(row)
+        self.rows_data.append(row)
 
 
     def check_validate_schema(self, node):
@@ -91,14 +89,13 @@ class Parser(object):
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-                print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 
