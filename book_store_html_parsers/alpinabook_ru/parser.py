@@ -112,6 +112,9 @@ class Parser(object):
         if pictures:
             row["images"] = pictures
 
+        if also_buy_books:
+            row["also_buy"] = also_buy_books
+
         self.check_validate_schema(row)
         self.rows_data.append(row)
 
