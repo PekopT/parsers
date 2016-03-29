@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
+import traceback
 import json
 import re
 from codecs import getwriter
@@ -36,11 +37,11 @@ class Parser(object):
 
         if m:
             search_sub = m.group(0)
-            name = name.replace(search_sub,'').strip()
-            item_count = re.sub('\D','',search_sub)
+            name = name.replace(search_sub, '').strip()
+            item_count = re.sub('\D', '', search_sub)
 
         item_list = []
-        products = soup.find('ol','productsBox').find_all('li')
+        products = soup.find('ol', 'productsBox').find_all('li')
 
         for prod in products:
             product_data = prod.find('div', 'productDataBox')
@@ -52,20 +53,20 @@ class Parser(object):
             url_item = product_headline.a.get('href')
 
             price_info = prod.find('div', 'productPrice')
-            price = re.sub('\D','',price_info.text)
+            price = re.sub('\D', '', price_info.text)
 
             image_info = prod.find('div', 'productImageBox').img
             image = image_info.get('data-original')
 
             row_item = {
-                    "image": image,
-                    "url": url_item,
-                    "name": title,
-                    "price": {
-                        "currency": "RUR",
-                        "type": "currency",
-                        "content": int(price)
-                    }
+                "image": image,
+                "url": url_item,
+                "name": title,
+                "price": {
+                    "currency": "RUR",
+                    "type": "currency",
+                    "content": int(price)
+                }
             }
 
             if brand:
@@ -82,12 +83,8 @@ class Parser(object):
         if item_list:
             row[url]["item_list"] = item_list
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
-
+        self.check_validate_schema(row)
+        self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('clothes.schema.json', 'r')
@@ -101,14 +98,13 @@ class Parser(object):
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-            print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 
