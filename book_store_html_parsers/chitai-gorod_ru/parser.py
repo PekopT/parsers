@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
+import traceback
 import json
 import re
 from codecs import getwriter
@@ -123,14 +124,10 @@ class Parser(object):
         if also_buy_books:
             row["also_buy"] = also_buy_books
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-            
-        except Exception as e:
-            print e.message
 
-        # self.rows_data.append(row)
+        self.check_validate_schema(row)
+        self.rows_data.append(row)
+
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -144,14 +141,13 @@ class Parser(object):
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-                print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 
