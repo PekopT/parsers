@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
+import traceback
 import json
 import re
 from codecs import getwriter
@@ -53,7 +54,6 @@ class Parser(object):
         desc_info = soup.find('div', {'itemprop':'descr'})
         description = desc_info.text.replace('\\n','').strip()
 
-
         row = {}
         row["url"] = url
         row["name"] = name
@@ -104,13 +104,9 @@ class Parser(object):
         # row["pages"] = pages
         # row["isbn"] = isbn
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
+        self.check_validate_schema(row)
+        self.rows_data.append(row)
 
-        # self.rows_data.append(row)
 
 
     def check_validate_schema(self, node):
@@ -125,14 +121,13 @@ class Parser(object):
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-                print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 
