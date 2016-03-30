@@ -220,7 +220,8 @@ class BelorusneftPipeline(object):
         self.count_item += 1
         xml_item = etree.SubElement(self.xml, 'company')
         xml_id = etree.SubElement(xml_item, 'company-id')
-        xml_id.text = self.company_id(address)
+        company_id_address = address + unicode(latitude) + unicode(longitude)
+        xml_id.text = self.company_id(company_id_address)
         # xml_address_raw = etree.SubElement(xml_item, 'address_raw', lang=u'ua')
         # xml_address_raw.text = address
 
