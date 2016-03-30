@@ -123,7 +123,8 @@ class TitlesSpider(scrapy.Spider):
     def parse(self, response):
         for option in response.xpath("//select[@name='Studio']/option/@value").extract():
             self.counter += 1
-            yield FormRequest("http://www.iafd.com/studio.rme",
+            if self.counter < 5:
+                yield FormRequest("http://www.iafd.com/studio.rme",
                               formdata={u'Studio': option},
                               callback=self.parse_page)
 
@@ -159,7 +160,6 @@ class TitlesSpider(scrapy.Spider):
         performers = response.xpath(
             "//div[@class='container']/div[@class='row'][2]/div[2]/div/div[@class='padded-panel']/div/div/div[@class='castbox']")
 
-        participants = []
         actors = []
         for p in performers:
             actor_url = p.xpath("p/a/@href").extract()
@@ -248,7 +248,7 @@ class DistributorsSpider(scrapy.Spider):
                               callback=self.parse_page)
 
     def parse_page(self, response):
-        title = response.xpath("//h2").extract()
+        title = response.xpath("//h2/text()").extract()[0]
         related = []
         for r in response.xpath("//table[@id='distable']/tbody/tr/td[1]"):
             href = u"#ext_iafd_" + r.xpath('a/@href').extract()[0]
@@ -258,6 +258,7 @@ class DistributorsSpider(scrapy.Spider):
         item['name'] = title
         item['url'] = response.url
         item['related'] = related
+        yield item
 
 
 class StudiosSpider(scrapy.Spider):

@@ -249,7 +249,7 @@ class IafdTitlePipeline(JsonPipeline):
         name = self.validate_str(item['name']).strip(': ,.')
         name = name.capitalize()
         url = item['url']
-        release_date = self.validate_str(item['release_date'])
+        release_date = self.validate_str(item['release_date']).strip()
         duration = ''.join(item['duration'])
         duration = re.sub('\D', '', duration)
         if duration:
@@ -304,11 +304,7 @@ class IafdTitlePipeline(JsonPipeline):
                     "value": year,
                 }
             ],
-            "ReleaseDate": [
-                {
-                    "value": release_date,
-                }
-            ],
+
 
             "isa": {
                 "tags": [
@@ -336,6 +332,11 @@ class IafdTitlePipeline(JsonPipeline):
             }
 
         }
+
+        release_date = release_date.replace("No Data","").strip()
+
+        if release_date:
+            row["ReleaseDate"] = [{"value": release_date,}]
 
         row["Participants"] = participants
         self.data.append(row)

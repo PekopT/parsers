@@ -37,6 +37,7 @@ class IafdStudioItem(scrapy.Item):
 class IafdDistributorItem(scrapy.Item):
     name = scrapy.Field()
     url = scrapy.Field()
+    related = scrapy.Field()
 
 class IafdTitleItem(scrapy.Item):
     name = scrapy.Field()
