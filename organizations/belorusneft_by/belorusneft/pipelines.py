@@ -223,7 +223,6 @@ class BelorusneftPipeline(object):
         company_id_address = address + unicode(latitude) + unicode(longitude)
         xml_id.text = self.company_id(company_id_address)
         # xml_address_raw = etree.SubElement(xml_item, 'address_raw', lang=u'ua')
-        # xml_address_raw.text = address
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         xml_name.text = u"Белоруснефть"
