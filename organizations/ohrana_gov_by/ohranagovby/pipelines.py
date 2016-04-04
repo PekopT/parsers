@@ -13,9 +13,6 @@ from utils import BY_CODES, BY_CITIES
 
 sout = getwriter("utf8")(stdout)
 
-relaxng_doc = etree.parse(SCHEMA_ORG)
-relaxng = etree.RelaxNG(relaxng_doc)
-
 
 class OhranagovbyPipeline(object):
     hash_data = []
@@ -296,11 +293,6 @@ class OhranagovbyPipeline(object):
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
 
-        company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
-        company_valid = StringIO.StringIO(company_valid)
-        valid = etree.parse(company_valid)
-        if not relaxng.validate(valid):
-            raise DropItem
 
     def close_spider(self, spider):
         doc = etree.tostring(self.xml, pretty_print=True, encoding='unicode')
