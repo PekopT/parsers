@@ -27,11 +27,8 @@ class ActorsSpider(scrapy.Spider):
             yield scrapy.Request(url, callback=self.parse_page)
 
     def parse_page(self, response):
-        it = 0
         for link in response.xpath("//div[@id='astro']/div[@class='perficon']/a/@href").extract():
-            it += 1
             url = response.urljoin(link)
-
             yield scrapy.Request(url, callback=self.parse_page_detail)
 
     def parse_page_detail(self, response):
@@ -69,8 +66,6 @@ class ActorsSpider(scrapy.Spider):
         years = info.xpath(
             "p[@class='bioheading' and re:test(text(), 'Years')]/following-sibling::p[1]/text()").extract()
 
-        # ethnicity = response.xpath(patt)
-
         projects = []
         project_info = response.xpath("//table[@id='personal']/tbody/tr")
 
@@ -104,7 +99,6 @@ class ActorsSpider(scrapy.Spider):
         item['height'] = height
         item['ethnicity'] = ethnicity
         item['nationality'] = nationality
-
         yield item
 
 
@@ -123,8 +117,7 @@ class TitlesSpider(scrapy.Spider):
     def parse(self, response):
         for option in response.xpath("//select[@name='Studio']/option/@value").extract():
             self.counter += 1
-            if self.counter < 5:
-                yield FormRequest("http://www.iafd.com/studio.rme",
+            yield FormRequest("http://www.iafd.com/studio.rme",
                               formdata={u'Studio': option},
                               callback=self.parse_page)
 
