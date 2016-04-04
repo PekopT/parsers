@@ -13,7 +13,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://ohrana.gov.by/wp/about-department/territorial-authorities/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723482881</actualization-date>
+    <actualization-date>1459764252024</actualization-date>
   </company>
   <company>
     <company-id>1828440754598207960</company-id>
@@ -28,7 +28,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://ohrana.gov.by/wp/about-department/territorial-authorities/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723482886</actualization-date>
+    <actualization-date>1459764252028</actualization-date>
   </company>
   <company>
     <company-id>6778535623515806466</company-id>
@@ -43,7 +43,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://ohrana.gov.by/wp/about-department/territorial-authorities/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723482889</actualization-date>
+    <actualization-date>1459764252032</actualization-date>
   </company>
   <company>
     <company-id>3885146837769903934</company-id>
@@ -58,7 +58,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://ohrana.gov.by/wp/about-department/territorial-authorities/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723482893</actualization-date>
+    <actualization-date>1459764252036</actualization-date>
   </company>
   <company>
     <company-id>7417180096738745596</company-id>
@@ -73,7 +73,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://ohrana.gov.by/wp/about-department/territorial-authorities/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723482902</actualization-date>
+    <actualization-date>1459764252046</actualization-date>
   </company>
   <company>
     <company-id>7888543878122353009</company-id>
@@ -88,7 +88,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://ohrana.gov.by/wp/about-department/territorial-authorities/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723482905</actualization-date>
+    <actualization-date>1459764252050</actualization-date>
   </company>
   <company>
     <company-id>4978746644653635706</company-id>
@@ -103,7 +103,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://ohrana.gov.by/wp/about-department/territorial-authorities/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723482909</actualization-date>
+    <actualization-date>1459764252053</actualization-date>
   </company>
   <company>
     <company-id>1413088483330009453</company-id>
@@ -118,400 +118,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://ohrana.gov.by/wp/about-department/territorial-authorities/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723482922</actualization-date>
-  </company>
-  <company>
-    <company-id>5955850795510644765</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Центральный  отдел </name>
-    <address lang="ru">г. Гомель, ул. Артиллерийская, 14-а</address>
-    <phone>
-      <number>+375 (232) 267422</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 6445313</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485168</actualization-date>
-  </company>
-  <company>
-    <company-id>7273244413389719634</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Железнодорожный  отдел </name>
-    <address lang="ru">г. Гомель, ул. Озёрная, 60-б</address>
-    <phone>
-      <number>+375 (29) 6875888</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485170</actualization-date>
-  </company>
-  <company>
-    <company-id>6791906198129383950</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Советский  отдел </name>
-    <address lang="ru">г. Гомель, ул. Котовского, 85</address>
-    <phone>
-      <number>+375 (232) 234676</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 6411787</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485172</actualization-date>
-  </company>
-  <company>
-    <company-id>6876798096619197174</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Новобелицкий  отдел </name>
-    <address lang="ru">г. Гомель, ул. Свердлова, 3-а</address>
-    <phone>
-      <number>+375 (232) 364362</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 3547833</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485175</actualization-date>
-  </company>
-  <company>
-    <company-id>2089907961264030575</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Жлобинский отдел </name>
-    <address lang="ru">Гомельская область,г. Жлобин, мкр-н 3, д.58</address>
-    <phone>
-      <number>+375 (2334) 31419</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 6631418</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485177</actualization-date>
-  </company>
-  <company>
-    <company-id>7373023059131507160</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Калинковичский отдел </name>
-    <address lang="ru">Гомельская область,г. Калинковичи, 50 лет Октября, 52</address>
-    <phone>
-      <number>+375 (2345) 43450</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1142482</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485179</actualization-date>
-  </company>
-  <company>
-    <company-id>1832701163338437649</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Мозырский отдел </name>
-    <address lang="ru">Гомельская область,г. Мозырь, ул. Пушкина, 51</address>
-    <phone>
-      <number>+375 (236) 322423</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 3732423</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485182</actualization-date>
-  </company>
-  <company>
-    <company-id>586779306885967422</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Речицкий отдел </name>
-    <address lang="ru">Гомельская область,г. Речица, ул. Пушкина, 31-а</address>
-    <phone>
-      <number>+375 (2340) 25065</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 6085065</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485184</actualization-date>
-  </company>
-  <company>
-    <company-id>6368326919201002420</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Рогачевский отдел </name>
-    <address lang="ru">Гомельская область,г. Рогачев, ул. Дзержинского, 3</address>
-    <phone>
-      <number>+375 (2339) 41302</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1282283</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485186</actualization-date>
-  </company>
-  <company>
-    <company-id>7049599629656897381</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Светлогорский отдел </name>
-    <address lang="ru">Гомельская область,г. Светлогорск, ул. Интернациональная, 19</address>
-    <phone>
-      <number>+375 (2342) 32100</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1282370</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485189</actualization-date>
-  </company>
-  <company>
-    <company-id>2154152647860092990</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Буда-Кошелевское отделение </name>
-    <address lang="ru">Гомельская область,г. Буда-Кошелево, ул. 50 лет Октября, 15</address>
-    <phone>
-      <number>+375 (2336) 22370</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1210241</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485191</actualization-date>
-  </company>
-  <company>
-    <company-id>1096041666168927193</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Добрушское отделение </name>
-    <address lang="ru">Гомельская область,г. Добруш, ул. Гагарина, 36</address>
-    <phone>
-      <number>+375 (2333) 32540</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1245865</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485193</actualization-date>
-  </company>
-  <company>
-    <company-id>7774452179003098511</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Ельское отделение </name>
-    <address lang="ru">Гомельская область,г. Ельск, ул. 9 мая, 1-а</address>
-    <phone>
-      <number>+375 (2354) 22318</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1404647</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485196</actualization-date>
-  </company>
-  <company>
-    <company-id>3513382036044241816</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Житковичское отделение </name>
-    <address lang="ru">Гомельская область,г. Житковичи, ул. К.Маркса, 22</address>
-    <phone>
-      <number>+375 (2353) 21590</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1449940</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485225</actualization-date>
-  </company>
-  <company>
-    <company-id>1265780647696726573</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Кормянское отделение </name>
-    <address lang="ru">Гомельская область,г.п. Корма, ул. Пионерская, 32</address>
-    <phone>
-      <number>+375 (2337) 22518</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1268008</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485228</actualization-date>
-  </company>
-  <company>
-    <company-id>2161263174628633095</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Лельчицкое отделение </name>
-    <address lang="ru">Гомельская область,г.п. Лельчицы, ул.Заходняя, 1</address>
-    <phone>
-      <number>+375 (2356) 56044</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 6174735</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485230</actualization-date>
-  </company>
-  <company>
-    <company-id>2534194394081522798</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Петриковское отделение </name>
-    <address lang="ru">Гомельская область,г. Петриков, ул.Коммунальная, 50</address>
-    <phone>
-      <number>+375 (2350) 53102</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 3322102</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485232</actualization-date>
-  </company>
-  <company>
-    <company-id>2530051029238847557</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Хойникское отделение </name>
-    <address lang="ru">Гомельская область,г. Хойники, ул. Граховского, 2</address>
-    <phone>
-      <number>+375 (2346) 22428</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1269952</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485235</actualization-date>
-  </company>
-  <company>
-    <company-id>244338793541493149</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Чечерское отделение </name>
-    <address lang="ru">Гомельская область,г. Чечерск, ул. Ленина, 7</address>
-    <phone>
-      <number>+375 (2332) 32490</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1308685</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://gomel.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485237</actualization-date>
+    <actualization-date>1459764252066</actualization-date>
   </company>
   <company>
     <company-id>6837658500537363179</company-id>
@@ -544,7 +151,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485498</actualization-date>
+    <actualization-date>1459764256176</actualization-date>
   </company>
   <company>
     <company-id>169808840288534356</company-id>
@@ -577,7 +184,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485503</actualization-date>
+    <actualization-date>1459764256180</actualization-date>
   </company>
   <company>
     <company-id>8901745286965142876</company-id>
@@ -598,7 +205,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485508</actualization-date>
+    <actualization-date>1459764256184</actualization-date>
   </company>
   <company>
     <company-id>2391159011123100514</company-id>
@@ -631,7 +238,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485512</actualization-date>
+    <actualization-date>1459764256188</actualization-date>
   </company>
   <company>
     <company-id>2624958297390143679</company-id>
@@ -652,7 +259,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485517</actualization-date>
+    <actualization-date>1459764256193</actualization-date>
   </company>
   <company>
     <company-id>3114664478948996425</company-id>
@@ -667,7 +274,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485521</actualization-date>
+    <actualization-date>1459764256197</actualization-date>
   </company>
   <company>
     <company-id>9117859460517520420</company-id>
@@ -682,7 +289,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485525</actualization-date>
+    <actualization-date>1459764256201</actualization-date>
   </company>
   <company>
     <company-id>2350970977003720141</company-id>
@@ -715,7 +322,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485530</actualization-date>
+    <actualization-date>1459764256206</actualization-date>
   </company>
   <company>
     <company-id>6477303576521126435</company-id>
@@ -736,7 +343,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485534</actualization-date>
+    <actualization-date>1459764256211</actualization-date>
   </company>
   <company>
     <company-id>7094393826938847585</company-id>
@@ -751,7 +358,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485538</actualization-date>
+    <actualization-date>1459764256215</actualization-date>
   </company>
   <company>
     <company-id>8626464023129423177</company-id>
@@ -778,7 +385,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485541</actualization-date>
+    <actualization-date>1459764256219</actualization-date>
   </company>
   <company>
     <company-id>7260586024734213360</company-id>
@@ -793,7 +400,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485545</actualization-date>
+    <actualization-date>1459764256223</actualization-date>
   </company>
   <company>
     <company-id>3565486158663626260</company-id>
@@ -814,7 +421,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485549</actualization-date>
+    <actualization-date>1459764256226</actualization-date>
   </company>
   <company>
     <company-id>5995839192628947858</company-id>
@@ -829,7 +436,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485553</actualization-date>
+    <actualization-date>1459764256230</actualization-date>
   </company>
   <company>
     <company-id>3497165005927329587</company-id>
@@ -850,7 +457,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485557</actualization-date>
+    <actualization-date>1459764256234</actualization-date>
   </company>
   <company>
     <company-id>3538368977452859217</company-id>
@@ -871,7 +478,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485561</actualization-date>
+    <actualization-date>1459764256238</actualization-date>
   </company>
   <company>
     <company-id>7584443188699675205</company-id>
@@ -904,7 +511,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485565</actualization-date>
+    <actualization-date>1459764256242</actualization-date>
   </company>
   <company>
     <company-id>1796057900530867224</company-id>
@@ -919,7 +526,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485569</actualization-date>
+    <actualization-date>1459764256247</actualization-date>
   </company>
   <company>
     <company-id>5368160712118577443</company-id>
@@ -940,34 +547,400 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://brest.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723485573</actualization-date>
+    <actualization-date>1459764256251</actualization-date>
   </company>
   <company>
-    <company-id>6349101438122606482</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Березинское отделение</name>
-    <address lang="ru">Минская область,г. Березино, ул. Победы, 14</address>
+    <company-id>5955850795510644765</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Центральный  отдел </name>
+    <address lang="ru">г. Гомель, ул. Артиллерийская, 14-а</address>
     <phone>
-      <number>+375 (1715) 55011</number>
+      <number>+375 (232) 267422</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (29) 5403262</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 3855011</number>
+      <number>+375 (29) 6445313</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486034</actualization-date>
+    <actualization-date>1459764257156</actualization-date>
+  </company>
+  <company>
+    <company-id>7273244413389719634</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Железнодорожный  отдел </name>
+    <address lang="ru">г. Гомель, ул. Озёрная, 60-б</address>
+    <phone>
+      <number>+375 (29) 6875888</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257159</actualization-date>
+  </company>
+  <company>
+    <company-id>6791906198129383950</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Советский  отдел </name>
+    <address lang="ru">г. Гомель, ул. Котовского, 85</address>
+    <phone>
+      <number>+375 (232) 234676</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6411787</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257162</actualization-date>
+  </company>
+  <company>
+    <company-id>6876798096619197174</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Новобелицкий  отдел </name>
+    <address lang="ru">г. Гомель, ул. Свердлова, 3-а</address>
+    <phone>
+      <number>+375 (232) 364362</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3547833</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257164</actualization-date>
+  </company>
+  <company>
+    <company-id>2089907961264030575</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Жлобинский отдел </name>
+    <address lang="ru">Гомельская область,г. Жлобин, мкр-н 3, д.58</address>
+    <phone>
+      <number>+375 (2334) 31419</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6631418</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257167</actualization-date>
+  </company>
+  <company>
+    <company-id>7373023059131507160</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Калинковичский отдел </name>
+    <address lang="ru">Гомельская область,г. Калинковичи, 50 лет Октября, 52</address>
+    <phone>
+      <number>+375 (2345) 43450</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1142482</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257170</actualization-date>
+  </company>
+  <company>
+    <company-id>1832701163338437649</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Мозырский отдел </name>
+    <address lang="ru">Гомельская область,г. Мозырь, ул. Пушкина, 51</address>
+    <phone>
+      <number>+375 (236) 322423</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3732423</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257174</actualization-date>
+  </company>
+  <company>
+    <company-id>586779306885967422</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Речицкий отдел </name>
+    <address lang="ru">Гомельская область,г. Речица, ул. Пушкина, 31-а</address>
+    <phone>
+      <number>+375 (2340) 25065</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6085065</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257205</actualization-date>
+  </company>
+  <company>
+    <company-id>6368326919201002420</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Рогачевский отдел </name>
+    <address lang="ru">Гомельская область,г. Рогачев, ул. Дзержинского, 3</address>
+    <phone>
+      <number>+375 (2339) 41302</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1282283</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257208</actualization-date>
+  </company>
+  <company>
+    <company-id>7049599629656897381</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Светлогорский отдел </name>
+    <address lang="ru">Гомельская область,г. Светлогорск, ул. Интернациональная, 19</address>
+    <phone>
+      <number>+375 (2342) 32100</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1282370</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257211</actualization-date>
+  </company>
+  <company>
+    <company-id>2154152647860092990</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Буда-Кошелевское отделение </name>
+    <address lang="ru">Гомельская область,г. Буда-Кошелево, ул. 50 лет Октября, 15</address>
+    <phone>
+      <number>+375 (2336) 22370</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1210241</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257214</actualization-date>
+  </company>
+  <company>
+    <company-id>1096041666168927193</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Добрушское отделение </name>
+    <address lang="ru">Гомельская область,г. Добруш, ул. Гагарина, 36</address>
+    <phone>
+      <number>+375 (2333) 32540</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1245865</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257216</actualization-date>
+  </company>
+  <company>
+    <company-id>7774452179003098511</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Ельское отделение </name>
+    <address lang="ru">Гомельская область,г. Ельск, ул. 9 мая, 1-а</address>
+    <phone>
+      <number>+375 (2354) 22318</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1404647</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257220</actualization-date>
+  </company>
+  <company>
+    <company-id>3513382036044241816</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Житковичское отделение </name>
+    <address lang="ru">Гомельская область,г. Житковичи, ул. К.Маркса, 22</address>
+    <phone>
+      <number>+375 (2353) 21590</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1449940</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257222</actualization-date>
+  </company>
+  <company>
+    <company-id>1265780647696726573</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Кормянское отделение </name>
+    <address lang="ru">Гомельская область,г.п. Корма, ул. Пионерская, 32</address>
+    <phone>
+      <number>+375 (2337) 22518</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1268008</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257226</actualization-date>
+  </company>
+  <company>
+    <company-id>2161263174628633095</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Лельчицкое отделение </name>
+    <address lang="ru">Гомельская область,г.п. Лельчицы, ул.Заходняя, 1</address>
+    <phone>
+      <number>+375 (2356) 56044</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6174735</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257229</actualization-date>
+  </company>
+  <company>
+    <company-id>2534194394081522798</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Петриковское отделение </name>
+    <address lang="ru">Гомельская область,г. Петриков, ул.Коммунальная, 50</address>
+    <phone>
+      <number>+375 (2350) 53102</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3322102</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257232</actualization-date>
+  </company>
+  <company>
+    <company-id>2530051029238847557</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Хойникское отделение </name>
+    <address lang="ru">Гомельская область,г. Хойники, ул. Граховского, 2</address>
+    <phone>
+      <number>+375 (2346) 22428</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1269952</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257235</actualization-date>
+  </company>
+  <company>
+    <company-id>244338793541493149</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Чечерское отделение </name>
+    <address lang="ru">Гомельская область,г. Чечерск, ул. Ленина, 7</address>
+    <phone>
+      <number>+375 (2332) 32490</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1308685</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://gomel.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764257239</actualization-date>
   </company>
   <company>
     <company-id>2266600740349971225</company-id>
@@ -982,43 +955,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486061</actualization-date>
-  </company>
-  <company>
-    <company-id>6999863225647957222</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Крупский отдел</name>
-    <address lang="ru">Минская область,г. Крупки, ул. Зайцева, 13</address>
-    <phone>
-      <number>+375 (1796) 55484</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1648887</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (33) 6229888</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486081</actualization-date>
-  </company>
-  <company>
-    <company-id>232051945371448039</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Любанское отделение</name>
-    <address lang="ru">Минская область,г. Любань, ул. Социалистическая, 27</address>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486102</actualization-date>
+    <actualization-date>1459764257893</actualization-date>
   </company>
   <company>
     <company-id>3608707829036836031</company-id>
@@ -1033,7 +970,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486134</actualization-date>
+    <actualization-date>1459764257910</actualization-date>
   </company>
   <company>
     <company-id>8581623130688801348</company-id>
@@ -1042,7 +979,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486136</actualization-date>
+    <actualization-date>1459764257913</actualization-date>
   </company>
   <company>
     <company-id>8851050839201759820</company-id>
@@ -1057,7 +994,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486138</actualization-date>
+    <actualization-date>1459764257918</actualization-date>
   </company>
   <company>
     <company-id>6034832099037751264</company-id>
@@ -1072,61 +1009,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486141</actualization-date>
-  </company>
-  <company>
-    <company-id>4261835960691325446</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Молодеченский отдел</name>
-    <address lang="ru">Минская область,г. Молодечно, ул. Громадовская, 5</address>
-    <phone>
-      <number>+375 (17) 6771391</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 6871391</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (33) 6671391</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486183</actualization-date>
-  </company>
-  <company>
-    <company-id>2467454266360097199</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Клецкое отделение</name>
-    <address lang="ru">Минская область,г. Клецк, ул. Орловского, 2</address>
-    <phone>
-      <number>+375 (1793) 68377</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1715824</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 8558355</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486203</actualization-date>
+    <actualization-date>1459764257951</actualization-date>
   </company>
   <company>
     <company-id>6468752434802332600</company-id>
@@ -1141,7 +1024,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486206</actualization-date>
+    <actualization-date>1459764257957</actualization-date>
   </company>
   <company>
     <company-id>8956239427103472297</company-id>
@@ -1150,7 +1033,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486208</actualization-date>
+    <actualization-date>1459764257972</actualization-date>
   </company>
   <company>
     <company-id>4421986356007197485</company-id>
@@ -1165,7 +1048,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486210</actualization-date>
+    <actualization-date>1459764257975</actualization-date>
   </company>
   <company>
     <company-id>3533821984847919261</company-id>
@@ -1180,76 +1063,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486213</actualization-date>
-  </company>
-  <company>
-    <company-id>8270806099239455984</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Мядельское отделение</name>
-    <address lang="ru">Минская область,г. Мядель, ул. 17 сентября, 2а</address>
-    <phone>
-      <number>+375 (1797) 54190</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1910666</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486232</actualization-date>
-  </company>
-  <company>
-    <company-id>4616669900731135684</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Минский отдел</name>
-    <address lang="ru">г. Минск, ул. Ф. Скарины, 20</address>
-    <phone>
-      <number>+375 (17) 2655882</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 5602897</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486251</actualization-date>
-  </company>
-  <company>
-    <company-id>8876765023665153589</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Логойский отдел</name>
-    <address lang="ru">Минская область,г. Логойск, ул. Комсомольская, 13А</address>
-    <phone>
-      <number>+375 (1774) 55861</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1306402</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 8779295</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486270</actualization-date>
+    <actualization-date>1459764257980</actualization-date>
   </company>
   <company>
     <company-id>3167935639016640779</company-id>
@@ -1264,7 +1078,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486288</actualization-date>
+    <actualization-date>1459764257995</actualization-date>
   </company>
   <company>
     <company-id>7428520001750602661</company-id>
@@ -1279,7 +1093,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486291</actualization-date>
+    <actualization-date>1459764258000</actualization-date>
   </company>
   <company>
     <company-id>3975273328570318769</company-id>
@@ -1294,7 +1108,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486295</actualization-date>
+    <actualization-date>1459764258005</actualization-date>
   </company>
   <company>
     <company-id>7580090640967477585</company-id>
@@ -1309,7 +1123,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486321</actualization-date>
+    <actualization-date>1459764258010</actualization-date>
   </company>
   <company>
     <company-id>905350289386731108</company-id>
@@ -1324,7 +1138,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486325</actualization-date>
+    <actualization-date>1459764258014</actualization-date>
   </company>
   <company>
     <company-id>4714780890632688364</company-id>
@@ -1339,7 +1153,97 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://vitebsk.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486328</actualization-date>
+    <actualization-date>1459764258018</actualization-date>
+  </company>
+  <company>
+    <company-id>8283589861309276841</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Поставское отделение </name>
+    <address lang="ru">Витебская область,г. Поставы, ул. Юбилейная, 2б</address>
+    <phone>
+      <number>+375 (215) 560146</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://vitebsk.ohrana.gov.by</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764258022</actualization-date>
+  </company>
+  <company>
+    <company-id>409349692967482835</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Сенненское отделение </name>
+    <address lang="ru">Витебская область,г.Сенно, пер.Свободы, 3</address>
+    <phone>
+      <number>+375 (2135) 42391</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://vitebsk.ohrana.gov.by</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764258032</actualization-date>
+  </company>
+  <company>
+    <company-id>5621629925430606971</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Бешенковичское отделение </name>
+    <address lang="ru">п.г.т.Бешенковичи, ул.Коммунистическая, 26а</address>
+    <phone>
+      <number>+375 (2131) 41095</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://vitebsk.ohrana.gov.by</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764258038</actualization-date>
+  </company>
+  <company>
+    <company-id>4159312338180014797</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Лиозненское отделение </name>
+    <address lang="ru">п.г.т. Лиозно, ул. Ленина, д. 77</address>
+    <phone>
+      <number>+375 (2138) 41139</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://vitebsk.ohrana.gov.by</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764258042</actualization-date>
+  </company>
+  <company>
+    <company-id>4795877997766001372</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Толочинское отделение </name>
+    <address lang="ru">Витебская область,г. Толочин, ул. Ленина, 29</address>
+    <phone>
+      <number>+375 (2136) 21061</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://vitebsk.ohrana.gov.by</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764258046</actualization-date>
+  </company>
+  <company>
+    <company-id>8795919762212696758</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Шарковщинское отделение </name>
+    <address lang="ru">Витебская область,г.п.Шарковщина, ул.Пушкина, 13</address>
+    <phone>
+      <number>+375 (215) 441179</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://vitebsk.ohrana.gov.by</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764258050</actualization-date>
   </company>
   <company>
     <company-id>7126542098493576504</company-id>
@@ -1366,52 +1270,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486351</actualization-date>
-  </company>
-  <company>
-    <company-id>8283589861309276841</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Поставское отделение </name>
-    <address lang="ru">Витебская область,г. Поставы, ул. Юбилейная, 2б</address>
-    <phone>
-      <number>+375 (215) 560146</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://vitebsk.ohrana.gov.by</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486355</actualization-date>
-  </company>
-  <company>
-    <company-id>409349692967482835</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Сенненское отделение </name>
-    <address lang="ru">Витебская область,г.Сенно, пер.Свободы, 3</address>
-    <phone>
-      <number>+375 (2135) 42391</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://vitebsk.ohrana.gov.by</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486360</actualization-date>
-  </company>
-  <company>
-    <company-id>5621629925430606971</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Бешенковичское отделение </name>
-    <address lang="ru">п.г.т.Бешенковичи, ул.Коммунистическая, 26а</address>
-    <phone>
-      <number>+375 (2131) 41095</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://vitebsk.ohrana.gov.by</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486363</actualization-date>
+    <actualization-date>1459764259621</actualization-date>
   </company>
   <company>
     <company-id>6752749069701466922</company-id>
@@ -1432,7 +1291,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486368</actualization-date>
+    <actualization-date>1459764259631</actualization-date>
   </company>
   <company>
     <company-id>6428620057583855644</company-id>
@@ -1459,7 +1318,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486372</actualization-date>
+    <actualization-date>1459764259636</actualization-date>
   </company>
   <company>
     <company-id>5060167997087520414</company-id>
@@ -1486,52 +1345,61 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486376</actualization-date>
+    <actualization-date>1459764259640</actualization-date>
   </company>
   <company>
-    <company-id>4159312338180014797</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Лиозненское отделение </name>
-    <address lang="ru">п.г.т. Лиозно, ул. Ленина, д. 77</address>
+    <company-id>7106137550868204600</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Слуцкий отдел</name>
+    <address lang="ru">Минская область,г. Слуцк, ул. Уласовца, 12</address>
     <phone>
-      <number>+375 (2138) 41139</number>
+      <number>+375 (1795) 20347</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3154298</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 5706714</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://ohrana.gov.by</url>
-    <add-url>http://vitebsk.ohrana.gov.by</add-url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486380</actualization-date>
+    <actualization-date>1459764259662</actualization-date>
   </company>
   <company>
-    <company-id>4795877997766001372</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Толочинское отделение </name>
-    <address lang="ru">Витебская область,г. Толочин, ул. Ленина, 29</address>
+    <company-id>4261835960691325446</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Молодеченский отдел</name>
+    <address lang="ru">Минская область,г. Молодечно, ул. Громадовская, 5</address>
     <phone>
-      <number>+375 (2136) 21061</number>
+      <number>+375 (17) 6771391</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 6871391</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 6671391</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://ohrana.gov.by</url>
-    <add-url>http://vitebsk.ohrana.gov.by</add-url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486384</actualization-date>
-  </company>
-  <company>
-    <company-id>8795919762212696758</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Шарковщинское отделение </name>
-    <address lang="ru">Витебская область,г.п.Шарковщина, ул.Пушкина, 13</address>
-    <phone>
-      <number>+375 (215) 441179</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://vitebsk.ohrana.gov.by</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486388</actualization-date>
+    <actualization-date>1459764259698</actualization-date>
   </company>
   <company>
     <company-id>4412612363787864049</company-id>
@@ -1552,7 +1420,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486392</actualization-date>
+    <actualization-date>1459764259701</actualization-date>
   </company>
   <company>
     <company-id>1415773994495405811</company-id>
@@ -1579,7 +1447,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486396</actualization-date>
+    <actualization-date>1459764259705</actualization-date>
   </company>
   <company>
     <company-id>2016086569990926929</company-id>
@@ -1606,7 +1474,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486400</actualization-date>
+    <actualization-date>1459764259708</actualization-date>
   </company>
   <company>
     <company-id>8406923781442981287</company-id>
@@ -1633,7 +1501,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486409</actualization-date>
+    <actualization-date>1459764259730</actualization-date>
   </company>
   <company>
     <company-id>6670255090126210313</company-id>
@@ -1660,7 +1528,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486413</actualization-date>
+    <actualization-date>1459764259734</actualization-date>
   </company>
   <company>
     <company-id>7811503806211637915</company-id>
@@ -1687,7 +1555,34 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486416</actualization-date>
+    <actualization-date>1459764259738</actualization-date>
+  </company>
+  <company>
+    <company-id>6349101438122606482</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Березинское отделение</name>
+    <address lang="ru">Минская область,г. Березино, ул. Победы, 14</address>
+    <phone>
+      <number>+375 (1715) 55011</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 5403262</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3855011</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764259757</actualization-date>
   </company>
   <company>
     <company-id>8538193397788359305</company-id>
@@ -1714,7 +1609,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486420</actualization-date>
+    <actualization-date>1459764259762</actualization-date>
   </company>
   <company>
     <company-id>4794985933777237990</company-id>
@@ -1741,7 +1636,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486423</actualization-date>
+    <actualization-date>1459764259766</actualization-date>
   </company>
   <company>
     <company-id>34858817519542083</company-id>
@@ -1768,7 +1663,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486427</actualization-date>
+    <actualization-date>1459764259769</actualization-date>
   </company>
   <company>
     <company-id>34858817519542084</company-id>
@@ -1795,12 +1690,12 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486430</actualization-date>
+    <actualization-date>1459764259779</actualization-date>
   </company>
   <company>
-    <company-id>7670074375137301499</company-id>
+    <company-id>648244591651793604</company-id>
     <name lang="ru">Департамент Охраны МВД РБ Слонимский отдел</name>
-    <address lang="ru">Гродненская область,г. Слони, ул. Коммунистическая, 4</address>
+    <address lang="ru">Гродненская область,г. Слоним, ул. Коммунистическая, 4</address>
     <phone>
       <number>+375 (1562) 24494</number>
       <type>phone</type>
@@ -1822,7 +1717,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486434</actualization-date>
+    <actualization-date>1459764259783</actualization-date>
   </company>
   <company>
     <company-id>788744381440644232</company-id>
@@ -1849,7 +1744,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486438</actualization-date>
+    <actualization-date>1459764259787</actualization-date>
   </company>
   <company>
     <company-id>1095432716831711135</company-id>
@@ -1864,7 +1759,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486442</actualization-date>
+    <actualization-date>1459764259799</actualization-date>
   </company>
   <company>
     <company-id>6959003131717600850</company-id>
@@ -1891,7 +1786,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486445</actualization-date>
+    <actualization-date>1459764259803</actualization-date>
   </company>
   <company>
     <company-id>8454456430472136574</company-id>
@@ -1912,59 +1807,26 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://grodno.ohrana.gov.by</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723486448</actualization-date>
+    <actualization-date>1459764259806</actualization-date>
   </company>
   <company>
-    <company-id>5125075117812482901</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Центральный отдел  Департамента охраны МВД Республики Беларусь</name>
-    <address lang="ru">г.Минск, улица Комсомольская, 24</address>
+    <company-id>8268848651878359733</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Смолевичский отдел</name>
+    <address lang="ru">Минская область,г. Смолевичи, ул. Советская, 128а</address>
     <phone>
-      <number>+375 (17) 2034576</number>
+      <number>+375 (1776) 28356</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (1732) 75910</number>
+      <number>+375 (29) 2749221</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 2032621</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (17) 2034695</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://minsk.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723487459</actualization-date>
-  </company>
-  <company>
-    <company-id>2515996329962557682</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Копыльское отделение</name>
-    <address lang="ru">Минская область,г. Копыль, пл. Ленина, 2</address>
-    <phone>
-      <number>+375 (1719) 58024</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 5562834</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (44) 7414155</number>
+      <number>+375 (44) 7747023</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -1972,26 +1834,26 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723487533</actualization-date>
+    <actualization-date>1459764259826</actualization-date>
   </company>
   <company>
-    <company-id>8444833920186702590</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Заславский отдел</name>
-    <address lang="ru">Минская область,г. Заславль, ул. Я. Колоса, 2а</address>
+    <company-id>3062205125570436692</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Солигорский отдел</name>
+    <address lang="ru">Минская область,г. Солигорск, ул. Железнодорожная, 4</address>
     <phone>
-      <number>+375 (17) 5442565</number>
+      <number>+375 (17) 4222071</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (29) 3863787</number>
+      <number>+375 (29) 1164505</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (29) 2690984</number>
+      <number>+375 (29) 7795194</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -1999,20 +1861,26 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723488232</actualization-date>
+    <actualization-date>1459764259846</actualization-date>
   </company>
   <company>
-    <company-id>4770499505338647111</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Жодинский отдел</name>
-    <address lang="ru">Минская область,г. Жодино, ул. 8 Марта, 2, корп. 2</address>
+    <company-id>6031631742122619165</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Пуховичский отдел</name>
+    <address lang="ru">Минская область,г. Марьина, Горка, ул. Пролетарская</address>
     <phone>
-      <number>+375 (1775) 71497</number>
+      <number>+375 (1713) 34884</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (29) 3571267</number>
+      <number>+375 (29) 3952498</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 8352498</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -2020,77 +1888,26 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723488864</actualization-date>
+    <actualization-date>1459764260084</actualization-date>
   </company>
   <company>
-    <company-id>1210085099944883706</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Советский отдел  Департамента охраны МВД Республики Беларусь</name>
-    <address lang="ru">г.Минск, улица Кольцова, 50</address>
+    <company-id>5559421769034061779</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Несвижский отдел</name>
+    <address lang="ru">Минская область,г. Несвиж, ул. Ленинская, 14</address>
     <phone>
-      <number>+375 (17) 2161750</number>
+      <number>+375 (1770) 55892</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 2161779</number>
+      <number>+375 (29) 1585892</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 2161783</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (17) 2618811</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (17) 2618323</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (17) 2161780</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (17) 2161790</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://minsk.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723490056</actualization-date>
-  </company>
-  <company>
-    <company-id>7307034957411254445</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Червенский отдел</name>
-    <address lang="ru">Минская область,г. Червень, ул. Н. Зеневича, 15а</address>
-    <phone>
-      <number>+375 (1714) 55109</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 3761417</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 2552912</number>
+      <number>+375 (29) 2034549</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -2098,7 +1915,28 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723490210</actualization-date>
+    <actualization-date>1459764260143</actualization-date>
+  </company>
+  <company>
+    <company-id>8270806099239455984</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Мядельское отделение</name>
+    <address lang="ru">Минская область,г. Мядель, ул. 17 сентября, 2а</address>
+    <phone>
+      <number>+375 (1797) 54190</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1910666</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764260584</actualization-date>
   </company>
   <company>
     <company-id>765407210145694970</company-id>
@@ -2167,59 +2005,38 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://minsk.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723490959</actualization-date>
+    <actualization-date>1459764267465</actualization-date>
   </company>
   <company>
-    <company-id>8690489146570028251</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Узденское отделение</name>
-    <address lang="ru">Минская область,г. Узда, ул. Степанова, 13</address>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723491016</actualization-date>
-  </company>
-  <company>
-    <company-id>4121545005118720201</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Ленинский отдел  Департамента охраны МВД Республики Беларусь</name>
-    <address lang="ru">г.Минск, проспект Рокоссовского, 39а</address>
+    <company-id>4120154686178648600</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Фрунзенский отдел  Департамента охраны МВД Республики Беларусь</name>
+    <address lang="ru">г.Минск, улица Пономаренко, 4</address>
     <phone>
-      <number>+375 (17) 3670704</number>
+      <number>+375 (17) 2014950</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 3468614</number>
+      <number>+375 (17) 2014978</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 2149488</number>
+      <number>+375 (17) 2014956</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 3677622</number>
+      <number>+375 (17) 2014389</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 3685293</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (17) 3680939</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (17) 2149483</number>
+      <number>+375 (17) 2014680</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -2227,7 +2044,55 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://minsk.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723491069</actualization-date>
+    <actualization-date>1459764267944</actualization-date>
+  </company>
+  <company>
+    <company-id>4616669900731135684</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Минский отдел</name>
+    <address lang="ru">г. Минск, ул. Ф. Скарины, 20</address>
+    <phone>
+      <number>+375 (17) 2655882</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 5602897</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764268527</actualization-date>
+  </company>
+  <company>
+    <company-id>7307034957411254445</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Червенский отдел</name>
+    <address lang="ru">Минская область,г. Червень, ул. Н. Зеневича, 15а</address>
+    <phone>
+      <number>+375 (1714) 55109</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3761417</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 2552912</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764269070</actualization-date>
   </company>
   <company>
     <company-id>4100112154837305330</company-id>
@@ -2278,55 +2143,16 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://minsk.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723491482</actualization-date>
+    <actualization-date>1459764269154</actualization-date>
   </company>
   <company>
-    <company-id>5317653995318266200</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Столбцовское отделение</name>
-    <address lang="ru">Минская область,г. Столбцы, ул. Гайдука, 21</address>
-    <phone>
-      <number>+375 (1717) 52329</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 1755395</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
+    <company-id>232051945371448039</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Любанское отделение</name>
+    <address lang="ru">Минская область,г. Любань, ул. Социалистическая, 27</address>
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723491522</actualization-date>
-  </company>
-  <company>
-    <company-id>4048879733015590639</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Стародорожское отделение</name>
-    <address lang="ru">Минская область,г. Старые Дороги, ул. Первомайская, 21</address>
-    <phone>
-      <number>+375 (1792) 54317</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 3540074</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 7028614</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723491545</actualization-date>
+    <actualization-date>1459764271687</actualization-date>
   </company>
   <company>
     <company-id>1538827907432964330</company-id>
@@ -2365,7 +2191,58 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://minsk.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723492322</actualization-date>
+    <actualization-date>1459764271721</actualization-date>
+  </company>
+  <company>
+    <company-id>4121545005118720201</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Ленинский отдел  Департамента охраны МВД Республики Беларусь</name>
+    <address lang="ru">г.Минск, проспект Рокоссовского, 39а</address>
+    <phone>
+      <number>+375 (17) 3670704</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 3468614</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2149488</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 3677622</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 3685293</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 3680939</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2149483</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://minsk.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764271742</actualization-date>
   </company>
   <company>
     <company-id>5737713034065905935</company-id>
@@ -2410,38 +2287,125 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://minsk.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723492380</actualization-date>
+    <actualization-date>1459764272037</actualization-date>
   </company>
   <company>
-    <company-id>4120154686178648600</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Фрунзенский отдел  Департамента охраны МВД Республики Беларусь</name>
-    <address lang="ru">г.Минск, улица Пономаренко, 4</address>
+    <company-id>4048879733015590639</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Стародорожское отделение</name>
+    <address lang="ru">Минская область,г. Старые Дороги, ул. Первомайская, 21</address>
     <phone>
-      <number>+375 (17) 2014950</number>
+      <number>+375 (1792) 54317</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 2014978</number>
+      <number>+375 (29) 3540074</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 2014956</number>
+      <number>+375 (29) 7028614</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764272972</actualization-date>
+  </company>
+  <company>
+    <company-id>8876765023665153589</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Логойский отдел</name>
+    <address lang="ru">Минская область,г. Логойск, ул. Комсомольская, 13А</address>
+    <phone>
+      <number>+375 (1774) 55861</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 2014389</number>
+      <number>+375 (29) 1306402</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (17) 2014680</number>
+      <number>+375 (29) 8779295</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764274139</actualization-date>
+  </company>
+  <company>
+    <company-id>5317653995318266200</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Столбцовское отделение</name>
+    <address lang="ru">Минская область,г. Столбцы, ул. Гайдука, 21</address>
+    <phone>
+      <number>+375 (1717) 52329</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1755395</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764274589</actualization-date>
+  </company>
+  <company>
+    <company-id>1210085099944883706</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Советский отдел  Департамента охраны МВД Республики Беларусь</name>
+    <address lang="ru">г.Минск, улица Кольцова, 50</address>
+    <phone>
+      <number>+375 (17) 2161750</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2161779</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2161783</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2618811</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2618323</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2161780</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2161790</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -2449,61 +2413,70 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://minsk.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723492470</actualization-date>
+    <actualization-date>1459764274719</actualization-date>
   </company>
   <company>
-    <company-id>8268848651878359733</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Смолевичский отдел</name>
-    <address lang="ru">Минская область,г. Смолевичи, ул. Советская, 128а</address>
+    <company-id>5125075117812482901</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Центральный отдел  Департамента охраны МВД Республики Беларусь</name>
+    <address lang="ru">г.Минск, улица Комсомольская, 24</address>
     <phone>
-      <number>+375 (1776) 28356</number>
+      <number>+375 (17) 2034576</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (29) 2749221</number>
+      <number>+375 (1732) 75910</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (44) 7747023</number>
+      <number>+375 (17) 2032621</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (17) 2034695</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <add-url>http://minsk.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723492997</actualization-date>
+    <actualization-date>1459764274773</actualization-date>
   </company>
   <company>
-    <company-id>3062205125570436692</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Солигорский отдел</name>
-    <address lang="ru">Минская область,г. Солигорск, ул. Железнодорожная, 4</address>
+    <company-id>8690489146570028251</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Узденское отделение</name>
+    <address lang="ru">Минская область,г. Узда, ул. Степанова, 13</address>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764275092</actualization-date>
+  </company>
+  <company>
+    <company-id>1219206206978552599</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Мстиславское отделение </name>
+    <address lang="ru">Могилевская область,г. Мстиславль, ул. Горького, 27</address>
     <phone>
-      <number>+375 (17) 4222071</number>
+      <number>+375 (2240) 20651</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (29) 1164505</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 7795194</number>
+      <number>+375 (2240) 22585</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <add-url>http://mogilev.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723493171</actualization-date>
+    <actualization-date>1459764277233</actualization-date>
   </company>
   <company>
     <company-id>646762249261095213</company-id>
@@ -2542,70 +2515,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://minsk.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723493838</actualization-date>
-  </company>
-  <company>
-    <company-id>690949198096017105</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Чаусское отделение </name>
-    <address lang="ru">Могилевская область,г. Чаусы, ул. Ленинская, 21</address>
-    <phone>
-      <number>+375 (2242) 21181</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (2242) 21608</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mogilev.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723493945</actualization-date>
-  </company>
-  <company>
-    <company-id>6788821321365273329</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Костюковичское отделение </name>
-    <address lang="ru">Могилевская область,г. Костюковичи, ул. Жбанкова, 1</address>
-    <phone>
-      <number>+375 (2245) 51352</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (2245) 23237</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mogilev.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723494375</actualization-date>
-  </company>
-  <company>
-    <company-id>4062029766007017179</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Чериковское отделение </name>
-    <address lang="ru">Могилевская область,г. Чериков, ул. К.Маркса, 36</address>
-    <phone>
-      <number>+375 (2243) 31158</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (2243) 32457</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mogilev.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723494410</actualization-date>
+    <actualization-date>1459764278216</actualization-date>
   </company>
   <company>
     <company-id>2191442760890170753</company-id>
@@ -2632,7 +2542,64 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mogilev.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723494440</actualization-date>
+    <actualization-date>1459764278257</actualization-date>
+  </company>
+  <company>
+    <company-id>4062029766007017179</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Чериковское отделение </name>
+    <address lang="ru">Могилевская область,г. Чериков, ул. К.Маркса, 36</address>
+    <phone>
+      <number>+375 (2243) 31158</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (2243) 32457</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mogilev.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764278296</actualization-date>
+  </company>
+  <company>
+    <company-id>690949198096017105</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Чаусское отделение </name>
+    <address lang="ru">Могилевская область,г. Чаусы, ул. Ленинская, 21</address>
+    <phone>
+      <number>+375 (2242) 21181</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (2242) 21608</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mogilev.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764278395</actualization-date>
+  </company>
+  <company>
+    <company-id>9028009213346578860</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Кировское отделение </name>
+    <address lang="ru">Могилевская область,г. Кировск, ул. Ленинская, 25</address>
+    <phone>
+      <number>+375 (2237) 24701</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mogilev.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764279183</actualization-date>
   </company>
   <company>
     <company-id>2638485392240691879</company-id>
@@ -2653,7 +2620,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mogilev.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723495277</actualization-date>
+    <actualization-date>1459764279246</actualization-date>
   </company>
   <company>
     <company-id>3124159049677920198</company-id>
@@ -2668,14 +2635,20 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mogilev.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723495338</actualization-date>
+    <actualization-date>1459764279690</actualization-date>
   </company>
   <company>
-    <company-id>9028009213346578860</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Кировское отделение </name>
-    <address lang="ru">Могилевская область,г. Кировск, ул. Ленинская, 25</address>
+    <company-id>6788821321365273329</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Костюковичское отделение </name>
+    <address lang="ru">Могилевская область,г. Костюковичи, ул. Жбанкова, 1</address>
     <phone>
-      <number>+375 (2237) 24701</number>
+      <number>+375 (2245) 51352</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (2245) 23237</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -2683,55 +2656,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mogilev.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723495815</actualization-date>
-  </company>
-  <company>
-    <company-id>7106137550868204600</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Слуцкий отдел</name>
-    <address lang="ru">Минская область,г. Слуцк, ул. Уласовца, 12</address>
-    <phone>
-      <number>+375 (1795) 20347</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 3154298</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 5706714</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mou.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723495846</actualization-date>
-  </company>
-  <company>
-    <company-id>1219206206978552599</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Мстиславское отделение </name>
-    <address lang="ru">Могилевская область,г. Мстиславль, ул. Горького, 27</address>
-    <phone>
-      <number>+375 (2240) 20651</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (2240) 22585</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mogilev.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723496881</actualization-date>
+    <actualization-date>1459764280308</actualization-date>
   </company>
   <company>
     <company-id>9036876339433035681</company-id>
@@ -2746,7 +2671,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mogilev.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723496913</actualization-date>
+    <actualization-date>1459764283412</actualization-date>
   </company>
   <company>
     <company-id>7131239754392082302</company-id>
@@ -2767,20 +2692,20 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mogilev.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723498329</actualization-date>
+    <actualization-date>1459764285296</actualization-date>
   </company>
   <company>
-    <company-id>3513006273373414834</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Климовичский отдел </name>
-    <address lang="ru">Могилевская область,г. Климовичи, ул. Николаева, 6</address>
+    <company-id>2588164820623611837</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Горецкий отдел </name>
+    <address lang="ru">Могилевская область,г. Горки, ул. Якубовского, 22а</address>
     <phone>
-      <number>+375 (2244) 52694</number>
+      <number>+375 (2233) 51250</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (2244) 51668</number>
+      <number>+375 (2233) 51717</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -2788,26 +2713,26 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mogilev.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723498410</actualization-date>
+    <actualization-date>1459764289086</actualization-date>
   </company>
   <company>
-    <company-id>6031631742122619165</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Пуховичский отдел</name>
-    <address lang="ru">Минская область,г. Марьина, Горка, ул. Пролетарская</address>
+    <company-id>2515996329962557682</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Копыльское отделение</name>
+    <address lang="ru">Минская область,г. Копыль, пл. Ленина, 2</address>
     <phone>
-      <number>+375 (1713) 34884</number>
+      <number>+375 (1719) 58024</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (29) 3952498</number>
+      <number>+375 (29) 5562834</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (29) 8352498</number>
+      <number>+375 (44) 7414155</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -2815,7 +2740,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723498777</actualization-date>
+    <actualization-date>1459764289795</actualization-date>
   </company>
   <company>
     <company-id>6737897188851638564</company-id>
@@ -2842,20 +2767,20 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mogilev.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723498850</actualization-date>
+    <actualization-date>1459764290065</actualization-date>
   </company>
   <company>
-    <company-id>2588164820623611837</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Горецкий отдел </name>
-    <address lang="ru">Могилевская область,г. Горки, ул. Якубовского, 22а</address>
+    <company-id>5727060059365699121</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Белыничское отделение</name>
+    <address lang="ru">Могилевская область,г. Белыничи, ул. Энгельса, 16</address>
     <phone>
-      <number>+375 (2233) 51250</number>
+      <number>+375 (2232) 52585</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (2233) 51717</number>
+      <number>+375 (2232) 52964</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -2863,7 +2788,160 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mogilev.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723529376</actualization-date>
+    <actualization-date>1459764290146</actualization-date>
+  </company>
+  <company>
+    <company-id>3026378757225550062</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Бобруйский отдел </name>
+    <address lang="ru">Могилевская область,г. Бобруйск, ул. Гоголя, 38</address>
+    <phone>
+      <number>+375 (225) 721922</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (225) 586348</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mogilev.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764290186</actualization-date>
+  </company>
+  <company>
+    <company-id>4770499505338647111</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Жодинский отдел</name>
+    <address lang="ru">Минская область,г. Жодино, ул. 8 Марта, 2, корп. 2</address>
+    <phone>
+      <number>+375 (1775) 71497</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 3571267</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764290761</actualization-date>
+  </company>
+  <company>
+    <company-id>6999863225647957222</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Крупский отдел</name>
+    <address lang="ru">Минская область,г. Крупки, ул. Зайцева, 13</address>
+    <phone>
+      <number>+375 (1796) 55484</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 1648887</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (33) 6229888</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764291610</actualization-date>
+  </company>
+  <company>
+    <company-id>3513006273373414834</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Климовичский отдел </name>
+    <address lang="ru">Могилевская область,г. Климовичи, ул. Николаева, 6</address>
+    <phone>
+      <number>+375 (2244) 52694</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (2244) 51668</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mogilev.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764291753</actualization-date>
+  </company>
+  <company>
+    <company-id>3436035097754533529</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Дзержинский отдел</name>
+    <address lang="ru">Минская область,г. Дзержинск, ул. Фоминых, 1б</address>
+    <phone>
+      <number>+375 (1716) 54952</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (29) 2620037</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mou.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764292091</actualization-date>
+  </company>
+  <company>
+    <company-id>4395466573259756752</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Октябрьский  отдел </name>
+    <address lang="ru">г. Могилев, пер. Тагильский, 2</address>
+    <phone>
+      <number>+375 (222) 737272</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (222) 467252</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mogilev.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764292240</actualization-date>
+  </company>
+  <company>
+    <company-id>2120526862040416842</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Ленинский  отдел </name>
+    <address lang="ru">г.Могилев, ул. Лазаренко, 27а</address>
+    <phone>
+      <number>+375 (222) 392580</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <phone>
+      <number>+375 (222) 317180</number>
+      <type>phone</type>
+      <ext/>
+      <info/>
+    </phone>
+    <url>http://ohrana.gov.by</url>
+    <add-url>http://mogilev.ohrana.gov.by/</add-url>
+    <rubric-id>52444182335</rubric-id>
+    <actualization-date>1459764292268</actualization-date>
   </company>
   <company>
     <company-id>5060098491162591585</company-id>
@@ -2890,83 +2968,26 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723529450</actualization-date>
+    <actualization-date>1459764292817</actualization-date>
   </company>
   <company>
-    <company-id>5727060059365699121</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Белыничское отделение</name>
-    <address lang="ru">Могилевская область,г. Белыничи, ул. Энгельса, 16</address>
+    <company-id>8444833920186702590</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Заславский отдел</name>
+    <address lang="ru">Минская область,г. Заславль, ул. Я. Колоса, 2а</address>
     <phone>
-      <number>+375 (2232) 52585</number>
+      <number>+375 (17) 5442565</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (2232) 52964</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mogilev.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723529527</actualization-date>
-  </company>
-  <company>
-    <company-id>4395466573259756752</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Октябрьский  отдел </name>
-    <address lang="ru">г. Могилев, пер. Тагильский, 2</address>
-    <phone>
-      <number>+375 (222) 737272</number>
+      <number>+375 (29) 3863787</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (222) 467252</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mogilev.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723529617</actualization-date>
-  </company>
-  <company>
-    <company-id>2120526862040416842</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Ленинский  отдел </name>
-    <address lang="ru">г.Могилев, ул. Лазаренко, 27а</address>
-    <phone>
-      <number>+375 (222) 392580</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (222) 317180</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mogilev.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723529698</actualization-date>
-  </company>
-  <company>
-    <company-id>3436035097754533529</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Дзержинский отдел</name>
-    <address lang="ru">Минская область,г. Дзержинск, ул. Фоминых, 1б</address>
-    <phone>
-      <number>+375 (1716) 54952</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 2620037</number>
+      <number>+375 (29) 2690984</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -2974,47 +2995,26 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723529758</actualization-date>
+    <actualization-date>1459764293597</actualization-date>
   </company>
   <company>
-    <company-id>3026378757225550062</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Бобруйский отдел </name>
-    <address lang="ru">Могилевская область,г. Бобруйск, ул. Гоголя, 38</address>
+    <company-id>2467454266360097199</company-id>
+    <name lang="ru">Департамент Охраны МВД РБ Клецкое отделение</name>
+    <address lang="ru">Минская область,г. Клецк, ул. Орловского, 2</address>
     <phone>
-      <number>+375 (225) 721922</number>
+      <number>+375 (1793) 68377</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (225) 586348</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <url>http://ohrana.gov.by</url>
-    <add-url>http://mogilev.ohrana.gov.by/</add-url>
-    <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723529780</actualization-date>
-  </company>
-  <company>
-    <company-id>5559421769034061779</company-id>
-    <name lang="ru">Департамент Охраны МВД РБ Несвижский отдел</name>
-    <address lang="ru">Минская область,г. Несвиж, ул. Ленинская, 14</address>
-    <phone>
-      <number>+375 (1770) 55892</number>
+      <number>+375 (29) 1715824</number>
       <type>phone</type>
       <ext/>
       <info/>
     </phone>
     <phone>
-      <number>+375 (29) 1585892</number>
-      <type>phone</type>
-      <ext/>
-      <info/>
-    </phone>
-    <phone>
-      <number>+375 (29) 2034549</number>
+      <number>+375 (29) 8558355</number>
       <type>phone</type>
       <ext/>
       <info/>
@@ -3022,7 +3022,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723529832</actualization-date>
+    <actualization-date>1459764293652</actualization-date>
   </company>
   <company>
     <company-id>1938403239286035324</company-id>
@@ -3049,7 +3049,7 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723529860</actualization-date>
+    <actualization-date>1459764294036</actualization-date>
   </company>
   <company>
     <company-id>8566767781295136416</company-id>
@@ -3076,6 +3076,6 @@
     <url>http://ohrana.gov.by</url>
     <add-url>http://mou.ohrana.gov.by/</add-url>
     <rubric-id>52444182335</rubric-id>
-    <actualization-date>1458723529945</actualization-date>
+    <actualization-date>1459764294699</actualization-date>
   </company>
 </companies>
