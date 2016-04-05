@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import scrapy
+import re
 
 from fsvps.items import FsvpsItem
 
@@ -86,6 +87,20 @@ class FsvpsSpider(scrapy.Spider):
                  if len(out_item['fax']) == 0:
                     fax_pattern4 = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/text()" % u'^Факс|факс'
                     out_item['fax'] = sel.xpath(fax_pattern4).extract()
+
+
+        out_item['longitude'] = ''
+        out_item['latitude'] = ''
+        scripts = response.xpath("//div/script").extract()
+        for sc in scripts:
+            sc = sc.replace(" ",'').replace("\n","")
+            m = re.search("YMaps\.GeoPoint\([0-9.,]+\)",sc)
+            if m:
+                res = m.group(0)
+                res = res.replace("YMaps.GeoPoint(","").replace(")","")
+                longitude, latitude  = res.split(',')
+                out_item['longitude'] = longitude
+                out_item['latitude'] = latitude
 
 
         out_item['email'] = sel.xpath(email_pattern).extract()

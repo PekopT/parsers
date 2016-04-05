@@ -18,3 +18,5 @@ class FsvpsItem(scrapy.Item):
     type = scrapy.Field()
     content = scrapy.Field()
     fax = scrapy.Field()
+    longitude = scrapy.Field()
+    latitude = scrapy.Field()
