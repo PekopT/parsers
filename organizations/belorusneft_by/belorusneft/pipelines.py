@@ -13,7 +13,7 @@ from lxml import etree
 
 from scrapy.exceptions import DropItem
 from schema_org import SCHEMA_ORG
-from utils import BY_CITIES, BY_TYL_CODES, SERVICES, FUELS, ADDITIONAL, FUEL_CARDS, CREDIT_CARD
+from utils import BY_CITIES, BY_DISTRICT, BY_TYL_CODES, SERVICES, FUELS, ADDITIONAL, FUEL_CARDS, CREDIT_CARD
 
 sout = getwriter("utf8")(stdout)
 
@@ -33,8 +33,34 @@ class BelorusneftPipeline(object):
         hash_for_address = abs(hash(str_for_hash))
         return unicode(hash_for_address)
 
+
+    def get_result_city(self, value):
+        m = re.search(u'[А-Яа-яё\-]+\s+р\-н', value)
+        city_res = value
+        if m:
+            res = m.group(0).strip()
+            if value.find(res) == 0:
+                district = re.sub(u'р\-н', u'', res).strip()
+                region = self.get_region_district(district) or u""
+                city_res = region + value
+
+        return city_res
+
+
+    def get_result_cc(self, value):
+        m = re.search(u'[А-Яа-яё\-]+\s+с\/с', value)
+        city_res = value
+        if m:
+            res = m.group(0).strip()
+            if value.find(res) == 0:
+                district = re.sub(u'с\/с', u'', res).strip()
+                region = self.get_region(district) or u""
+                city_res =region + value
+        return city_res
+
     def get_city(self, value):
         value = re.sub(u"(c|с)\/(с|c)",u"с/с", value)
+        value = value.replace(u'с-с',u'с/с')
         city_ag = re.search(u'аг\.\s*[А-Яа-я\-]+', value)
         city_only = re.search(u'г\.\s*[А-Яа-я\-]+', value)
         city_with_p = re.search(u'г\.\s?п\.\s*[А-Яа-я\-]+', value)
@@ -131,6 +157,12 @@ class BelorusneftPipeline(object):
 
     def get_region(self, city):
         for k, v in BY_CITIES.iteritems():
+            if city in v:
+                return k + u","
+        return False
+
+    def get_region_district(self, city):
+        for k, v in BY_DISTRICT.iteritems():
             if city in v:
                 return k + u","
         return False
@@ -236,8 +268,11 @@ class BelorusneftPipeline(object):
         address = address.replace('..', '.')
         address = address.replace(u'а.г.', u'аг.')
         address = address.replace(u'Республика Беларусь', '').strip(';, .')
-        
-        xml_address.text = self.get_city(address)
+
+        address = self.get_city(address)
+        address = self.get_result_city(address)
+        address = self.get_result_cc(address)
+        xml_address.text = address
 
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = u"Беларусь"

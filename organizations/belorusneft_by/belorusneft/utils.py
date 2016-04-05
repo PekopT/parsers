@@ -5,28 +5,28 @@ CREDIT_CARD = {
     u"payment_by_credit_card": u"img src='/beloil-map/geticon.jpg?t=p&id=3'",
 }
 ADDITIONAL = {
-        u"carwash" : u"img src='/beloil-map/geticon.jpg?t=s&id=10'",
-        u"carwash" : u"img src='/beloil-map/geticon.jpg?t=s&id=9'",
-        u"auto_cleaner" : u"img src='/beloil-map/geticon.jpg?t=s&id=12'",
-        u"tyre" : u"img src='/beloil-map/geticon.jpg?t=s&id=11'",
-        u"tire" : u"img src='/beloil-map/geticon.jpg?t=s&id=8'",
-        u"str" : u"img src='/beloil-map/geticon.jpg?t=s&id=7'",
-        u"water_glass_washer" : u"img src='/beloil-map/geticon.jpg?t=s&id=26'",
+    u"carwash": u"img src='/beloil-map/geticon.jpg?t=s&id=10'",
+    u"carwash": u"img src='/beloil-map/geticon.jpg?t=s&id=9'",
+    u"auto_cleaner": u"img src='/beloil-map/geticon.jpg?t=s&id=12'",
+    u"tyre": u"img src='/beloil-map/geticon.jpg?t=s&id=11'",
+    u"tire": u"img src='/beloil-map/geticon.jpg?t=s&id=8'",
+    u"str": u"img src='/beloil-map/geticon.jpg?t=s&id=7'",
+    u"water_glass_washer": u"img src='/beloil-map/geticon.jpg?t=s&id=26'",
 }
 
 FUEL_CARDS = {
-        u"e100":u"img src='/beloil-map/geticon.jpg?t=p&id=7'",
-        u"petrolplus":u"img src='/beloil-map/geticon.jpg?t=p&id=8'",
-        u"aris":u"img src='/beloil-map/geticon.jpg?t=p&id=28'",
-        u"inforkom":u"img src='/beloil-map/geticon.jpg?t=p&id=68'",
+    u"e100": u"img src='/beloil-map/geticon.jpg?t=p&id=7'",
+    u"petrolplus": u"img src='/beloil-map/geticon.jpg?t=p&id=8'",
+    u"aris": u"img src='/beloil-map/geticon.jpg?t=p&id=28'",
+    u"inforkom": u"img src='/beloil-map/geticon.jpg?t=p&id=68'",
 
 }
 SERVICES = {
     # u"wifi" : u"img src='/beloil-map/geticon.jpg?t=s&id=190'",
-    u"toilet" : u"img src='/beloil-map/geticon.jpg?t=s&id=14'",
-    u"shop" : u"img src='/beloil-map/geticon.jpg?t=s&id=1'",
-    u"cafe" : u"img src='/beloil-map/geticon.jpg?t=s&id=2'",
-    u"cafe" : u"img src='/beloil-map/geticon.jpg?t=s&id=3'",
+    u"toilet": u"img src='/beloil-map/geticon.jpg?t=s&id=14'",
+    u"shop": u"img src='/beloil-map/geticon.jpg?t=s&id=1'",
+    u"cafe": u"img src='/beloil-map/geticon.jpg?t=s&id=2'",
+    u"cafe": u"img src='/beloil-map/geticon.jpg?t=s&id=3'",
     # u"beverages_implementation" : u"img src='/beloil-map/geticon.jpg?t=s&id=5'",
     # u"hot_beverages_implementation" : u"img src='/beloil-map/geticon.jpg?t=s&id=24'",
     # u"bus_implementation" : u"img src='/beloil-map/geticon.jpg?t=s&id=6'",
@@ -59,15 +59,48 @@ SERVICES = {
 }
 
 FUELS = {
-    u"a_95" : u"img src='/beloil-map/geticon.jpg?t=f&id=1",
-    u"a_92" : u"img src='/beloil-map/geticon.jpg?t=f&id=89'",
-    u"a_98" : u"img src='/beloil-map/geticon.jpg?t=f&id=128'",
+    u"a_95": u"img src='/beloil-map/geticon.jpg?t=f&id=1",
+    u"a_92": u"img src='/beloil-map/geticon.jpg?t=f&id=89'",
+    u"a_98": u"img src='/beloil-map/geticon.jpg?t=f&id=128'",
     # u"gaz" : u"img src='/beloil-map/geticon.jpg?t=f&id=6'",
-    u"kerosene" : u"img src='/beloil-map/geticon.jpg?t=f&id=5'",
-    u"gm" : u"img src='/beloil-map/geticon.jpg?t=f&id=68'",
+    u"kerosene": u"img src='/beloil-map/geticon.jpg?t=f&id=5'",
+    u"gm": u"img src='/beloil-map/geticon.jpg?t=f&id=68'",
     # u"dt2" : u"img src='img src='/beloil-map/geticon.jpg?t=f&id=8'",
 }
 
+BY_DISTRICT = {
+    u"Минская область": [
+        u"Минский",
+        u"Вилейский",
+        u"Смолевичский",
+    ],
+    u"Брестская область": [
+    ],
+    u"Витебская область": [
+        u"Городокский",
+    ],
+    u"Гомельская область": [
+        u"Гомельский",
+        u"Светлогорский",
+        u"Рогачевский",
+        u"Брагинский",
+    ],
+    u"Гродненская область": [
+        u"Гродненский",
+        u"Ивьевский",
+        u"Островецкий",
+        u"Лидский",
+        u"Волковысский",
+    ],
+    u"Могилевская область": [
+        u"Могилевский",
+        u"Бобруйский",
+        u"Быховский",
+        u"Осиповичский",
+        u"Чериквский",
+        u"Горецкий",
+    ]
+}
 BY_CITIES = {
     u"Минская область": [
         u"Логойский",
@@ -239,6 +272,11 @@ BY_CITIES = {
         u"Новая Гута",
         u"Паричский Поселковый Совет",
         u"Губичский",
+        u"Михалковский",
+        u"Осташковичский",
+        u"Муляровский",
+        u"Сиродский",
+        u"Чирковичский",
         u"Жмуровский",
         u"Козенский",
         u"Ереминский",
