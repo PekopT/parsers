@@ -34,7 +34,6 @@ class BelorusneftPipeline(object):
         return unicode(hash_for_address)
 
     def get_city(self, value):
-        value = re.sub(u"(c|с)\/(с|c)",u"с/с", value)
         city_ag = re.search(u'аг\.\s*[А-Яа-я\-]+', value)
         city_only = re.search(u'г\.\s*[А-Яа-я\-]+', value)
         city_with_p = re.search(u'г\.\s?п\.\s*[А-Яа-я\-]+', value)
@@ -88,7 +87,6 @@ class BelorusneftPipeline(object):
 
                 city = region + u"деревня " + vil + address_sub
             else:
-
                 city = value
 
         else:
@@ -225,6 +223,7 @@ class BelorusneftPipeline(object):
         company_id_address = address + unicode(latitude) + unicode(longitude)
         xml_id.text = self.company_id(company_id_address)
         # xml_address_raw = etree.SubElement(xml_item, 'address_raw', lang=u'ua')
+        # xml_address_raw.text = address
 
         xml_name = etree.SubElement(xml_item, 'name', lang=u'ru')
         xml_name.text = u"Белоруснефть"
@@ -233,8 +232,6 @@ class BelorusneftPipeline(object):
         # address = self.get_city(address)
 
         address = re.sub(u'\d{6}', '', address).strip(';, .')
-        address = address.replace('..', '.')
-        address = address.replace(u'а.г.', u'аг.')
         address = address.replace(u'Республика Беларусь', '').strip(';, .')
         
         xml_address.text = self.get_city(address)
