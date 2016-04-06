@@ -203,7 +203,7 @@ class BelorusneftPipeline(object):
         phones = []
         if not phone:
             return []
-        phone = re.sub('\(', ',(', phone)
+        phone = re.sub(u'\(', u',(', phone)
         if ';' in phone:
             phns = phone.split(';')
         else:
@@ -257,7 +257,7 @@ class BelorusneftPipeline(object):
         longitude = item['longitude']
 
         if not phones:
-            phones = [u"(232) 793333", u'phone']
+            phones = u"(232) 793333"
 
         self.count_item += 1
         xml_item = etree.SubElement(self.xml, 'company')
@@ -281,9 +281,9 @@ class BelorusneftPipeline(object):
         address = self.get_result_city(address)
         address = self.get_result_cc(address)
         xml_address.text = address
-
-        xml_phones_raw = etree.SubElement(xml_item, 'phones_raw')
-        xml_phones_raw.text = ''.join(item['phone'])
+        #
+        # xml_phones_raw = etree.SubElement(xml_item, 'phones_raw')
+        # xml_phones_raw.text = ''.join(item['phone'])
 
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = u"Беларусь"
