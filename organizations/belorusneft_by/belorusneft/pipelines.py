@@ -209,9 +209,12 @@ class BelorusneftPipeline(object):
         else:
             phns = phone.split(',')
 
+        phone_code = ''
+        phone_type = u'phone'
         for ph in phns:
             if ph.strip():
-
+                if u"факс" in ph:
+                    phone_type = u"fax"
                 ph = ph.strip()
                 ph = re.sub('^\+375','',ph)
                 ph = re.sub('\D', '', ph)
@@ -220,9 +223,14 @@ class BelorusneftPipeline(object):
                 if len(ph)>9:
                     ph = re.sub('^0','',ph)
 
+                if len(ph)<7:
+                    ph = phone_code + ph
+                    ph = re.sub('\D','',ph)
+
                 for code in BY_TYL_CODES:
                     if ph.find(code) == 0:
-                        phones.append(u"+375" + u" (" + code + u") " + re.sub("^%s" % code, '', ph))
+                        phones.append([u"+375" + u" (" + code + u") " + re.sub("^%s" % code, '', ph), phone_type])
+                        phone_code = code
                         break
 
         return phones
@@ -249,7 +257,7 @@ class BelorusneftPipeline(object):
         longitude = item['longitude']
 
         if not phones:
-            phones = u"(232) 793333"
+            phones = [u"(232) 793333", u'phone']
 
         self.count_item += 1
         xml_item = etree.SubElement(self.xml, 'company')
@@ -274,6 +282,9 @@ class BelorusneftPipeline(object):
         address = self.get_result_cc(address)
         xml_address.text = address
 
+        xml_phones_raw = etree.SubElement(xml_item, 'phones_raw')
+        xml_phones_raw.text = ''.join(item['phone'])
+
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = u"Беларусь"
 
@@ -288,9 +299,9 @@ class BelorusneftPipeline(object):
         for phone in self.validate_phones(phones):
             xml_phone = etree.SubElement(xml_item, 'phone')
             xml_phone_number = etree.SubElement(xml_phone, 'number')
-            xml_phone_number.text = phone
+            xml_phone_number.text = phone[0]
             xml_phone_type = etree.SubElement(xml_phone, 'type')
-            xml_phone_type.text = u'phone'
+            xml_phone_type.text = phone[1]
             xml_phone_ext = etree.SubElement(xml_phone, 'ext')
             xml_phone_info = etree.SubElement(xml_phone, 'info')
 
