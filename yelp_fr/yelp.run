@@ -4,5 +4,5 @@
   "data": {
     "format": "txt",
   },
-  "command": "1> /dev/null scrapy crawl iafd_actors -L CRITICAL"
+  "command": "scrapy crawl yelp -L CRITICAL"
 }
