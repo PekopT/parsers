@@ -59,27 +59,43 @@ class Parser(object):
         price_currency = soup.find('meta', {'itemprop': 'priceCurrency'})
         price = price.get('content').split('.')[0]
 
-        price_currency = price_currency.get('content')
         row = {
             "url": url,
             "name": name,
-            "author": author,
-            "publisher": publisher,
-            "description": description,
             "price": {
                 "currency": u"RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-            "availability": stock,
-            "year": year,
-            "cover": cover,
-            "pages": pages,
-            "isbn": isbn,
+            }
         }
 
+        if author:
+            row["author"] = author
+
+        if description:
+            row["description"] = description
+
+        if publisher:
+            row["publisher"] = publisher
+
+        if year:
+            row["year"] = year
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
+
+        if stock:
+            row["availability"] = stock
+
+        if cover:
+            row["cover"] = cover
+
         self.check_validate_schema(row)
-        self.rows_data.append(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
+        # self.rows_data.append(row)
 
 
     def check_validate_schema(self, node):
@@ -89,7 +105,8 @@ class Parser(object):
 
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():

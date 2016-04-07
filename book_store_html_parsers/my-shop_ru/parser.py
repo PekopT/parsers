@@ -1,22 +1,14 @@
 import sys
+import traceback
 import json
 import re
 from codecs import getwriter
 from bs4 import BeautifulSoup
+from jsonschema import validate
 
 sout = getwriter("utf-8")(sys.stdout)
 
 
-class BaseParser(object):
-    rows_data = []
-
-    def remove_tags(self, value):
-        value = value.replace(u'\n', u'')
-        return value
-
-    def str_to_int(self, value):
-        value = re.sub(u'\D', u'', value)
-        return value
 
 class Parser(object):
     rows_data = []
@@ -62,28 +54,33 @@ class Parser(object):
                 "content": price
         }
 
-        self.rows_data.append(row)
+        self.check_validate_schema(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
+        # self.rows_data.append(row)
 
-    def check_validate_schema(self):
-        pass
+    def check_validate_schema(self, node):
+        f = open('books.schema.json', 'r')
+        schema = json.loads(f.read())
+        validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception:
-                pass
-        except Exception:
-            pass
+            parser.parse_html(data)
+        except Exception as e:
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
+
 
 if __name__ == '__main__':
     main()

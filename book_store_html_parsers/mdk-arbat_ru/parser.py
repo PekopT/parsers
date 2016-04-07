@@ -2,6 +2,7 @@
 import sys
 import json
 import re
+import traceback
 from codecs import getwriter
 from bs4 import BeautifulSoup
 from jsonschema import validate
@@ -44,7 +45,7 @@ class Parser(object):
 
         price_info = soup.find('table', {'id': 'price_shop'}).find_all('tr', limit=2)
         price = price_info[1].find('td', 'price_book').text
-        price = re.sub(u'\D','', price)
+        price = re.sub(u'\D', '', price)
 
         info_book = soup.find('div', 'opisanie')
         isbn_info = info_book.find('td', text=re.compile(u'ISBN'))
@@ -74,7 +75,7 @@ class Parser(object):
             "content": int(price)
         }
 
-        image_info = soup.find('div',{'id':'image_big'}).img
+        image_info = soup.find('div', {'id': 'image_big'}).img
         image = image_info.get('src')
 
         pictures = [image]
@@ -82,14 +83,8 @@ class Parser(object):
         if pictures:
             row["images"] = pictures
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
-
-        # self.rows_data.append(row)
-
+        self.check_validate_schema(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -97,24 +92,23 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-                print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 
 
 if __name__ == '__main__':
     main()
-

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
 import json
+import traceback
 import re
 from codecs import getwriter
 from bs4 import BeautifulSoup
@@ -25,17 +26,17 @@ class Parser(object):
         html = data['html']
         soup = BeautifulSoup(html, 'html.parser')
 
-        author = soup.find('div','text w_div').find('div','text').text
+        author = soup.find('div', 'text w_div').find('div', 'text').text
 
-        name_info = soup.find('div','text w_div').h1
+        name_info = soup.find('div', 'text w_div').h1
         name = name_info.text.strip()
 
-        description_info = soup.find('div', {'id':'annotation'})
+        description_info = soup.find('div', {'id': 'annotation'})
         description = description_info.text.strip()
-        description = description.replace('\t','').replace('\n','').replace('\\n','')
+        description = description.replace('\t', '').replace('\n', '').replace('\\n', '')
 
-        price_info = soup.find('span', {'id':'b-price-b'})
-        price = re.sub('\D','',price_info.text)
+        price_info = soup.find('span', {'id': 'b-price-b'})
+        price = re.sub('\D', '', price_info.text)
 
         isbn_info = soup.find('td', text=re.compile(u'ISBN'))
         isbn = isbn_info.find_next_sibling('td').text.strip()
@@ -51,9 +52,9 @@ class Parser(object):
 
         pages_info = soup.find('td', text=re.compile(u'Страниц'))
         pages = pages_info.find_next_sibling('td').text.strip()
-        pages = re.sub('\D','',pages)
+        pages = re.sub('\D', '', pages)
 
-        images = soup.find('div','gallery').find_all('img')
+        images = soup.find('div', 'gallery').find_all('img')
         pictures = []
         for img in images:
             pictures.append(img.get('src'))
@@ -63,26 +64,36 @@ class Parser(object):
         for st in stock_info:
             stock += st.text.strip() + ' , '
 
-        stock = stock.strip(' ,').replace('\t','').replace('\n','').replace('\\n','').replace('\r','')
+        stock = stock.strip(' ,').replace('\t', '').replace('\n', '').replace('\\n', '').replace('\r', '')
 
         also_buy_books = []
 
         row = {
             "url": url,
             "name": name,
-            "publisher": publisher,
-            "author": author,
-
-            "description": description,
             "price": {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
             },
-            "year": year,
-            "pages": pages,
-            "isbn": isbn,
         }
+        if author:
+            row["author"] = author
+
+        if description:
+            row["description"] = description
+
+        if publisher:
+            row["publisher"] = publisher
+
+        if year:
+            row["year"] = year
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
 
         if stock:
             row["availability"] = stock
@@ -96,12 +107,8 @@ class Parser(object):
         if pictures:
             row["images"] = pictures
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
-
+        self.check_validate_schema(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
         # self.rows_data.append(row)
 
 
@@ -111,20 +118,20 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-            print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 

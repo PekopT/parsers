@@ -1,6 +1,7 @@
 # coding=utf-8
 import sys
 import json
+import traceback
 import re
 from codecs import getwriter
 from bs4 import BeautifulSoup
@@ -76,19 +77,30 @@ class Parser(object):
         row = {
             "url": url,
             "name": name,
-            "publisher": publisher,
-            "author": author,
-
-            "description": description,
             "price": {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
             },
-            "year": year,
-            "pages": pages,
-            "isbn": isbn,
         }
+
+        if description:
+            row["description"] = description
+
+        if author:
+            row["author"] = author
+
+        if publisher:
+            row["publisher"] = publisher
+
+        if year:
+            row["year"] = year
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
 
         if stock:
             row["availability"] = stock
@@ -121,14 +133,13 @@ class Parser(object):
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-            print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 

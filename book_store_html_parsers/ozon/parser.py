@@ -2,6 +2,7 @@
 import sys
 import json
 import re
+import traceback
 from codecs import getwriter
 from bs4 import BeautifulSoup
 from jsonschema import validate
@@ -40,7 +41,7 @@ class Parser(object):
         isbn = soup.find('div', text=re.compile(u'ISBN'), attrs={'class': 'eItemProperties_name'}) \
             .find_next_sibling().text
 
-        isbn = isbn.replace("\\n","")
+        isbn = isbn.replace("\\n", "")
 
         publisher = soup.find('div', text=re.compile(u'Издательство'), attrs={'class': 'eItemProperties_name'}) \
             .find_next_sibling().text
@@ -96,7 +97,7 @@ class Parser(object):
         isbn = isbn.strip()
 
         row = {
-            "url": "http://www.ozon.ru/context/detail/id/5793186/",
+            "url": url,
             "name": name.strip(),
             "author": author.strip(),
             "publisher": publisher.strip(),
@@ -106,25 +107,32 @@ class Parser(object):
                 "type": "currency",
                 "content": int(price)
             },
-            "availability": price_stock,
-            "year": year,
-            "cover": cover.strip(),
-            "pages": pages,
-            "isbn": isbn,
-
         }
+
+        if price_stock:
+            row["availability"] = price_stock
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
+
+        if year:
+            row["year"] = year
+
+        cover = cover.strip()
+        if cover:
+            row["cover"] = cover
+
         if also_buy_books:
             row["also_buy"] = also_buy_books
 
         if pictures:
             row["images"] = pictures
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
-
+        self.check_validate_schema(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
         # self.rows_data.append(row)
 
 
@@ -134,20 +142,20 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-                print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 

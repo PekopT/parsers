@@ -1,7 +1,7 @@
 # coding=utf-8
 import json
 import sys
-
+import traceback
 import re
 from bs4 import BeautifulSoup
 from codecs import getwriter
@@ -26,8 +26,6 @@ class Parser(object):
         html = data['html']
         soup = BeautifulSoup(html, 'html.parser')
 
-        info = soup.body
-
         name = soup.h1
         name = name.text.strip()
 
@@ -44,7 +42,7 @@ class Parser(object):
 
         pages = book_info.find('dt', text=re.compile(u'Объем'))
         if pages:
-            pages.findNextSibling('dd')
+            pages = pages.findNextSibling('dd')
             pages = pages.text.strip()
 
         year = book_info.find('dt', text=re.compile(u'написания'))
@@ -82,11 +80,9 @@ class Parser(object):
             "content": int(price.strip())
         }
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
+        self.check_validate_schema(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
+        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -94,20 +90,20 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-            print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 

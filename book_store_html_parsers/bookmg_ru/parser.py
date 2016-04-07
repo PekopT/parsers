@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
 import json
+import traceback
 import re
 from codecs import getwriter
 from bs4 import BeautifulSoup
@@ -25,44 +26,52 @@ class Parser(object):
         html = data['html']
         soup = BeautifulSoup(html, 'html.parser')
 
-
         isbn_info = soup.find('td', text=re.compile(u'ISBN'))
-        isbn = isbn_info.find_next_sibling('td').text.strip()
+        if isbn_info:
+            isbn = isbn_info.find_next_sibling('td').text.strip()
+        else:
+            isbn = u''
 
         publisher_info = soup.find('td', text=re.compile(u'издательство'))
-        publisher = publisher_info.find_next_sibling('td').text.strip()
+        if publisher_info:
+            publisher = publisher_info.find_next_sibling('td').text.strip()
+        else:
+            publisher = u''
 
         year_info = soup.find('td', text=re.compile(u'год'))
-        year = year_info.find_next_sibling('td').text.strip()
-
+        if year_info:
+            year = year_info.find_next_sibling('td').text.strip()
+        else:
+            year = u''
 
         cover_info = soup.find('td', text=re.compile(u'выпуска'))
-        cover = cover_info.find_next_sibling('td').text.strip()
-
+        if cover_info:
+            cover = cover_info.find_next_sibling('td').text.strip()
+        else:
+            cover = u''
 
         pages_info = soup.find('td', text=re.compile(u'страниц'))
-        pages = pages_info.find_next_sibling('td').text.strip()
+        if pages_info:
+            pages = pages_info.find_next_sibling('td').text.strip()
+        else:
+            pages = u''
 
+        image = soup.find('meta', {'property': 'og:image'}).get('content')
 
-        image = soup.find('meta', {'property':'og:image'}).get('content')
+        description = soup.find('meta', {'property': 'og:description'}).get('content')
 
-        description = soup.find('meta', {'property':'og:description'}).get('content')
-
-        author_info = soup.find('h2','b-author-div')
+        author_info = soup.find('h2', 'b-author-div')
         name = author_info.h1.text
 
         author = author_info.text.replace(name, '').strip()
         name = name.strip()
 
-        author = author.replace('\\n','').replace('\r','')
+        author = author.replace('\\n', '').replace('\r', '')
         author = author.strip('. ')
 
+        price_info = soup.find('div', 'price2')
 
-
-        price_info = soup.find('div','price2')
-        price = price_info.text
-
-        stock_info = price_info.find_next_sibling('div','news_div').div.div
+        stock_info = price_info.find_next_sibling('div', 'news_div').div.div
         stock = stock_info.text.strip()
 
         price = re.sub(u'\D', '', price_info.text)
@@ -74,19 +83,26 @@ class Parser(object):
         row = {
             "url": url,
             "name": name,
-            "publisher": publisher,
             "author": author,
-
             "description": description,
             "price": {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
             },
-            "year": year,
-            "pages": pages,
-            "isbn": isbn,
         }
+
+        if publisher:
+            row["publisher"] = publisher
+
+        if year:
+            row["year"] = year
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
 
         if stock:
             row["availability"] = stock
@@ -100,14 +116,9 @@ class Parser(object):
         if pictures:
             row["images"] = pictures
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
-
+        self.check_validate_schema(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
         # self.rows_data.append(row)
-
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -115,20 +126,20 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-            print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 

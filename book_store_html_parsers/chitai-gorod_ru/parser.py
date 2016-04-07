@@ -103,7 +103,7 @@ class Parser(object):
             image = book.img.get('src')
             price_info = book.find('div', 'boxPriceItem2').span
             price = price_info.text
-            price = re.sub(u'\D', u'', price)
+            price_book = re.sub(u'\D', u'', price)
 
             also_row = {
                 "url": url,
@@ -113,7 +113,7 @@ class Parser(object):
                 "price": {
                     "currency": "RUR",
                     "type": "currency",
-                    "content": int(price),
+                    "content": int(price_book),
                 }
             }
             also_buy_books.append(also_row)
@@ -124,9 +124,9 @@ class Parser(object):
         if also_buy_books:
             row["also_buy"] = also_buy_books
 
-
         self.check_validate_schema(row)
-        self.rows_data.append(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
+        # self.rows_data.append(row)
 
 
     def check_validate_schema(self, node):
@@ -135,7 +135,8 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():

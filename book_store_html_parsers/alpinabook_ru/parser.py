@@ -24,6 +24,7 @@ class Parser(object):
     def parse_html(self, data):
         url = data['url']
         html = data['html']
+
         soup = BeautifulSoup(html, 'html.parser')
 
         name = soup.h1
@@ -37,8 +38,9 @@ class Parser(object):
         pictures = [img.get('src') for img in images_info]
 
         description = soup.find('span', {"itemprop": "description"}).text.strip()
-        about = soup.find('span', {"itemprop": "about"}).text.strip()
-        description += about
+        about = soup.find('span', {"itemprop": "about"})
+        if about:
+            description += about.text.strip()
 
         isbn = soup.find('span', {'itemprop': 'isbn'}).text.strip()
         pages = soup.find('span', {'itemprop': 'numberOfPages'}).text.strip()
@@ -47,10 +49,12 @@ class Parser(object):
         price = re.sub('\D', '', price)
 
         cover = soup.find('link', {"itemprop": "bookFormat"})
-        cover = self.remove_tags(cover.text.strip())
+        if cover:
+            cover = self.remove_tags(cover.text.strip())
 
 
         stock = soup.find('link', {"itemprop": "availability"})
+
         if stock:
             stock = stock.text.strip()
         else:
@@ -89,19 +93,31 @@ class Parser(object):
         row = {
             "url": url,
             "name": name,
-            "publisher": publisher,
-            "author": author,
-
-            "description": description,
             "price": {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
             },
-            "year": year,
-            "pages": pages,
-            "isbn": isbn,
         }
+
+        if author:
+            row["author"] = author
+
+        if publisher:
+            row["publisher"] = publisher
+
+        if description:
+            row["description"] = description
+
+
+        if year:
+            row["year"] = year
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
 
         if stock:
             row["availability"] = stock
@@ -116,7 +132,8 @@ class Parser(object):
             row["also_buy"] = also_buy_books
 
         self.check_validate_schema(row)
-        self.rows_data.append(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
+        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -124,7 +141,8 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+
 
 
 def main():

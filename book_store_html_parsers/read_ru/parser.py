@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
 import json
+import traceback
 import re
 from codecs import getwriter
 from bs4 import BeautifulSoup
@@ -40,7 +41,7 @@ class Parser(object):
         isbn = info.find('span', {'itemprop': 'isbn'})
         isbn = isbn.text.strip()
 
-        isbn = isbn.replace('\\n','')
+        isbn = isbn.replace('\\n', '')
 
         author = soup.find('div', 'j-book_autors book_autors').find('span')
         author = author.text.replace('\\n', '').strip()
@@ -70,7 +71,7 @@ class Parser(object):
         publisher = self.remove_tags(publisher)
         publisher = publisher.replace('\\n', '').strip()
 
-        price_stock = soup.find('div', 'book_price3').find('div','book_price__title_ok-thin')
+        price_stock = soup.find('div', 'book_price3').find('div', 'book_price__title_ok-thin')
         price_stock = price_stock.text.replace('\\n', '').strip()
         price_stock = self.remove_tags(price_stock)
 
@@ -81,32 +82,44 @@ class Parser(object):
         row = {
             "url": url,
             "name": name,
-            "author": author,
-            "publisher": publisher,
-            "description": description,
             "price": {
                 "currency": price_currency,
                 "type": "currency",
                 "content": int(price)
             },
             "availability": price_stock,
-            "year": year,
-            "cover": cover,
-            "pages": pages,
-            "isbn": isbn,
         }
+
+
+        if author:
+            row["author"] = author
+
+        if description:
+            row["description"] = description
+
+        if publisher:
+            row["publisher"] = publisher
+
+        if year:
+            row["year"] = year
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
+
+        if cover:
+            row["cover"] = cover
 
         images = self.get_images(soup)
         if images:
             row["images"] = images
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
 
-        # self.rows_data.append(row)
+        self.check_validate_schema(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
+
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -114,24 +127,23 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-                print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
 
 
 if __name__ == '__main__':
     main()
-

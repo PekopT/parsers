@@ -126,16 +126,21 @@ class Parser(object):
         row = {
             "url": url,
             "name": name,
-            "publisher": publisher,
             "price": {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
             },
-
-            "pages": pages,
-            "isbn": isbn,
         }
+
+        if publisher:
+            row["publisher"] = publisher
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
 
         if stock:
             row["availability"] = stock
@@ -159,7 +164,8 @@ class Parser(object):
             row["also_buy"] = also_buy_books
 
         self.check_validate_schema(row)
-        self.rows_data.append(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
+        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -167,7 +173,8 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():

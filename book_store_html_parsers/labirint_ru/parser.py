@@ -2,6 +2,7 @@
 import sys
 import json
 import re
+import traceback
 from codecs import getwriter
 from bs4 import BeautifulSoup
 from jsonschema import validate
@@ -26,7 +27,7 @@ class Parser(object):
         soup = BeautifulSoup(html, 'html.parser')
         name = soup.find('h1').text
         publisher = soup.find('div', 'publisher').text
-        publisher = publisher.replace(u'Издательство:','')
+        publisher = publisher.replace(u'Издательство:', '')
         publishers = publisher.split(',')
         publisher = publishers[0]
         year = publishers[1]
@@ -55,7 +56,6 @@ class Parser(object):
         author = soup.find('div', 'authors').find('a')
         author = author.text
 
-
         if u"руб" in price_currency:
             price_currency = u"RUR"
 
@@ -64,18 +64,30 @@ class Parser(object):
         row = {
             "url": url,
             "name": name,
-            "author": author,
-            "publisher": publisher,
-            "description": description,
             "price": {
                 "currency": price_currency,
                 "type": "currency",
                 "content": int(price)
             },
-            "year": year,
-            "pages": pages,
-            "isbn": isbn,
         }
+
+        if author:
+            row["author"] = author
+
+        if description:
+            row["description"] = description
+
+        if publisher:
+            row["publisher"] = publisher
+
+        if year:
+            row["year"] = year
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
 
         if stock:
             row["availability"] = stock
@@ -83,11 +95,9 @@ class Parser(object):
         if cover:
             row["cover"] = cover
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
+
+        self.check_validate_schema(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
         # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
@@ -96,22 +106,23 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
     parser = Parser()
     for line in sys.stdin:
+        data = json.loads(line)
         try:
-            data = json.loads(line)
-            try:
-                parser.parse_html(data)
-            except Exception as e:
-                print str(e)
+            parser.parse_html(data)
         except Exception as e:
-            print str(e)
+            sys.stderr.write(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                    "utf-8") + "\n")
 
     parser.close_parser()
+
 
 if __name__ == '__main__':
     main()

@@ -30,11 +30,17 @@ class Parser(object):
 
         book_info = soup.find('td', 'descr')
 
-        isbn = book_info.find('b', text=re.compile(u'ISBN'))
-        isbn = unicode(isbn.next_sibling).strip()
+
+        isbn_info = book_info.find('span',{'itemprop':'isbn'})
+        if isbn_info:
+            isbn = isbn_info.text.strip()
+        else:
+            isbn = book_info.find('b', text=re.compile(u'ISBN'))
+            isbn = unicode(isbn.next_sibling).strip()
 
         year = book_info.find('b', text=re.compile(u'издания'))
-        year = unicode(year.next_sibling).strip()
+        if year:
+            year = unicode(year.next_sibling).strip()
 
         pages = book_info.find('b', text=re.compile(u'страниц'))
         pages = unicode(pages.next_sibling).strip()
@@ -89,22 +95,32 @@ class Parser(object):
         row = {
             "url": url,
             "name": name,
-            "publisher": publisher,
+
             "price": {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
             },
-            "year": year,
-            "pages": pages,
-            "isbn": isbn,
+
         }
+
+        if isbn:
+            row["isbn"] = isbn
 
         if stock:
             row["availability"] = stock
 
+        if publisher:
+            row["publisher"] = publisher
+
         if cover:
             row["cover"] = cover
+
+        if pages:
+            row["pages"] = pages
+
+        if year:
+            row["year"] = year
 
         if description:
             row["description"] = description
@@ -116,7 +132,8 @@ class Parser(object):
             row["also_buy"] = also_buy_books
 
         self.check_validate_schema(row)
-        self.rows_data.append(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
+        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -124,7 +141,8 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
