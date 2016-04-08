@@ -62,8 +62,7 @@ NEWSPIDER_MODULE = 'viamichelin.spiders'
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'viamichelin.pipelines.HotelPipeline': 300,
-   'viamichelin.pipelines.RestaurantPipeline': 300,
+   'viamichelin.pipelines.ViamichelinPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

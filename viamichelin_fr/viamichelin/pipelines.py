@@ -42,27 +42,16 @@ class JsonPipeline(object):
         sout = getwriter("utf8")(stdout)
 
 
-
-class HotelPipeline(JsonPipeline):
-
-    @check_spider_pipeline
-    def process_item(self, item, spider):
-        row = {}
-        row["name"] = ''.join(item["name"]).strip()
-        row["category"] = u"Hotel"
-        row["address"] = ''.join(item["address"]).strip()
-
-        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-
-
-class RestaurantPipeline(JsonPipeline):
+class ViamichelinPipeline(JsonPipeline):
 
     @check_spider_pipeline
     def process_item(self, item, spider):
         row = {}
         row["name"] = ''.join(item["name"]).strip()
-        row["category"] = u"restaurant"
+        row["category"] = item["category"]
         row["address"] = ''.join(item["address"]).strip()
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
 
 

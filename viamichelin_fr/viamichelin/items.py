@@ -8,14 +8,7 @@
 import scrapy
 
 
-class HotelItem(scrapy.Item):
-    name = scrapy.Field()
-    category = scrapy.Field()
-    address = scrapy.Field()
-    address_title = scrapy.Field()
-
-
-class RestaurantItem(scrapy.Item):
+class ViamichelinItem(scrapy.Item):
     name = scrapy.Field()
     category = scrapy.Field()
     address = scrapy.Field()

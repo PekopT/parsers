@@ -4,5 +4,5 @@
   "data": {
     "format": "txt",
   },
-  "command": "1> /dev/null scrapy crawl viamichelinrestaurant -L CRITICAL"
+  "command": "scrapy crawl viamichelin -L CRITICAL"
 }
