@@ -5,5 +5,5 @@
     "format": "xml",
     "schema": "ohranagovby/schema_org.xml"
   },
-  "command": "scrapy crawl ohranagovby -L CRITICAL
+  "command": "scrapy crawl ohranagovby -L CRITICAL"
  }
