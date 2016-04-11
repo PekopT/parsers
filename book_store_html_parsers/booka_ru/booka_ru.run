@@ -7,6 +7,6 @@
     "schema": "books.schema.json"
   },
   "host": "http://www.booka.ru",
-  "urls_regexp": "(www\\.)?booka\\.ru/books/\\d+"
+  "urls_regexp": "(www\\.)?booka\\.ru/books/\\d+$"
 }
 
