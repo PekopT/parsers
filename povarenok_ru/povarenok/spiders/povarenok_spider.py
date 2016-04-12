@@ -43,7 +43,7 @@ class PovarenokSpder(scrapy.Spider):
             cat_url = cat.xpath("a/@href").extract()
             if cat_url:
                 cat_url = response.urljoin(cat_url[0])
-                    yield scrapy.Request(cat_url, callback=self.parse_category)
+                yield scrapy.Request(cat_url, callback=self.parse_category)
 
     def parse_category(self, response):
         current_url = response.url.replace('http://www.povarenok.ru','')[:-1]
