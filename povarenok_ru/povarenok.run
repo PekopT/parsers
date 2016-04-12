@@ -2,7 +2,7 @@
   "type": "scraper",
   "runtime": "python-2.7",
   "data": {
-    "format": "txt",
+    "format": "txt"
   },
-  "command": "scrapy crawl edimdoma -L CRITICAL"
+  "command": "scrapy crawl povarenok -L CRITICAL"
 }
