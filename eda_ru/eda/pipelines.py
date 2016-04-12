@@ -51,7 +51,6 @@ class EdaPipeline(object):
 
             recipe_row['content_video'] = item['recipe_video']
 
-
         if not item['type']:
             self.category_recipes[category_name]['recipes'].append(recipe_row)
 

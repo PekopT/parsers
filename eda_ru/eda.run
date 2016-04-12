@@ -4,5 +4,5 @@
   "data": {
     "format": "txt"
   },
-  "command": "scrapy crawl eda -L CRITICAL"
+  "command": "scrapy crawl eda  -L CRITICAL"
 }

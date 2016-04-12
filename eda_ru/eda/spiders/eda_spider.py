@@ -60,6 +60,7 @@ class EdaSpder(scrapy.Spider):
             r_link = recipe.xpath("div/div/div/h3/a/@href").extract()
             r_name = recipe.xpath("div/div/div/h3/a/text()").extract()
             r_video = recipe.xpath("div/figure/a/div/div[@class='videothumb__thumb-play']").extract()
+
             if r_video:
                 r_video = u"Видео"
             else:
