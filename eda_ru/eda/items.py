@@ -22,3 +22,5 @@ class EdaItem(scrapy.Item):
     date = scrapy.Field()
     ingredients = scrapy.Field()
     image = scrapy.Field()
+    type = scrapy.Field()
+    recipe_video = scrapy.Field()

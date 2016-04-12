@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import scrapy
 
 from eda.items import EdaItem
@@ -15,13 +16,31 @@ class EdaSpder(scrapy.Spider):
     def parse(self, response):
         categories = response.xpath("//div[@class='b-list-categories']/ul/li/a")
         kol = 0
+        item = EdaItem()
+        item['category_name'] = u"Главная страница"
+        item['category_url'] = response.url
+
+        first_nav = []
+        for fn in categories:
+            fn_url = fn.xpath("@href").extract()
+            fn_name = fn.xpath("@data-tag-name").extract()
+            fn_img = fn.xpath('img/@src').extract()
+            first_nav.append({
+                'name': fn_name[0],
+                'url': fn_url[0],
+                'img': fn_img[0]
+            })
+
+        item['first_nav'] = first_nav
+        item['type'] = 1
+        yield item
+
         for cat in categories:
             name = cat.xpath("@data-tag-name").extract()
             cat_url = cat.xpath("@href").extract()
             if cat_url:
                 kol += 1
                 cat_url = response.urljoin(cat_url[0])
-
                 yield scrapy.Request(cat_url, callback=self.parse_category)
 
     def parse_category(self, response):
@@ -40,12 +59,19 @@ class EdaSpder(scrapy.Spider):
         for recipe in recipies:
             r_link = recipe.xpath("div/div/div/h3/a/@href").extract()
             r_name = recipe.xpath("div/div/div/h3/a/text()").extract()
+            r_video = recipe.xpath("div/figure/a/div/div[@class='videothumb__thumb-play']").extract()
+            if r_video:
+                r_video = u"Видео"
+            else:
+                r_video = u"Не видео"
+
             meta_info = {
                 'category_name': h1_title_id,
                 'first_nav': first_nav,
-                'category_url': response.url
+                'category_url': response.url,
+                'r_video': r_video
             }
-            r_link = r_link[0]
+            r_link = response.urljoin(r_link[0])
             yield scrapy.Request(r_link, meta=meta_info, callback=self.parse_recipe)
 
     def parse_recipe(self, response):
@@ -72,6 +98,8 @@ class EdaSpder(scrapy.Spider):
         item['description'] = description.extract()
         item['date'] = recipe_date.extract()
         item['image'] = img
+        item['recipe_video'] = response.meta['r_video']
+        item['type'] = 0
 
         ingredients_list = []
 
@@ -82,9 +110,3 @@ class EdaSpder(scrapy.Spider):
 
         item['ingredients'] = ingredients_list
         yield item
-
-
-        # print time_cook.extract()[0]
-        # print name.extract()[0]
-        # print recipe_date.extract()[0]
-        # print response.url

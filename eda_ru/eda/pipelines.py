@@ -17,27 +17,44 @@ class EdaPipeline(object):
 
     def process_item(self, item, spider):
         category_name = item['category_name']
-        # print category_name
-
 
         if category_name not in self.category_recipes:
             self.category_recipes[category_name] = {}
-            self.category_recipes[category_name]['recipes'] = []
+            if not item['type']:
+                self.category_recipes[category_name]['recipes'] = []
 
         recipe_row = {}
-        if item['recipe_name']:
-            recipe_row['name'] = item['recipe_name']
-        recipe_row['cooking_time'] = item['recipe_cooking_time']
-        recipe_row['author'] = item['recipe_author']
-        recipe_row['desc'] = item['description']
-        recipe_row['url'] = item['recipe_url']
-        recipe_row['date'] =  item['date']
-        recipe_row['ingredients'] =  item['ingredients']
-        if item['image']:
-            recipe_row['image'] =  ''.join(item['image'])
+        if not item['type']:
+            if item['recipe_name']:
+                recipe_row['name'] = item['recipe_name']
+
+            if item['recipe_cooking_time']:
+                recipe_row['cooking_time'] = ''.join(item['recipe_cooking_time'])
+
+            if item['recipe_author']:
+                recipe_row['author'] = ''.join(item['recipe_author'])
+
+            if item['description']:
+                recipe_row['desc'] = ''.join(item['description'])
+
+            if item['recipe_url']:
+                recipe_row['url'] = item['recipe_url']
+
+            if item['date']:
+                recipe_row['date'] = ''.join(item['date'])
+
+            if item['ingredients']:
+                recipe_row['ingredients'] = item['ingredients']
+
+            if item['image']:
+                recipe_row['image'] = ''.join(item['image'])
+
+            recipe_row['content_video'] = item['recipe_video']
 
 
-        self.category_recipes[category_name]['recipes'].append(recipe_row)
+        if not item['type']:
+            self.category_recipes[category_name]['recipes'].append(recipe_row)
+
         self.category_recipes[category_name]['name'] = category_name
         self.category_recipes[category_name]['url'] = item['category_url']
         self.category_recipes[category_name]['first_nav_block'] = item['first_nav']
