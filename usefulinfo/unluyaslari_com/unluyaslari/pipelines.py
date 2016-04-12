@@ -57,48 +57,33 @@ class UnluyaslariPipeline(object):
             raise DropItem("Missing weight and height in %s" % item)
 
         ids_url = item['url'] + '#' + name.replace(' ', '-')
-        human = {
-            "ontoid": u"ext_unluyaslari_" + name.replace(' ', '-'),
-            "ids": (
-                {
+
+        human = {}
+        human["ontoid"] = u"ext_unluyaslari_" + name.replace(' ', '-')
+        human["ids"] =({
                     "type": u"url",
                     "value": ids_url,
                     "langua": u"tr"
-                },
-            ),
-            "Title": (
-                {
-                    "value": name
-                },
-            ),
-            "params": {
-                "Height": (
-                    {
+        },)
+        human["Title"] = ({"value": name},)
+        human["params"] = {
+                "Height": ({
                         "value": unicode(height),
                         "unit": u"m"
-                    },
-                ),
-                "Weight": (
-                    {
+                    },),
+                "Weight": ({
                         "value": unicode(weight),
                         "unit": u"kg"
-                    },
-                )
-            },
-            "isa": {
-                "ShortDefin": (
-                    {
+                    },)
+        }
+
+        human["isa"] = {}
+        human["isa"]["otype"] = ({"value": u"Hum"})
+        if desc:
+            human["isa"]["ShortDefin"] = ({
                         "lang": u"tr",
                         "value": desc
-                    },
-                ),
-                "otype": (
-                    {
-                        "value": u"Hum"
-                    },
-                )
-            }
-        }
+            },)
 
         sout = getwriter("utf8")(stdout)
         sout.write(json.dumps(human, ensure_ascii=False) + "\n")
