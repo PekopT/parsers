@@ -43,19 +43,34 @@ class Parser(object):
         description = soup.find('div',{'itemprop':'description'}).text.strip()
         description = description.replace('\\n','').strip()
 
-        images = soup.find('span','product-image book').find_all('img')
-        pictures = [img.get('src') for img in images]
+        images_info = soup.find('span','product-image book')
+        if images_info:
+            images = images_info.find_all('img')
+            pictures = [img.get('src') for img in images]
+        else:
+            pictures = []
 
+        also_buy_info = soup.find('ul', 'product-list-similar')
+        if also_buy_info:
+            also_buy_info = also_buy_info.find_all('li')
 
-        also_buy_info = soup.find('ul', 'product-list-similar').find_all('li')
         also_buy_books = []
 
 
-        price_info = soup.find('span','product-price-in-button').find('span','money-value')
-        price = price_info.text.strip()
-        price = re.sub('\D','',price)
+        price = ''
+        price_info = soup.find('span','product-price-in-button')
+        if price_info:
+            price_info = price_info.find('span','money-value')
+            price = price_info.text.strip()
+            price = re.sub('\D','',price)
+
 
         stock = u'В наличии'
+
+        stock_info = soup.find('span', 'product-action-buy-unavailable')
+        if stock_info:
+            stock = stock_info.text.strip()
+
 
         for book in also_buy_info:
             picture_book = book.a.find('img').get('src')
@@ -69,7 +84,6 @@ class Parser(object):
                 "name": name_book,
                 "image": picture_book,
                 "author": author_book,
-
             }
 
             also_buy_books.append(also_row)
@@ -77,13 +91,15 @@ class Parser(object):
 
         row = {
             "url": url,
-            "name": name,
-            "price": {
+            "name": name
+        }
+
+        if price:
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         if description:
             row["description"] = description

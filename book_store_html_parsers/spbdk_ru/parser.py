@@ -32,12 +32,20 @@ class Parser(object):
         book_details = soup.find('ul', 'book-detail-params')
 
         author = book_details.find('li', {'itemprop': 'author'})
-        author_b = book_details.find('li', {'itemprop': 'author'}).b.text
-        author = author.text.replace(author_b, '').strip()
+        if author:
+            author_b = book_details.find('li', {'itemprop': 'author'}).b
+            if author_b:
+                author_b = author_b.text
+                author = author.text.replace(author_b, '').strip()
+            else:
+                author = author.text
 
         description_info = soup.find('div', {'itemprop': 'description'})
-        description = description_info.text.strip()
-        description = self.remove_tags(description)
+        if description_info:
+            description = description_info.text.strip()
+            description = self.remove_tags(description)
+        else:
+            description = ''
 
         publisher = u''
         publisher_info = soup.find('span', {'itemprop': 'publisher'})
@@ -69,9 +77,12 @@ class Parser(object):
         image_info = soup.find('div', 'book-detail-image').find_all('img')
         pictures = [img.get('src') for img in image_info if img]
 
-        price_info = soup.find('div', {'itemprop': 'price'}).text.strip()
-        price = price_info.split(',')
-        price = price[0]
+        price = ''
+        price_info = soup.find('div', {'itemprop': 'price'})
+        if price_info:
+            price_info = price_info.text.strip()
+            price = price_info.split(',')
+            price = price[0].strip()
 
         stock = u'В наличии'
         stock_info = soup.find('li', text=re.compile(u'наличи'))
@@ -89,6 +100,7 @@ class Parser(object):
             url_book = book.find('a', 'slick-title').get('href')
             price_book_info = book.find('div','index').text.strip()
             price_book = price_book_info.split(',')[0]
+            price_book = price_book.strip()
 
             also_row = {
                 "url": url_book,
@@ -109,12 +121,14 @@ class Parser(object):
         row = {
             "url": url,
             "name": name,
-            "price": {
+        }
+
+        if price:
+            row["price"] =  {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         if publisher:
             row["publisher"] = publisher

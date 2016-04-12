@@ -34,7 +34,7 @@ class Parser(object):
         authors = [auth.text for auth in author_info]
         author = ','.join(authors)
 
-        images_info = soup.find('div', {'id': 'kartochkaknigi1'}).find_all('img', {'itemprop': 'image'})
+        images_info = soup.find_all('img', {'itemprop': 'image'})
         pictures = [img.get('src') for img in images_info]
 
         description = soup.find('span', {"itemprop": "description"}).text.strip()
@@ -42,36 +42,62 @@ class Parser(object):
         if about:
             description += about.text.strip()
 
-        isbn = soup.find('span', {'itemprop': 'isbn'}).text.strip()
-        pages = soup.find('span', {'itemprop': 'numberOfPages'}).text.strip()
-        price = soup.find('span', {'itemprop': 'price'}).text.strip()
-        price = price.split('.')[0]
-        price = re.sub('\D', '', price)
+        isbn = soup.find('p', {'itemprop': 'isbn'}).text.strip()
+        pages = ''
+        pages_info = soup.find('span', {'itemprop': 'numberOfPages'})
+
+        if pages_info:
+            pages = pages_info.text.strip()
+
+        price_info = soup.find('p','newPrice')
+        if price_info:
+            price = price_info.text
+            # print price
+        # price = soup.find('span', {'itemprop': 'price'}).text.strip()
+        # price = price.split('.')[0]
+            price = re.sub('\D', '', price)
 
         cover = soup.find('link', {"itemprop": "bookFormat"})
         if cover:
             cover = self.remove_tags(cover.text.strip())
 
+        stock = u"В наличии"
+        stock_info = soup.find('link', {"itemprop": "availability"})
 
-        stock = soup.find('link', {"itemprop": "availability"})
+        if stock_info:
+            stock_url = stock_info.get('href')
+            if "http://schema.org/InStock" == stock_url:
+                stock = u"В наличии"
+            elif "http://schema.org/PreOrder" == stock_url:
+                stock = u"Предзаказ. В наличии пока нет"
 
-        if stock:
-            stock = stock.text.strip()
+
+        # stock = self.remove_tags(stock)
+
+        publisher_info = soup.find('span', {'itemprop': 'publisher'})
+
+        if publisher_info:
+            publisher = publisher_info.text.strip()
         else:
-            stock = u"В наличии"
+            publisher = ''
 
-        stock = self.remove_tags(stock)
+        year_info  = soup.find('span', {"itemprop": "datePublished"})
+        if year_info:
+            year = year_info.text.strip()
+        else:
+            year = ''
 
-        publisher = soup.find('span', {'itemprop': 'publisher'}).text.strip()
-        year = soup.find('meta', {"itemprop": "datePublished"}).get('content')
-
-        also_buy_info = soup.find_all('div', 'indbook book')
+        also_buy_info = soup.find('div','weRecomBlock')
+        if also_buy_info:
+            also_buy_info = also_buy_info.find_all('div', 'bookWrapp')
+        else:
+            also_buy_info = []
 
         also_buy_books = []
 
         for book in also_buy_info:
             picture_book = book.find('img').get('src')
-            price_info = book.find('p', 'indbook').text.strip()
+            price_info = book.find('p', 'bookPrice').text.strip()
             price_book = price_info.split(',')[0]
             price_book = re.sub('\D', '', price_book).strip()
             name_book = book.find('img').get('alt')
@@ -92,13 +118,15 @@ class Parser(object):
 
         row = {
             "url": url,
-            "name": name,
-            "price": {
+            "name": name
+        }
+
+        if price:
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         if author:
             row["author"] = author
@@ -108,7 +136,6 @@ class Parser(object):
 
         if description:
             row["description"] = description
-
 
         if year:
             row["year"] = year

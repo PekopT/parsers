@@ -37,26 +37,40 @@ class Parser(object):
             item_data = item.split(':')
             if u"Издательство" in item_data[0].strip():
                 publisher = item_data[1].strip()
+            else:
+                publisher = ''
 
             if u"Автор" in item_data[0].strip():
                 author = item_data[1].strip()
+            else:
+                author = ''
 
             if u"Переплет" in item_data[0].strip():
                 cover = item_data[1].strip()
+            else:
+                cover = ''
 
             if u"ISBN" in item_data[0].strip():
                 isbn = item_data[1].strip()
+            else:
+                isbn = ''
 
             if u"издания" in item_data[0].strip():
                 year = item_data[1].strip()
                 year = re.sub('\D','', year)
+            else:
+                year = ''
 
             if u"Страниц" in item_data[0].strip():
                 pages = item_data[1].strip()
+            else:
+                pages = ''
 
             if u"Цена" in item_data[0].strip():
                 price = item_data[1].strip()
                 price = re.sub('\D','', price)
+            else:
+                price = ''
 
 
 
@@ -64,13 +78,15 @@ class Parser(object):
 
         row = {
             "url": url,
-            "name": name,
-            "price": {
+            "name": name
+        }
+
+        if price:
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         if stock:
             row["availability"] = stock

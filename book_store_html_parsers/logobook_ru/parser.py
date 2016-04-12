@@ -30,7 +30,8 @@ class Parser(object):
         name = soup.h1.text
 
         author_info = soup.find_all(text=re.compile(u'Автор\:'))
-        author = author_info[0].next_sibling.text.strip()
+        if author_info:
+            author = author_info[0].next_sibling.text.strip()
 
         isbn_info = soup.find_all('font', text=re.compile(u'ISBN'))
         parent_data = isbn_info[1].parent
@@ -54,14 +55,16 @@ class Parser(object):
 
 
 
+        isbn = ''
 
         isbn_data = parent_data.find_all('font', text=re.compile(u'ISBN'))
         isbn_str = u''
-        for isbn in isbn_data:
-            isbn_str += isbn.text.split(':')[1] + ','
+        for isbn_t in isbn_data:
+            isbn_str += isbn_t.text.split(':')[1] + ','
 
         isbn = isbn_str[:-1].strip()
 
+        pages = ''
         pages_info = soup.find('font', text=re.compile(u'Страницы'))
         if pages_info:
             pages = pages_info.text
@@ -88,8 +91,11 @@ class Parser(object):
         images = soup.select('tr[valign=Top] td[align=center] div img')
         pictures = [images[0].get('src')]
 
+        price = ''
         price_info = soup.find('font',{"style":"font-size: 10pt"})
-        price = price_info.text.split('.')[0]
+        if price_info:
+            price = price_info.text.split('.')[0]
+            price = price.strip()
 
 
         stock = u"В наличии"
@@ -126,12 +132,15 @@ class Parser(object):
         row = {
             "url": url,
             "name": name,
-            "price": {
+
+        }
+
+        if price:
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         if publisher:
             row["publisher"] = publisher
