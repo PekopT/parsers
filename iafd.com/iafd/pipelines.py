@@ -35,11 +35,27 @@ class JsonPipeline(object):
     @check_spider_close
     def close_spider(self, spider):
         pass
-        sout = getwriter("utf8")(stdout)
-        sout.write(json.dumps(self.data, ensure_ascii=False) + "\n")
+        # sout = getwriter("utf8")(stdout)
+        # sout.write(json.dumps(self.data, ensure_ascii=False) + "\n")
 
 
 class IafdActorsPipeline(JsonPipeline):
+    ontoid_data = []
+
+    def check_hash(self, hash_addr):
+        if hash_addr in self.ontoid_data:
+            pos = hash_addr.find("#")
+            if pos>0:
+                digit = hash_addr[pos+1:]
+                digit = int(digit) + 1
+                hash_addr = hash_addr[:pos]
+                hash_addr= hash_addr + "#" + unicode(digit)
+            else:
+                hash_addr += "#1"
+            hash_addr = self.check_hash(hash_addr)
+        return hash_addr
+
+
     def check_no_data(self, value):
         if value.strip() == "No data":
             return ''
@@ -89,9 +105,14 @@ class IafdActorsPipeline(JsonPipeline):
         url_data = url_data_search.split('/')
         male = url_data[0][-1:]
 
+        ontoid_end = url_data[1].replace(".htm","")
+
+        ontoid_end = self.check_hash(ontoid_end)
+        self.ontoid_data.append(ontoid_end)
+
         row = {}
 
-        row['ontoid'] = u"ext_iafd_{0}_{1}".format(male, url_data[1])
+        row['ontoid'] = u"ext_iafd_{0}_{1}".format(male, ontoid_end)
 
         if male.lower == "m":
             profession = u"порноактер"
@@ -284,32 +305,32 @@ class IafdDistributorPipeline(JsonPipeline):
         name = name.capitalize()
         url = item['url']
         related = item['related']
+        row = {}
+        url_data = url.split("/")
+        url_data_end = url_data[-1:][0]
+        ontoid_value = "ext_iafd_distrib_" + url_data_end
 
-        row = {
-            "ontoid": "ext_iafd_studio_stagliano-productions",
-            "ids": [
-                {
-                    "type": "url",
-                    "value": url,
-                    "langua": "en"
-                },
-            ],
-            "Title": [{
-                "value": name,
+        row["ontoid"] = ontoid_value
+        row["ids"] = [{
+                "type": "url",
+                "value": url,
+                "langua": "en"
+        }]
+
+        row["Title"] = [{
+                "value": name.capitalize(),
                 "langua": "en",
-            }],
-            "rels": {
-                "Related": related,
-            },
-            "isa": {
+        }]
+
+        row["isa"] = {
                 "tags": [{"value": "Porno@on"}],
                 "otype": [{
                     "value": "Org",
                     "subvalue": "Main@on"
                 }]
-            }
-
         }
+
+        row["rels"] =  {"Related": related,}
 
         # self.data.append(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
@@ -322,27 +343,32 @@ class IafdStudioPipeline(JsonPipeline):
         name = name.capitalize()
         url = item['url']
         related = item['related']
+        row = {}
+        url_data = url.split("/")
+        url_data_end = url_data[-1:][0]
+        ontoid_value = "ext_iafd_studio_" + url_data_end
 
-        row = {
-            "ontoid": "ext_iafd_studio_stagliano-productions",
-            "ids": [{
+        row["ontoid"] = ontoid_value
+
+        row["ids"] = [{
                 "type": "url",
                 "value": url,
                 "langua": "en"
-            }],
-            "Title": [{
-                "value": name,
+        }]
+
+        row["Title"] = [{
+                "value": name.capitalize(),
                 "langua": "en",
-            }],
-            "rels": {"Related": related},
-            "isa": {
+        }]
+
+        row["rels"] = {"Related": related}
+
+        row["isa"] =  {
                 "tags": [{"value": "Porno@on"}],
                 "otype": [{
                     "value": "Org",
                     "subvalue": "Main@on"
                 }]
-            }
-
         }
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
         # self.data.append(row)

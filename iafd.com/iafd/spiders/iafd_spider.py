@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import re
+import urllib
+
 from scrapy.http import FormRequest
 
 from iafd.items import IafdActorsItem, IafdDistributorItem, IafdStudioItem, IafdTitleItem
@@ -234,24 +236,44 @@ class DistributorsSpider(scrapy.Spider):
     ])
 
     def parse(self, response):
-        for option in response.xpath("//select[@name='Distrib']/option/@value").extract():
+        for option in response.xpath("//select[@name='Distrib']/option"):
             self.counter += 1
-            yield FormRequest("http://www.iafd.com/distrib.rme",
-                              formdata={u'Distrib': option},
-                              callback=self.parse_page)
+            option_val = option.xpath("@value").extract()[0]
+            option_name = option.xpath("text()").extract()[0]
+            option_name = option_name.encode('utf-8')
+            option_name = option_name.replace("/", "\ ")
+            option_name_url = urllib.pathname2url(option_name)
+            option_name_url = urllib.quote(option_name_url)
+            option_name_url = option_name_url.replace("%2520","-").lower()
+
+            url = "http://www.iafd.com/distrib.rme/distrib=" + option_val + "/" + option_name_url + ".htm"
+
+            if self.counter < 20:
+                yield scrapy.Request(url, callback=self.parse_page)
+
+            # yield FormRequest("http://www.iafd.com/distrib.rme",
+            #                   formdata={u'Distrib': option},
+            #                   callback=self.parse_page)
 
     def parse_page(self, response):
-        title = response.xpath("//h2/text()").extract()[0]
-        related = []
-        for r in response.xpath("//table[@id='distable']/tbody/tr/td[1]"):
-            href = u"#ext_iafd_" + r.xpath('a/@href').extract()[0]
-            value = r.xpath('a/text()').extract()
-            related.append({'value': value, 'url': href})
-        item = IafdDistributorItem()
-        item['name'] = title
-        item['url'] = response.url
-        item['related'] = related
-        yield item
+
+        if "http://www.iafd.com/distrib.asp" != response.url:
+            title = response.xpath("//h2/text()").extract()[0]
+            related = []
+            for r in response.xpath("//table[@id='distable']/tbody/tr/td[1]"):
+                href = r.xpath('a/@href').extract()[0]
+                href = response.urljoin(href)
+                url_data = href.split("/")
+                url_data_end = url_data[-1:][0]
+                value = u"#ext_iafd_film_" + url_data_end.replace(".htm","")
+                related.append({'value': value, 'url': href})
+            item = IafdDistributorItem()
+            item['name'] = title
+            item['url'] = response.url
+            item['related'] = related
+            yield item
+        else:
+            pass
 
 
 class StudiosSpider(scrapy.Spider):
@@ -267,18 +289,33 @@ class StudiosSpider(scrapy.Spider):
     ])
 
     def parse(self, response):
-        for option in response.xpath("//select[@name='Studio']/option/@value").extract():
+        for option in response.xpath("//select[@name='Studio']/option"):
+            option_val = option.xpath("@value").extract()[0]
+            option_name = option.xpath("text()").extract()[0]
+            option_name = option_name.encode('utf-8')
+
+            option_name = option_name.replace("/", "\ ")
+            option_name_url = urllib.pathname2url(option_name)
+            option_name_url = urllib.quote(option_name_url)
+            option_name_url = option_name_url.replace("%2520","-").lower()
+
+            url = "http://www.iafd.com/studio.rme/studio=" + option_val + "/" + option_name_url + ".htm"
             self.counter += 1
-            yield FormRequest("http://www.iafd.com/studio.rme",
-                              formdata={u'Studio': option},
-                              callback=self.parse_page)
+            yield scrapy.Request(url,callback=self.parse_page)
+
+                # yield FormRequest("http://www.iafd.com/studio.rme",
+                #               formdata={u'Studio': option},
+                #               callback=self.parse_page)
 
     def parse_page(self, response):
         title = response.xpath("//h2/text()").extract()[0]
         related = []
         for r in response.xpath("//table[@id='studio']/tbody/tr/td[1]"):
-            href = u"#ext_iafd_" + r.xpath('a/@href').extract()[0]
-            value = r.xpath('a/text()').extract()
+            href = r.xpath('a/@href').extract()[0]
+            href = response.urljoin(href)
+            url_data = href.split("/")
+            url_data_end = url_data[-1:][0]
+            value = u"#ext_iafd_film_" + url_data_end.replace(".htm","")
             related.append({'value': value, 'url': href})
 
         item = IafdStudioItem()
