@@ -18,7 +18,7 @@ CATEGORIES = {
     'ART': 'art',
     'OTHER': 'other'
 }
-
+sout = getwriter("utf8")(stdout)
 
 class JsonPipeline(object):
     def __init__(self):
@@ -44,10 +44,8 @@ class JsonPipeline(object):
         value = re.sub(u'td|span|\/|br', '', value)
         return value
 
-    @check_spider_close
-    def close_spider(self, spider):
-        sout = getwriter("utf8")(stdout)
-        sout.write(json.dumps(self.data, ensure_ascii=False) + "\n")
+
+
 
 
 class EventGroupPipeline(JsonPipeline):
@@ -121,7 +119,7 @@ class EventGroupPipeline(JsonPipeline):
         if participants:
             row["Participants"] = participants
 
-        self.data.append(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
 class MekanPipeline(JsonPipeline):
@@ -193,7 +191,7 @@ class MekanPipeline(JsonPipeline):
         if projects:
             row["Projects"] = projects
 
-        self.data.append(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
 class PersonaPipeline(JsonPipeline):
@@ -267,7 +265,7 @@ class PersonaPipeline(JsonPipeline):
             }]
         }
 
-        self.data.append(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
 class EventPipeline(JsonPipeline):
@@ -355,8 +353,7 @@ class EventPipeline(JsonPipeline):
                 }
                 prices_row.append(price)
 
-        #
         if prices_row:
             row["params"]["Price"] = prices_row
 
-        self.data.append(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
