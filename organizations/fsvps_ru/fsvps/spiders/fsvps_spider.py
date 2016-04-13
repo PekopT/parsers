@@ -22,7 +22,7 @@ class FsvpsSpider(scrapy.Spider):
 
     def parse_page(self, response):
         sel = response.xpath("//div[@class='nText']")
-       # new_adress_pattern = "//p[re:test(@class,'noin?dent|generic') and re:test(text(),'%s')]/text()" % u'Адр|адр'
+
         address_pattern = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/span[@class='big']/text()" \
                           % u'Адр|адр|есторасполож'
 
@@ -38,9 +38,6 @@ class FsvpsSpider(scrapy.Spider):
 
         out_item = FsvpsItem()
         out_item['name'] = response.xpath("//td[@id='contenttd']/div/h2/text()").extract()
-
-
-
         out_item['phone'] = sel.xpath(phone_pattern).extract()
         if len(out_item['phone']) == 0:
             phone_pattern2 = "//p[re:test(@class,'generic')][span[re:test(text(),'%s')]]/text()" % u'^Тел|тел'
@@ -88,24 +85,30 @@ class FsvpsSpider(scrapy.Spider):
                     fax_pattern4 = "//p[re:test(@class,'noin?dent')][span[re:test(text(),'%s')]]/text()" % u'^Факс|факс'
                     out_item['fax'] = sel.xpath(fax_pattern4).extract()
 
+        if "http://www.fsvps.ru/fsvps/structure/terorgs/habarovsk" in response.url:
+            cap = "//p[@class='generic']/span[re:test(text(),'%s')]/parent::p/span[@class='big']/text()" % u'Адр|адр'
+            cpp = "//p[@class='generic']/span[re:test(text(),'%s')]/parent::p/span[@class='big']/text()" % u'^Тел|тел'
+            out_item['address'] = sel.xpath(cap).extract()
+            out_item['phone'] = sel.xpath(cpp).extract()
 
-        out_item['longitude'] = ''
-        out_item['latitude'] = ''
-        scripts = response.xpath("//div/script").extract()
+
+        scripts = response.xpath("//div/script/text()").extract()
+        longitude = ''
+        latitude = ''
         for sc in scripts:
-            sc = sc.replace(" ",'').replace("\n","")
-            m = re.search("YMaps\.GeoPoint\([0-9.,]+\)",sc)
+            sc = re.sub("\s","", sc)
+            m = re.search("YMaps\.GeoPoint\([0-9.,]+\)", sc)
             if m:
                 res = m.group(0)
                 res = res.replace("YMaps.GeoPoint(","").replace(")","")
                 longitude, latitude  = res.split(',')
-                out_item['longitude'] = longitude
-                out_item['latitude'] = latitude
-
+                break
 
         out_item['email'] = sel.xpath(email_pattern).extract()
         out_item['type'] = 1
         out_item['url'] = response.url
+        out_item['longitude'] = longitude
+        out_item['latitude'] = latitude
         yield out_item
 
         links = response.xpath("//div[@class='linkholder']//a[re:test(@href,'structure.html$')]/@href")
@@ -125,4 +128,6 @@ class FsvpsSpider(scrapy.Spider):
             out_item['email'] = ""
             out_item['type'] = 2
             out_item['fax'] = ""
+            out_item['longitude'] = ''
+            out_item['latitude'] = ''
             yield out_item

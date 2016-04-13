@@ -151,8 +151,10 @@ class FsvpsPipeline(object):
         items = value.split('<br>')
         for item in items:
             item = item.strip()
-            if re.search(u'тел|Тел', item, re.IGNORECASE):
-                phone = item.strip()
+            msp = re.search("\(\d+\)", item)
+
+            if re.search(u'тел|Тел', item, re.IGNORECASE) or msp:
+                phone = item
                 phns = re.split('; |,', phone)
                 for ph in phns:
                     ph = re.sub(u'тел|Тел', '', ph).lstrip(',:.')
@@ -300,7 +302,7 @@ class FsvpsPipeline(object):
         url = item['url']
         if type == 1:
             address = self.validate_str(item['address'])
-            # address_raw = ''.join(item['address'])
+            address_raw = ''.join(item['address'])
             address = self.remove_postal(address)
             email = self.validate_str(item['email'])
             phones = item['phone']
@@ -318,7 +320,7 @@ class FsvpsPipeline(object):
         else:
             content = item["content"]
             address = self.remove_postal(self.get_address_from_content(content))
-            # address_raw = self.remove_postal(self.get_address_from_content(content))
+            address_raw = self.remove_postal(self.get_address_from_content(content))
             phone_raw = self.get_test_raw(content)
             phones = self.get_phone_from_content(content)
             faxes = self.get_faxes_from_content(content)
@@ -335,7 +337,6 @@ class FsvpsPipeline(object):
         check_url = url[:-15]
         if not address:
             raise DropItem
-            # address = self.get_parent_address(check_url)
 
         address = re.sub(u'&#13;|&lt;|&gt;|<|>|\/li|\r', '', address).strip().rstrip(',;)').lstrip(',(')
 
@@ -363,13 +364,19 @@ class FsvpsPipeline(object):
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         xml_address.text = address
 
-        # if longitude and latitude:
-        #     xml_coordinates = etree.SubElement(xml_item, 'coordinates')
-        #     xml_lon = etree.SubElement(xml_coordinates, 'lon')
-        #     xml_lon.text = unicode(longitude)
-        #
-        #     xml_lat = etree.SubElement(xml_coordinates, 'lat')
-        #     xml_lat.text = unicode(latitude)
+        # xml_phone_raw = etree.SubElement(xml_item, 'phone_raw', lang=u'ru')
+        # xml_phone_raw.text = phone_raw
+
+        xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
+        xml_country.text = u"Россия"
+
+        if longitude and latitude:
+            xml_coordinates = etree.SubElement(xml_item, 'coordinates')
+            xml_lon = etree.SubElement(xml_coordinates, 'lon')
+            xml_lon.text = unicode(longitude)
+
+            xml_lat = etree.SubElement(xml_coordinates, 'lat')
+            xml_lat.text = unicode(latitude)
 
         if len(phones) == 0:
             phones = self.get_phones_check(self.remove_postal(self.get_address_from_content(content)))
