@@ -363,10 +363,7 @@ class FsvpsPipeline(object):
 
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         xml_address.text = address
-
-        # xml_phone_raw = etree.SubElement(xml_item, 'phone_raw', lang=u'ru')
-        # xml_phone_raw.text = phone_raw
-
+        
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = u"Россия"
 
