@@ -5,5 +5,5 @@
     "format": "xml",
     "schema": "sgroshi/schema_org.xml"
   },
-  "command": "1> /dev/null scrapy crawl sgroshi -L CRITICAL
+  "command": "scrapy crawl sgroshi -L CRITICAL
 }

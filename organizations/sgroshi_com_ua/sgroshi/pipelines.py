@@ -50,10 +50,13 @@ class SgroshiPipeline(object):
         if not value:
             return []
 
+        value = value.split(',')
         for phone in value:
             if phone.strip():
                 phone = phone.strip()
                 phone = re.sub('\D', '', phone)
+                if "0800501020" in phone:
+                    continue
                 phone = re.sub('^0', '', phone)
                 for code in UA_TYL_CODES:
                     if phone.find(code) == 0:
@@ -146,23 +149,21 @@ class SgroshiPipeline(object):
         address = item['address']
         address_ua = item['address_ua']
         city = ''.join(item['city'])
-        city = city.replace(':', '').strip()
         city_ua = ''.join(item['city_ua'])
-        city_ua = city_ua.replace(':', '').strip()
-        phones = item['phone']
+        phones = ''.join(item['phone'])
 
-        to_replace = u"\<strong\>.+\<\/strong\>"
-        address = re.sub(to_replace, u'', address)
-        address = self.delete_tags(address)
-        tc = self.get_address_info(address)
-        address = address.replace(tc, '')
+        # to_replace = u"\<strong\>.+\<\/strong\>"
+        # address = re.sub(to_replace, u'', address)
+        # address = self.delete_tags(address)
+        # tc = self.get_address_info(address)
+        # address = address.replace(tc, '')
         region = self.get_region(city, UA_CITIES_RUS) or ""
-        n_for_address = self.get_number_from_street(address)
-        if n_for_address:
-            address = address.replace(n_for_address, u',' + n_for_address.strip())
-            address = re.sub(u'(\,){2,}', u',', address)
+        # n_for_address = self.get_number_from_street(address)
+        # if n_for_address:
+        #     address = address.replace(n_for_address, u',' + n_for_address.strip())
+        #     address = re.sub(u'(\,){2,}', u',', address)
         address = region + u'город ' + city + u',' + address
-        address = re.sub(u'\(|\)|\«|\»|\"', '', address).strip()
+        # address = re.sub(u'\(|\)|\«|\»|\"', '', address).strip()
 
         self.count_item += 1
         xml_item = etree.SubElement(self.xml, 'company')
@@ -175,40 +176,32 @@ class SgroshiPipeline(object):
         xml_name_ua = etree.SubElement(xml_item, 'name', lang=u'ua')
         xml_name_ua.text = name_ua
 
-
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         xml_address.text = address
 
-        if tc:
+        address_add_ru = item['address_add_ru']
+        if address_add_ru:
             xml_address_add = etree.SubElement(xml_item, 'address-add', lang=u"ru")
-            tc = re.sub(u'\(|\)|\«|\»|\"', '', tc)
+            tc = re.sub(u'\(|\)|\«|\»|\"', '', address_add_ru)
             xml_address_add.text = tc
 
-        address_ua = re.sub(to_replace, u'', address_ua)
-        # address_ua = address_ua.replace(u'</strong>', u'</strong>,')
-        address_ua = self.delete_tags(address_ua)
-        tc_ua = self.get_address_info(address_ua)
-        address_ua = address_ua.replace(tc_ua, '')
         region_ua = self.get_region(city_ua, UA_CITIES_UKR) or ""
-        n_for_address = self.get_number_from_street(address_ua)
-        if n_for_address:
-            address_ua = address_ua.replace(n_for_address, u',' + n_for_address.strip())
-            address_ua = re.sub(u'(\,){2,}', u',', address_ua)
         address_ua = region_ua + u'мисто ' + city_ua + u',' + address_ua
         xml_address_ua = etree.SubElement(xml_item, 'address', lang=u'ua')
         address_ua = re.sub(u'\(|\)|\«|\»|\"', '', address_ua).strip()
         xml_address_ua.text = address_ua
 
-        if tc_ua:
+        address_add_ua = item['address_add_ua']
+        if address_add_ua:
             xml_address_add_ua = etree.SubElement(xml_item, 'address-add', lang=u"ua")
-            tc_ua = re.sub(u'\(|\)|\«|\»|\"', '', tc_ua)
+            tc_ua = re.sub(u'\(|\)|\«|\»|\"', '', address_add_ua)
             xml_address_add_ua.text = tc_ua
 
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = u"Украина"
         xml_country2 = etree.SubElement(xml_item, 'country', lang=u'ua')
         xml_country2.text = u"Україна"
-
+        #
         xml_phone_main = etree.SubElement(xml_item, 'phone')
         xml_phone_number_main = etree.SubElement(xml_phone_main, 'number')
         xml_phone_number_main.text = "0 (800) 50-10-20"
@@ -228,9 +221,16 @@ class SgroshiPipeline(object):
 
         xml_url = etree.SubElement(xml_item, 'url')
         xml_url.text = u"http://sgroshi.com.ua"
-
+        #
         working_time_ru = item['working_time']
-        working_time_ua = item['working_time_ua']
+        working_time_ru = working_time_ru.replace("Su -","")\
+            .replace("Mo-Fr", u"Пн-Пт")\
+            .replace("Sa",u"Сб").replace("Su",u"Вс").strip(", ")
+
+        working_time_ua = item['working_time']
+        working_time_ua = working_time_ua.replace("Su -","")\
+            .replace("Mo-Fr", u"Пн-Пт")\
+            .replace("Sa",u"Сб").replace("Su",u"Нд").strip(", ")
 
         xml_working_time_rus = etree.SubElement(xml_item, 'working-time', lang=u'ru')
         xml_working_time_rus.text = working_time_ru
@@ -243,12 +243,12 @@ class SgroshiPipeline(object):
 
         xml_date = etree.SubElement(xml_item, 'actualization-date')
         xml_date.text = unicode(int(round(time.time() * 1000)))
-
-        company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
-        company_valid = StringIO.StringIO(company_valid)
-        valid = etree.parse(company_valid)
-        if not relaxng.validate(valid):
-            raise DropItem
+        #
+        # company_valid = etree.tostring(xml_item, pretty_print=True, encoding='unicode')
+        # company_valid = StringIO.StringIO(company_valid)
+        # valid = etree.parse(company_valid)
+        # if not relaxng.validate(valid):
+        #     raise DropItem
 
     def close_spider(self, spider):
         doc = etree.tostring(self.xml, pretty_print=True, encoding='unicode')

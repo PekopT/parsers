@@ -12,6 +12,8 @@ class SgroshiItem(scrapy.Item):
     name = scrapy.Field()
     address = scrapy.Field()
     address_ua = scrapy.Field()
+    address_add_ru = scrapy.Field()
+    address_add_ua = scrapy.Field()
     url = scrapy.Field()
     city = scrapy.Field()
     phone = scrapy.Field()
