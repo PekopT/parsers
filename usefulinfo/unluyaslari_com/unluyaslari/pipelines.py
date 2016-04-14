@@ -71,10 +71,10 @@ class UnluyaslariPipeline(object):
                         "value": unicode(height),
                         "unit": u"m"
                     },),
-                "Weight": ({
-                        "value": unicode(weight),
-                        "unit": u"kg"
-                    },)
+                # "Weight": ({
+                #         "value": unicode(weight),
+                #         "unit": u"kg"
+                #     },)
         }
 
         human["isa"] = {}
