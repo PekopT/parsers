@@ -56,7 +56,7 @@ class UnluyaslariPipeline(object):
         if (height is None and weight is None) or name.replace(' ', '-') == '':
             raise DropItem("Missing weight and height in %s" % item)
 
-        ids_url = item['url'] + '#' + name.replace(' ', '-')
+        ids_url = item['url'] + '#' + name.replace(' ', '+')
 
         human = {}
         human["ontoid"] = u"ext_unluyaslari_" + name.replace(' ', '-')
