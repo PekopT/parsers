@@ -1,9 +1,13 @@
 {
-  "type": "scraper",
+  "command": "python parser.py",
   "runtime": "python-2.7",
+  "type": "parser",
   "data": {
     "format": "json",
     "schema": "books.schema.json"
   },
-  "command": "python parser.py"
+  "host": "",
+  "urls_regexp": "(www\\.)?moscowbooks\\.ru/book\\.asp\\?id=\\d+"
 }
+
+
