@@ -32,19 +32,20 @@ class Parser(object):
         author_info = soup.find_all(text=re.compile(u'Автор\:'))
         if author_info:
             author = author_info[0].next_sibling.text.strip()
+        else:
+            author = ''
+
 
         isbn_info = soup.find_all('font', text=re.compile(u'ISBN'))
         parent_data = isbn_info[1].parent
 
-        description = u''
         description = parent_data.find(text=re.compile(u'Описание'))
         if description:
             description = description.strip()
             description = description.replace(u'Описание:','').strip()
+        else:
+            description = ''
 
-        # review_info = soup.find(text=re.compile(u'Отзывы\sпокупателей'))
-
-        cover= u''
         cover_info = soup.find('font', text=re.compile(u'Обложка'))
         if cover_info:
             cover_data=cover_info.text.split(':')
@@ -52,10 +53,9 @@ class Parser(object):
                 cover = cover_data[1]
             else:
                 cover = cover_info.text
+        else:
+            cover = ''
 
-
-
-        isbn = ''
 
         isbn_data = parent_data.find_all('font', text=re.compile(u'ISBN'))
         isbn_str = u''
@@ -116,16 +116,16 @@ class Parser(object):
             picture_book =  book.parent.find_previous_sibling('td').find('img').get('src')
             url_book = book.parent.find_previous_sibling('td').find('a').get('href')
 
-            also_row = {
-                "url": url_book,
-                "name": name_book,
-                "image": picture_book,
-                "price": {
+            also_row = {}
+            if price_book:
+                also_row["price"] = {
                     "currency": "RUR",
                     "type": "currency",
                     "content": int(price_book),
                 }
-            }
+            also_row["url"] = url_book
+            also_row["name"] = name_book
+            also_row["image"] = picture_book
 
             also_buy_books.append(also_row)
 
