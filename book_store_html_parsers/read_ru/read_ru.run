@@ -9,3 +9,4 @@
   "host": "http://read.ru",
   "urls_regexp": "(www\\.)?read\\.ru/id/\\d+"
 }
+
