@@ -51,8 +51,12 @@ class Parser(object):
             pictures = []
 
         also_buy_info = soup.find('ul', 'product-list-similar')
+
         if also_buy_info:
             also_buy_info = also_buy_info.find_all('li')
+        else:
+            also_buy_info = []
+
 
         also_buy_books = []
 
