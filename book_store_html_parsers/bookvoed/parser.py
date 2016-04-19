@@ -42,12 +42,26 @@ class Parser(object):
 
         publisher = infos[u'Издательство']
         name = name.text
-        author = infos[u'Автор']
 
-        year = infos[u'Год']
-        pages = infos[u'Страниц']
-        isbn = infos[u"ISBN"]
-        cover = infos[u"Переплёт"]
+        author = ""
+        if u"Автор" in infos:
+            author = infos[u"Автор"]
+
+        year = ""
+        if u"Год" in infos:
+            year = infos[u"Год"]
+
+        pages = ""
+        if u"Страниц" in infos:
+            pages = infos[u"Страниц"]
+
+        isbn = ""
+        if u"ISBN" in infos:
+            isbn = infos[u"ISBN"]
+
+        cover = ""
+        if u"Переплёт" in infos:
+            cover = infos[u"Переплёт"]
 
         stock = u'В наличии'
 
@@ -56,8 +70,47 @@ class Parser(object):
         description = description.replace("\\n", "").strip()
 
         price = soup.find('meta', {'itemprop': 'price'})
-        price_currency = soup.find('meta', {'itemprop': 'priceCurrency'})
         price = price.get('content').split('.')[0]
+
+        also_buy_info = soup.select('#bookWith div div div.Kp')
+
+        also_buy_books = []
+
+        if also_buy_info:
+            for book in also_buy_info:
+                picture_book_data = book.find('img')
+                picture_book = ''
+                name_book = ''
+                if picture_book_data:
+                    picture_book = picture_book_data.get('src')
+                    name_book = picture_book_data.get('title')
+
+                author_info = book.find('bq')
+                author_book = ''
+                if author_info:
+                    author_book = author_info.text.strip()
+
+                url_book_info = book.a
+                if url_book_info:
+                    url_book = url_book_info.get('href')
+                else:
+                    url_book = ''
+
+                also_row = {}
+
+                if picture_book:
+                    also_row["image"] = picture_book
+
+                if name_book:
+                    also_row["name"] = name_book
+
+                if author_book:
+                    also_row["author"] = author_book
+
+                if url_book:
+                    also_row["url"] = url_book
+                if also_row:
+                    also_buy_books.append(also_row)
 
         row = {
             "url": url,
@@ -93,16 +146,17 @@ class Parser(object):
         if cover:
             row["cover"] = cover
 
+        if also_buy_books:
+            row["also_buy"] = also_buy_books
+
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
         # self.rows_data.append(row)
-
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
         schema = json.loads(f.read())
         validate(node, schema)
-
 
     def close_parser(self):
         pass
@@ -118,7 +172,7 @@ def main():
         except Exception as e:
             sys.stderr.write(
                 json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
-                    "utf-8") + "\n")
+                    'utf-8') + "\n")
 
     parser.close_parser()
 
