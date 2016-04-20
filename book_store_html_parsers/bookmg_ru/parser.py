@@ -56,44 +56,63 @@ class Parser(object):
         else:
             pages = u''
 
-        image = soup.find('meta', {'property': 'og:image'}).get('content')
+        image_info = soup.find('meta', {'property': 'og:image'})
+        pictures = []
+        if image_info:
+            image = image_info.get('content')
+            pictures = [image]
 
-        description = soup.find('meta', {'property': 'og:description'}).get('content')
+        description_info = soup.find('meta', {'property': 'og:description'})
+
+        if description_info:
+            description = description_info.get('content')
+
 
         author_info = soup.find('h2', 'b-author-div')
-        name = author_info.h1.text
-
-        author = author_info.text.replace(name, '').strip()
-        name = name.strip()
-
-        author = author.replace('\\n', '').replace('\r', '')
-        author = author.strip('. ')
+        if author_info:
+            name = author_info.h1.text
+            name = name.strip()
+            author = author_info.text.replace(name, '').strip()
+            author = author.replace('\\n', '').replace('\r', '')
+            author = author.strip('. ')
+        else:
+            author = ''
+            name = ''
 
         price_info = soup.find('div', 'price2')
+        if price_info:
+            price = re.sub(u'\D', '', price_info.text)
 
-        stock_info = price_info.find_next_sibling('div', 'news_div').div.div
-        stock = stock_info.text.strip()
+        stock = u'В наличии'
+        stock_info = price_info.find_next_sibling('div', 'news_div')
+        if stock_info:
+            stock_info = stock_info.div.div
+            stock = stock_info.text.strip()
 
-        price = re.sub(u'\D', '', price_info.text)
-        pictures = [image]
         year = re.sub(u'\D', '', year).strip()
 
         also_buy_books = []
 
         row = {
             "url": url,
-            "name": name,
-            "author": author,
-            "description": description,
-            "price": {
+            "name": name
+        }
+
+        if price:
+            row["price"] =  {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         if publisher:
             row["publisher"] = publisher
+
+        if description:
+            row["description"] = description
+
+        if author:
+            row["author"] = author
 
         if year:
             row["year"] = year
@@ -104,8 +123,7 @@ class Parser(object):
         if isbn:
             row["isbn"] = isbn
 
-        if stock:
-            row["availability"] = stock
+        row["availability"] = stock
 
         if cover:
             row["cover"] = cover
@@ -118,7 +136,6 @@ class Parser(object):
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -127,7 +144,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
