@@ -52,9 +52,6 @@ class Parser(object):
         price_info = soup.find('p','newPrice')
         if price_info:
             price = price_info.text
-            # print price
-        # price = soup.find('span', {'itemprop': 'price'}).text.strip()
-        # price = price.split('.')[0]
             price = re.sub('\D', '', price)
 
         cover = soup.find('link', {"itemprop": "bookFormat"})
@@ -70,9 +67,6 @@ class Parser(object):
                 stock = u"В наличии"
             elif "http://schema.org/PreOrder" == stock_url:
                 stock = u"Предзаказ. В наличии пока нет"
-
-
-        # stock = self.remove_tags(stock)
 
         publisher_info = soup.find('span', {'itemprop': 'publisher'})
 
@@ -160,7 +154,6 @@ class Parser(object):
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
