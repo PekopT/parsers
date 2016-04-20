@@ -25,31 +25,28 @@ class Parser(object):
         url = data['url']
         html = data['html']
         soup = BeautifulSoup(html, 'html.parser')
-
         name = soup.h1.text.strip()
-
         book_info = soup.find('td', 'descr')
+        if book_info:
+            isbn_info = book_info.find('span',{'itemprop':'isbn'})
+            if isbn_info:
+                isbn = isbn_info.text.strip()
+            else:
+                isbn = book_info.find('b', text=re.compile(u'ISBN'))
+                isbn = unicode(isbn.next_sibling).strip()
 
+            year = book_info.find('b', text=re.compile(u'издания'))
+            if year:
+                year = unicode(year.next_sibling).strip()
 
-        isbn_info = book_info.find('span',{'itemprop':'isbn'})
-        if isbn_info:
-            isbn = isbn_info.text.strip()
-        else:
-            isbn = book_info.find('b', text=re.compile(u'ISBN'))
-            isbn = unicode(isbn.next_sibling).strip()
+            pages = book_info.find('b', text=re.compile(u'страниц'))
+            pages = unicode(pages.next_sibling).strip()
 
-        year = book_info.find('b', text=re.compile(u'издания'))
-        if year:
-            year = unicode(year.next_sibling).strip()
+            publisher = book_info.find('b', text=re.compile(u'Издательство'))
+            publisher = publisher.find_next_sibling('span').text.strip()
 
-        pages = book_info.find('b', text=re.compile(u'страниц'))
-        pages = unicode(pages.next_sibling).strip()
-
-        publisher = book_info.find('b', text=re.compile(u'Издательство'))
-        publisher = publisher.find_next_sibling('span').text.strip()
-
-        cover = book_info.find('b', text=re.compile(u'обложки'))
-        cover = unicode(cover.next_sibling).strip()
+            cover = book_info.find('b', text=re.compile(u'обложки'))
+            cover = unicode(cover.next_sibling).strip()
 
         stock = u'В наличии'
 
@@ -61,8 +58,9 @@ class Parser(object):
 
 
         price_info = book_info.find('div', 'price_block').find('span', {'itemprop': 'price'})
-        price = price_info.text.strip()
-        price = price.split('.')[0]
+        if price_info:
+            price = price_info.text.strip()
+            price = price.split('.')[0]
 
         images = soup.find_all('img', 'unselected_img')
         pictures = [img.get('src') for img in images if img]
@@ -72,23 +70,36 @@ class Parser(object):
 
         for book in also_buy_info:
             picture_book = book.find('td', 'pic_item').find('img').get('src')
-            price_info = book.find('div', 'goods_price').text.strip()
-            price_book = price_info.split('.')[0]
-            price_book = re.sub('\D', '', price_book).strip()
-            name_book = book.find('td', 'name_item').text.strip()
-            name_book = self.remove_tags(name)
+            price_info = book.find('div', 'goods_price')
+            if price_info:
+                price_book = price_info.text.strip().split('.')[0]
+                price_book = re.sub('\D', '', price_book).strip()
+            else:
+                price_book = ''
+
+            name_book_info = book.find('td', 'name_item')
+            if name_book_info:
+                name_book = name_book_info.text.strip()
+                name_book = self.remove_tags(name_book)
+            else:
+                name_book = ''
             url_book = book.find('td', 'name_item').a.get('href')
 
-            also_row = {
-                "url": url_book,
-                "name": name_book,
-                "image": picture_book,
-                "price": {
+            also_row = {}
+            also_row["url"] = url_book
+
+            if name_book:
+                also_row["name"] = name_book
+
+            if picture_book:
+                also_row["image"] = picture_book
+
+            if price_book:
+                also_row["price"] =  {
                     "currency": "RUR",
                     "type": "currency",
                     "content": int(price_book),
                 }
-            }
 
             also_buy_books.append(also_row)
 
@@ -133,7 +144,6 @@ class Parser(object):
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -142,7 +152,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
