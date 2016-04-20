@@ -29,73 +29,103 @@ class Parser(object):
         name = soup.h1.text
         name = self.remove_tags(name)
 
-        author = soup.find('h2', {'itemprop':'author'}).text
-        author = self.remove_tags(author)
+        author = ''
+        author_info = soup.find('h2', {'itemprop': 'author'})
+        if author_info:
+            author = self.remove_tags(author_info.text)
 
-        price = soup.find('span',{'itemprop':'price'})
-        price = price.text.strip()
+        price = ''
+        price_info = soup.find('span', {'itemprop': 'price'})
+        if price_info:
+            price = price_info.text.strip()
+            price = re.sub('\D', '', price)
 
+        isbn = ''
+        isbn_info = soup.find('span', {'itemprop': 'isbn'})
+        if isbn_info:
+            isbn = isbn_info.text.strip()
 
+        publisher = ''
+        publisher_info = soup.find('span', {'itemprop': 'publisher'})
+        if publisher_info:
+            publisher = publisher_info.text.strip()
 
-        isbn = soup.find('span', {'itemprop': 'isbn'}).text.strip()
-
-        publisher = soup.find('span',{'itemprop': 'publisher'}).text.strip()
-
+        cover = ''
         cover_info = soup.find('span', 'prop_name', text=re.compile(u'Переплет'))
-        cover = cover_info.find_next_sibling('span').text.strip()
+        if cover_info:
+            cover = cover_info.find_next_sibling('span').text.strip()
 
+        pages = ''
         pages_info = soup.find('span', 'prop_name', text=re.compile(u'Страниц'))
-        pages = pages_info.find_next_sibling('span').text.strip()
+        if pages_info:
+            pages = pages_info.find_next_sibling('span').text.strip()
 
-        year = soup.find('meta',{'itemprop':'datePublished'})
-        year = year.get('content')[:4]
+        year = ''
+        year_info = soup.find('meta', {'itemprop': 'datePublished'})
+        if year_info:
+            year = year_info.get('content')[:4]
 
-        description = soup.find('div', {'itemprop':'description'})
-        description = self.remove_tags(description.text)
+        description = ''
+        description_info = soup.find('div', {'itemprop': 'description'})
+        if description_info:
+            description = self.remove_tags(description_info.text)
 
-        stock = soup.find('div','detail-delivery__status')
-        stock = self.remove_tags(stock.text)
+        stock = soup.find('div', 'detail-delivery__status')
+        if stock:
+            stock = self.remove_tags(stock.text)
         if not stock:
             stock = u"В наличии"
 
-        images_info = soup.find('div','b_detail__gallery').find('ul').find_all('li')
+        images_info = soup.find('div', 'b_detail__gallery')
+        if images_info:
+            images_info = images_info.find('ul').find_all('li')
 
         pictures = []
         for img_item in images_info:
             img = img_item.find('img').get('src')
             pictures.append(img)
 
+
         row = {
             "url": url,
-            "name": name,
-            "publisher": publisher,
-            "author": author,
+            "name": name
+        }
 
-            "description": description,
-            "price": {
+        if publisher:
+            row["publisher"] = publisher
+
+        if author:
+            row["author"] = author
+
+        if description:
+            row["description"] = description
+
+        row["availability"] = stock
+
+        if price:
+            row["price"] =  {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-            "year": year,
-            "pages": pages,
-            "isbn": isbn,
-        }
+            }
 
-        if stock:
-            row["availability"] = stock
+        if year:
+            row["year"] = year
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
 
         if cover:
             row["cover"] = cover
-
 
         if pictures:
             row["images"] = pictures
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
-
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -104,7 +134,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
@@ -117,7 +146,6 @@ def main():
             sys.stderr.write(
                 json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
                     "utf-8") + "\n")
-
 
     parser.close_parser()
 
