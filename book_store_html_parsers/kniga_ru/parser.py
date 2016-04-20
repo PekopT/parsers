@@ -29,10 +29,16 @@ class Parser(object):
         name = soup.find('h1').text.strip()
 
         description = soup.find('div', {'itemprop': 'description'})
-        description = description.text.strip()
+        if description:
+            description = description.text.strip()
+        else:
+            description = ''
 
-        isbn_info = soup.find('span', 'fieldName', text=re.compile(u'ISBN')).parent.text
-        isbn = isbn_info.replace(u"ISBN:", "").strip()
+        isbn = ''
+        isbn_info = soup.find('span', 'fieldName', text=re.compile(u'ISBN'))
+        if isbn_info:
+            isbn_info = isbn_info.parent.text
+            isbn = isbn_info.replace(u"ISBN:", "").strip()
 
         publisher_info = soup.find('span', 'fieldName', text=re.compile(u'Издательство')).parent
         cover_info = publisher_info.find_next_sibling('p')
@@ -46,21 +52,37 @@ class Parser(object):
         pages = re.sub(u"\D", u"", pages)
 
         publisher_info = publisher_info.text.replace(u'Издательство:', '')
-        to_year = re.search(u'\(.+\)', publisher_info)
-        if to_year:
-            year_search = to_year.group(0)
-            year = re.sub('\D', '', year_search)
+        year = ''
+        publisher = ''
+        if publisher_info:
+            to_year = re.search(u'\(.+\)', publisher_info)
+            if to_year:
+                year_search = to_year.group(0)
+                year = re.sub('\D', '', year_search)
 
-        publisher = publisher_info.replace(year_search, '').strip()
+            publisher = publisher_info.replace(year_search, '').strip()
+
 
         image = soup.find('img', {"itemprop": "image"})
-        image = image.get('src')
-        pictures = [image]
+        if image:
+            image = image.get('src')
+            pictures = [image]
+        else:
+            pictures = []
 
         price_info = soup.find('span', {'itemprop': 'price'})
-        price = price_info.text.strip()
+        if price_info:
+            price = price_info.text.strip()
+            price = re.sub('\D', '', price)
+        else:
+            price = ''
 
-        author = soup.find('div', {'id': 'productDescription'}).find('span', {"id": "authorsList"}).text.strip()
+        author = ''
+        author_info = soup.find('div', {'id': 'productDescription'})
+        if author_info:
+            author_info = author_info.find('span', {"id": "authorsList"})
+            if author_info:
+                author = author_info.text.strip()
 
         also_buy_info = soup.find('div', {'id': 'sectionMainOneItem'}).find_all('div', {'id': 'minProductOneItem'})
         also_buy_books = []
@@ -89,12 +111,15 @@ class Parser(object):
         row = {
             "url": url,
             "name": name,
-            "price": {
+
+        }
+
+        if price:
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         if description:
             row["description"] = description
@@ -137,7 +162,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
