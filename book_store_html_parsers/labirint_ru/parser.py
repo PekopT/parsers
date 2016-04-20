@@ -32,40 +32,111 @@ class Parser(object):
         publisher = publishers[0]
         year = publishers[1]
         cover = ''
-        stock = ''
         isbn = soup.find('div', 'isbn').text
-        isbn = isbn.replace(u"ISBN:", u"")
+        isbn = isbn.replace(u"ISBN:", u"").replace(u"все", "").replace(u"скрыть", "").replace(" ", "").strip()
+        isbn = isbn.replace(u'\xa0','')
 
         price = soup.find('span', 'buying-price-val-number')
-        price_currency = soup.find('span', 'buying-pricenew-val-currency').text
 
         if not price:
             price = soup.find('span', 'buying-pricenew-val-number')
 
         price = price.text
+        price = re.sub('\D', '', price)
 
-        description = soup.find('div', {'id': 'product-about'})
-        description = description.text
+        description_info = soup.find('div', {'id': 'product-about'})
+        if description_info:
+            description = description_info.text.strip()
+        else:
+            description = ''
 
-        pages = soup.find('div', 'pages2')
-        pages = pages.text.strip()
+        pages_info = soup.find('div', 'pages2')
+        if pages_info:
+            pages = pages_info.text.strip()
+            pages = re.sub(u'\D', u'', pages)
+        else:
+            pages = ''
 
-        pages = re.sub(u'\D', u'', pages)
         year = re.sub(u'\D', u'', year)
 
-        author = soup.find('div', 'authors').find('a')
-        author = author.text
+        author_info = soup.find('div', 'authors')
+        if author_info:
+            author_a = author_info.find('a')
+            if author_a:
+                author = author_a.text.strip()
+            else:
+                author = author_info.text.strip()
+        else:
+            author = ''
 
-        if u"руб" in price_currency:
-            price_currency = u"RUR"
+        stock_info = soup.find('div', 'prodtitle-availibility')
+        if stock_info:
+            stock = stock_info.span.text.strip()
+        else:
+            stock = u'В наличии'
 
-        stock = soup.find('div', 'prodtitle-availibility').span.text.strip()
+        also_buy_info_parent = soup.find('div', {'id': 'product-imho'})
+        if also_buy_info_parent:
+            also_buy_info = also_buy_info_parent.find_all('div', 'product ')
+        else:
+            also_buy_info = []
+
+        also_buy_books = []
+        for book in also_buy_info:
+            img_book = book.find('img', 'book-img-cover').get('data-src')
+            name_book_info = book.find('span', 'product-title')
+            if name_book_info:
+                name_book = name_book_info.text.strip()
+            else:
+                name_book = ''
+            url_book_info = book.find('a', 'cover')
+            if url_book_info:
+                url_book = url_book_info.get('href')
+            else:
+                url_book = book.find('a').get('href')
+
+            author_book_info = book.find('div', 'product-author')
+            if author_book_info:
+                author_book = author_book_info.text.strip()
+            else:
+                author_book = ''
+
+            price_info = book.find('span', 'price-val')
+
+            if price_info:
+                price_book = price_info.text
+                price_book = re.sub('\D', '', price_book)
+            else:
+                price_book = ''
+
+            also_row = {}
+
+            if img_book:
+                also_row["image"] = img_book
+
+            if name_book:
+                also_row["name"] = name_book
+
+            if url_book:
+                also_row["url"] = url_book
+
+            if author_book:
+                also_row["author"] = author_book
+
+            if price_book:
+                also_row["price"] = {
+                    "currency": "RUR",
+                    "type": "currency",
+                    "content": int(price_book),
+                }
+
+            also_buy_books.append(also_row)
 
         row = {
             "url": url,
             "name": name,
             "price": {
-                "currency": price_currency,
+                "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
             },
@@ -95,10 +166,11 @@ class Parser(object):
         if cover:
             row["cover"] = cover
 
+        if also_buy_books:
+            row["also_buy"] = also_buy_books
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -107,7 +179,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
