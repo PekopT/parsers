@@ -60,55 +60,79 @@ class Parser(object):
         else:
             pages = u''
 
-        price_info = soup.find('div', 'item_price').find('div', 'item_current_price')
-        price = re.sub('\D', '', price_info.text)
+        price = ''
+        price_info = soup.find('div', 'item_price')
+        if price_info:
+            price_info = price_info.find('div', 'item_current_price')
+            price = re.sub('\D', '', price_info.text)
 
-        description = soup.find('div', 'bx_item_description').text.strip()
-        description = description.replace('\n','').replace('\r','')
+        description_info = soup.find('div', 'bx_item_description')
+        if description_info:
+            description = description_info.text.strip()
+            description = description.replace(u"Полное описание","").replace('\n', '').replace("\\n","").replace('\r', '').strip()
 
         name = soup.h1.text.strip()
+        name = name.replace("\\n","").strip()
 
+        pictures = []
         image_info = soup.find('div', 'bx_item_slider')
-        image = image_info.find('img').get('src')
-        pictures = [image]
-        # pictures = []
+        if image_info:
+            image_info = image_info.find('img')
+            if image_info:
+                image = image_info.get('src')
+                pictures = [image]
 
         stock = u'В Наличии'
 
-        also_buy_info = soup.find('div', 'bx_item_list_section').find_all('div', 'bx_catalog_item')
+        also_buy_info = soup.find('div', 'bx_item_list_section')
+        if also_buy_info:
+            also_buy_info = also_buy_info.find_all('div', 'bx_catalog_item')
+
         also_buy_books = []
-        for book in also_buy_info:
-            picture_book_data = book.a.get('style').split(':')
-            picture_book = picture_book_data[1].strip().replace('url(', '').replace(')', '')
 
-            price_info = book.find('div', 'bx_catalog_item_price')
-            price_book = re.sub('\D', '', price_info.text).strip()
+        if also_buy_info:
+            for book in also_buy_info:
+                picture_book_data = book.a.get('style').split(':')
+                picture_book = picture_book_data[1].strip().replace('url(', '').replace(')', '')
 
-            name_book = book.find('div', 'bx_catalog_item_title').text.strip()
-            url_book = book.a.get('href')
+                price_info = book.find('div', 'bx_catalog_item_price')
+                if price_info:
+                    price_book = re.sub('\D', '', price_info.text).strip()
+                else:
+                    price_book = ''
 
-            also_row = {
-                "url": url_book,
-                "name": name_book,
-                "image": picture_book,
-                "price": {
-                    "currency": "RUR",
-                    "type": "currency",
-                    "content": int(price_book),
+
+
+
+                name_book = book.find('div', 'bx_catalog_item_title').text.strip()
+                url_book = book.a.get('href')
+
+                also_row = {
+                    "url": url_book,
+                    "name": name_book,
+                    "image": picture_book
                 }
-            }
 
-            also_buy_books.append(also_row)
+                if price_book:
+                    also_row["price"] = {
+                        "currency": "RUR",
+                        "type": "currency",
+                        "content": int(price_book),
+                    }
+
+                also_buy_books.append(also_row)
 
         row = {
             "url": url,
-            "name": name,
-            "price": {
+            "name": name
+        }
+
+        if price:
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         if author:
             row["author"] = author
@@ -142,7 +166,6 @@ class Parser(object):
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -151,7 +174,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
@@ -170,4 +192,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
