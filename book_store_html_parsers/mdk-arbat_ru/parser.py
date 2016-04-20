@@ -40,22 +40,25 @@ class Parser(object):
         author = soup.find('div', {'id': 'about_text'}).find('td', {'id': 'over_name_book'})
         author = author.text.strip()
 
-        description = soup.find_all('td', {'id': 'about_text1'})
-        description = description[1].text.strip()
+        description = ''
+        description_info = soup.find_all('td', {'id': 'about_text1'})
+        if description_info:
+            description = description_info[1].text.strip()
 
         price_info = soup.find('table', {'id': 'price_shop'}).find_all('tr', limit=2)
         price = price_info[1].find('td', 'price_book').text
         price = re.sub(u'\D', '', price)
 
         info_book = soup.find('div', 'opisanie')
-        isbn_info = info_book.find('td', text=re.compile(u'ISBN'))
-        isbn = re.sub(u'ISBN:', '', isbn_info.text)
+        if info_book:
+            isbn_info = info_book.find('td', text=re.compile(u'ISBN'))
+            isbn = re.sub(u'ISBN:', '', isbn_info.text)
 
-        publish_info = info_book.find('td', text=re.compile(u'Издательство'))
-        publisher = re.sub(u'Издательство:', '', publish_info.text)
+            publish_info = info_book.find('td', text=re.compile(u'Издательство'))
+            publisher = re.sub(u'Издательство:', '', publish_info.text)
 
-        pages_info = info_book.find('td', text=re.compile(u'страниц'))
-        pages = pages_info.text.replace(u'Количество страниц:', u'')
+            pages_info = info_book.find('td', text=re.compile(u'страниц'))
+            pages = pages_info.text.replace(u'Количество страниц:', u'')
 
         stock = u"В наличии"
         row = {}
@@ -63,17 +66,28 @@ class Parser(object):
         row["url"] = url
         row["name"] = name
         row["availability"] = stock
-        row["author"] = author
-        row["publisher"] = publisher
-        row["description"] = description
-        row["pages"] = pages
-        row["isbn"] = isbn
 
-        row["price"] = {
-            "currency": "RUR",
-            "type": "currency",
-            "content": int(price)
-        }
+        if author:
+            row["author"] = author
+
+        if publisher:
+            row["publisher"] = publisher
+
+        if description:
+            row["description"] = description
+
+        if pages:
+            row["pages"] = pages
+
+        if isbn:
+            row["isbn"] = isbn
+
+        if price:
+            row["price"] = {
+                "currency": "RUR",
+                "type": "currency",
+                "content": int(price)
+            }
 
         image_info = soup.find('div', {'id': 'image_big'}).img
         image = image_info.get('src')
@@ -93,7 +107,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
