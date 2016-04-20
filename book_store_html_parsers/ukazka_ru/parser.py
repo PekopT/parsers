@@ -114,12 +114,9 @@ class Parser(object):
         if pictures:
             row["images"] = pictures
 
-        try:
-            self.check_validate_schema(row)
-            self.rows_data.append(row)
-        except Exception as e:
-            print e.message
-            # self.rows_data.append(row)
+
+        self.check_validate_schema(row)
+        sout.write(json.dumps(row, ensure_ascii=False) + "\n")
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -127,7 +124,8 @@ class Parser(object):
         validate(node, schema)
 
     def close_parser(self):
-        sout.write(json.dumps(self.rows_data, ensure_ascii=False))
+        pass
+
 
 
 def main():
