@@ -26,57 +26,87 @@ class Parser(object):
         html = data['html']
         soup = BeautifulSoup(html, 'html.parser')
 
-        author = soup.find('div', 'text w_div').find('div', 'text').text
+        author = ''
+        author_info = soup.find('div', 'text w_div')
+        if author_info:
+            author_info = author_info.find('div', 'text')
+            if author_info:
+                author = author_info.text.replace("\\n","").strip()
 
-        name_info = soup.find('div', 'text w_div').h1
-        name = name_info.text.strip()
 
+        name = ''
+        name_info = soup.find('div', 'text w_div')
+        if name_info:
+            name_info = name_info.h1
+            name = name_info.text.strip()
+
+        description = ''
         description_info = soup.find('div', {'id': 'annotation'})
-        description = description_info.text.strip()
-        description = description.replace('\t', '').replace('\n', '').replace('\\n', '')
+        if description_info:
+            description = description_info.text.strip()
+            description = description.replace('\t', '').replace('\n', '').replace('\\n', '')
 
+        price = ''
         price_info = soup.find('span', {'id': 'b-price-b'})
-        price = re.sub('\D', '', price_info.text)
+        if price_info:
+            price = re.sub('\D', '', price_info.text)
 
+        isbn = ''
         isbn_info = soup.find('td', text=re.compile(u'ISBN'))
-        isbn = isbn_info.find_next_sibling('td').text.strip()
+        if isbn_info:
+            isbn = isbn_info.find_next_sibling('td').text.strip()
 
+        publisher = ''
         publisher_info = soup.find('td', text=re.compile(u'Издательство'))
-        publisher = publisher_info.find_next_sibling('td').text.strip()
+        if publisher_info:
+            publisher = publisher_info.find_next_sibling('td').text.strip()
 
+        year = ''
         year_info = soup.find('td', text=re.compile(u'издания'))
-        year = year_info.find_next_sibling('td').text.strip()
+        if year_info:
+            year = year_info.find_next_sibling('td').text.strip()
 
+        cover = ''
         cover_info = soup.find('td', text=re.compile(u'обложки'))
-        cover = cover_info.find_next_sibling('td').text.strip()
+        if cover_info:
+            cover = cover_info.find_next_sibling('td').text.strip()
 
+        pages = ''
         pages_info = soup.find('td', text=re.compile(u'Страниц'))
-        pages = pages_info.find_next_sibling('td').text.strip()
-        pages = re.sub('\D', '', pages)
+        if pages_info:
+            pages = pages_info.find_next_sibling('td').text.strip()
+            pages = re.sub('\D', '', pages)
 
-        images = soup.find('div', 'gallery').find_all('img')
         pictures = []
-        for img in images:
-            pictures.append(img.get('src'))
+        images_info = soup.find('div', 'gallery')
+        if images_info:
+            images = images_info.find_all('img')
+            for img in images:
+                pictures.append(img.get('src'))
 
         stock_info = soup.select("div#row-c table tr td.right div div.text ul li")
         stock = u''
-        for st in stock_info:
-            stock += st.text.strip() + ' , '
+        if stock_info:
+            for st in stock_info:
+                stock += st.text.strip() + ' , '
 
         stock = stock.strip(' ,').replace('\t', '').replace('\n', '').replace('\\n', '').replace('\r', '')
+        if not stock:
+            stock = u'В наличии'
 
         also_buy_books = []
 
         row = {
             "url": url,
-            "name": name,
-            "price": {
+            "name": name
+        }
+
+        if price:
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
         if author:
             row["author"] = author
 
@@ -109,7 +139,6 @@ class Parser(object):
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
 
     def check_validate_schema(self, node):
@@ -119,7 +148,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
