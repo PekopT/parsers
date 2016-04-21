@@ -96,12 +96,14 @@ class Parser(object):
         else:
             pages = ''
 
+        publisher = ''
         publisher_info = soup.find('li', 'j-book_pub')
         if publisher_info:
-            publisher = publisher_info.find('td', 'pubhouse')
-            publisher = publisher.text.strip()
-            publisher = self.remove_tags(publisher)
-            publisher = publisher.replace('\\n', '').strip()
+            publisher_info = publisher_info.find('td', 'pubhouse')
+            if publisher_info:
+                publisher = publisher_info.text.strip()
+                publisher = self.remove_tags(publisher)
+                publisher = publisher.replace('\\n', '').strip()
 
         price_stock_info = soup.find('div', 'book_price3')
         if price_stock_info:
