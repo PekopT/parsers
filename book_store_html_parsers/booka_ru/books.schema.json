@@ -33,8 +33,9 @@
 			"pattern" : "^[0-9-‑, ЯХXхx]+$"
 		},
 		"description" : {
-			"title" : "Описание",
-			"type" : "string"
+			"type" : "string",
+			"title" : "Описание"
+
 		},
 		"price" : {
 			"title" : "Цена",
