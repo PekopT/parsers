@@ -25,7 +25,6 @@ class Parser(object):
         url = data['url']
 
         html = data['html']
-        # html = open('book1.html','rb')
 
         soup = BeautifulSoup(html, 'html.parser')
         info_content = soup.find('div', {'id': 'aboutTabs_info_content'}).table
