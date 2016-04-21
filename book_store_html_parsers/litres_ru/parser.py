@@ -30,8 +30,9 @@ class Parser(object):
         name = name.text.strip()
 
         author = soup.find('div', 'book-author').find('div', 'h2')
-        author = author.text.strip()
-        author = author.replace(u'Автор:', '')
+        if author:
+            author = author.text.strip()
+            author = author.replace(u'Автор:', '')
 
         book_info = soup.find('div', 'info2').find('dl')
 
@@ -39,35 +40,46 @@ class Parser(object):
         if isbn:
             isbn = isbn.findNextSibling('dd')
             isbn = isbn.text.strip()
+        else:
+            isbn = ''
 
         pages = book_info.find('dt', text=re.compile(u'Объем'))
         if pages:
             pages = pages.findNextSibling('dd')
             pages = pages.text.strip()
+        else:
+            pages = ''
 
         year = book_info.find('dt', text=re.compile(u'написания'))
         if year:
             year = year.findNextSibling('dd')
             year = year.text
 
-        # pages = book_info.find('dt', text=re.compile(u'Объем')).find_next_sibling('dd')
-        # pages = pages.text
-
         description = soup.find('div', 'book_annotation')
-        description = description.text.strip()
+        if description:
+            description = description.text.strip()
+        else:
+            description = ''
 
         price = soup.find('div', 'book-buy-wrapper').button
         price_text = price.text.strip()
 
         price = re.sub(u'[А-Я а-яA-Za-z]+', '', price_text).split(',')
-        price = re.sub(u'\D', u'', price[0])
+        price = re.sub(u'\D', u'', price[0]).strip()
         stock = u"На складе"
 
         row = {}
         row["url"] = url
         row["name"] = name
-        row["author"] = author
-        row["description"] = description
+        if author:
+            row["author"] = author
+
+        if pages:
+            row["pages"] = pages
+
+        if description:
+            row["description"] = description
+
         row["availability"] = stock
         if isbn:
             row["isbn"] = isbn
@@ -77,12 +89,11 @@ class Parser(object):
         row["price"] = {
             "currency": "RUR",
             "type": "currency",
-            "content": int(price.strip())
+            "content": int(price)
         }
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -91,7 +102,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():

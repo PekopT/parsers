@@ -80,8 +80,9 @@
 			]
 		},
 		"ebook" : {
-			"title" : "Электронное издание?",
-			"type " : "boolean"
+			"type " : "boolean",
+			"title" : "Электронное издание?"
+
 		},
 		"also_buy" : {
 			"title" : "Также покупают",
