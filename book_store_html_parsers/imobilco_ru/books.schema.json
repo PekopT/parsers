@@ -130,8 +130,9 @@
 			}
 		},
 		"cover" : {
-			"title" : "Переплет",
-			"type" : "string"
+			"type" : "string",
+			"title" : "Переплет"
+
 		},
 		"pages" : {
 			"title" : "Количество страниц",

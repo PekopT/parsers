@@ -4,8 +4,8 @@ import traceback
 import json
 import re
 from codecs import getwriter
-from bs4 import BeautifulSoup
 from jsonschema import validate
+from bs4 import BeautifulSoup
 
 sout = getwriter("utf-8")(sys.stdout)
 
