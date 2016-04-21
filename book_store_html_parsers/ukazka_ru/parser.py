@@ -27,7 +27,6 @@ class Parser(object):
         soup = BeautifulSoup(html, 'html.parser')
 
         stock = u'В наличии'
-
         name = soup.find('h1').text
         if ':' in name:
             names = name.split(':')
@@ -125,7 +124,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-
 
 
 def main():
