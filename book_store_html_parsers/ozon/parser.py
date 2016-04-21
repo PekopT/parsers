@@ -63,7 +63,6 @@ class Parser(object):
                 "image": book["Picture"],
                 "author": author,
                 "price": {
-                    # "currency": book["PriceInfo"]["CurrencyName"],
                     "currency": "RUR",
                     "type": "currency",
                     "content": int(book["PriceInfo"]["PriceValue"]),
@@ -122,6 +121,7 @@ class Parser(object):
             row["year"] = year
 
         cover = cover.strip()
+
         if cover:
             row["cover"] = cover
 
@@ -133,7 +133,6 @@ class Parser(object):
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
 
     def check_validate_schema(self, node):
@@ -143,7 +142,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
