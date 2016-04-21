@@ -1,9 +1,9 @@
 {
+  "command": "python parser.py",
   "type": "scraper",
   "runtime": "python-2.7",
   "data": {
     "format": "json",
     "schema": "books.schema.json"
-  },
-  "command": "python parser.py"
+  }
 }
