@@ -47,8 +47,12 @@ class Parser(object):
         description = description.text.strip()
         publisher = publisher.text.strip()
         pages = pages.text
-        price = soup.find('meta', {'itemprop': 'price'}).get('content')
-        price = price.split('.')[0]
+
+        price = ''
+        price_info = soup.find('meta', {'itemprop': 'price'}).get('content')
+        if price_info:
+            price = price_info.split('.')[0]
+            price = re.sub('\D', '', price)
 
         also_buy_info = soup.find('table', 'nprn').tr.td.find_all('table')
         also_buy_books = []
@@ -75,12 +79,15 @@ class Parser(object):
 
         row = {
             "url": url,
-            "name": name,
-            "price": {
+            "name": name
+
+        }
+
+        if price:
+            row["price"] =  {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
         }
 
         if description:
