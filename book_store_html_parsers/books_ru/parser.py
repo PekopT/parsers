@@ -36,7 +36,6 @@ class Parser(object):
 
         pages_info = isbn_li.findNextSibling('li')
         pages = pages_info.text.strip()
-
         pages = re.sub('\D', '', pages)
 
         year = pages_info.findNextSibling('li')
