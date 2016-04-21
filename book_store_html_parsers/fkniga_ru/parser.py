@@ -29,43 +29,65 @@ class Parser(object):
         name_info = soup.h1
         name = name_info.text.strip()
 
-        author = name_info.find_next_sibling('span', 'hChildrenLink').text.strip()
-        author = self.remove_tags(author)
+        author = ''
+        author_info = name_info.find_next_sibling('span', 'hChildrenLink')
+        if author_info:
+            author = author_info.text.strip()
+            author = self.remove_tags(author)
 
         description_info = soup.find('div', {'id': 'textDescriptionId'})
-        description = description_info.text.strip()
-        description = self.remove_tags(description)
+        if description_info:
+            description = description_info.text.strip()
+            description = self.remove_tags(description)
+        else:
+            description = ''
 
         publisher = u''
-        publisher_info = soup.find('span', 'dataName', text=re.compile(u'Издательство')).parent.find_next_sibling('td')
+        publisher_info = soup.find('span', 'dataName', text=re.compile(u'Издательство'))
+
         if publisher_info:
-            publisher = publisher_info.text.strip()
+            publisher_info = publisher_info.parent.find_next_sibling('td')
+            if publisher_info:
+                publisher = publisher_info.text.strip()
 
         isbn = u''
-        isbn_info = soup.find('span', 'dataName', text=re.compile(u'ISBN')).parent.find_next_sibling('td')
+        isbn_info = soup.find('span', 'dataName', text=re.compile(u'ISBN'))
         if isbn_info:
-            isbn = isbn_info.text.strip()
+            isbn_info = isbn_info.parent.find_next_sibling('td')
+            if isbn_info:
+                isbn = isbn_info.text.strip()
 
         year = u''
-        year_info = soup.find('span', 'dataName', text=re.compile(u'Год')).parent.find_next_sibling('td')
+        year_info = soup.find('span', 'dataName', text=re.compile(u'Год'))
         if year_info:
-            year = year_info.text.strip()
+            year_info = year_info.parent.find_next_sibling('td')
+            if year_info:
+                year = year_info.text.strip()
 
         cover = u''
-        cover_info = soup.find('span', 'dataName', text=re.compile(u'Обложка')).parent.find_next_sibling('td')
+        cover_info = soup.find('span', 'dataName', text=re.compile(u'Обложка'))
         if cover_info:
-            cover = cover_info.text.strip()
+            cover_info = cover_info.parent.find_next_sibling('td')
+            if cover_info:
+                cover = cover_info.text.strip()
 
         pages = u''
-        pages_info = soup.find('span', 'dataName', text=re.compile(u'Страниц')).parent.find_next_sibling('td')
+        pages_info = soup.find('span', 'dataName', text=re.compile(u'Страниц'))
         if pages_info:
-            pages = pages_info.text.strip()
+            pages_info = pages_info.parent.find_next_sibling('td')
+            if pages_info:
+                pages = pages_info.text.strip()
 
-        image_info = soup.find('div', 'podlogkaBig').find_all('img')
+        pictures = []
+        image_info = soup.find('div', 'podlogkaBig')
+        if image_info:
+            image_info = image_info.find_all('img')
+            pictures = [img.get('src') for img in image_info if img]
 
-        pictures = [img.get('src') for img in image_info if img]
-        price_info = soup.find('div', 'priceItemOrange').text.strip()
-        price = re.sub('\D','',price_info)
+        price_info = soup.find('div', 'priceItemOrange')
+        if price_info:
+            price_info = price_info.text.strip()
+            price = re.sub('\D','',price_info)
 
         stock = soup.find('td', 'dataTableNalSpan')
         if stock:
@@ -74,8 +96,12 @@ class Parser(object):
         else:
             stock = u'В наличии'
 
-        also_buy_info = soup.find('div', 'catalogSmall').find_all('div', 'item')
+        also_buy_info = soup.find('div', 'catalogSmall')
+        if also_buy_info:
+            also_buy_info = also_buy_info.find_all('div', 'item')
         also_buy_books = []
+        if not also_buy_info:
+            also_buy_info = []
 
         for book in also_buy_info:
             picture_book = book.find('img').get('src')
@@ -126,8 +152,7 @@ class Parser(object):
         if isbn:
             row["isbn"] = isbn
 
-        if stock:
-            row["availability"] = stock
+        row["availability"] = stock
 
         if cover:
             row["cover"] = cover
@@ -143,7 +168,6 @@ class Parser(object):
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -152,7 +176,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
