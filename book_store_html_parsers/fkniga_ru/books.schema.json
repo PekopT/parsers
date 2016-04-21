@@ -144,7 +144,7 @@
 			]
 		}
 	},
-	"additionalProperties" : false, 
+	"additionalProperties" : false,
 	"required" : [
 		"url",
 		"name",
