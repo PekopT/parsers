@@ -56,6 +56,7 @@ class Parser(object):
         isbn_info = soup.find('span', {'itemprop': 'isbn'})
         if isbn_info:
             isbn = isbn_info.text.strip()
+            isbn = isbn.replace('\n','')
 
         year = u''
         year_info = soup.find('b', text=re.compile(u'Год'))
@@ -83,6 +84,7 @@ class Parser(object):
             price_info = price_info.text.strip()
             price = price_info.split(',')
             price = price[0].strip()
+            price = re.sub('\D', '', price)
 
         stock = u'В наличии'
         stock_info = soup.find('li', text=re.compile(u'наличи'))
@@ -101,6 +103,7 @@ class Parser(object):
             price_book_info = book.find('div','index').text.strip()
             price_book = price_book_info.split(',')[0]
             price_book = price_book.strip()
+            price_book = re.sub('\D','', price_book)
 
             also_row = {
                 "url": url_book,
