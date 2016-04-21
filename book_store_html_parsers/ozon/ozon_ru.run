@@ -1,12 +1,12 @@
 {
+  "command": "python parser.py",
   "runtime": "python-2.7",
-  "type": "scraper",
+  "type": "parser",
   "data": {
     "format": "json",
     "schema": "books.schema.json"
   },
-  "command": "python parser.py",
+
   "host": "http://www.ozon.ru",
   "urls_regexp": "(www\\.)?ozon\\.ru/context/detail/id/\\d+$"
-
 }
