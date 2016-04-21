@@ -164,7 +164,6 @@ class Parser(object):
         pass
 
 
-
 def main():
     parser = Parser()
     for line in sys.stdin:
@@ -177,7 +176,6 @@ def main():
                     "utf-8") + "\n")
 
     parser.close_parser()
-
 
 if __name__ == '__main__':
     main()
