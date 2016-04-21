@@ -37,7 +37,6 @@ class Parser(object):
         isbn = isbn.replace(u'\xa0','')
 
         price = soup.find('span', 'buying-price-val-number')
-
         if not price:
             price = soup.find('span', 'buying-pricenew-val-number')
 
