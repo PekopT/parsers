@@ -1,7 +1,7 @@
 {
   "command": "python parser.py",
-  "type": "parser",
   "runtime": "python-2.7",
+  "type": "parser",
   "data": {
     "format": "json",
     "schema": "books.schema.json"

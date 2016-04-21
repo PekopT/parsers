@@ -29,10 +29,13 @@ class Parser(object):
         name = soup.h1
         name = name.text.strip()
 
-        author = soup.find('div', 'book-author').find('div', 'h2')
-        if author:
-            author = author.text.strip()
-            author = author.replace(u'Автор:', '')
+        author = ''
+        author_info = soup.find('div', 'book-author')
+        if author_info:
+            author_info = author_info.find('div', 'h2')
+            if author_info:
+                author = author_info.text.strip()
+                author = author.replace(u'Автор:', '')
 
         book_info = soup.find('div', 'info2').find('dl')
 
@@ -43,29 +46,36 @@ class Parser(object):
         else:
             isbn = ''
 
-        pages = book_info.find('dt', text=re.compile(u'Объем'))
-        if pages:
-            pages = pages.findNextSibling('dd')
-            pages = pages.text.strip()
-        else:
-            pages = ''
+        pages = ''
+        pages_info = book_info.find('dt', text=re.compile(u'Объем'))
+        if pages_info:
+            pages_info = pages_info.findNextSibling('dd')
+            if pages_info:
+                pages = pages_info.text.strip()
+                pages = re.sub('\D','', pages)
 
-        year = book_info.find('dt', text=re.compile(u'написания'))
-        if year:
-            year = year.findNextSibling('dd')
-            year = year.text
+        year = ''
+        year_info = book_info.find('dt', text=re.compile(u'написания'))
+        if year_info:
+            year_info = year_info.findNextSibling('dd')
+            if year_info:
+                year = year_info.text.strip()
+                year = re.sub('\D','', year)
 
-        description = soup.find('div', 'book_annotation')
-        if description:
-            description = description.text.strip()
-        else:
-            description = ''
+        description = ''
+        description_info = soup.find('div', 'book_annotation')
+        if description_info:
+            description = description_info.text.strip()
 
-        price = soup.find('div', 'book-buy-wrapper').button
-        price_text = price.text.strip()
+        price = ''
+        price_info = soup.find('div', 'book-buy-wrapper')
+        if price_info:
+            price_info = price_info.button
+            if price_info:
+                price_text = price_info.text.strip()
+                price = re.sub(u'[А-Я а-яA-Za-z]+', '', price_text).split(',')
+                price = re.sub(u'\D', u'', price[0]).strip()
 
-        price = re.sub(u'[А-Я а-яA-Za-z]+', '', price_text).split(',')
-        price = re.sub(u'\D', u'', price[0]).strip()
         stock = u"На складе"
 
         row = {}
@@ -81,8 +91,10 @@ class Parser(object):
             row["description"] = description
 
         row["availability"] = stock
+
         if isbn:
             row["isbn"] = isbn
+
         if year:
             row["year"] = year
 
