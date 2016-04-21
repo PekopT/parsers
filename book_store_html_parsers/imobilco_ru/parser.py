@@ -57,9 +57,7 @@ class Parser(object):
         else:
             also_buy_info = []
 
-
         also_buy_books = []
-
 
         price = ''
         price_info = soup.find('span','product-price-in-button')
@@ -68,13 +66,11 @@ class Parser(object):
             price = price_info.text.strip()
             price = re.sub('\D','',price)
 
-
         stock = u'В наличии'
 
         stock_info = soup.find('span', 'product-action-buy-unavailable')
         if stock_info:
             stock = stock_info.text.strip()
-
 
         for book in also_buy_info:
             picture_book = book.a.find('img').get('src')
@@ -91,7 +87,6 @@ class Parser(object):
             }
 
             also_buy_books.append(also_row)
-
 
         row = {
             "url": url,
@@ -129,7 +124,6 @@ class Parser(object):
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -138,7 +132,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
