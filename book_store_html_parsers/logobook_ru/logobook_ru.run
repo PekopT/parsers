@@ -9,5 +9,3 @@
   "host": "http://www.logobook.ru",
   "urls_regexp": "(www\\.)?logobook\\.ru/prod_show.php\\?object_uid=\\d+"
 }
-
-
