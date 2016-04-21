@@ -91,7 +91,6 @@ class Parser(object):
             picture_book = book.a.find('img').get('src')
             price_info = book.find('div', 'price')
             price_book = re.sub('\D', '', price_info.text).strip()
-
             name_book = book.find('div', 'title').a.get_text().strip()
             url_book = book.find('div', 'title').a.get('href')
 
