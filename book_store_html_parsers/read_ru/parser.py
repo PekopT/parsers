@@ -174,7 +174,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
