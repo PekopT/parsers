@@ -29,6 +29,7 @@ class Parser(object):
 
         author = soup.find('div', text=re.compile(u'Автор'), attrs={'class': 'eItemProperties_name'}) \
             .find_next_sibling().find('a').text
+
         year = soup.find('div', text=re.compile(u'Год'), attrs={'class': 'eItemProperties_name'}) \
             .find_next_sibling().text.strip()
 
@@ -57,6 +58,8 @@ class Parser(object):
         also_buy = json.loads(also_search)
         also_buy_books = []
         for book in also_buy:
+            price_book = book["PriceInfo"]["PriceValue"].strip()
+            price_book = re.sub('\D','', price_book)
             also_row = {
                 "url": "http://www.ozon.ru/context/detail/id/" + str(book["Id"]),
                 "name": book["Name"],
@@ -65,7 +68,7 @@ class Parser(object):
                 "price": {
                     "currency": "RUR",
                     "type": "currency",
-                    "content": int(book["PriceInfo"]["PriceValue"]),
+                    "content": int(price_book),
                 }
             }
             also_buy_books.append(also_row)
@@ -98,15 +101,25 @@ class Parser(object):
         row = {
             "url": url,
             "name": name.strip(),
-            "author": author.strip(),
-            "publisher": publisher.strip(),
-            "description": description.strip(),
             "price": {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
             },
         }
+
+        author = author.strip()
+        description = description.strip()
+        publisher = publisher.strip()
+
+        if description:
+            row["description"] = description
+
+        if publisher:
+            row["publisher"] = publisher
+
+        if author:
+            row["author"] = author
 
         if price_stock:
             row["availability"] = price_stock
