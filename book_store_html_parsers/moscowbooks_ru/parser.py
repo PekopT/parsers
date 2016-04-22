@@ -139,7 +139,6 @@ class Parser(object):
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
 
-
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
         schema = json.loads(f.read())
