@@ -33,7 +33,6 @@ class Parser(object):
             if author_info:
                 author = author_info.text.replace("\\n","").strip()
 
-
         name = ''
         name_info = soup.find('div', 'text w_div')
         if name_info:

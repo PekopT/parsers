@@ -6,7 +6,7 @@
     "format": "json",
     "schema": "books.schema.json"
   },
-  "host": "",
+  "host":"",
   "urls_regexp": "(www\\.)?moscowbooks\\.ru/book\\.asp\\?id=\\d+"
 }
 
