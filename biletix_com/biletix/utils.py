@@ -1,5 +1,6 @@
 import functools
 
+
 def check_spider_pipeline(process_item_method):
     @functools.wraps(process_item_method)
     def wrapper(self, item, spider):

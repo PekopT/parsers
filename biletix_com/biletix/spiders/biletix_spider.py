@@ -2,12 +2,16 @@
 import scrapy
 import json
 import re
+import datetime
 
 from biletix.items import EventItem, EventGroupItem, MekanItem, PersonaItem
 from biletix.pipelines import EventPipeline, EventGroupPipeline, MekanPipeline, PersonaPipeline
 
-# COOKIES = {'BXID': 'AAAAAAU7lWrMThR3h0fEGr+GuVZciZ51Fszj2PFmcdM1fpVqtA=='}
 
+CURRENT_NOW = datetime.datetime.now()
+CURRENT_DATE = CURRENT_NOW.strftime("%Y-%m-%d")
+CURRENT_DATE_WITHOUT_YEAR = CURRENT_NOW.strftime("-%m-%d")
+END_DATE = '2018' + CURRENT_DATE_WITHOUT_YEAR
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0',
@@ -15,6 +19,7 @@ HEADERS = {
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
     'X-Requested-With': 'XMLHttpRequest',
 }
+
 
 class BiletEventGroupSpider(scrapy.Spider):
     name = "biletixgroup"
@@ -39,11 +44,11 @@ class BiletEventGroupSpider(scrapy.Spider):
             self.cookies = {"BXID": cookies_info}
 
         urls = [
-            "http://www.biletix.com/solr/en/select/?start=0&rows=10000&q=category:MUSIC&qt=standard&fq=end%3A%5B2016-03-29T00%3A00%3A00Z%20TO%202018-04-02T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:SPORT&qt=standard&fq=end%3A%5B2016-03-31T00%3A00%3A00Z%20TO%202018-04-01T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:ART&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:FAMILY&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:OTHER&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json"
+            "http://www.biletix.com/solr/en/select/?start=0&rows=10000&q=category:MUSIC&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:SPORT&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:ART&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:FAMILY&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:OTHER&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE)
         ]
         for url in urls:
             yield scrapy.Request(url, headers=HEADERS, cookies=self.cookies, callback=self.parse_category)
@@ -111,13 +116,15 @@ class MekanSpider(scrapy.Spider):
             cookies_info = test[:pos].replace("BXID=","")
             self.cookies = {"BXID": cookies_info}
 
+        url_begin = "http://www.biletix.com/solr/en/select/?start=0&rows=10000"
+
 
         urls = [
-            "http://www.biletix.com/solr/en/select/?start=0&rows=10000&q=category:MUSIC&qt=standard&fq=end%3A%5B2016-03-29T00%3A00%3A00Z%20TO%202018-04-02T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:SPORT&qt=standard&fq=end%3A%5B2016-03-31T00%3A00%3A00Z%20TO%202018-04-01T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:ART&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:FAMILY&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:OTHER&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json"
+            url_begin + "&q=category:MUSIC&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            url_begin + "&q=category:SPORT&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            url_begin + "&q=category:ART&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            url_begin + "&q=category:FAMILY&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            url_begin + "&q=category:OTHER&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE)
         ]
         for url in urls:
             yield scrapy.Request(url, headers=HEADERS, cookies=self.cookies, callback=self.parse_category)
@@ -182,11 +189,11 @@ class BiletixEventSpider(scrapy.Spider):
             cookies_info = test[:pos].replace("BXID=","")
             self.cookies = {"BXID": cookies_info}
         urls = [
-            "http://www.biletix.com/solr/en/select/?start=0&rows=10000&q=category:MUSIC&qt=standard&fq=end%3A%5B2016-03-29T00%3A00%3A00Z%20TO%202018-04-02T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:SPORT&qt=standard&fq=end%3A%5B2016-03-31T00%3A00%3A00Z%20TO%202018-04-01T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:ART&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:FAMILY&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:OTHER&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json"
+            "http://www.biletix.com/solr/en/select/?start=0&rows=10000&q=category:MUSIC&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:SPORT&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:ART&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:FAMILY&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:OTHER&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE)
         ]
         for url in urls:
             yield scrapy.Request(url, headers=HEADERS, cookies=self.cookies, callback=self.parse_category)
@@ -201,7 +208,6 @@ class BiletixEventSpider(scrapy.Spider):
                 meta_info = {'category': resp['category'], 'subcategory': resp['subcategory'], 'id': resp['id']}
                 yield scrapy.Request(url, cookies=self.cookies, meta=meta_info,
                                      callback=self.parse_page)
-                break
 
     def parse_page(self, response):
         title = response.xpath("//*[@id='eventnameh1']/span/text()")
@@ -248,11 +254,13 @@ class PersonaSpider(scrapy.Spider):
             cookies_info = test[:pos].replace("BXID=","")
             self.cookies = {"BXID": cookies_info}
 
+        url_begin = "http://www.biletix.com/solr/en/select/?start=0&rows=10000"
+
         urls = [
-            "http://www.biletix.com/solr/en/select/?start=0&rows=10000&q=category:MUSIC&qt=standard&fq=end%3A%5B2016-03-29T00%3A00%3A00Z%20TO%202018-04-02T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:ART&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:FAMILY&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json",
-            "http://www.biletix.com/solr/tr/select/?start=0&rows=10000&q=category:OTHER&qt=standard&fq=end%3A%5B2016-04-03T00%3A00%3A00Z%20TO%202018-04-04T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json"
+            url_begin + "&q=category:MUSIC&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            url_begin + "&q=category:ART&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            url_begin + "&q=category:FAMILY&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE),
+            url_begin + "&q=category:OTHER&qt=standard&fq=end%3A%5B{0}T00%3A00%3A00Z%20TO%20{1}T00%3A00%3A00Z%2B1DAY%5D&sort=vote%20desc,start%20asc&&wt=json".format(CURRENT_DATE, END_DATE)
         ]
 
         for url in urls:

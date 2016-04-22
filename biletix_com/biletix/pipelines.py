@@ -20,6 +20,7 @@ CATEGORIES = {
 }
 sout = getwriter("utf8")(stdout)
 
+
 class JsonPipeline(object):
     def __init__(self):
         self.data = []

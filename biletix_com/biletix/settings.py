@@ -61,8 +61,7 @@ COOKIES_DEBUG=True
 #    'scrapy.telnet.TelnetConsole': None,
 #}
 
-# Configure item pipelines
-# See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
+
 ITEM_PIPELINES = {
    'biletix.pipelines.EventPipeline': 300,
    'biletix.pipelines.EventGroupPipeline': 300,
