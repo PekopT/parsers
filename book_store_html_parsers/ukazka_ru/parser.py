@@ -32,21 +32,52 @@ class Parser(object):
             names = name.split(':')
             name = names[1]
 
-        image = soup.find('div', 'blok_kartinka').img
-        image = image.get('src')
-        pictures = [image]
+        pictures = []
+        image_info = soup.find('div', 'blok_kartinka')
+        if image_info:
+            image = image_info.get('src')
+            pictures = [image]
 
-        author = soup.find('meta', {'property': 'og:author'}).get('content')
-        isbn = soup.find('meta', {'property': 'og:isbn'}).get('content')
-        year = soup.find('meta', {'property': 'og:release_date'}).get('content')
-        pages = soup.find('span', 'gray', text=re.compile(u'Страниц')).find_next_sibling('div', 'lpad20')
-        publisher = soup.find('span', 'gray', text=re.compile(u'Издательство')).find_next_sibling('div', 'lpad20')
-        description = soup.find('p', 'opisanie')
-        cover = soup.find('b', {'itemprop': 'bookFormat'})
-        cover = cover.text.strip()
-        description = description.text.strip()
-        publisher = publisher.text.strip()
-        pages = pages.text
+        author = ''
+        author_info = soup.find('meta', {'property': 'og:author'})
+        if author_info:
+            author = author_info.get('content')
+
+        isbn = ''
+        isbn_info = soup.find('meta', {'property': 'og:isbn'})
+        if isbn_info:
+            isbn = isbn_info.get('content')
+
+        year = ''
+        year_info = soup.find('meta', {'property': 'og:release_date'})
+        if year_info:
+            year = year_info.get('content')
+            year = re.sub('\D', '', year)
+
+        pages = ''
+        pages_info = soup.find('span', 'gray', text=re.compile(u'Страниц'))
+        if pages_info:
+            pages_info = pages_info.find_next_sibling('div', 'lpad20')
+            if pages_info:
+                pages = pages.text.strip()
+                pages = re.sub('\D', '', pages)
+
+        cover = ''
+        cover_info = soup.find('b', {'itemprop': 'bookFormat'})
+        if cover_info:
+            cover = cover.text.strip()
+
+        description = ''
+        description_info = soup.find('p', 'opisanie')
+        if description_info:
+            description = description.text.strip()
+
+        publisher = ''
+        publisher_info = soup.find('span', 'gray', text=re.compile(u'Издательство'))
+        if publisher_info:
+            publisher_info = publisher_info.find_next_sibling('div', 'lpad20')
+            publisher = publisher_info.text.strip()
+
 
         price = ''
         price_info = soup.find('meta', {'itemprop': 'price'}).get('content')
