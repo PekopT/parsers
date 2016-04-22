@@ -85,7 +85,6 @@ class Parser(object):
             img = img_item.find('img').get('src')
             pictures.append(img)
 
-
         row = {
             "url": url,
             "name": name
