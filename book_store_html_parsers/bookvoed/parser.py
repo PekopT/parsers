@@ -64,12 +64,20 @@ class Parser(object):
 
         stock = u'В наличии'
 
+        description = ''
         description_info = soup.find('div', {'id': 'aboutTabs_descr_content'})
-        description = description_info.text.strip()
-        description = description.replace("\\n", "").strip()
+        if description_info:
+            description = description_info.text.strip()
+            description = description.replace("\\n", "").strip()
 
-        price = soup.find('meta', {'itemprop': 'price'})
-        price = price.get('content').split('.')[0]
+        price = ''
+        price_info = soup.find('meta', {'itemprop': 'price'})
+        if price_info:
+            price = price_info.get('content').split('.')[0]
+            price = re.sub('\D','', price)
+        else:
+            stock = u'В наличии нет'
+
 
         also_buy_info = soup.select('#bookWith div div div.Kp')
 
@@ -139,8 +147,7 @@ class Parser(object):
         if isbn:
             row["isbn"] = isbn
 
-        if stock:
-            row["availability"] = stock
+        row["availability"] = stock
 
         if cover:
             row["cover"] = cover
@@ -150,7 +157,6 @@ class Parser(object):
 
         self.check_validate_schema(row)
         sout.write(json.dumps(row, ensure_ascii=False) + "\n")
-        # self.rows_data.append(row)
 
     def check_validate_schema(self, node):
         f = open('books.schema.json', 'r')
@@ -159,7 +165,6 @@ class Parser(object):
 
     def close_parser(self):
         pass
-        # sout.write(json.dumps(self.rows_data, ensure_ascii=False))
 
 
 def main():
