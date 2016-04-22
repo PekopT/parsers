@@ -100,13 +100,15 @@ class Parser(object):
 
         row = {
             "url": url,
-            "name": name.strip(),
-            "price": {
+            "name": name.strip()
+        }
+
+        if price:
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         author = author.strip()
         description = description.strip()
@@ -165,7 +167,7 @@ def main():
             parser.parse_html(data)
         except Exception as e:
             sys.stderr.write(
-                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).encode(
+                json.dumps({"url": data["url"], "traceback": traceback.format_exc()}, ensure_ascii=False).decode('windows-1251').encode(
                     "utf-8") + "\n")
 
     parser.close_parser()
