@@ -1,9 +1,11 @@
 {
-  "type": "scraper",
+  "command": "python parser.py",
   "runtime": "python-2.7",
+  "type": "parser",
   "data": {
     "format": "json",
     "schema": "books.schema.json"
   },
-  "command": "python parser.py"
+  "host": "http://www.mdk-arbat.ru",
+  "urls_regexp": "(www\\.)?mdk-arbat\\.ru/bookcard\\?book_id=\\d+"
 }

@@ -37,17 +37,22 @@ class Parser(object):
         soup = BeautifulSoup(html, 'html.parser')
         name = soup.h1.text.strip()
 
-        author = soup.find('div', {'id': 'about_text'}).find('td', {'id': 'over_name_book'})
-        author = author.text.strip()
+        author = ''
+        author_info= soup.find('div', {'id': 'about_text'})
+        if author_info:
+            author_info = author_info.find('td', {'id': 'over_name_book'})
+            if author_info:
+                author = author_info.text.strip()
 
         description = ''
         description_info = soup.find_all('td', {'id': 'about_text1'})
         if description_info:
             description = description_info[1].text.strip()
-
+        price = ''
         price_info = soup.find('table', {'id': 'price_shop'}).find_all('tr', limit=2)
-        price = price_info[1].find('td', 'price_book').text
-        price = re.sub(u'\D', '', price)
+        if price_info:
+            price = price_info[1].find('td', 'price_book').text
+            price = re.sub(u'\D', '', price)
 
         info_book = soup.find('div', 'opisanie')
         if info_book:
