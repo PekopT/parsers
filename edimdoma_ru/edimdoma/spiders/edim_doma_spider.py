@@ -83,6 +83,18 @@ class EdimdomaSpder(scrapy.Spider):
             r_link = r_link[0]
             yield scrapy.Request(r_link, meta=meta_info, callback=self.parse_recipe)
 
+        for cat in submenu:
+            cat_name = cat.xpath("a/text()").extract()
+            cat_url = cat.xpath("a/@href").extract()
+            if cat_url:
+                cat_url = response.urljoin(cat_url[0])
+                if cat_name:
+                    cat_name = cat_name[0]
+                else:
+                    cat_name = ''
+                meta_info = {'category_name': cat_name}
+                yield scrapy.Request(cat_url, meta=meta_info, callback=self.parse_category)
+
 
     def parse_recipe(self, response):
         name = response.xpath("//h1[@itemprop='name']/text()").extract()

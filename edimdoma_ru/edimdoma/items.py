@@ -23,3 +23,4 @@ class EdimdomaItem(scrapy.Item):
     ingredients = scrapy.Field()
     image = scrapy.Field()
     rating = scrapy.Field()
+
