@@ -26,13 +26,20 @@ class Parser(object):
         html = data['html']
         soup = BeautifulSoup(html, 'html.parser')
 
-        name = soup.h1.text
+        name_info = soup.h1
+        name = ''
+        if name_info:
+            name = name_info.text.strip()
+
 
         author_info = soup.find_all(text=re.compile(u'Автор\:'))
+        author = ''
         if author_info:
-            author = author_info[0].next_sibling.text.strip()
-        else:
-            author = ''
+            author_info= author_info[0]
+            author_info = author_info.next_sibling
+            if author_info:
+                author = author_info.text.strip()
+
 
         isbn_info = soup.find_all('font', text=re.compile(u'ISBN'))
         parent_data = isbn_info[1].parent
