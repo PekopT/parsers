@@ -59,7 +59,7 @@ class Parser(object):
         if pages_info:
             pages_info = pages_info.find_next_sibling('div', 'lpad20')
             if pages_info:
-                pages = pages.text.strip()
+                pages = pages_info.text.strip()
                 pages = re.sub('\D', '', pages)
 
         cover = ''
@@ -70,7 +70,7 @@ class Parser(object):
         description = ''
         description_info = soup.find('p', 'opisanie')
         if description_info:
-            description = description.text.strip()
+            description = description_info.text.strip()
 
         publisher = ''
         publisher_info = soup.find('span', 'gray', text=re.compile(u'Издательство'))
