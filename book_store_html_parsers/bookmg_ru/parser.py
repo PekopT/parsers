@@ -80,6 +80,7 @@ class Parser(object):
             name = ''
 
         stock = u'В наличии'
+        price = ''
         price_info = soup.find('div', 'price2')
         if price_info:
             price = re.sub(u'\D', '', price_info.text)
@@ -105,7 +106,7 @@ class Parser(object):
         }
 
         if price:
-            row["price"] =  {
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
