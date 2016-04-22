@@ -32,16 +32,22 @@ class Parser(object):
         publisher = publishers[0]
         year = publishers[1]
         cover = ''
-        isbn = soup.find('div', 'isbn').text
-        isbn = isbn.replace(u"ISBN:", u"").replace(u"все", "").replace(u"скрыть", "").replace(" ", "").strip()
-        isbn = isbn.replace(u'\xa0','')
+        isbn = ''
+        isbn_info = soup.find('div', 'isbn')
+        if isbn_info:
+            isbn = isbn_info.text.strip()
+            isbn = isbn.replace(u"ISBN:", u"").replace(u"все", "").replace(u"скрыть", "").replace(" ", "").strip()
+            isbn = isbn.replace(u'\xa0', '')
 
         price = soup.find('span', 'buying-price-val-number')
         if not price:
             price = soup.find('span', 'buying-pricenew-val-number')
 
-        price = price.text
-        price = re.sub('\D', '', price)
+        if price:
+            price = price.text.strip()
+            price = re.sub('\D', '', price)
+        else:
+            price = ''
 
         description_info = soup.find('div', {'id': 'product-about'})
         if description_info:
@@ -133,13 +139,15 @@ class Parser(object):
 
         row = {
             "url": url,
-            "name": name,
-            "price": {
+            "name": name
+        }
+
+        if price:
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         if author:
             row["author"] = author
