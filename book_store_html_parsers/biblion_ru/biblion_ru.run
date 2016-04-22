@@ -1,9 +1,11 @@
 {
-  "type": "scraper",
+  "command": "python parser.py",
+  "type": "parser",
   "runtime": "python-2.7",
   "data": {
     "format": "json",
     "schema": "books.schema.json"
   },
-  "command": "python parser.py"
+  "host": "http://www.biblion.ru/",
+  "urls_regexp": "(www\\.)?biblion\\.ru/product/\\d+"
 }

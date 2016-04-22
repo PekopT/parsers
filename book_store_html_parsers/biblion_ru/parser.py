@@ -52,7 +52,6 @@ class Parser(object):
                 stock_info = stock_info.find('div', 'value')
                 stock = stock_info.text.replace("\\n","").strip()
 
-
             price_info = details_info.find('div', 'price')
             if price_info:
                 price = re.sub(u'\D', '', price_info.text)
