@@ -83,7 +83,6 @@ class Parser(object):
                 pictures = [image]
 
         stock = u'В Наличии'
-
         also_buy_info = soup.find('div', 'bx_item_list_section')
         if also_buy_info:
             also_buy_info = also_buy_info.find_all('div', 'bx_catalog_item')
@@ -100,9 +99,6 @@ class Parser(object):
                     price_book = re.sub('\D', '', price_info.text).strip()
                 else:
                     price_book = ''
-
-
-
 
                 name_book = book.find('div', 'bx_catalog_item_title').text.strip()
                 url_book = book.a.get('href')
