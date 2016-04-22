@@ -5,5 +5,7 @@
   "data": {
     "format": "json",
     "schema": "books.schema.json"
-  }
+  },
+  "host": "http://fkniga.ru",
+  "urls_regexp": "(www\\.)?fkniga\\.ru/book/\\d+"
 }
