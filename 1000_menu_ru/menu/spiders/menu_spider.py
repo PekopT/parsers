@@ -18,8 +18,9 @@ class MenuSpder(scrapy.Spider):
         first_nav_main = []
         for cat in categories:
             fn_name = cat.xpath("a/text()").extract()
-            fn_url = cat.xpath("a/@href").extract()
-            first_nav_main.append({'name': fn_name[0], 'url': fn_url[0]})
+            fn_url = cat.xpath("a/@href").extract()[0]
+            fn_url = response.urljoin(fn_url)
+            first_nav_main.append({'name': fn_name[0], 'url': fn_url})
 
         recipies = response.xpath(
             "//div[@class='rating-block'][3]/div[@class='cooking-block']/div[@class='item cooking']")
@@ -54,8 +55,9 @@ class MenuSpder(scrapy.Spider):
         first_nav = []
         for scat in categories:
             fn_name = scat.xpath("text()").extract()
-            fn_url = scat.xpath("@href").extract()
-            first_nav.append({'name': fn_name[0], 'url': fn_url[0]})
+            fn_url = scat.xpath("@href").extract()[0]
+            fn_url = response.urljoin(fn_url)
+            first_nav.append({'name': fn_name[0], 'url': fn_url})
 
         recipies = response.xpath("//div[@class='cooking-block']/div[@class='anonce-cont-side']")
         for recipe in recipies:

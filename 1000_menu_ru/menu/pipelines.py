@@ -54,7 +54,8 @@ class MenuPipeline(object):
         self.category_recipes[category_name]['recipes'].append(recipe_row)
         self.category_recipes[category_name]['name'] = category_name
         self.category_recipes[category_name]['url'] = item['category_url']
-        self.category_recipes[category_name]['first_nav_block'] = item['first_nav']
+        if len(item['first_nav'])>0:
+            self.category_recipes[category_name]['first_nav_block'] = item['first_nav']
 
     def close_spider(self, spider):
         for key in self.category_recipes:
