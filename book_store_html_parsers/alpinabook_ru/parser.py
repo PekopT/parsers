@@ -37,12 +37,20 @@ class Parser(object):
         images_info = soup.find_all('img', {'itemprop': 'image'})
         pictures = [img.get('src') for img in images_info]
 
-        description = soup.find('span', {"itemprop": "description"}).text.strip()
+        description = ''
+        description_info = soup.find('span', {"itemprop": "description"})
+        if description_info:
+            description = description_info.text.strip()
+
         about = soup.find('span', {"itemprop": "about"})
         if about:
             description += about.text.strip()
 
-        isbn = soup.find('p', {'itemprop': 'isbn'}).text.strip()
+        isbn = ''
+        isbn_info = soup.find('p', {'itemprop': 'isbn'})
+        if isbn_info:
+            isbn = isbn_info.text.strip()
+
         pages = ''
         pages_info = soup.find('span', {'itemprop': 'numberOfPages'})
 
@@ -94,6 +102,7 @@ class Parser(object):
             price_info = book.find('p', 'bookPrice').text.strip()
             price_book = price_info.split(',')[0]
             price_book = re.sub('\D', '', price_book).strip()
+            price_book = re.sub('\D', '', price_book)
             name_book = book.find('img').get('alt')
             url_book = book.a.get('href')
 
@@ -101,12 +110,14 @@ class Parser(object):
                 "url": url_book,
                 "name": name_book,
                 "image": picture_book,
-                "price": {
+            }
+
+            if price_book:
+                also_row["price"] =  {
                     "currency": "RUR",
                     "type": "currency",
                     "content": int(price_book),
                 }
-            }
 
             also_buy_books.append(also_row)
 
