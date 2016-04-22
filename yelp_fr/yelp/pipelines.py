@@ -11,7 +11,7 @@ import json
 
 import re
 
-
+sout = getwriter("utf8")(stdout)
 class YelpPipeline(object):
 
     def process_item(self, item, spider):
@@ -22,5 +22,5 @@ class YelpPipeline(object):
             "adress": ','.join(item['adress']).strip()
         }
 
-        sout = getwriter("utf8")(stdout)
+
         sout.write(json.dumps(human, ensure_ascii=False) + "\n")
