@@ -90,7 +90,7 @@ class Parser(object):
         else:
             b_img_info = soup.find('img','b-img2')
             if b_img_info:
-                stock_info = price_info.find_next_sibling('div', 'news_div')
+                stock_info = b_img_info.find_next_sibling('div', 'news_div')
                 if stock_info:
                     stock_info = stock_info.div.div
                     stock = stock_info.text.strip()
