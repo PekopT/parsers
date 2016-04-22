@@ -84,6 +84,7 @@ class Parser(object):
             image_info = image_info.find_all('img')
             pictures = [img.get('src') for img in image_info if img]
 
+        price = ''
         price_info = soup.find('div', 'priceItemOrange')
         if price_info:
             price_info = price_info.text.strip()
