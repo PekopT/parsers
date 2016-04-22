@@ -79,15 +79,21 @@ class Parser(object):
             author = ''
             name = ''
 
+        stock = u'В наличии'
         price_info = soup.find('div', 'price2')
         if price_info:
             price = re.sub(u'\D', '', price_info.text)
-
-        stock = u'В наличии'
-        stock_info = price_info.find_next_sibling('div', 'news_div')
-        if stock_info:
-            stock_info = stock_info.div.div
-            stock = stock_info.text.strip()
+            stock_info = price_info.find_next_sibling('div', 'news_div')
+            if stock_info:
+                stock_info = stock_info.div.div
+                stock = stock_info.text.strip()
+        else:
+            b_img_info = soup.find('img','b-img2')
+            if b_img_info:
+                stock_info = price_info.find_next_sibling('div', 'news_div')
+                if stock_info:
+                    stock_info = stock_info.div.div
+                    stock = stock_info.text.strip()
 
         year = re.sub(u'\D', '', year).strip()
 
