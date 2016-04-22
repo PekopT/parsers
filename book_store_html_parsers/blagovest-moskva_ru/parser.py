@@ -28,25 +28,33 @@ class Parser(object):
         name = soup.h1.text.strip()
         book_info = soup.find('td', 'descr')
         if book_info:
+            isbn = ''
             isbn_info = book_info.find('span',{'itemprop':'isbn'})
             if isbn_info:
                 isbn = isbn_info.text.strip()
             else:
-                isbn = book_info.find('b', text=re.compile(u'ISBN'))
-                isbn = unicode(isbn.next_sibling).strip()
+                isbn_info = book_info.find('b', text=re.compile(u'ISBN'))
+                if isbn_info:
+                    isbn = unicode(isbn_info.next_sibling).strip()
 
             year = book_info.find('b', text=re.compile(u'издания'))
             if year:
                 year = unicode(year.next_sibling).strip()
 
-            pages = book_info.find('b', text=re.compile(u'страниц'))
-            pages = unicode(pages.next_sibling).strip()
+            pages = ''
+            pages_info = book_info.find('b', text=re.compile(u'страниц'))
+            if pages_info:
+                pages = unicode(pages.next_sibling).strip()
 
-            publisher = book_info.find('b', text=re.compile(u'Издательство'))
-            publisher = publisher.find_next_sibling('span').text.strip()
+            publisher = ''
+            publisher_info = book_info.find('b', text=re.compile(u'Издательство'))
+            if publisher_info:
+                publisher = publisher.find_next_sibling('span').text.strip()
 
-            cover = book_info.find('b', text=re.compile(u'обложки'))
-            cover = unicode(cover.next_sibling).strip()
+            cover = ''
+            cover_info = book_info.find('b', text=re.compile(u'обложки'))
+            if cover_info:
+                cover = unicode(cover_info.next_sibling).strip()
 
         stock = u'В наличии'
 
@@ -56,16 +64,25 @@ class Parser(object):
         else:
             description = u''
 
-
-        price_info = book_info.find('div', 'price_block').find('span', {'itemprop': 'price'})
+        price = ''
+        price_info = book_info.find('div', 'price_block')
         if price_info:
-            price = price_info.text.strip()
-            price = price.split('.')[0]
+            price_info = price_info.find('span', {'itemprop': 'price'})
+            if price_info:
+                price = price_info.text.strip()
+                price = price.split('.')[0]
+                price = re.sub('\D', '', price)
 
         images = soup.find_all('img', 'unselected_img')
         pictures = [img.get('src') for img in images if img]
 
-        also_buy_info = soup.find('td', 'main').find_all('div', 'goods_catalog')
+        also_buy_info = soup.find('td', 'main')
+        if also_buy_info:
+            also_buy_info = also_buy_info.find_all('div', 'goods_catalog')
+
+        if not also_buy_info:
+            also_buy_info = []
+
         also_buy_books = []
 
         for book in also_buy_info:
@@ -105,15 +122,15 @@ class Parser(object):
 
         row = {
             "url": url,
-            "name": name,
+            "name": name
+        }
 
-            "price": {
+        if price:
+            row["price"] =  {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-
-        }
+            }
 
         if isbn:
             row["isbn"] = isbn
