@@ -37,30 +37,32 @@ class Parser(object):
                 author = author_info.text.strip()
                 author = author.replace(u'Автор:', '')
 
-        book_info = soup.find('div', 'info2').find('dl')
-
-        isbn = book_info.find('dt', text=re.compile(u'ISBN'))
-        if isbn:
-            isbn = isbn.findNextSibling('dd')
-            isbn = isbn.text.strip()
-        else:
-            isbn = ''
-
+        isbn = ''
         pages = ''
-        pages_info = book_info.find('dt', text=re.compile(u'Объем'))
-        if pages_info:
-            pages_info = pages_info.findNextSibling('dd')
-            if pages_info:
-                pages = pages_info.text.strip()
-                pages = re.sub('\D','', pages)
-
         year = ''
-        year_info = book_info.find('dt', text=re.compile(u'написания'))
-        if year_info:
-            year_info = year_info.findNextSibling('dd')
-            if year_info:
-                year = year_info.text.strip()
-                year = re.sub('\D','', year)
+        book_info = soup.find('div', 'info2')
+        if book_info:
+            book_info = book_info.find('dl')
+            if book_info:
+                isbn = book_info.find('dt', text=re.compile(u'ISBN'))
+                if isbn:
+                    isbn = isbn.findNextSibling('dd')
+                    isbn = isbn.text.strip()
+
+                pages_info = book_info.find('dt', text=re.compile(u'Объем'))
+                if pages_info:
+                    pages_info = pages_info.findNextSibling('dd')
+                    if pages_info:
+                        pages = pages_info.text.strip()
+                        pages = re.sub('\D','', pages)
+
+
+                year_info = book_info.find('dt', text=re.compile(u'написания'))
+                if year_info:
+                    year_info = year_info.findNextSibling('dd')
+                    if year_info:
+                        year = year_info.text.strip()
+                        year = re.sub('\D','', year)
 
         description = ''
         description_info = soup.find('div', 'book_annotation')
