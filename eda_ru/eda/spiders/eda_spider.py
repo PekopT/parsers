@@ -3,6 +3,20 @@ import scrapy
 
 from eda.items import EdaItem
 
+class EdaTestSpder(scrapy.Spider):
+    name = 'edatest'
+    allowed_domains = ["eda.ru"]
+    start_urls = (
+        'http://eda.ru/',
+    )
+
+    categories_ids = []
+    category_image = {}
+
+    def parse(self, response):
+        pass
+
+
 
 class EdaSpder(scrapy.Spider):
     name = 'eda'
@@ -44,8 +58,15 @@ class EdaSpder(scrapy.Spider):
                 yield scrapy.Request(cat_url, callback=self.parse_category)
 
     def parse_category(self, response):
-        h1_title = response.xpath("//h1/a/text()")
-        h1_title_id = response.xpath("//h1/a/@id").extract()[0]
+        h1_title_id = response.xpath("//h1/a/@id")
+        if h1_title_id:
+            h1_title_id = h1_title_id.extract()[0]
+        else:
+            h1_title_id = response.xpath("//h1/text()")
+            if h1_title_id:
+                h1_title_id = h1_title_id.extract()[0]
+
+        h1_title_id = h1_title_id.strip()
 
         recipies = response.xpath("//div[contains(@class,'b-list-items')]/div[contains(@class,'b-recipe-widget')]")
         first_nav_info = response.xpath("//a[@class='subnav__link-mainpage subnav__link-aside']")
@@ -74,6 +95,12 @@ class EdaSpder(scrapy.Spider):
             }
             r_link = response.urljoin(r_link[0])
             yield scrapy.Request(r_link, meta=meta_info, callback=self.parse_recipe)
+
+        for scat in first_nav_info:
+            cat_url = scat.xpath("@href").extract()
+            cat_url = response.urljoin(cat_url[0])
+            meta_info = {'category_name': ''}
+            yield scrapy.Request(cat_url, meta=meta_info, callback=self.parse_category)
 
     def parse_recipe(self, response):
         name = response.xpath("//h1/text()")
