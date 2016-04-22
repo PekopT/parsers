@@ -217,18 +217,19 @@ class FsvpsPipeline(object):
         value = value.rstrip(',.; ').lstrip(',( ')
         mc = re.search(u'^г\.[А-Яа-я]+$', value)
         street = re.search(u"^ул\.", value)
-        pc = re.search(u"^[с\.|п\.][А-Яа-я]+", value)
+        # pc = re.search(u"^[с\.|п\.|ст\.][А-Яа-я]+", value)
+        pc = re.search(u"^(с\.|п\.|ст\.)[ А-Яа-я]+", value)
         if mc:
             city_res = mc.group(0).strip()
             city = re.sub(u'г\.', u'', city_res)
             region = self.get_region(city) or u""
             result = region + "," + city_res
         elif pc:
-            # value = self.get_parent_address(url)
             pc_res = pc.group(0).strip()
-            pc_city = re.sub(u'^[с\.|п\.]', u'', pc_res)
+            pc_city = re.sub(u'^(с\.|п\.|ст\.)', u'', pc_res)
+            pc_city = pc_city.replace(u"с.","").replace(u"п.","").strip()
             region = self.get_region(pc_city) or u""
-            result = region + "," + pc_city
+            result = region + "," + pc_res
         elif street:
             result = self.get_parent_address(url)
         else:
@@ -247,7 +248,6 @@ class FsvpsPipeline(object):
             address = result
 
         address = address.strip('., :')
-        # value = re.sub(u'.+г\.', u'г.', result)
         return address
 
     def get_parent_address(self, check_url):
@@ -330,7 +330,6 @@ class FsvpsPipeline(object):
             url_to_xml = self.get_parent_urls(check_url)
             longitude = ''
             latitude = ''
-            # url_to_xml = 'http://www.fsvps.ru'
 
         organizations = self.split_organization(address)
         address = organizations[0].rstrip(',.; ').lstrip(',( ')
@@ -356,14 +355,13 @@ class FsvpsPipeline(object):
 
         xml_name.text = name
 
-        # address_raw = address
         address = self.address_formatter(address, check_url)
-
         address = self.get_city(address)
+        address = re.sub('\s+',' ', address)
 
         xml_address = etree.SubElement(xml_item, 'address', lang=u'ru')
         xml_address.text = address
-        
+
         xml_country = etree.SubElement(xml_item, 'country', lang=u'ru')
         xml_country.text = u"Россия"
 
