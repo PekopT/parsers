@@ -111,6 +111,7 @@ class Parser(object):
                 author_book = author_book.text.strip()
             url_book = book.a.get('href')
             price_book = book.find('div', 'priceItem').text.strip()
+            price_book = re.sub('\D', '', price_book)
             also_row = {
                 "url": url_book,
                 "name": name_book,
@@ -128,14 +129,17 @@ class Parser(object):
             also_buy_books.append(also_row)
 
         row = {
-            "url": url,
-            "name": name,
-            "price": {
+            "url": url
+        }
+        if name:
+            row["name"] = name
+
+        if price:
+            row["price"] = {
                 "currency": "RUR",
                 "type": "currency",
                 "content": int(price)
-            },
-        }
+            }
 
         if publisher:
             row["publisher"] = publisher
