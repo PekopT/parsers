@@ -248,15 +248,9 @@ class DistributorsSpider(scrapy.Spider):
 
             url = "http://www.iafd.com/distrib.rme/distrib=" + option_val + "/" + option_name_url + ".htm"
 
-            if self.counter < 20:
-                yield scrapy.Request(url, callback=self.parse_page)
-
-            # yield FormRequest("http://www.iafd.com/distrib.rme",
-            #                   formdata={u'Distrib': option},
-            #                   callback=self.parse_page)
+            yield scrapy.Request(url, callback=self.parse_page)
 
     def parse_page(self, response):
-
         if "http://www.iafd.com/distrib.asp" != response.url:
             title = response.xpath("//h2/text()").extract()[0]
             related = []
