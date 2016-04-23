@@ -7,6 +7,6 @@
     "schema": "books.schema.json"
   },
   "host": "http://fiction.eksmo.ru",
-  "urls_regexp": "(www\\.)?fiction\\.eksmo\\.ru/book/\\.+"
+  "urls_regexp": "(www\\.)?fiction\\.eksmo\\.ru/book/.+"
 }
 
