@@ -9,3 +9,4 @@
   "host": "http://www.ukazka.ru",
   "urls_regexp": "(www\\.)?ukazka\\.ru/catalog/.+"
 }
+
