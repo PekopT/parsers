@@ -7,5 +7,5 @@
     "schema": "books.schema.json"
   },
   "host": "http://www.labirint.ru",
-  "urls_regexp": "(www\\.)?labirint\\.ru/books/\\d+$"
+  "urls_regexp": "(www\\.)?labirint\\.ru/books/\\d+"
 }
