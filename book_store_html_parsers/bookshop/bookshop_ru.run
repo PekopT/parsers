@@ -7,5 +7,5 @@
     "schema": "books.schema.json"
   },
   "host": "http://www.bookshop.ru",
-  "urls_regexp": "(www\\.)?bookshop\\.ru/catalog/id/\\d+$"
+  "urls_regexp": "(www\\.)?bookshop\\.ru/catalog/id/\\d+/?"
 }
