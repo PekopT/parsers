@@ -5,7 +5,8 @@
   "data": {
     "format": "json",
     "schema": "books.schema.json"
-  }
+  },
+  "host": "http://www.biblio-globus.ru/",
+  "urls_regexp": "(www\\.)?biblio\\-globus\\.ru/description\\.aspx\\?product_no=\\d+"
 }
-
 
