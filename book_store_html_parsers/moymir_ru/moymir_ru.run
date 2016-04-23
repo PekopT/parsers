@@ -5,7 +5,8 @@
   "data": {
     "format": "json",
     "schema": "books.schema.json"
-  }
+  },
+  "host": "http://moymir.ru",
+  "urls_regexp": "(www\\.)?moymir\\.ru/.+\\.html"
 }
-
 
