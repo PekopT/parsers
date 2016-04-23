@@ -5,7 +5,7 @@
   "data": {
     "format": "json",
     "schema": "books.schema.json"
-  }
+  },
+  "host": "http://www.boffo.ru",
+  "urls_regexp": "(www\\.)?boffo\\.ru/.+\\.html"
 }
-
-
