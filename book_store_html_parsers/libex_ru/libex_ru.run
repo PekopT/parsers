@@ -5,7 +5,9 @@
   "data": {
     "format": "json",
     "schema": "books.schema.json"
-  }
+  },
+  "host": "http://www.libex.ru/",
+  "urls_regexp": "(www\\.)?libex\\.ru/detail/book\\d+"
 }
 
 
