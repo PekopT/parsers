@@ -9,3 +9,4 @@
   "host": "http://www.books.ru",
   "urls_regexp": "(www\\.)?books\\.ru/books/.+"
 }
+
